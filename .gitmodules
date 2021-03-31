@@ -1,0 +1,6 @@
+[submodule "did-core"]
+	path = did-core
+	url = https://github.com/w3c/did-core
+[submodule ".kbash"]
+	path = .kbash
+	url = https://github.com/korsimoro/kbash
