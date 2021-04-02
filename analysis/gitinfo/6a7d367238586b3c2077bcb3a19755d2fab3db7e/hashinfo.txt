@@ -1,0 +1,21 @@
+commit 6a7d367238586b3c2077bcb3a19755d2fab3db7e
+tree a81499840e015234a244c761082cd4c87418a2aa
+parent 70b1451927a444d028a4048525ddfe7c0f8a8110
+author David I. Lehn <dlehn@digitalbazaar.com> 1613194955 -0500
+committer Manu Sporny <msporny@digitalbazaar.com> 1614564690 -0500
+
+    Fix DID Document reference.
+
+diff --git a/index.html b/index.html
+index d50ee73..7af525a 100644
+--- a/index.html
++++ b/index.html
+@@ -3808,7 +3808,7 @@ contentStream
+         <dd>
+ If the <code>dereferencing</code> function was called and successful, this MUST
+ contain a <a>resource</a> corresponding to the <a>DID URL</a>. The
+-<code>contentStream</code> MAY be a <a>resource</a> such as a <a href="">DID
++<code>contentStream</code> MAY be a <a>resource</a> such as a <a>DID
+ Document</a> that is serializable in one of the conformant
+ <a>representations</a>,  a <a href="#verification-methods">Verification Method</a>,  a <a
+ href="#services">service</a>, or any other resource format that can be identified via a Media Type

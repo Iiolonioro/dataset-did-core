@@ -1,0 +1,27 @@
+commit 9006d3ca8941d2ff3484d317e95a05f9a4b8884d
+tree 33d0b881284298b4bca988304eeb7cde704695f7
+parent ee712354966aa362dc0ec9638becfc754eb97a55
+author Manu Sporny <msporny@digitalbazaar.com> 1614653312 -0500
+committer Manu Sporny <msporny@digitalbazaar.com> 1614653312 -0500
+
+    Add new diagrams to ECHIDNA publishing.
+
+diff --git a/ECHIDNA b/ECHIDNA
+index cf1e8b0..bdbac06 100644
+--- a/ECHIDNA
++++ b/ECHIDNA
+@@ -1,6 +1,9 @@
+ # ECHIDNA configuration
+ index.html?specStatus=WD&shortName=did-core respec
++diagrams/diagram-did-document-entries.png
+ diagrams/diagram-did-document-entries.svg
++diagrams/diagram-production-consumption.png
++diagrams/diagram-resolve-resolverepresentation.png
+ diagrams/did_brief_architecture_overview.svg
+ diagrams/did_detailed_architecture_overview.svg
+ diagrams/did_url_dereference_overview.svg
+@@ -10,4 +13,3 @@ diagrams/figure-b.1-controller-and-subject-equivalence.png
+ diagrams/figure-c.1-independent-did-controllers.png
+ diagrams/figure-c.2-group-did-controllers.png
+ diagrams/parts-of-a-did.svg
+-

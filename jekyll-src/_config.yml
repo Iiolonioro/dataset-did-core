@@ -16,13 +16,13 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "DIF Asia"
+title                    : "DID Core Analysis"
 title_separator          : "-"
 name                     : "Eric Welton (Korsimoro)"
 description              : "Support for Decentralized Identity Foundation"
 url                      : https://www.korsimoro.com
-baseurl                  : /dif-apac
-repository               : korsimoro/dif-apac
+baseurl                  : /did-core-dataset
+repository               : korsimoro/did-core-dataset
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -283,13 +283,41 @@ compress_html:
     envs: development
 
 collections:
-   country:
+   intro:
+      output: true
+      permalink:  /:collection/:path/
+   index:
       output: true
       permalink:  /:collection/:path/
 collections_dir: collections
 
 # Defaults
 defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: specs
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+      sidebar:
+        nav: "dnav"
+  - scope:
+      path: ""
+      type: intro
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+      sidebar:
+        nav: "dnav"
   # _posts
   - scope:
       path: ""
@@ -303,13 +331,3 @@ defaults:
       related: true
       sidebar:
         nav: "dnav"
-  - scope:
-      path: ""
-      type: country
-    values:
-      layout: single
-      author_profile: false
-      share: false
-      classes: wide
-      sidebar:
-        nav: "home"

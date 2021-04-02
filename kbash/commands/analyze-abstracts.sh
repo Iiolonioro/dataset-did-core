@@ -13,13 +13,22 @@ EOF
 
 run() (
   TARGET=$ANALYSIS/abstracts.csv
-  for COMMIT_HASH in $COMMIT_LIST; do
-    local BASE=$GITINFO/$COMMIT_HASH
-    . $BASE/env.sh # activate the local environment
-    kbash_info "Processing hash $COMMIT_HASH"
-    ABSTRACT_HASH=$(sha256sum < abstract.txt)
-    ABSTRACT_TEXT="$(cat abstract.txt)"
-    kbash_info "Processing hash $COMMIT_HASH - abstract hash is $ABSTRACT_HASH"
+  YML=$JEKYLL/_data/abstracts.yml
+  cd $RUNNABLE
+  echo "abstracts:" > $YML
+  for DATE in `ls`; do
+    YPREFIX="  "
+    echo "$YPREFIX- date:$DATE" >> $YML
+    cd $DATE
+    YPREFIX="    "
+    for TIME in `ls`; do
+      cd $TIME
+      ls -al
+      kvrestore < key-value.dump
+      ABSTRACT_HASH=$(cat abstract.hash)
+      echo "$YPREFIX- time:$TIME" >> $YML
+      echo "$YPREFIX  hash:$ABSTRACT_HASH" >> $YML
+      echo "$YPREFIX  commit:$COMMIT_HASH" >> $YML
+    done
   done
-  wait
 )

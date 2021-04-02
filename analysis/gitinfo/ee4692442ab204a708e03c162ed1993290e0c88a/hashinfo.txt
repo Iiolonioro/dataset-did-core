@@ -1,0 +1,41 @@
+commit ee4692442ab204a708e03c162ed1993290e0c88a
+tree 8de842f31410cba7182e6429c0a42783e73ff1fe
+parent 0a6c651b60b88416f2ca312ee450e4b6523e06a6
+author Markus Sabadello <markus@danubetech.com> 1612352602 +0100
+committer Manu Sporny <msporny@digitalbazaar.com> 1614635595 -0500
+
+    Add diagram "resolve() and resolveRepresentation()".
+
+diff --git a/diagrams/diagram-resolve-resolverepresentation.png b/diagrams/diagram-resolve-resolverepresentation.png
+new file mode 100644
+index 0000000..7fc6875
+Binary files /dev/null and b/diagrams/diagram-resolve-resolverepresentation.png differ
+diff --git a/index.html b/index.html
+index 1c31be5..0692eeb 100644
+--- a/index.html
++++ b/index.html
+@@ -3389,7 +3389,23 @@ resolveRepresentation(did, resolutionOptions) →
+ The <code>resolve</code> function returns the <a>DID document</a> in its
+ abstract form (a <a data-cite="INFRA#maps">map</a>). The
+ <code>resolveRepresentation</code> function returns a byte stream of the <a>DID
+-Document</a> formatted in the corresponding representation. The input variables
++Document</a> formatted in the corresponding representation.
++      </p>
++
++      <figure id="resolve-resolverepresentation">
++        <img style="margin: auto; display: block;"
++          src="diagrams/diagram-resolve-resolverepresentation.png" alt="
++Diagram illustrating how resolve() returns the DID document data model in
++its abstract form and resolveRepresenation() returns it in one of the
++conformant representations; conversion is possible using production and
++consumption rules.">
++        <figcaption>
++Functions resolve() and resolveRepresentation().
++        </figcaption>
++      </figure>
++
++      <p>
++The input variables
+ of the <code>resolve</code> and <code>resolveRepresentation</code> functions are
+ as follows:
+       </p>

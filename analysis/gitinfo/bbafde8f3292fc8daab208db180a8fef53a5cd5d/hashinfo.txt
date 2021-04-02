@@ -1,0 +1,33 @@
+commit bbafde8f3292fc8daab208db180a8fef53a5cd5d
+tree c738976857a1ea3842e876e1c44800adc4a8be38
+parent 4f4a7b1b18e2489ca56b57e211159cd443e86012
+author Markus Sabadello <markus@danubetech.com> 1612352233 +0100
+committer Manu Sporny <msporny@digitalbazaar.com> 1614635479 -0500
+
+    Add diagram "production and consumption".
+
+diff --git a/diagrams/diagram-production-consumption.png b/diagrams/diagram-production-consumption.png
+new file mode 100644
+index 0000000..696578a
+Binary files /dev/null and b/diagrams/diagram-production-consumption.png differ
+diff --git a/index.html b/index.html
+index f5daf0c..1f4c28e 100644
+--- a/index.html
++++ b/index.html
+@@ -2427,6 +2427,16 @@ The following sections define the general rules for <a>production</a> and
+     <section>
+       <h2>Production and Consumption</h2>
+ 
++      <figure id="production-consumption">
++        <img style="margin: auto; display: block;"
++          src="diagrams/diagram-production-consumption.png" alt="
++Diagram illustrating how representations of the data model are produced
++and consumed, including in JSON, JSON-LD, and CBOR.">
++        <figcaption>
++Production and consumption of representations.
++        </figcaption>
++      </figure>
++
+       <p>
+ In addition to the <a>representations</a> defined in this specification,
+ implementers can use other <a>representations</a>, providing each such

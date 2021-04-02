@@ -1,0 +1,41 @@
+home:
+  - title: "Runnable"
+    url: /runnables/
+
+  - title: "Git Info"
+    url: ./static/gitinfo
+
+# main links
+main:
+  - title: "Timeline"
+    url: /_pages/timeline/
+  - title: "Terms"
+    url: /_pages/terms/
+
+terms:
+  - title: biometric
+  - title: bio
+  - title: self sovereign
+  - title: jwt
+  - title: jwk
+  - title: authentication
+  - title: verification
+  - title: assertion
+  - title: resolve
+  - title: resolution
+  - title: json-ld
+  - title: json
+  - title: cbor
+  - title: verifiable
+  - title: proof
+  - title: control
+  - title: controller
+  - title: credential
+  - title: verifiable credential
+  - title: subject
+  - title: controller
+  - title: issuer
+  - title: holder
+  - title: verifier
+  - title: service
+  - title: service-endpoint

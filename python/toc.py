@@ -19,4 +19,3 @@ with open("index.html") as fp:
                     header = tag.text
         if level > 0:
             print(level,"\t",title)
-    print(header)

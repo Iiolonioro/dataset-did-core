@@ -12,13 +12,35 @@ EOF
 }
 
 run() (
-  cd $RUNNABLE
-  for date in `ls`; do
-    cd $RUNNABLE/$date
-    for time in `ls`; do
-      cd $RUNNABLE/$date/$time
-      python3 $DIDCORE/python/abstract.py > $GITINFO/$COMMIT_HASH/abstract.txt &
-    done
+  for coll in index intro; do
+    DIR=$JEKYLL/collections/_$coll
+    rm -rf $DIR
+    mkdir -p $DIR
+  done;
+
+  for COMMIT_HASH in $COMMIT_LIST; do
+    DB_DIR=key-value
+    . $KBASH/kv-sh/kv-sh
+    COMMIT_TIMESTAMP=$(kvget COMMIT_TIMESTAMP)
+    cd $GITINFO/$COMMIT_HASH
+
+    DIR=$JEKYLL/collections/_index
+    FILE=$DIR/$COMMIT_TIMESTAMP.md
+    echo "---" > $FILE
+    cat ./env.yml >> $FILE
+    echo "---" >> $FILE
+    echo "" >> $FILE
+    cat ./index.md >> $FILE
+    echo Built $FILE
+
+    DIR=$JEKYLL/collections/_intro
+    FILE=$DIR/$COMMIT_TIMESTAMP.md
+    echo "---" > $FILE
+    cat ./env.yml >> $FILE
+    echo "---" >> $FILE
+    echo "" >> $FILE
+    cat ./intro.txt >> $FILE
+    echo Built $FILE
+
   done
-  wait
 )

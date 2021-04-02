@@ -1,0 +1,24 @@
+commit 86129957602b0dc803201f87a988ba9165b8c3ad
+tree 2f0c45c4eb4d20ac013742020b4c821edbf61627
+parent 6a7d367238586b3c2077bcb3a19755d2fab3db7e
+author David I. Lehn <dlehn@digitalbazaar.com> 1613195057 -0500
+committer Manu Sporny <msporny@digitalbazaar.com> 1614564690 -0500
+
+    Add missing link.
+    
+    - Fixes a FIXME.
+
+diff --git a/index.html b/index.html
+index 7af525a..02ebd3c 100644
+--- a/index.html
++++ b/index.html
+@@ -4745,8 +4745,7 @@ proof was made.
+       <p>
+         Recovery is commonly performed in conjunction with
+         <a href="#verification-method-rotation">verification method rotation</a>
+-<!--FIXME: Add link to section when section becomes merged -->
+-        and verification method revocation.
++        and <a href="#verification-method-revocation">verification method revocation</a>.
+       </p>
+ 
+       <p>

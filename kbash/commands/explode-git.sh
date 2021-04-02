@@ -20,17 +20,8 @@ process_commit_files_in_active_singleton_checkout() (
 
 	git show --format=raw > $HASHINFO
 	cat $HASHINFO | sed '/^$/q' > $HASHHEADER
-	for file in $FILE_LIST; do
-		cp $file.html $COMMIT_DIR
-	done
-
-	RDIR="$RUNNABLE/$COMMIT_DATE/$COMMIT_TIME"
-	mkdir -p "$RDIR"
-	COMMIT_RUNNABLE="file://$RDIR/index.html"
-	cp *.* $RDIR
-	echo $COMMIT_HASH > $RDIR/commit.txt
-	rm -f $RDIR/hash_analysis
-	ln -s $GITINFO/$COMMIT_HASH $RDIR/hash_analysis
+	mkdir -p $COMMIT_DIR/snapshot
+	cp -r $SOURCE/* $COMMIT_DIR/snapshot
 
 	git show --pretty='format:%cI' --no-patch > $COMMIT_DIR/commit-data.txt
 	echo "git notes show $COMMIT_HASH" > $COMMIT_DIR/commit-notes.txt
@@ -38,13 +29,27 @@ process_commit_files_in_active_singleton_checkout() (
 )
 
 process_abstract() (
-	python3 $DIDCORE/python/abstract.py > abstract.txt
-	python3 $DIDCORE/python/nlp.py abstract.txt > abstract.json
+cd snapshot
+python3 $DIDCORE/python/abstract.py > abstract.txt
+python3 $DIDCORE/python/sotd.py > sotd.txt
+cat abstract.txt > intro.txt
+echo "\n" >> intro.txt
+cat sotd.txt >> intro.txt
+
+sha256sum < abstract.txt > abstract.hash
+sha256sum < sotd.txt > sotd.hash
+sha256sum < intro.txt > intro.hash
+
+	#python3 $DIDCORE/python/nlp.py abstract.txt > abstract.json
 )
 process_file() (
 	local file=$1
+	local hashdir=$2
+	cd $hashdir
+	kbash_info "Launching $PWD/snapshot/$file.html to $file.md conversion"
 	html2text $file.html > $file.md
-	python3 $DIDCORE/python/nlp.py $file.md > $file.json
+	#kbash_info "Performing NLP analysis on $hashdir/$file.md"
+	#python3 $DIDCORE/python/nlp.py $file.md > $file.json
 )
 process_term() (
 	term="$1"
@@ -57,19 +62,21 @@ process_term() (
 	for file in $FILE_LIST; do
 		echo "Processing '$term' in $file"
 		RESULT_FILE=$DIR/$file-$TAG-matches-only.txt
-		grep -i -n -e "$term" index.html > $RESULT_FILE
+		grep -i -n -e "$term" $file.html > $RESULT_FILE
 		XCOUNTS=`cat $RESULT_FILE | wc | colrm 1 1 | awk '{ print $1","$2","$3 }'`
 		COUNTS="$COUNTS,$XCOUNTS"
 		RESULT_FILE=$DIR/$file-$TAG-with-context.txt
-		grep -A 10 -B 10 -i -n -e "$term" index.html > $RESULT_FILE
+		grep -A 10 -B 10 -i -n -e "$term" $file.html > $RESULT_FILE
 	done
 
 	echo "$term,$COMMIT_DATE,$COMMIT_TIME,$COMMIT_TIMESTAMP$COUNTS,$COMMIT_HASH,\"$COMMIT_LINE\",'LINK',$COMMIT_RUNNABLE,$COMMIT_AUTHOR,$COMMIT_COMMITTER,$COMMIT_NOTES" > summary.csv
 	kbash_info "$commit \"$term\", with DATE=$COMMIT_DATE, TIME=$COMMIT_TIME"
 )
+
 extract_commit_data() (
 	# extract checkout data
-	cd $GITINFO/$COMMIT_HASH
+	HASHDIR=$GITINFO/$COMMIT_HASH
+	cd $HASHDIR
 
 	COMMIT_AUTHOR=`cat hashheader.txt | grep -e "^author" | colrm 1 7`
 	COMMIT_COMMITTER=`cat hashheader.txt | grep -e "^committer" | colrm 1 10`
@@ -79,39 +86,54 @@ extract_commit_data() (
 	COMMIT_DATA=`cat commit-data.txt`
 	COMMIT_DATE=`date -Idate -u -d "$COMMIT_DATA" | sed s/+00:00//g`
 	COMMIT_TIME=`date +"%T" -u -d "$COMMIT_DATA"`
-	COMMIT_TIMESTAMP=`date -Iminutes -u -d "$COMMIT_DATA" | sed s/+00:00//g`
+	COMMIT_TIMESTAMP=`date -Iseconds -u -d "$COMMIT_DATA" | sed s/+00:00//g`
 	COMMIT_NOTES=`cat commit-notes.txt`
 
-	COMMIT_LINE=`cat oneline.txt`
+	COMMIT_LINE=\"`cat oneline.txt`""
 
-	for var in COMMIT_AUTHOR COMMIT_COMMITTER; do
-		echo "\$"$var
+
+	RDIR="$RUNNABLE/$COMMIT_DATE"
+	LINK="$RDIR/$COMMIT_TIME"
+	ln -s $HASHDIR $RDIR
+	COMMIT_RUNNABLE="file://$RDIR/snapshot/index.html"
+
+
+	# save environment
+	echo $COMMIT_HASH > commit.txt
+	echo "#`date -u`" > env.yml
+	echo "commit:" >> env.yml
+	DB_DIR=key-value
+  . $KBASH/kv-sh/kv-sh
+	kvset CREATE_TIME "`date -u`"
+	for var in COMMIT_HASH COMMIT_AUTHOR COMMIT_COMMITTER COMMIT_PARENT COMMIT_TREE COMMIT_DATA COMMIT_DATE COMMIT_TIME COMMIT_TIMESTAMP COMMIT_LINE COMMIT_RUNNABLE; do
+		X=${!var}
+		kvset $var "$X"
+		echo "  $var: \"${!var}\"" >> $HASHDIR/env.yml
 	done
+	kvdump > key-value.dump
 
-	for file in $FILE_LIST; do
-		#kbash_info "Launching $PWD/$file.html to $file.md conversion"
-	  process_file "$file" &
-	done
-
-	#kbash_info "Genearting abstracts and tocs in $PWD"
-	python3 $DIDCORE/python/toc.py > toc.txt &
 	process_abstract &
 
-	while IFS= read -r term; do
-		process_term "$term" &
-	done < ../termlist.txt
+	for file in $FILE_LIST; do
+	  process_file "snapshot/$file" "$HASHDIR" &
+	done
+
 
 )
 
 run() (
 	kbash_info "Running explode-git"
 	cd $SOURCE
+	if [ ! -z "$1" ]; then
+		COMMIT_LIST=$1
+	fi
+
 	for COMMIT_HASH in $COMMIT_LIST; do
 		kbash_info "Processing hash $COMMIT_HASH in $(basename $SOURCE)"
 		cd $SOURCE
 		git checkout $COMMIT_HASH >/dev/null 2>&1
 		process_commit_files_in_active_singleton_checkout
-		extract_commit_data &
+		extract_commit_data
 	done
 	wait
 )

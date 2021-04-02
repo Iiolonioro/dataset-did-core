@@ -1,0 +1,21 @@
+commit 5cb389227007c2be94771dad13f6541b534e2a81
+tree d933861ae9b21aaaa1d280c71493f8274425f114
+parent 9006d3ca8941d2ff3484d317e95a05f9a4b8884d
+author Manu Sporny <msporny@digitalbazaar.com> 1614693317 -0500
+committer Manu Sporny <msporny@digitalbazaar.com> 1614693317 -0500
+
+    Remove issue number for IETF Structured Media Types issue.
+
+diff --git a/index.html b/index.html
+index ecdc18a..e40042b 100644
+--- a/index.html
++++ b/index.html
+@@ -5856,7 +5856,7 @@ the rules defined in <a href="#fragment"></a>.
+     <section>
+       <h2>application/did+ld+json</h2>
+ 
+-      <p class="issue atrisk" data-number="208">
++      <p class="issue atrisk" title="IETF Structured Media Types">
+ Use of the media type <code>application/did+ld+json</code> is pending
+ clarification over the registration of
+ <a href="https://datatracker.ietf.org/doc/html/draft-w3cdidwg-media-types-with-multiple-suffixes">

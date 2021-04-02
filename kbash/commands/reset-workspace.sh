@@ -22,7 +22,6 @@ run() (
 
 	for file in $FILE_LIST; do
 		mkdir -p $HISTORY/$file
-		mkdir -p $MARKDOWN/$file
 		mkdir -p $JEKYLL/$file
 	done
 

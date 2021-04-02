@@ -1,0 +1,39 @@
+commit 4f4a7b1b18e2489ca56b57e211159cd443e86012
+tree 57ead7cc1eb5b9ea3355dcb70b9ccbe1249ae5ed
+parent 94a2d511c649312ac54d26d2b81d4ceb921fc5a6
+author Manu Sporny <msporny@digitalbazaar.com> 1614569691 -0500
+committer Manu Sporny <msporny@digitalbazaar.com> 1614569691 -0500
+
+    Fix informative references.
+
+diff --git a/index.html b/index.html
+index 51f7e99..f5daf0c 100644
+--- a/index.html
++++ b/index.html
+@@ -2526,7 +2526,7 @@ entry across all known <a>representations</a> and place the entry into a
+ representation-specific entries <a data-cite="INFRA#maps">map</a> which is
+ returned after the <a>consumption</a> process completes. A list of
+ all known representation-specific entries is available in the
+-DID Specification Registries [[DID-SPEC-REGISTRIES]].
++DID Specification Registries [[?DID-SPEC-REGISTRIES]].
+         </li>
+         <li>
+ A <a>conforming consumer</a> MUST add all non-representation-specific entries
+@@ -3929,7 +3929,7 @@ The error code from the dereferencing process. This property is REQUIRED when
+ there is an error in the dereferencing process. The value of this property
+ MUST be a single keyword expressed as an <a data-lt="ascii string">ASCII
+ string</a>. The possible property values of this field SHOULD be registered in
+-the DID Specification Registries [[DID-SPEC-REGISTRIES]]. This specification
++the DID Specification Registries [[?DID-SPEC-REGISTRIES]]. This specification
+ defines the following common error values:
+             <dl>
+               <dt>
+@@ -4311,7 +4311,7 @@ The requirements for all <a>DID method</a> specifications when authoring the
+       <ol>
+         <li>
+ The <a>DID method</a> specification's Privacy Considerations section MUST
+-discuss any subsection of Section 5 of [[RFC6973]] that could apply in a
++discuss any subsection of Section 5 of [[?RFC6973]] that could apply in a
+ method-specific manner. The subsections to consider are: surveillance, stored
+ data compromise, unsolicited traffic, misattribution, correlation,
+ identification, secondary use, disclosure, and exclusion.

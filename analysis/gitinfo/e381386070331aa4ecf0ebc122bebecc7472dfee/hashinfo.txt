@@ -1,0 +1,22 @@
+commit e381386070331aa4ecf0ebc122bebecc7472dfee
+tree 0b69f5ca5848ae7c6f9d43662b2c79771ab32327
+parent a645fb4feeab4f3cd26fc76a64da8551dc757ddd
+author Manu Sporny <msporny@digitalbazaar.com> 1614356145 -0500
+committer Manu Sporny <msporny@digitalbazaar.com> 1614565131 -0500
+
+    Add support for percent-encoded characters for did:web.
+
+diff --git a/index.html b/index.html
+index 80887d5..a74bc20 100644
+--- a/index.html
++++ b/index.html
+@@ -786,7 +786,8 @@ did                = "did:" method-name ":" method-specific-id
+ method-name        = 1*method-char
+ method-char        = %x61-7A / DIGIT
+ method-specific-id = *( *idchar ":" ) 1*idchar
+-idchar             = ALPHA / DIGIT / "." / "-" / "_"
++idchar             = ALPHA / DIGIT / "." / "-" / "_" / pct-encoded
++pct-encoded        = "%" HEXDIG HEXDIG
+               </pre>
+             </td>
+           </tr>
