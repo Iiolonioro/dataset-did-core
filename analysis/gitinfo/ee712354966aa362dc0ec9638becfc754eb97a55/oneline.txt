@@ -1,1 +1,0 @@
-editorial: fix typo in services

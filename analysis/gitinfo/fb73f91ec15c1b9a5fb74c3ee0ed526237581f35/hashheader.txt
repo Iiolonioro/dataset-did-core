@@ -1,6 +1,0 @@
-commit fb73f91ec15c1b9a5fb74c3ee0ed526237581f35
-tree 53ace98c7c645108d3b5337dff5c74c9ae503ae3
-parent 35e7fda9926a63d3ba5b0c2b894af9c8ce30f6f2
-author Shigeya Suzuki <shigeya@wide.ad.jp> 1614347493 +0900
-committer Manu Sporny <msporny@digitalbazaar.com> 1614564752 -0500
-

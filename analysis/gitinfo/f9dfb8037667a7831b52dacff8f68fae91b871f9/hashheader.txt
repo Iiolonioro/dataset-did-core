@@ -1,6 +1,0 @@
-commit f9dfb8037667a7831b52dacff8f68fae91b871f9
-tree 7328cb782c298177753e291a6e528e041edda2bd
-parent 2bed96367e3522b5ad455f3c5c2a1915ee06157c
-author Markus Sabadello <markus@danubetech.com> 1614630285 +0100
-committer Manu Sporny <msporny@digitalbazaar.com> 1614635595 -0500
-

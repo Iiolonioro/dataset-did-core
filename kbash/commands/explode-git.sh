@@ -29,9 +29,11 @@ process_commit_files_in_active_singleton_checkout() (
 )
 
 process_abstract() (
+set -e
 cd snapshot
-python3 $DIDCORE/python/abstract.py > abstract.txt
-python3 $DIDCORE/python/sotd.py > sotd.txt
+python3 $DIDCORE/python/abstract.py > ../abstract.txt
+python3 $DIDCORE/python/sotd.py > ../sotd.txt
+cd ..
 cat abstract.txt > intro.txt
 echo "\n" >> intro.txt
 cat sotd.txt >> intro.txt
@@ -47,7 +49,7 @@ process_file() (
 	local hashdir=$2
 	cd $hashdir
 	kbash_info "Launching $PWD/snapshot/$file.html to $file.md conversion"
-	html2text $file.html > $file.md
+	html2text snapshot/$file.html > $file.md
 	#kbash_info "Performing NLP analysis on $hashdir/$file.md"
 	#python3 $DIDCORE/python/nlp.py $file.md > $file.json
 )
@@ -89,14 +91,18 @@ extract_commit_data() (
 	COMMIT_TIMESTAMP=`date -Iseconds -u -d "$COMMIT_DATA" | sed s/+00:00//g`
 	COMMIT_NOTES=`cat commit-notes.txt`
 
-	COMMIT_LINE=\"`cat oneline.txt`""
+	COMMIT_LINE=`cat oneline.txt`
 
 
 	RDIR="$RUNNABLE/$COMMIT_DATE"
 	LINK="$RDIR/$COMMIT_TIME"
-	ln -s $HASHDIR $RDIR
+	mkdir -p $RDIR
+	rm -rf $LINK
+	ln -s $HASHDIR $LINK
 	COMMIT_RUNNABLE="file://$RDIR/snapshot/index.html"
 
+	echo $PWD
+	ls -al .
 
 	# save environment
 	echo $COMMIT_HASH > commit.txt
@@ -115,9 +121,9 @@ extract_commit_data() (
 	process_abstract &
 
 	for file in $FILE_LIST; do
-	  process_file "snapshot/$file" "$HASHDIR" &
+	  process_file "$file" "$HASHDIR" &
 	done
-
+	wait
 
 )
 

@@ -22,7 +22,11 @@ run() (
     DB_DIR=key-value
     . $KBASH/kv-sh/kv-sh
     COMMIT_TIMESTAMP=$(kvget COMMIT_TIMESTAMP)
+
     cd $GITINFO/$COMMIT_HASH
+    echo cd $GITINFO/$COMMIT_HASH
+    echo $PWD
+    ls -al
 
     DIR=$JEKYLL/collections/_index
     FILE=$DIR/$COMMIT_TIMESTAMP.md

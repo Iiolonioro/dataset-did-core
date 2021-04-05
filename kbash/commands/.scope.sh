@@ -16,7 +16,6 @@ RUN_TIMESTAMP=`date -u -Is`
 FILE_LIST="index terms"
 
 KEYWORDS=$ANALYSIS/keywords
-MARKDOWN=$ANALYSIS/markdown
 GITINFO=$ANALYSIS/gitinfo
 JEKYLL=$DIDCORE/jekyll-src
 HISTORY=$ANALYSIS/history

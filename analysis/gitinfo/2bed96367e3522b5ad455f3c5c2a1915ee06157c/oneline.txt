@@ -1,1 +1,0 @@
-Update diagram QUOTEresolve() and resolveRepresentation()QUOTE.
