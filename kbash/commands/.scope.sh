@@ -17,7 +17,7 @@ FILE_LIST="index terms"
 
 KEYWORDS=$ANALYSIS/keywords
 GITINFO=$ANALYSIS/gitinfo
-JEKYLL=$DIDCORE/jekyll-src
+JEKYLL=$DIDCORE/jekyll
 HISTORY=$ANALYSIS/history
 RUNNABLE=$ANALYSIS/runnable
 

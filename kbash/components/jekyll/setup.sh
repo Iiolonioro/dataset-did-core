@@ -10,5 +10,7 @@ export -f setup_environment_dc_jekyll_help
 
 setup_environment_dc_jekyll() {
   echo "Component[jekyll]:setup"
+  cd $REPOJEKYLL_BASE
+  bundle install
 }
 export -f setup_environment_dc_jekyll

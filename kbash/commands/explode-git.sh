@@ -99,7 +99,7 @@ extract_commit_data() (
 	mkdir -p $RDIR
 	rm -rf $LINK
 	ln -s $HASHDIR $LINK
-	COMMIT_RUNNABLE="file://$RDIR/snapshot/index.html"
+	COMMIT_RUNNABLE="static/runnable/$COMMIT_DATE/$COMMIT_TIME/launcher"
 
 	echo $PWD
 	ls -al .

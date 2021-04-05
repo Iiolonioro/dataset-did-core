@@ -1,5 +1,11 @@
 home:
-  - title: "Runnable"
+  - title: "Intro + Sotd"
+    url: /intros/
+
+  - title: "Test"
+    url: /test/
+
+  - title: "Runnables"
     url: /runnables/
 
   - title: "Git Info"

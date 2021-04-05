@@ -35,6 +35,7 @@ run() (
   dc explode-git
 	kbash_warn "Preparing for jekyll"
   dc prepare-for-jekyll
+	dc build-runnable-index
 	#kbash_warn "Analyzing Absttracts"
   #dc analyze-abstracts
 )
