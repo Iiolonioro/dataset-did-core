@@ -1,0 +1,60 @@
+
+6.9. Signature (Optional)
+
+
+    
+      A signature on a DDO is cryptographic proof of the integrity of the DDO according to either:
+
+
+
+
+The identity owner as defined in section 6.4, or if not present:
+  
+The guardian as defined in section 6.3.
+  
+
+
+
+    
+      This signature is NOT proof of the binding between a DID and a DDO. See section 9.2.
+
+    
+      The rules for a signature are:
+
+
+
+
+A DDO MAY have exactly one property representing a signature.
+  
+The key for this property MUST be signature.
+  
+The value of this key MUST be a valid JSON-LD signature as defined
+by Linked Data
+Signatures .
+  
+
+
+
+    
+      Example:
+
+
+
+
+
+      {
+      "signature": {
+            "type": "LinkedDataSignature2015",
+            "created": "2016-02-08T16:02:20Z",
+            "creator": "did:example:8uQhQMGzWxR8vw5P3UWH1ja#keys-1",
+            "signatureValue": "QNB13Y7Q9oLlDLL6AHyL31OE5fLji9DwJSA8qnv81oRaKonij8m+Jv4XdiEYvJ97iRlzKU/92/0LafSL5JftEgl960DLcbqMFxOtbAmFOIMa7eDcrgTL5ytXeYCYKLjHQG3s8a3UKDKRuEK54qK1G5hGKGoLgAVa6xgcDLjW7M19PEJV/c3HpGA7Eez6VFMoTt4yESjZvOXC97xN3KpshOx2HT/btgUbo0XjA1Oi0QHdgrLcUsQGt6w23RjeSToalrsA1G69OFeN2OiQrz9Jb4561hvKLSyWObwRmS6n5Vgr5xkvUm6MONRq0Vg33kXevoVM64KTBkISul61tzjn4w=="
+        }
+
+
+
+
+      }
+
+
+
+

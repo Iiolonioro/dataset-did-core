@@ -1,0 +1,13 @@
+
+11.5 Smart Signatures
+
+
+    
+      Not all DLTs can support the Proof of Control logic in section 6.5. Therefore, in this version of the specification, all Proof of Control logic must be delegated to DID method specifications. A potential future solution is a
+        Smart Signature
+       specification that specifies the code any conformant DLT may implement to process signature control logic.
+
+
+
+
+
