@@ -1,0 +1,6 @@
+commit 9f4b0794cfc7b96581850f1cdb8de5af7e2f97ea
+tree 2bb841216b48b3fdc4ef2d12519968afc3567d82
+parent 541149f7ba11d41abe851bf41118009ba355a2f4
+author David I. Lehn <dil@lehn.org> 1499371506 -0400
+committer Manu Sporny <msporny@digitalbazaar.com> 1499373390 -0400
+

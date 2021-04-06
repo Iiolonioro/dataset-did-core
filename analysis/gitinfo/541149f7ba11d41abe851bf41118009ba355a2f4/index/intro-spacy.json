@@ -1,0 +1,388 @@
+{
+  "nouns": {
+    "(decentralized identifiers": [
+      {
+        "end": 5,
+        "start": 2,
+        "type": "NP"
+      }
+    ],
+    "(subscribe": [
+      {
+        "end": 199,
+        "start": 197,
+        "type": "NP"
+      }
+    ],
+    "Comments": [
+      {
+        "end": 175,
+        "start": 173,
+        "type": "NP"
+      }
+    ],
+    "DDOs": [
+      {
+        "end": 58,
+        "start": 57,
+        "type": "NP"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 2,
+        "start": 1,
+        "type": "NP"
+      }
+    ],
+    "DIDs\nresolve": [
+      {
+        "end": 56,
+        "start": 53,
+        "type": "NP"
+      }
+    ],
+    "Each DID": [
+      {
+        "end": 132,
+        "start": 130,
+        "type": "NP"
+      }
+    ],
+    "GitHub": [
+      {
+        "end": 188,
+        "start": 187,
+        "type": "NP"
+      }
+    ],
+    "JSON documents": [
+      {
+        "end": 64,
+        "start": 62,
+        "type": "NP"
+      }
+    ],
+    "Please file issues": [
+      {
+        "end": 184,
+        "start": 181,
+        "type": "NP"
+      }
+    ],
+    "a\ncentralized registry": [
+      {
+        "end": 45,
+        "start": 41,
+        "type": "NP"
+      }
+    ],
+    "a\nset": [
+      {
+        "end": 111,
+        "start": 108,
+        "type": "NP"
+      }
+    ],
+    "a\nspecific DID method": [
+      {
+        "end": 138,
+        "start": 133,
+        "type": "NP"
+      }
+    ],
+    "a\nspecific distributed ledger": [
+      {
+        "end": 168,
+        "start": 163,
+        "type": "NP"
+      }
+    ],
+    "a DDO": [
+      {
+        "end": 85,
+        "start": 83,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 79,
+        "start": 77,
+        "type": "NP"
+      }
+    ],
+    "a new type": [
+      {
+        "end": 10,
+        "start": 7,
+        "type": "NP"
+      }
+    ],
+    "a separate DID method specification": [
+      {
+        "end": 146,
+        "start": 141,
+        "type": "NP"
+      }
+    ],
+    "a set": [
+      {
+        "end": 88,
+        "start": 86,
+        "type": "NP"
+      }
+    ],
+    "all the metadata": [
+      {
+        "end": 70,
+        "start": 67,
+        "type": "NP"
+      }
+    ],
+    "archives": [
+      {
+        "end": 202,
+        "start": 200,
+        "type": "NP"
+      }
+    ],
+    "certificate authority": [
+      {
+        "end": 52,
+        "start": 50,
+        "type": "NP"
+      }
+    ],
+    "control": [
+      {
+        "end": 76,
+        "start": 75,
+        "type": "NP"
+      }
+    ],
+    "identity provider": [
+      {
+        "end": 48,
+        "start": 46,
+        "type": "NP"
+      }
+    ],
+    "key descriptions": [
+      {
+        "end": 91,
+        "start": 89,
+        "type": "NP"
+      }
+    ],
+    "machine-readable descriptions": [
+      {
+        "end": 99,
+        "start": 95,
+        "type": "NP"
+      }
+    ],
+    "network": [
+      {
+        "end": 170,
+        "start": 169,
+        "type": "NP"
+      }
+    ],
+    "ownership": [
+      {
+        "end": 74,
+        "start": 73,
+        "type": "NP"
+      }
+    ],
+    "resource pointers": [
+      {
+        "end": 119,
+        "start": 117,
+        "type": "NP"
+      }
+    ],
+    "service endpoints": [
+      {
+        "end": 114,
+        "start": 112,
+        "type": "NP"
+      }
+    ],
+    "the DID": [
+      {
+        "end": 153,
+        "start": 151,
+        "type": "NP"
+      }
+    ],
+    "the control": [
+      {
+        "end": 33,
+        "start": 31,
+        "type": "NP"
+      }
+    ],
+    "the identity owner": [
+      {
+        "end": 37,
+        "start": 34,
+        "type": "NP"
+      },
+      {
+        "end": 129,
+        "start": 126,
+        "type": "NP"
+      }
+    ],
+    "the identity owner\u2019s public keys": [
+      {
+        "end": 106,
+        "start": 100,
+        "type": "NP"
+      }
+    ],
+    "them": [
+      {
+        "end": 193,
+        "start": 192,
+        "type": "NP"
+      }
+    ],
+    "this document": [
+      {
+        "end": 178,
+        "start": 176,
+        "type": "NP"
+      }
+    ],
+    "trusted interactions": [
+      {
+        "end": 125,
+        "start": 123,
+        "type": "NP"
+      }
+    ],
+    "verifiable digital identity": [
+      {
+        "end": 18,
+        "start": 15,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DDO": [
+      {
+        "end": 85,
+        "start": 84,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 60,
+        "start": 59,
+        "type": "ORG"
+      },
+      {
+        "end": 79,
+        "start": 78,
+        "type": "ORG"
+      },
+      {
+        "end": 132,
+        "start": 131,
+        "type": "ORG"
+      },
+      {
+        "end": 137,
+        "start": 136,
+        "type": "ORG"
+      },
+      {
+        "end": 144,
+        "start": 143,
+        "type": "ORG"
+      },
+      {
+        "end": 153,
+        "start": 152,
+        "type": "ORG"
+      }
+    ],
+    "GitHub": [
+      {
+        "end": 188,
+        "start": 187,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "ORG": [
+      {
+        "end": 60,
+        "label": "DID",
+        "start": 59
+      },
+      {
+        "end": 79,
+        "label": "DID",
+        "start": 78
+      },
+      {
+        "end": 85,
+        "label": "DDO",
+        "start": 84
+      },
+      {
+        "end": 132,
+        "label": "DID",
+        "start": 131
+      },
+      {
+        "end": 137,
+        "label": "DID",
+        "start": 136
+      },
+      {
+        "end": 144,
+        "label": "DID",
+        "start": 143
+      },
+      {
+        "end": 153,
+        "label": "DID",
+        "start": 152
+      },
+      {
+        "end": 188,
+        "label": "GitHub",
+        "start": 187
+      }
+    ]
+  },
+  "verbs": {
+    "be": 3,
+    "contain": 2,
+    "decentralize": 1,
+    "define": 2,
+    "distribute": 1,
+    "do": 1,
+    "initiate": 1,
+    "intend": 1,
+    "need": 1,
+    "objects)\u2014simple": 1,
+    "prove": 1,
+    "regard": 1,
+    "register": 1,
+    "resolve": 1,
+    "revoke": 1,
+    "send": 1,
+    "trust": 1,
+    "update": 1,
+    "use": 1
+  }
+}
