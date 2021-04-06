@@ -21,6 +21,9 @@ run() (
     cd $DATE
     for TIME in `ls`; do
       cd $TIME
+      kbash_info "Adding $DATE $TIME"
+      . gitinfo/key-value.dump
+
       echo "---
 title: DID Specification on $DATE at $TIME
 layout: single
@@ -29,12 +32,9 @@ sidebar:
   nav: home
 ---
 <iframe src=\"../snapshot/index.html\" width=\"120%\" height=\"800\"></iframe>
-" > launcher.md
+" > gitinfo/launcher.md
 
       #ls -al
-      kbash_info "Adding $DATE $TIME"
-      . key-value.dump
-      ABSTRACT_HASH=$(cat abstract.hash)
       echo "$YPREFIX- date: $DATE" >> $YML
       echo "$YPREFIX  time: $TIME" >> $YML
       echo "$YPREFIX  link: $COMMIT_RUNNABLE" >> $YML

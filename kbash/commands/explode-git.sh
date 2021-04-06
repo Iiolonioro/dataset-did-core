@@ -11,68 +11,31 @@ EOF
 `\n"
 }
 
-process_commit_files_in_active_singleton_checkout() (
+run_git_commands_and_create_snapshot() (
 	cd $SOURCE
 	COMMIT_DIR="$GITINFO/$COMMIT_HASH"
 	mkdir -p "$COMMIT_DIR"
-	HASHINFO=$COMMIT_DIR/hashinfo.txt
-	HASHHEADER=$COMMIT_DIR/hashheader.txt
 
+	# get the patch and extract the patch info
+	HASHINFO=$COMMIT_DIR/fullpatch.txt
+	HASHHEADER=$COMMIT_DIR/header.txt
 	git show --format=raw > $HASHINFO
 	cat $HASHINFO | sed '/^$/q' > $HASHHEADER
+
+	# create a runnable snapshot
 	mkdir -p $COMMIT_DIR/snapshot
 	cp -r $SOURCE/* $COMMIT_DIR/snapshot
 
-	git show --pretty='format:%cI' --no-patch > $COMMIT_DIR/commit-data.txt
-	echo "git notes show $COMMIT_HASH" > $COMMIT_DIR/commit-notes.txt
+	# get the commit full timestamp
+	git show --pretty='format:%cI' --no-patch > $COMMIT_DIR/commit-full-timestamp.txt
+
+	# not handling notes correctly
+  echo "git notes show $COMMIT_HASH" > $COMMIT_DIR/commit-notes.txt
+
+	# get the single oneline descriptio0n
 	git show --format=oneline --no-patch | colrm 1 41 | sed -e "s/,/COMMA/g" | sed -e 's/"/QUOTE/g' > $COMMIT_DIR/oneline.txt
-)
-
-process_abstract() (
-set -e
-cd snapshot
-python3 $DIDCORE/python/abstract.py > ../abstract.txt
-python3 $DIDCORE/python/sotd.py > ../sotd.txt
-cd ..
-cat abstract.txt > intro.txt
-echo "\n" >> intro.txt
-cat sotd.txt >> intro.txt
-
-sha256sum < abstract.txt > abstract.hash
-sha256sum < sotd.txt > sotd.hash
-sha256sum < intro.txt > intro.hash
-
-	#python3 $DIDCORE/python/nlp.py abstract.txt > abstract.json
-)
-process_file() (
-	local file=$1
-	local hashdir=$2
-	cd $hashdir
-	kbash_info "Launching $PWD/snapshot/$file.html to $file.md conversion"
-	html2text snapshot/$file.html > $file.md
-	#kbash_info "Performing NLP analysis on $hashdir/$file.md"
-	#python3 $DIDCORE/python/nlp.py $file.md > $file.json
-)
-process_term() (
-	term="$1"
-	fterm=`echo $term | sed s/\ /_/g`
-	TAG="$fterm-$COMMIT_TIMESTAMP-$commit"
-	DIR="$KEYWORDS/$fterm"
-	mkdir -p $DIR
-
-	COUNTS=""
-	for file in $FILE_LIST; do
-		echo "Processing '$term' in $file"
-		RESULT_FILE=$DIR/$file-$TAG-matches-only.txt
-		grep -i -n -e "$term" $file.html > $RESULT_FILE
-		XCOUNTS=`cat $RESULT_FILE | wc | colrm 1 1 | awk '{ print $1","$2","$3 }'`
-		COUNTS="$COUNTS,$XCOUNTS"
-		RESULT_FILE=$DIR/$file-$TAG-with-context.txt
-		grep -A 10 -B 10 -i -n -e "$term" $file.html > $RESULT_FILE
-	done
-
-	echo "$term,$COMMIT_DATE,$COMMIT_TIME,$COMMIT_TIMESTAMP$COUNTS,$COMMIT_HASH,\"$COMMIT_LINE\",'LINK',$COMMIT_RUNNABLE,$COMMIT_AUTHOR,$COMMIT_COMMITTER,$COMMIT_NOTES" > summary.csv
-	kbash_info "$commit \"$term\", with DATE=$COMMIT_DATE, TIME=$COMMIT_TIME"
+	# get the single oneline descriptio0n
+	git show --show-signature > $COMMIT_DIR/gpg-signature.txt
 )
 
 extract_commit_data() (
@@ -80,29 +43,27 @@ extract_commit_data() (
 	HASHDIR=$GITINFO/$COMMIT_HASH
 	cd $HASHDIR
 
-	COMMIT_AUTHOR=`cat hashheader.txt | grep -e "^author" | colrm 1 7`
-	COMMIT_COMMITTER=`cat hashheader.txt | grep -e "^committer" | colrm 1 10`
-	COMMIT_PARENT=`cat hashheader.txt | grep -e "^parent" | colrm 1 7`
-	COMMIT_TREE=`cat hashheader.txt | grep -e "^tree" | colrm 1 5`
+	COMMIT_AUTHOR=`cat header.txt | grep -e "^author" | colrm 1 7`
+	COMMIT_COMMITTER=`cat header.txt | grep -e "^committer" | colrm 1 10`
+	COMMIT_PARENT=`cat header.txt | grep -e "^parent" | colrm 1 7`
+	COMMIT_TREE=`cat header.txt | grep -e "^tree" | colrm 1 5`
 
-	COMMIT_DATA=`cat commit-data.txt`
-	COMMIT_DATE=`date -Idate -u -d "$COMMIT_DATA" | sed s/+00:00//g`
-	COMMIT_TIME=`date +"%T" -u -d "$COMMIT_DATA"`
-	COMMIT_TIMESTAMP=`date -Iseconds -u -d "$COMMIT_DATA" | sed s/+00:00//g`
+	COMMIT_FULL_TIMESTAMP=`cat commit-full-timestamp.txt`
+	COMMIT_DATE=`date -Idate -u -d "$COMMIT_FULL_TIMESTAMP" | sed s/+00:00//g`
+	COMMIT_TIME=`date +"%T" -u -d "$COMMIT_FULL_TIMESTAMP"`
+	COMMIT_TIMESTAMP=`date -Iseconds -u -d "$COMMIT_FULL_TIMESTAMP" | sed s/+00:00//g`
 	COMMIT_NOTES=`cat commit-notes.txt`
 
 	COMMIT_LINE=`cat oneline.txt`
 
-
+  # make /runnable/date/time -> gitinfo/snapshot
 	RDIR="$RUNNABLE/$COMMIT_DATE"
 	LINK="$RDIR/$COMMIT_TIME"
 	mkdir -p $RDIR
 	rm -rf $LINK
-	ln -s $HASHDIR $LINK
+	ln -s $HASHDIR/snapshot $LINK
+	ln -s $HASHDIR $HASHDIR/snapshot/gitinfo
 	COMMIT_RUNNABLE="static/runnable/$COMMIT_DATE/$COMMIT_TIME/launcher"
-
-	echo $PWD
-	ls -al .
 
 	# save environment
 	echo $COMMIT_HASH > commit.txt
@@ -117,14 +78,7 @@ extract_commit_data() (
 		echo "  $var: \"${!var}\"" >> $HASHDIR/env.yml
 	done
 	kvdump > key-value.dump
-
-	process_abstract &
-
-	for file in $FILE_LIST; do
-	  process_file "$file" "$HASHDIR" &
-	done
-	wait
-
+	kbash_info "Created key-value.dump and env.yml for hash $COMMIT_HASH"
 )
 
 run() (
@@ -135,10 +89,12 @@ run() (
 	fi
 
 	for COMMIT_HASH in $COMMIT_LIST; do
-		kbash_info "Processing hash $COMMIT_HASH in $(basename $SOURCE)"
+		kbash_info "Exporting commit data for hash $COMMIT_HASH in $(basename $SOURCE)"
 		cd $SOURCE
 		git checkout $COMMIT_HASH >/dev/null 2>&1
-		process_commit_files_in_active_singleton_checkout
+
+
+		run_git_commands_and_create_snapshot
 		extract_commit_data
 	done
 	wait

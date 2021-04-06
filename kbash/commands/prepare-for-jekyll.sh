@@ -12,6 +12,7 @@ EOF
 }
 
 run() (
+  kbash_info "Creating Jekyll Collections"
   for coll in index intro; do
     DIR=$JEKYLL/collections/_$coll
     rm -rf $DIR
@@ -19,14 +20,11 @@ run() (
   done;
 
   for COMMIT_HASH in $COMMIT_LIST; do
-    DB_DIR=key-value
-    . $KBASH/kv-sh/kv-sh
     COMMIT_TIMESTAMP=$(kvget COMMIT_TIMESTAMP)
 
-    cd $GITINFO/$COMMIT_HASH
-    echo cd $GITINFO/$COMMIT_HASH
-    echo $PWD
-    ls -al
+    HASHDIR=$GITINFO/$COMMIT_HASH
+    kvrestore < $HASHDIR/key-value.dump
+    cd $HASHDIR
 
     DIR=$JEKYLL/collections/_index
     FILE=$DIR/$COMMIT_TIMESTAMP.md
@@ -35,7 +33,7 @@ run() (
     echo "---" >> $FILE
     echo "" >> $FILE
     cat ./index.md >> $FILE
-    echo Built $FILE
+    kbash_info Built $FILE
 
     DIR=$JEKYLL/collections/_intro
     FILE=$DIR/$COMMIT_TIMESTAMP.md
@@ -44,7 +42,7 @@ run() (
     echo "---" >> $FILE
     echo "" >> $FILE
     cat ./intro.txt >> $FILE
-    echo Built $FILE
+    kbash_info Built $FILE
 
   done
 )

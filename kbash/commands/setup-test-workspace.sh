@@ -33,7 +33,7 @@ run() (
 	git log --pretty=format:%H | tail -n 5 > $ANALYSIS/commit-list.txt
 
   dc explode-git
-	kbash_warn "Preparing for jekyll"
+	dc process-index
   dc prepare-for-jekyll
 	dc build-runnable-index
 	#kbash_warn "Analyzing Absttracts"
