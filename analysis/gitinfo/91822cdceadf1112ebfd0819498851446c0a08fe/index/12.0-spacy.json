@@ -1,0 +1,1319 @@
+{
+  "nouns": {
+    "10.1 Requirements": [
+      {
+        "end": 147,
+        "start": 144,
+        "type": "NP"
+      }
+    ],
+    "10.3 DID Correlation Risks": [
+      {
+        "end": 372,
+        "start": 367,
+        "type": "NP"
+      }
+    ],
+    "10.4 DDO Correlation Risks": [
+      {
+        "end": 494,
+        "start": 489,
+        "type": "NP"
+      }
+    ],
+    "A pseudonymous": [
+      {
+        "end": 428,
+        "start": 426,
+        "type": "NP"
+      }
+    ],
+    "All PII": [
+      {
+        "end": 287,
+        "start": 285,
+        "type": "NP"
+      }
+    ],
+    "DDOs": [
+      {
+        "end": 30,
+        "start": 29,
+        "type": "NP"
+      },
+      {
+        "end": 270,
+        "start": 269,
+        "type": "NP"
+      },
+      {
+        "end": 281,
+        "start": 280,
+        "type": "NP"
+      }
+    ],
+    "DID Method Specifications": [
+      {
+        "end": 151,
+        "start": 148,
+        "type": "NP"
+      }
+    ],
+    "DID records": [
+      {
+        "end": 335,
+        "start": 333,
+        "type": "NP"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 28,
+        "start": 27,
+        "type": "NP"
+      },
+      {
+        "end": 385,
+        "start": 384,
+        "type": "NP"
+      },
+      {
+        "end": 609,
+        "start": 607,
+        "type": "NP"
+      }
+    ],
+    "Design": [
+      {
+        "end": 18,
+        "start": 17,
+        "type": "NP"
+      }
+    ],
+    "Design principles": [
+      {
+        "end": 76,
+        "start": 74,
+        "type": "NP"
+      }
+    ],
+    "Identity owners": [
+      {
+        "end": 393,
+        "start": 391,
+        "type": "NP"
+      }
+    ],
+    "It": [
+      {
+        "end": 7,
+        "start": 6,
+        "type": "NP"
+      }
+    ],
+    "Keep": [
+      {
+        "end": 241,
+        "start": 240,
+        "type": "NP"
+      }
+    ],
+    "PII": [
+      {
+        "end": 247,
+        "start": 246,
+        "type": "NP"
+      },
+      {
+        "end": 310,
+        "start": 309,
+        "type": "NP"
+      }
+    ],
+    "Personally-Identifiable Information": [
+      {
+        "end": 245,
+        "start": 241,
+        "type": "NP"
+      }
+    ],
+    "Privacy": [
+      {
+        "end": 16,
+        "start": 15,
+        "type": "NP"
+      }
+    ],
+    "RFC": [
+      {
+        "end": 194,
+        "start": 193,
+        "type": "NP"
+      }
+    ],
+    "Respect": [
+      {
+        "end": 113,
+        "start": 112,
+        "type": "NP"
+      }
+    ],
+    "STRONGLY RECOMMENDED": [
+      {
+        "end": 279,
+        "start": 277,
+        "type": "NP"
+      }
+    ],
+    "The DID method privacy section": [
+      {
+        "end": 184,
+        "start": 179,
+        "type": "NP"
+      }
+    ],
+    "The anti-correlation protections": [
+      {
+        "end": 500,
+        "start": 495,
+        "type": "NP"
+      }
+    ],
+    "The authors": [
+      {
+        "end": 65,
+        "start": 63,
+        "type": "NP"
+      }
+    ],
+    "The subsections": [
+      {
+        "end": 209,
+        "start": 207,
+        "type": "NP"
+      }
+    ],
+    "This section": [
+      {
+        "end": 127,
+        "start": 125,
+        "type": "NP"
+      }
+    ],
+    "a DID method specification": [
+      {
+        "end": 257,
+        "start": 253,
+        "type": "NP"
+      }
+    ],
+    "a large number": [
+      {
+        "end": 476,
+        "start": 473,
+        "type": "NP"
+      }
+    ],
+    "a method-specific manner": [
+      {
+        "end": 206,
+        "start": 201,
+        "type": "NP"
+      }
+    ],
+    "a minimum": [
+      {
+        "end": 663,
+        "start": 661,
+        "type": "NP"
+      }
+    ],
+    "a pseudonym": [
+      {
+        "end": 425,
+        "start": 423,
+        "type": "NP"
+      }
+    ],
+    "a pseudonymous": [
+      {
+        "end": 550,
+        "start": 548,
+        "type": "NP"
+      }
+    ],
+    "a public ledger": [
+      {
+        "end": 263,
+        "start": 260,
+        "type": "NP"
+      }
+    ],
+    "a recognizable flag": [
+      {
+        "end": 601,
+        "start": 598,
+        "type": "NP"
+      }
+    ],
+    "additional privacy considerations": [
+      {
+        "end": 131,
+        "start": 128,
+        "type": "NP"
+      }
+    ],
+    "additional privacy safeguards": [
+      {
+        "end": 61,
+        "start": 58,
+        "type": "NP"
+      }
+    ],
+    "all DIDs": [
+      {
+        "end": 268,
+        "start": 266,
+        "type": "NP"
+      }
+    ],
+    "all aspects": [
+      {
+        "end": 21,
+        "start": 19,
+        "type": "NP"
+      }
+    ],
+    "all seven Privacy": [
+      {
+        "end": 73,
+        "start": 70,
+        "type": "NP"
+      }
+    ],
+    "an embedded default": [
+      {
+        "end": 98,
+        "start": 95,
+        "type": "NP"
+      }
+    ],
+    "an entity": [
+      {
+        "end": 574,
+        "start": 572,
+        "type": "NP"
+      }
+    ],
+    "an immutable ledger": [
+      {
+        "end": 366,
+        "start": 363,
+        "type": "NP"
+      }
+    ],
+    "anonymity": [
+      {
+        "end": 638,
+        "start": 637,
+        "type": "NP"
+      }
+    ],
+    "another party": [
+      {
+        "end": 595,
+        "start": 593,
+        "type": "NP"
+      }
+    ],
+    "any subsection": [
+      {
+        "end": 188,
+        "start": 186,
+        "type": "NP"
+      }
+    ],
+    "any type": [
+      {
+        "end": 379,
+        "start": 377,
+        "type": "NP"
+      }
+    ],
+    "as much correlation information": [
+      {
+        "end": 538,
+        "start": 534,
+        "type": "NP"
+      }
+    ],
+    "bespoke service endpoints": [
+      {
+        "end": 529,
+        "start": 526,
+        "type": "NP"
+      }
+    ],
+    "client implementations": [
+      {
+        "end": 656,
+        "start": 654,
+        "type": "NP"
+      }
+    ],
+    "common settings": [
+      {
+        "end": 653,
+        "start": 651,
+        "type": "NP"
+      }
+    ],
+    "communications channels": [
+      {
+        "end": 326,
+        "start": 324,
+        "type": "NP"
+      }
+    ],
+    "correlation": [
+      {
+        "end": 227,
+        "start": 226,
+        "type": "NP"
+      },
+      {
+        "end": 390,
+        "start": 389,
+        "type": "NP"
+      },
+      {
+        "end": 445,
+        "start": 444,
+        "type": "NP"
+      }
+    ],
+    "decentralized identity architecture": [
+      {
+        "end": 25,
+        "start": 22,
+        "type": "NP"
+      },
+      {
+        "end": 104,
+        "start": 101,
+        "type": "NP"
+      }
+    ],
+    "design": [
+      {
+        "end": 34,
+        "start": 33,
+        "type": "NP"
+      }
+    ],
+    "disclosure": [
+      {
+        "end": 234,
+        "start": 233,
+        "type": "NP"
+      }
+    ],
+    "effect": [
+      {
+        "end": 418,
+        "start": 417,
+        "type": "NP"
+      }
+    ],
+    "encrypted transport layers": [
+      {
+        "end": 671,
+        "start": 668,
+        "type": "NP"
+      }
+    ],
+    "every relationship": [
+      {
+        "end": 415,
+        "start": 413,
+        "type": "NP"
+      }
+    ],
+    "example": [
+      {
+        "end": 82,
+        "start": 81,
+        "type": "NP"
+      },
+      {
+        "end": 519,
+        "start": 518,
+        "type": "NP"
+      }
+    ],
+    "exclusion": [
+      {
+        "end": 237,
+        "start": 236,
+        "type": "NP"
+      }
+    ],
+    "guardians": [
+      {
+        "end": 135,
+        "start": 134,
+        "type": "NP"
+      }
+    ],
+    "herd privacy": [
+      {
+        "end": 618,
+        "start": 616,
+        "type": "NP"
+      }
+    ],
+    "hosting company": [
+      {
+        "end": 48,
+        "start": 46,
+        "type": "NP"
+      }
+    ],
+    "human interfaces": [
+      {
+        "end": 633,
+        "start": 631,
+        "type": "NP"
+      }
+    ],
+    "identification": [
+      {
+        "end": 229,
+        "start": 228,
+        "type": "NP"
+      }
+    ],
+    "identity owners": [
+      {
+        "end": 139,
+        "start": 137,
+        "type": "NP"
+      },
+      {
+        "end": 341,
+        "start": 339,
+        "type": "NP"
+      }
+    ],
+    "implementers": [
+      {
+        "end": 133,
+        "start": 132,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 119,
+        "start": 118,
+        "type": "NP"
+      },
+      {
+        "end": 276,
+        "start": 275,
+        "type": "NP"
+      },
+      {
+        "end": 626,
+        "start": 625,
+        "type": "NP"
+      }
+    ],
+    "its development": [
+      {
+        "end": 79,
+        "start": 77,
+        "type": "NP"
+      }
+    ],
+    "itself": [
+      {
+        "end": 106,
+        "start": 105,
+        "type": "NP"
+      },
+      {
+        "end": 598,
+        "start": 597,
+        "type": "NP"
+      }
+    ],
+    "key descriptions": [
+      {
+        "end": 332,
+        "start": 330,
+        "type": "NP"
+      }
+    ],
+    "messages": [
+      {
+        "end": 675,
+        "start": 674,
+        "type": "NP"
+      }
+    ],
+    "methods": [
+      {
+        "end": 612,
+        "start": 611,
+        "type": "NP"
+      }
+    ],
+    "mind": [
+      {
+        "end": 143,
+        "start": 142,
+        "type": "NP"
+      }
+    ],
+    "misattribution": [
+      {
+        "end": 225,
+        "start": 224,
+        "type": "NP"
+      }
+    ],
+    "more than one party": [
+      {
+        "end": 438,
+        "start": 434,
+        "type": "NP"
+      }
+    ],
+    "multiple DDOs": [
+      {
+        "end": 532,
+        "start": 530,
+        "type": "NP"
+      }
+    ],
+    "negotiated options": [
+      {
+        "end": 660,
+        "start": 658,
+        "type": "NP"
+      }
+    ],
+    "network": [
+      {
+        "end": 265,
+        "start": 264,
+        "type": "NP"
+      }
+    ],
+    "no PII": [
+      {
+        "end": 284,
+        "start": 282,
+        "type": "NP"
+      },
+      {
+        "end": 359,
+        "start": 357,
+        "type": "NP"
+      }
+    ],
+    "no registrar": [
+      {
+        "end": 45,
+        "start": 43,
+        "type": "NP"
+      }
+    ],
+    "off-ledger": [
+      {
+        "end": 293,
+        "start": 290,
+        "type": "NP"
+      }
+    ],
+    "order": [
+      {
+        "end": 643,
+        "start": 642,
+        "type": "NP"
+      }
+    ],
+    "other intermediate service provider": [
+      {
+        "end": 54,
+        "start": 50,
+        "type": "NP"
+      }
+    ],
+    "others": [
+      {
+        "end": 578,
+        "start": 577,
+        "type": "NP"
+      }
+    ],
+    "pairwise unique DIDs": [
+      {
+        "end": 403,
+        "start": 400,
+        "type": "NP"
+      }
+    ],
+    "pairwise-unique public keys": [
+      {
+        "end": 559,
+        "start": 554,
+        "type": "NP"
+      }
+    ],
+    "pairwise-unique service endpoints": [
+      {
+        "end": 565,
+        "start": 560,
+        "type": "NP"
+      }
+    ],
+    "parties": [
+      {
+        "end": 478,
+        "start": 477,
+        "type": "NP"
+      }
+    ],
+    "peer": [
+      {
+        "end": 322,
+        "start": 321,
+        "type": "NP"
+      }
+    ],
+    "privacy": [
+      {
+        "end": 84,
+        "start": 83,
+        "type": "NP"
+      },
+      {
+        "end": 94,
+        "start": 93,
+        "type": "NP"
+      },
+      {
+        "end": 583,
+        "start": 582,
+        "type": "NP"
+      },
+      {
+        "end": 603,
+        "start": 602,
+        "type": "NP"
+      }
+    ],
+    "pseudonymity": [
+      {
+        "end": 640,
+        "start": 639,
+        "type": "NP"
+      }
+    ],
+    "pseudonymous DIDs": [
+      {
+        "end": 453,
+        "start": 451,
+        "type": "NP"
+      },
+      {
+        "end": 503,
+        "start": 501,
+        "type": "NP"
+      }
+    ],
+    "public identification": [
+      {
+        "end": 488,
+        "start": 486,
+        "type": "NP"
+      }
+    ],
+    "relying parties": [
+      {
+        "end": 344,
+        "start": 342,
+        "type": "NP"
+      }
+    ],
+    "same public key descriptions": [
+      {
+        "end": 525,
+        "start": 521,
+        "type": "NP"
+      }
+    ],
+    "secondary use": [
+      {
+        "end": 232,
+        "start": 230,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 191,
+        "start": 189,
+        "type": "NP"
+      }
+    ],
+    "service endpoints": [
+      {
+        "end": 296,
+        "start": 294,
+        "type": "NP"
+      }
+    ],
+    "specifications": [
+      {
+        "end": 155,
+        "start": 154,
+        "type": "NP"
+      }
+    ],
+    "standard lengths": [
+      {
+        "end": 678,
+        "start": 676,
+        "type": "NP"
+      }
+    ],
+    "stored data compromise": [
+      {
+        "end": 219,
+        "start": 216,
+        "type": "NP"
+      }
+    ],
+    "surveillance": [
+      {
+        "end": 215,
+        "start": 214,
+        "type": "NP"
+      }
+    ],
+    "technologies": [
+      {
+        "end": 630,
+        "start": 629,
+        "type": "NP"
+      }
+    ],
+    "the DDO": [
+      {
+        "end": 547,
+        "start": 545,
+        "type": "NP"
+      }
+    ],
+    "the act": [
+      {
+        "end": 589,
+        "start": 587,
+        "type": "NP"
+      }
+    ],
+    "the control": [
+      {
+        "end": 299,
+        "start": 297,
+        "type": "NP"
+      }
+    ],
+    "the corresponding DDOs": [
+      {
+        "end": 513,
+        "start": 510,
+        "type": "NP"
+      }
+    ],
+    "the data": [
+      {
+        "end": 509,
+        "start": 507,
+        "type": "NP"
+      }
+    ],
+    "the default": [
+      {
+        "end": 456,
+        "start": 454,
+        "type": "NP"
+      }
+    ],
+    "the general privacy\nconsiderations": [
+      {
+        "end": 174,
+        "start": 169,
+        "type": "NP"
+      }
+    ],
+    "the herd": [
+      {
+        "end": 581,
+        "start": 579,
+        "type": "NP"
+      }
+    ],
+    "the identity owner": [
+      {
+        "end": 303,
+        "start": 300,
+        "type": "NP"
+      },
+      {
+        "end": 442,
+        "start": 439,
+        "type": "NP"
+      },
+      {
+        "end": 484,
+        "start": 481,
+        "type": "NP"
+      }
+    ],
+    "the principles": [
+      {
+        "end": 14,
+        "start": 12,
+        "type": "NP"
+      }
+    ],
+    "the same DID": [
+      {
+        "end": 543,
+        "start": 540,
+        "type": "NP"
+      }
+    ],
+    "their own Privacy\nConsiderations sections": [
+      {
+        "end": 163,
+        "start": 157,
+        "type": "NP"
+      }
+    ],
+    "their owners": [
+      {
+        "end": 40,
+        "start": 38,
+        "type": "NP"
+      }
+    ],
+    "this privacy architecture": [
+      {
+        "end": 308,
+        "start": 305,
+        "type": "NP"
+      }
+    ],
+    "this privacy risk": [
+      {
+        "end": 398,
+        "start": 395,
+        "type": "NP"
+      }
+    ],
+    "this section": [
+      {
+        "end": 177,
+        "start": 175,
+        "type": "NP"
+      }
+    ],
+    "this specification": [
+      {
+        "end": 68,
+        "start": 66,
+        "type": "NP"
+      },
+      {
+        "end": 87,
+        "start": 85,
+        "type": "NP"
+      }
+    ],
+    "those parties": [
+      {
+        "end": 448,
+        "start": 446,
+        "type": "NP"
+      }
+    ],
+    "unsolicited traffic": [
+      {
+        "end": 222,
+        "start": 220,
+        "type": "NP"
+      }
+    ],
+    "user privacy": [
+      {
+        "end": 116,
+        "start": 114,
+        "type": "NP"
+      }
+    ],
+    "user-centric": [
+      {
+        "end": 122,
+        "start": 119,
+        "type": "NP"
+      }
+    ],
+    "who": [
+      {
+        "end": 623,
+        "start": 622,
+        "type": "NP"
+      }
+    ],
+    "wire protocols": [
+      {
+        "end": 666,
+        "start": 664,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "10.1": [
+      {
+        "end": 146,
+        "start": 145,
+        "type": "CARDINAL"
+      }
+    ],
+    "10.2": [
+      {
+        "end": 240,
+        "start": 239,
+        "type": "CARDINAL"
+      }
+    ],
+    "10.3": [
+      {
+        "end": 369,
+        "start": 368,
+        "type": "CARDINAL"
+      }
+    ],
+    "10.4": [
+      {
+        "end": 491,
+        "start": 490,
+        "type": "CARDINAL"
+      }
+    ],
+    "10.5": [
+      {
+        "end": 568,
+        "start": 567,
+        "type": "CARDINAL"
+      }
+    ],
+    "DDO": [
+      {
+        "end": 547,
+        "start": 546,
+        "type": "ORG"
+      }
+    ],
+    "DDO Correlation Risks\n\n\n    \n      ": [
+      {
+        "end": 495,
+        "start": 491,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 153,
+        "start": 152,
+        "type": "ORG"
+      },
+      {
+        "end": 181,
+        "start": 180,
+        "type": "ORG"
+      },
+      {
+        "end": 255,
+        "start": 254,
+        "type": "ORG"
+      },
+      {
+        "end": 334,
+        "start": 333,
+        "type": "ORG"
+      },
+      {
+        "end": 412,
+        "start": 411,
+        "type": "ORG"
+      },
+      {
+        "end": 421,
+        "start": 420,
+        "type": "ORG"
+      },
+      {
+        "end": 429,
+        "start": 428,
+        "type": "ORG"
+      },
+      {
+        "end": 465,
+        "start": 464,
+        "type": "ORG"
+      },
+      {
+        "end": 468,
+        "start": 467,
+        "type": "ORG"
+      },
+      {
+        "end": 543,
+        "start": 542,
+        "type": "ORG"
+      }
+    ],
+    "DID Correlation Risks": [
+      {
+        "end": 372,
+        "start": 369,
+        "type": "ORG"
+      }
+    ],
+    "DID SHOULD": [
+      {
+        "end": 552,
+        "start": 550,
+        "type": "ORG"
+      }
+    ],
+    "Herd Privacy\n\n\n    \n      ": [
+      {
+        "end": 571,
+        "start": 568,
+        "type": "ORG"
+      }
+    ],
+    "PII": [
+      {
+        "end": 284,
+        "start": 283,
+        "type": "PERSON"
+      },
+      {
+        "end": 310,
+        "start": 309,
+        "type": "ORG"
+      },
+      {
+        "end": 359,
+        "start": 358,
+        "type": "ORG"
+      }
+    ],
+    "more than one": [
+      {
+        "end": 437,
+        "start": 434,
+        "type": "CARDINAL"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 146,
+        "label": "10.1",
+        "start": 145
+      },
+      {
+        "end": 240,
+        "label": "10.2",
+        "start": 239
+      },
+      {
+        "end": 369,
+        "label": "10.3",
+        "start": 368
+      },
+      {
+        "end": 437,
+        "label": "more than one",
+        "start": 434
+      },
+      {
+        "end": 491,
+        "label": "10.4",
+        "start": 490
+      },
+      {
+        "end": 568,
+        "label": "10.5",
+        "start": 567
+      }
+    ],
+    "ORG": [
+      {
+        "end": 153,
+        "label": "DID",
+        "start": 152
+      },
+      {
+        "end": 181,
+        "label": "DID",
+        "start": 180
+      },
+      {
+        "end": 255,
+        "label": "DID",
+        "start": 254
+      },
+      {
+        "end": 310,
+        "label": "PII",
+        "start": 309
+      },
+      {
+        "end": 334,
+        "label": "DID",
+        "start": 333
+      },
+      {
+        "end": 359,
+        "label": "PII",
+        "start": 358
+      },
+      {
+        "end": 372,
+        "label": "DID Correlation Risks",
+        "start": 369
+      },
+      {
+        "end": 412,
+        "label": "DID",
+        "start": 411
+      },
+      {
+        "end": 421,
+        "label": "DID",
+        "start": 420
+      },
+      {
+        "end": 429,
+        "label": "DID",
+        "start": 428
+      },
+      {
+        "end": 465,
+        "label": "DID",
+        "start": 464
+      },
+      {
+        "end": 468,
+        "label": "DID",
+        "start": 467
+      },
+      {
+        "end": 495,
+        "label": "DDO Correlation Risks\n\n\n    \n      ",
+        "start": 491
+      },
+      {
+        "end": 543,
+        "label": "DID",
+        "start": 542
+      },
+      {
+        "end": 547,
+        "label": "DDO",
+        "start": 546
+      },
+      {
+        "end": 552,
+        "label": "DID SHOULD",
+        "start": 550
+      },
+      {
+        "end": 571,
+        "label": "Herd Privacy\n\n\n    \n      ",
+        "start": 568
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 284,
+        "label": "PII",
+        "start": 283
+      }
+    ]
+  },
+  "verbs": {
+    "act": 1,
+    "administer": 1,
+    "apply": 4,
+    "authorize": 1,
+    "be": 6,
+    "bear": 1,
+    "choose": 1,
+    "consider": 1,
+    "contain": 1,
+    "correlate": 1,
+    "correspond": 1,
+    "decentralize": 2,
+    "default": 1,
+    "defeat": 1,
+    "desire": 1,
+    "diminish": 1,
+    "discuss": 1,
+    "do": 4,
+    "embed": 1,
+    "embody": 1,
+    "enable": 1,
+    "encrypt": 1,
+    "engage": 1,
+    "exchange": 1,
+    "forget": 1,
+    "host": 1,
+    "identify": 1,
+    "implement": 1,
+    "improve": 1,
+    "include": 1,
+    "keep": 3,
+    "list": 1,
+    "method": 1,
+    "mitigate": 1,
+    "need": 1,
+    "negotiate": 1,
+    "pad": 1,
+    "point": 1,
+    "preserve": 1,
+    "provide": 1,
+    "publish": 1,
+    "recommend": 1,
+    "reduce": 1,
+    "rely": 1,
+    "secure": 1,
+    "share": 4,
+    "store": 1,
+    "use": 7,
+    "work": 1,
+    "write": 2
+  }
+}

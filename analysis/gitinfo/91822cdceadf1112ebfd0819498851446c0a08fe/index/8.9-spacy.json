@@ -1,0 +1,411 @@
+{
+  "nouns": {
+    "(Optional": [
+      {
+        "end": 6,
+        "start": 4,
+        "type": "NP"
+      }
+    ],
+    ",\n            \"creator": [
+      {
+        "end": 159,
+        "start": 155,
+        "type": "NP"
+      }
+    ],
+    ",\n            \"signatureValue": [
+      {
+        "end": 170,
+        "start": 166,
+        "type": "NP"
+      }
+    ],
+    "2016-02-08T16:02:20Z": [
+      {
+        "end": 154,
+        "start": 149,
+        "type": "NP"
+      }
+    ],
+    "A DDO": [
+      {
+        "end": 81,
+        "start": 79,
+        "type": "NP"
+      }
+    ],
+    "A signature": [
+      {
+        "end": 10,
+        "start": 7,
+        "type": "NP"
+      }
+    ],
+    "Example": [
+      {
+        "end": 125,
+        "start": 123,
+        "type": "NP"
+      }
+    ],
+    "Linked Data\nSignatures": [
+      {
+        "end": 122,
+        "start": 118,
+        "type": "NP"
+      }
+    ],
+    "LinkedDataSignature2015": [
+      {
+        "end": 141,
+        "start": 140,
+        "type": "NP"
+      }
+    ],
+    "Signature": [
+      {
+        "end": 4,
+        "start": 3,
+        "type": "NP"
+      }
+    ],
+    "The guardian": [
+      {
+        "end": 44,
+        "start": 41,
+        "type": "NP"
+      }
+    ],
+    "The identity owner": [
+      {
+        "end": 30,
+        "start": 27,
+        "type": "NP"
+      }
+    ],
+    "The key": [
+      {
+        "end": 93,
+        "start": 91,
+        "type": "NP"
+      }
+    ],
+    "The rules": [
+      {
+        "end": 73,
+        "start": 71,
+        "type": "NP"
+      }
+    ],
+    "The value": [
+      {
+        "end": 103,
+        "start": 101,
+        "type": "NP"
+      }
+    ],
+    "This signature": [
+      {
+        "end": 53,
+        "start": 51,
+        "type": "NP"
+      }
+    ],
+    "a DDO": [
+      {
+        "end": 13,
+        "start": 11,
+        "type": "NP"
+      },
+      {
+        "end": 65,
+        "start": 63,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 62,
+        "start": 60,
+        "type": "NP"
+      }
+    ],
+    "a signature": [
+      {
+        "end": 76,
+        "start": 74,
+        "type": "NP"
+      },
+      {
+        "end": 89,
+        "start": 87,
+        "type": "NP"
+      }
+    ],
+    "a valid JSON-LD signature": [
+      {
+        "end": 114,
+        "start": 108,
+        "type": "NP"
+      }
+    ],
+    "cryptographic proof": [
+      {
+        "end": 16,
+        "start": 14,
+        "type": "NP"
+      }
+    ],
+    "exactly one property": [
+      {
+        "end": 86,
+        "start": 83,
+        "type": "NP"
+      }
+    ],
+    "proof": [
+      {
+        "end": 56,
+        "start": 55,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 34,
+        "start": 33,
+        "type": "NP"
+      },
+      {
+        "end": 48,
+        "start": 47,
+        "type": "NP"
+      },
+      {
+        "end": 68,
+        "start": 67,
+        "type": "NP"
+      }
+    ],
+    "signature": [
+      {
+        "end": 99,
+        "start": 98,
+        "type": "NP"
+      }
+    ],
+    "the DDO": [
+      {
+        "end": 22,
+        "start": 20,
+        "type": "NP"
+      }
+    ],
+    "the binding": [
+      {
+        "end": 59,
+        "start": 57,
+        "type": "NP"
+      }
+    ],
+    "the integrity": [
+      {
+        "end": 19,
+        "start": 17,
+        "type": "NP"
+      }
+    ],
+    "this key": [
+      {
+        "end": 106,
+        "start": 104,
+        "type": "NP"
+      }
+    ],
+    "this property": [
+      {
+        "end": 96,
+        "start": 94,
+        "type": "NP"
+      }
+    ],
+    "{\n            \"type": [
+      {
+        "end": 137,
+        "start": 133,
+        "type": "NP"
+      }
+    ],
+    "{\n      \"signature": [
+      {
+        "end": 131,
+        "start": 127,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "2016-02-08T16:02:20Z": [
+      {
+        "end": 154,
+        "start": 149,
+        "type": "DATE"
+      }
+    ],
+    "6.3": [
+      {
+        "end": 49,
+        "start": 48,
+        "type": "CARDINAL"
+      }
+    ],
+    "6.9": [
+      {
+        "end": 2,
+        "start": 1,
+        "type": "CARDINAL"
+      }
+    ],
+    "DDO": [
+      {
+        "end": 13,
+        "start": 12,
+        "type": "ORG"
+      },
+      {
+        "end": 22,
+        "start": 21,
+        "type": "ORG"
+      },
+      {
+        "end": 65,
+        "start": 64,
+        "type": "ORG"
+      },
+      {
+        "end": 81,
+        "start": 80,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 62,
+        "start": 61,
+        "type": "ORG"
+      }
+    ],
+    "JSON-LD": [
+      {
+        "end": 113,
+        "start": 110,
+        "type": "ORG"
+      }
+    ],
+    "Linked Data\nSignatures": [
+      {
+        "end": 122,
+        "start": 118,
+        "type": "ORG"
+      }
+    ],
+    "QNB13Y7Q9oLlDLL6AHyL31OE5fLji9DwJSA8qnv81oRaKonij8m+Jv4XdiEYvJ97iRlzKU/92/0LafSL5JftEgl960DLcbqMFxOtbAmFOIMa7eDcrgTL5ytXeYCYKLjHQG3s8a3UKDKRuEK54qK1G5hGKGoLgAVa6xgcDLjW7M19PEJV": [
+      {
+        "end": 174,
+        "start": 173,
+        "type": "PERSON"
+      }
+    ],
+    "section 6.4": [
+      {
+        "end": 35,
+        "start": 33,
+        "type": "LAW"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 2,
+        "label": "6.9",
+        "start": 1
+      },
+      {
+        "end": 49,
+        "label": "6.3",
+        "start": 48
+      }
+    ],
+    "DATE": [
+      {
+        "end": 154,
+        "label": "2016-02-08T16:02:20Z",
+        "start": 149
+      }
+    ],
+    "LAW": [
+      {
+        "end": 35,
+        "label": "section 6.4",
+        "start": 33
+      }
+    ],
+    "ORG": [
+      {
+        "end": 13,
+        "label": "DDO",
+        "start": 12
+      },
+      {
+        "end": 22,
+        "label": "DDO",
+        "start": 21
+      },
+      {
+        "end": 62,
+        "label": "DID",
+        "start": 61
+      },
+      {
+        "end": 65,
+        "label": "DDO",
+        "start": 64
+      },
+      {
+        "end": 81,
+        "label": "DDO",
+        "start": 80
+      },
+      {
+        "end": 113,
+        "label": "JSON-LD",
+        "start": 110
+      },
+      {
+        "end": 122,
+        "label": "Linked Data\nSignatures",
+        "start": 118
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 174,
+        "label": "QNB13Y7Q9oLlDLL6AHyL31OE5fLji9DwJSA8qnv81oRaKonij8m+Jv4XdiEYvJ97iRlzKU/92/0LafSL5JftEgl960DLcbqMFxOtbAmFOIMa7eDcrgTL5ytXeYCYKLjHQG3s8a3UKDKRuEK54qK1G5hGKGoLgAVa6xgcDLjW7M19PEJV",
+        "start": 173
+      }
+    ]
+  },
+  "verbs": {
+    "accord": 1,
+    "be": 2,
+    "create": 1,
+    "define": 3,
+    "do": 1,
+    "example:8uqhqmgzwxr8vw5p3uwh1ja#keys-1": 1,
+    "have": 1,
+    "represent": 1,
+    "see": 1
+  }
+}

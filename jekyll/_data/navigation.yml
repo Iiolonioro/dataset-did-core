@@ -1,15 +1,45 @@
 home:
-  - title: "Intro + Sotd"
-    url: /intros/
-
-  - title: "Test"
-    url: /test/
-
+  - title: Constitution
+    url: /
+    children:
+      - title: Declaration
+        url: /
+      - title: Argument
+        url: /#why-is-this-needed
+      - title: Invitation
+        url: /#invitation
+  - title: Implementation
+    url: /#how
+    children:
+      - title: Code of Engagement
+        url: /#code-of-endgagement
+      - title: Emperical Community Journalism
+        url: /#emperical-community-journalism
+      - title: Role of did:git
+        url: /#role-of-did:git
+      - title: Relationship to ToIP
+        url: /#relationship-to-toip
+  - title: "Specification Analysis"
+    children:
+    - title: "Intro"
+      url: /intro/
+    - title: "Abstract"
+      url: /abstract/
+    - title: "Sotd"
+      url: /sotd/
+    - title: "TOC"
+      url: /toc/
   - title: "Runnables"
     url: /runnables/
+  - title: "Opinions"
+    url: /opinions/
 
-  - title: "Git Info"
-    url: ./static/gitinfo
+history:
+  - title: Abstract
+  - title: State of the Document
+  - title: TOC
+  - title: Intro
+  - title: Terms
 
 # main links
 main:
@@ -18,30 +48,43 @@ main:
   - title: "Terms"
     url: /_pages/terms/
 
+timeline:
+  - title: Meetings
+    url: /_pages/timeline/meetings
+  - title: Formal Events
+    url: /_pages/timeline/formalevents
+  - title: Issues
+    url: /_pages/timeline/issues
+  - title: Commits
+    url: /_pages/timeline/commits
+  - title: Changes to the Introduction
+    url: /_pages/timeline/intros
 terms:
-  - title: biometric
-  - title: bio
-  - title: self sovereign
-  - title: jwt
-  - title: jwk
-  - title: authentication
-  - title: verification
-  - title: assertion
-  - title: resolve
-  - title: resolution
-  - title: json-ld
-  - title: json
-  - title: cbor
-  - title: verifiable
-  - title: proof
-  - title: control
-  - title: controller
-  - title: credential
-  - title: verifiable credential
-  - title: subject
-  - title: controller
-  - title: issuer
-  - title: holder
-  - title: verifier
-  - title: service
-  - title: service-endpoint
+  - title: Summary
+    children:
+      - title: biometric
+      - title: bio
+      - title: self sovereign
+      - title: jwt
+      - title: jwk
+      - title: authentication
+      - title: verification
+      - title: assertion
+      - title: resolve
+      - title: resolution
+      - title: json-ld
+      - title: json
+      - title: cbor
+      - title: verifiable
+      - title: proof
+      - title: control
+      - title: controller
+      - title: credential
+      - title: verifiable credential
+      - title: subject
+      - title: controller
+      - title: issuer
+      - title: holder
+      - title: verifier
+      - title: service
+      - title: service-endpoint

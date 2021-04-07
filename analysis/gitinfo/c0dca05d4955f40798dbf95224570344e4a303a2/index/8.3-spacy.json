@@ -1,0 +1,375 @@
+{
+  "nouns": {
+    "(Required": [
+      {
+        "end": 4,
+        "start": 2,
+        "type": "NP"
+      }
+    ],
+    "A DDO": [
+      {
+        "end": 94,
+        "start": 92,
+        "type": "NP"
+      },
+      {
+        "end": 110,
+        "start": 108,
+        "type": "NP"
+      }
+    ],
+    "A guardian": [
+      {
+        "end": 13,
+        "start": 10,
+        "type": "NP"
+      }
+    ],
+    "Example": [
+      {
+        "end": 171,
+        "start": 169,
+        "type": "NP"
+      }
+    ],
+    "Guardian": [
+      {
+        "end": 2,
+        "start": 1,
+        "type": "NP"
+      }
+    ],
+    "No Proof": [
+      {
+        "end": 7,
+        "start": 5,
+        "type": "NP"
+      }
+    ],
+    "Ownership": [
+      {
+        "end": 9,
+        "start": 8,
+        "type": "NP"
+      }
+    ],
+    "The guardian": [
+      {
+        "end": 146,
+        "start": 144,
+        "type": "NP"
+      }
+    ],
+    "The key": [
+      {
+        "end": 124,
+        "start": 122,
+        "type": "NP"
+      }
+    ],
+    "The rules": [
+      {
+        "end": 86,
+        "start": 84,
+        "type": "NP"
+      }
+    ],
+    "The value": [
+      {
+        "end": 134,
+        "start": 132,
+        "type": "NP"
+      }
+    ],
+    "a DDO": [
+      {
+        "end": 152,
+        "start": 150,
+        "type": "NP"
+      }
+    ],
+    "a child": [
+      {
+        "end": 53,
+        "start": 51,
+        "type": "NP"
+      }
+    ],
+    "a guardian": [
+      {
+        "end": 89,
+        "start": 87,
+        "type": "NP"
+      },
+      {
+        "end": 106,
+        "start": 104,
+        "type": "NP"
+      },
+      {
+        "end": 120,
+        "start": 118,
+        "type": "NP"
+      }
+    ],
+    "a position": [
+      {
+        "end": 33,
+        "start": 31,
+        "type": "NP"
+      }
+    ],
+    "a valid DID": [
+      {
+        "end": 142,
+        "start": 139,
+        "type": "NP"
+      }
+    ],
+    "an identity owner": [
+      {
+        "end": 17,
+        "start": 14,
+        "type": "NP"
+      }
+    ],
+    "an identity record": [
+      {
+        "end": 24,
+        "start": 21,
+        "type": "NP"
+      },
+      {
+        "end": 50,
+        "start": 47,
+        "type": "NP"
+      }
+    ],
+    "an owner": [
+      {
+        "end": 98,
+        "start": 96,
+        "type": "NP"
+      },
+      {
+        "end": 116,
+        "start": 114,
+        "type": "NP"
+      }
+    ],
+    "an owner property": [
+      {
+        "end": 157,
+        "start": 154,
+        "type": "NP"
+      }
+    ],
+    "e.g., a parent": [
+      {
+        "end": 46,
+        "start": 42,
+        "type": "NP"
+      }
+    ],
+    "no owner keys": [
+      {
+        "end": 64,
+        "start": 61,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 100,
+        "start": 99,
+        "type": "NP"
+      }
+    ],
+    "the DDO": [
+      {
+        "end": 74,
+        "start": 72,
+        "type": "NP"
+      }
+    ],
+    "the guardian": [
+      {
+        "end": 82,
+        "start": 80,
+        "type": "NP"
+      }
+    ],
+    "the guardian relationships": [
+      {
+        "end": 164,
+        "start": 161,
+        "type": "NP"
+      }
+    ],
+    "the identity": [
+      {
+        "end": 79,
+        "start": 77,
+        "type": "NP"
+      }
+    ],
+    "the necessary cryptographic keys": [
+      {
+        "end": 41,
+        "start": 37,
+        "type": "NP"
+      }
+    ],
+    "the ultimate identity owner": [
+      {
+        "end": 70,
+        "start": 66,
+        "type": "NP"
+      }
+    ],
+    "this case": [
+      {
+        "end": 58,
+        "start": 56,
+        "type": "NP"
+      }
+    ],
+    "this key": [
+      {
+        "end": 137,
+        "start": 135,
+        "type": "NP"
+      }
+    ],
+    "this property": [
+      {
+        "end": 127,
+        "start": 125,
+        "type": "NP"
+      }
+    ],
+    "who": [
+      {
+        "end": 18,
+        "start": 17,
+        "type": "NP"
+      },
+      {
+        "end": 28,
+        "start": 27,
+        "type": "NP"
+      }
+    ],
+    "{\n      \"guardian": [
+      {
+        "end": 177,
+        "start": 173,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "6.4": [
+      {
+        "end": 101,
+        "start": 100,
+        "type": "CARDINAL"
+      }
+    ],
+    "DDO": [
+      {
+        "end": 74,
+        "start": 73,
+        "type": "ORG"
+      },
+      {
+        "end": 94,
+        "start": 93,
+        "type": "ORG"
+      },
+      {
+        "end": 110,
+        "start": 109,
+        "type": "ORG"
+      },
+      {
+        "end": 152,
+        "start": 151,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 142,
+        "start": 141,
+        "type": "ORG"
+      }
+    ],
+    "MUST": [
+      {
+        "end": 117,
+        "start": 116,
+        "type": "PERSON"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 101,
+        "label": "6.4",
+        "start": 100
+      }
+    ],
+    "ORG": [
+      {
+        "end": 74,
+        "label": "DDO",
+        "start": 73
+      },
+      {
+        "end": 94,
+        "label": "DDO",
+        "start": 93
+      },
+      {
+        "end": 110,
+        "label": "DDO",
+        "start": 109
+      },
+      {
+        "end": 142,
+        "label": "DID",
+        "start": 141
+      },
+      {
+        "end": 152,
+        "label": "DDO",
+        "start": 151
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 117,
+        "label": "MUST",
+        "start": 116
+      }
+    ]
+  },
+  "verbs": {
+    "assert": 1,
+    "be": 3,
+    "control": 1,
+    "create": 2,
+    "example:8uQhQMGzWxR8vw5P3UWH1j": 1,
+    "have": 3,
+    "hold": 1,
+    "include": 2,
+    "maintain": 1,
+    "need": 1,
+    "nest": 1,
+    "represent": 1,
+    "resolve": 1
+  }
+}

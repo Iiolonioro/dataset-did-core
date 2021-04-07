@@ -1,0 +1,306 @@
+{
+  "nouns": {
+    "(the did-fragment rule": [
+      {
+        "end": 15,
+        "start": 9,
+        "type": "NP"
+      }
+    ],
+    "5.4 DID": [
+      {
+        "end": 3,
+        "start": 0,
+        "type": "NP"
+      }
+    ],
+    "A DID fragment": [
+      {
+        "end": 46,
+        "start": 43,
+        "type": "NP"
+      }
+    ],
+    "A generic DID fragment": [
+      {
+        "end": 9,
+        "start": 5,
+        "type": "NP"
+      }
+    ],
+    "A specific DID scheme": [
+      {
+        "end": 109,
+        "start": 105,
+        "type": "NP"
+      }
+    ],
+    "ABNF rule": [
+      {
+        "end": 38,
+        "start": 36,
+        "type": "NP"
+      }
+    ],
+    "ABNF rules": [
+      {
+        "end": 113,
+        "start": 111,
+        "type": "NP"
+      }
+    ],
+    "DID fragments": [
+      {
+        "end": 116,
+        "start": 114,
+        "type": "NP"
+      }
+    ],
+    "Fragments": [
+      {
+        "end": 4,
+        "start": 3,
+        "type": "NP"
+      }
+    ],
+    "RFC": [
+      {
+        "end": 40,
+        "start": 39,
+        "type": "NP"
+      }
+    ],
+    "a URI fragment": [
+      {
+        "end": 26,
+        "start": 23,
+        "type": "NP"
+      }
+    ],
+    "a method-independent pointer": [
+      {
+        "end": 56,
+        "start": 51,
+        "type": "NP"
+      }
+    ],
+    "a unique key description": [
+      {
+        "end": 66,
+        "start": 62,
+        "type": "NP"
+      }
+    ],
+    "other DDO component": [
+      {
+        "end": 70,
+        "start": 67,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 17,
+        "start": 16,
+        "type": "NP"
+      }
+    ],
+    "the ABNF": [
+      {
+        "end": 32,
+        "start": 30,
+        "type": "NP"
+      }
+    ],
+    "the DDO": [
+      {
+        "end": 60,
+        "start": 58,
+        "type": "NP"
+      }
+    ],
+    "the DID\nfragment": [
+      {
+        "end": 86,
+        "start": 82,
+        "type": "NP"
+      }
+    ],
+    "the generic rules": [
+      {
+        "end": 125,
+        "start": 122,
+        "type": "NP"
+      }
+    ],
+    "the id key": [
+      {
+        "end": 97,
+        "start": 93,
+        "type": "NP"
+      }
+    ],
+    "the target JSON\nobject": [
+      {
+        "end": 103,
+        "start": 98,
+        "type": "NP"
+      }
+    ],
+    "the value": [
+      {
+        "end": 92,
+        "start": 90,
+        "type": "NP"
+      }
+    ],
+    "this pointer": [
+      {
+        "end": 76,
+        "start": 74,
+        "type": "NP"
+      }
+    ],
+    "this section": [
+      {
+        "end": 128,
+        "start": 126,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "3986": [
+      {
+        "end": 41,
+        "start": 40,
+        "type": "CARDINAL"
+      }
+    ],
+    "DDO": [
+      {
+        "end": 60,
+        "start": 59,
+        "type": "ORG"
+      },
+      {
+        "end": 69,
+        "start": 68,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 45,
+        "start": 44,
+        "type": "ORG"
+      },
+      {
+        "end": 108,
+        "start": 107,
+        "type": "ORG"
+      },
+      {
+        "end": 115,
+        "start": 114,
+        "type": "ORG"
+      }
+    ],
+    "MAY": [
+      {
+        "end": 110,
+        "start": 109,
+        "type": "CARDINAL"
+      }
+    ],
+    "MUST": [
+      {
+        "end": 28,
+        "start": 27,
+        "type": "ORG"
+      }
+    ],
+    "URI": [
+      {
+        "end": 25,
+        "start": 24,
+        "type": "ORG"
+      }
+    ],
+    "section 5.1": [
+      {
+        "end": 18,
+        "start": 16,
+        "type": "LAW"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 41,
+        "label": "3986",
+        "start": 40
+      },
+      {
+        "end": 110,
+        "label": "MAY",
+        "start": 109
+      }
+    ],
+    "LAW": [
+      {
+        "end": 18,
+        "label": "section 5.1",
+        "start": 16
+      }
+    ],
+    "ORG": [
+      {
+        "end": 25,
+        "label": "URI",
+        "start": 24
+      },
+      {
+        "end": 28,
+        "label": "MUST",
+        "start": 27
+      },
+      {
+        "end": 45,
+        "label": "DID",
+        "start": 44
+      },
+      {
+        "end": 60,
+        "label": "DDO",
+        "start": 59
+      },
+      {
+        "end": 69,
+        "label": "DDO",
+        "start": 68
+      },
+      {
+        "end": 108,
+        "label": "DID",
+        "start": 107
+      },
+      {
+        "end": 115,
+        "label": "DID",
+        "start": 114
+      }
+    ]
+  },
+  "verbs": {
+    "be": 1,
+    "conform": 1,
+    "do": 2,
+    "identify": 1,
+    "include": 1,
+    "resolve": 1,
+    "specify": 1,
+    "use": 2
+  }
+}

@@ -31,7 +31,7 @@ def process_tag_as_sentence(file,tag):
 
     with open(file+".md","w") as fp3:
         sentence = " ".join(html2text.html2text(tag.text).strip().split())
-        print("S:"+sentence)
+        #print("S:"+sentence)
         print(sentence,file=fp3)
         tokens = nltk.word_tokenize(sentence)
         with open(file+"-tokens.json","w") as fp4:
@@ -50,6 +50,36 @@ def process_tag_as_sentence(file,tag):
         #t = treebank.parsed_sents('wsj_0001.mrg')[0]
         #t.draw()
 
+toc_index = []
+
+def process_section(body,l1,l2):
+    for tag in body.find_all("section", recursive=False):
+        found = tag.find('h1')
+        if found:
+            title=found.text
+            l1 = l1 + 1
+            l2 = 0
+            process_section(tag,l1,l2)
+        else:
+            found = tag.find('h2')
+            if found:
+                title=found.text
+                l2 = l2 + 1
+                process_section(tag,l1,l2)
+            else:
+                l1 = l1 + 1
+                l2 = 0
+                title = tag['id']
+        label = str(l1)+"."+str(l2)
+        print(label,"\t",title,file = fp2)
+        with open(label+".html","w") as fp3:
+            print(tag.text,file=fp3)
+        with open(label+".md","w") as fp3:
+            print(html2text.html2text(tag.text),file=fp3)
+        process_tag_as_sentence(label,tag)
+        toc_index.append((label,title))
+
+
 with open("index.html") as fp:
     soup = BeautifulSoup(fp, "html.parser")
 
@@ -64,27 +94,9 @@ with open("index.html") as fp:
         process_tag_as_sentence("sotd",tag)
 
     with open("toc.md","w") as fp2:
-        level1_num=1
-        level2_num=0
-        for tag in soup.find_all("section"):
-            found = tag.find('h1')
-            if found:
-                title=found.text
-                level1_num = level1_num + 1
-                level2_num = 0
-            else:
-                found = tag.find('h2')
-                if found:
-                    level2_num = level2_num + 1
-                    title=found.text
-                else:
-                    level1_num = level1_num + 1
-                    level2_num = 0
-                    title = "untitled section"
-            label = str(level1_num)+"."+str(level2_num)
-            print(label,"\t",title,file = fp2)
-            with open(label+".html","w") as fp3:
-                print(tag.text,file=fp3)
-            with open(label+".md","w") as fp3:
-                print(html2text.html2text(tag.text),file=fp3)
-            process_tag_as_sentence(label,tag)
+        # find top level
+        body = soup.find("body")
+        process_section(body,0,0)
+
+    with open("toc_index.json","w") as fp3:
+        print(json.dumps(toc_index,indent=3,sort_keys=True),file=fp3)

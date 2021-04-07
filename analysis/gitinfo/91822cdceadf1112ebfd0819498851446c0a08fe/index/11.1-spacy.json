@@ -1,0 +1,848 @@
+{
+  "nouns": {
+    "\"light node": [
+      {
+        "end": 341,
+        "start": 338,
+        "type": "NP"
+      }
+    ],
+    "A DID": [
+      {
+        "end": 395,
+        "start": 393,
+        "type": "NP"
+      }
+    ],
+    "At least the following forms": [
+      {
+        "end": 61,
+        "start": 55,
+        "type": "NP"
+      }
+    ],
+    "DID Operations": [
+      {
+        "end": 268,
+        "start": 266,
+        "type": "NP"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 385,
+        "start": 384,
+        "type": "NP"
+      }
+    ],
+    "DLTs": [
+      {
+        "end": 329,
+        "start": 328,
+        "type": "NP"
+      }
+    ],
+    "Data": [
+      {
+        "end": 157,
+        "start": 156,
+        "type": "NP"
+      }
+    ],
+    "Method-specific endpoint authentication": [
+      {
+        "end": 317,
+        "start": 311,
+        "type": "NP"
+      }
+    ],
+    "Potential denial": [
+      {
+        "end": 89,
+        "start": 87,
+        "type": "NP"
+      }
+    ],
+    "RFC": [
+      {
+        "end": 36,
+        "start": 35,
+        "type": "NP"
+      },
+      {
+        "end": 212,
+        "start": 211,
+        "type": "NP"
+      },
+      {
+        "end": 407,
+        "start": 406,
+        "type": "NP"
+      }
+    ],
+    "Requirements": [
+      {
+        "end": 4,
+        "start": 3,
+        "type": "NP"
+      }
+    ],
+    "Section": [
+      {
+        "end": 209,
+        "start": 208,
+        "type": "NP"
+      },
+      {
+        "end": 260,
+        "start": 259,
+        "type": "NP"
+      }
+    ],
+    "Some indication": [
+      {
+        "end": 141,
+        "start": 139,
+        "type": "NP"
+      }
+    ],
+    "This section": [
+      {
+        "end": 24,
+        "start": 22,
+        "type": "NP"
+      },
+      {
+        "end": 203,
+        "start": 201,
+        "type": "NP"
+      },
+      {
+        "end": 246,
+        "start": 244,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 437,
+        "start": 435,
+        "type": "NP"
+      }
+    ],
+    "a URN": [
+      {
+        "end": 403,
+        "start": 401,
+        "type": "NP"
+      }
+    ],
+    "a related protocol": [
+      {
+        "end": 228,
+        "start": 225,
+        "type": "NP"
+      }
+    ],
+    "a resource": [
+      {
+        "end": 420,
+        "start": 418,
+        "type": "NP"
+      }
+    ],
+    "a security context": [
+      {
+        "end": 429,
+        "start": 426,
+        "type": "NP"
+      }
+    ],
+    "a specific party subject": [
+      {
+        "end": 446,
+        "start": 442,
+        "type": "NP"
+      }
+    ],
+    "a specific set": [
+      {
+        "end": 451,
+        "start": 448,
+        "type": "NP"
+      }
+    ],
+    "all known DLTs": [
+      {
+        "end": 292,
+        "start": 289,
+        "type": "NP"
+      }
+    ],
+    "all operations": [
+      {
+        "end": 257,
+        "start": 255,
+        "type": "NP"
+      }
+    ],
+    "all the requirements": [
+      {
+        "end": 29,
+        "start": 26,
+        "type": "NP"
+      }
+    ],
+    "attack": [
+      {
+        "end": 63,
+        "start": 62,
+        "type": "NP"
+      }
+    ],
+    "attacks": [
+      {
+        "end": 150,
+        "start": 149,
+        "type": "NP"
+      }
+    ],
+    "authentication": [
+      {
+        "end": 182,
+        "start": 181,
+        "type": "NP"
+      },
+      {
+        "end": 254,
+        "start": 252,
+        "type": "NP"
+      }
+    ],
+    "authorization rights": [
+      {
+        "end": 454,
+        "start": 452,
+        "type": "NP"
+      }
+    ],
+    "cipher": [
+      {
+        "end": 235,
+        "start": 234,
+        "type": "NP"
+      }
+    ],
+    "compromise": [
+      {
+        "end": 224,
+        "start": 223,
+        "type": "NP"
+      }
+    ],
+    "cryptographic protection mechanisms": [
+      {
+        "end": 105,
+        "start": 102,
+        "type": "NP"
+      }
+    ],
+    "deletion": [
+      {
+        "end": 75,
+        "start": 74,
+        "type": "NP"
+      }
+    ],
+    "denial": [
+      {
+        "end": 308,
+        "start": 307,
+        "type": "NP"
+      }
+    ],
+    "eavesdropping": [
+      {
+        "end": 68,
+        "start": 67,
+        "type": "NP"
+      }
+    ],
+    "implementations": [
+      {
+        "end": 349,
+        "start": 347,
+        "type": "NP"
+      },
+      {
+        "end": 365,
+        "start": 364,
+        "type": "NP"
+      }
+    ],
+    "incorrect\nimplementation": [
+      {
+        "end": 232,
+        "start": 229,
+        "type": "NP"
+      }
+    ],
+    "integrity protection": [
+      {
+        "end": 250,
+        "start": 248,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 107,
+        "start": 106,
+        "type": "NP"
+      }
+    ],
+    "man": [
+      {
+        "end": 80,
+        "start": 79,
+        "type": "NP"
+      }
+    ],
+    "message insertion": [
+      {
+        "end": 73,
+        "start": 71,
+        "type": "NP"
+      }
+    ],
+    "methods": [
+      {
+        "end": 274,
+        "start": 273,
+        "type": "NP"
+      },
+      {
+        "end": 325,
+        "start": 323,
+        "type": "NP"
+      },
+      {
+        "end": 377,
+        "start": 376,
+        "type": "NP"
+      },
+      {
+        "end": 458,
+        "start": 457,
+        "type": "NP"
+      }
+    ],
+    "modification": [
+      {
+        "end": 77,
+        "start": 76,
+        "type": "NP"
+      }
+    ],
+    "page": [
+      {
+        "end": 40,
+        "start": 39,
+        "type": "NP"
+      }
+    ],
+    "particularly user-host authentication": [
+      {
+        "end": 188,
+        "start": 183,
+        "type": "NP"
+      }
+    ],
+    "peer": [
+      {
+        "end": 282,
+        "start": 281,
+        "type": "NP"
+      }
+    ],
+    "portions": [
+      {
+        "end": 113,
+        "start": 112,
+        "type": "NP"
+      }
+    ],
+    "random seeds": [
+      {
+        "end": 168,
+        "start": 166,
+        "type": "NP"
+      }
+    ],
+    "relation": [
+      {
+        "end": 306,
+        "start": 305,
+        "type": "NP"
+      }
+    ],
+    "replay": [
+      {
+        "end": 70,
+        "start": 69,
+        "type": "NP"
+      }
+    ],
+    "required computing resources": [
+      {
+        "end": 354,
+        "start": 351,
+        "type": "NP"
+      }
+    ],
+    "secret (keying material": [
+      {
+        "end": 165,
+        "start": 161,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 32,
+        "start": 31,
+        "type": "NP"
+      },
+      {
+        "end": 468,
+        "start": 467,
+        "type": "NP"
+      }
+    ],
+    "service": [
+      {
+        "end": 310,
+        "start": 309,
+        "type": "NP"
+      }
+    ],
+    "service attacks": [
+      {
+        "end": 92,
+        "start": 90,
+        "type": "NP"
+      }
+    ],
+    "specifications": [
+      {
+        "end": 12,
+        "start": 11,
+        "type": "NP"
+      }
+    ],
+    "the DID\nmethod": [
+      {
+        "end": 370,
+        "start": 366,
+        "type": "NP"
+      }
+    ],
+    "the DID operations": [
+      {
+        "end": 47,
+        "start": 44,
+        "type": "NP"
+      }
+    ],
+    "the authentication method": [
+      {
+        "end": 195,
+        "start": 192,
+        "type": "NP"
+      }
+    ],
+    "the cryptographic protection": [
+      {
+        "end": 153,
+        "start": 150,
+        "type": "NP"
+      }
+    ],
+    "the data": [
+      {
+        "end": 116,
+        "start": 114,
+        "type": "NP"
+      }
+    ],
+    "the expected burdens": [
+      {
+        "end": 297,
+        "start": 294,
+        "type": "NP"
+      }
+    ],
+    "the functional definition": [
+      {
+        "end": 399,
+        "start": 396,
+        "type": "NP"
+      }
+    ],
+    "the policy mechanism": [
+      {
+        "end": 382,
+        "start": 379,
+        "type": "NP"
+      }
+    ],
+    "the protections": [
+      {
+        "end": 122,
+        "start": 120,
+        "type": "NP"
+      }
+    ],
+    "the protocol": [
+      {
+        "end": 101,
+        "start": 99,
+        "type": "NP"
+      }
+    ],
+    "the risks": [
+      {
+        "end": 222,
+        "start": 220,
+        "type": "NP"
+      }
+    ],
+    "the security": [
+      {
+        "end": 191,
+        "start": 189,
+        "type": "NP"
+      }
+    ],
+    "the security\nassumptions": [
+      {
+        "end": 359,
+        "start": 355,
+        "type": "NP"
+      }
+    ],
+    "the security requirements": [
+      {
+        "end": 475,
+        "start": 472,
+        "type": "NP"
+      }
+    ],
+    "the specification": [
+      {
+        "end": 51,
+        "start": 49,
+        "type": "NP"
+      }
+    ],
+    "the supported\nauthentication protocol": [
+      {
+        "end": 481,
+        "start": 476,
+        "type": "NP"
+      }
+    ],
+    "the technology": [
+      {
+        "end": 180,
+        "start": 178,
+        "type": "NP"
+      }
+    ],
+    "the topology": [
+      {
+        "end": 362,
+        "start": 360,
+        "type": "NP"
+      }
+    ],
+    "the-middle": [
+      {
+        "end": 86,
+        "start": 83,
+        "type": "NP"
+      }
+    ],
+    "their own Security\nConsiderations sections": [
+      {
+        "end": 20,
+        "start": 14,
+        "type": "NP"
+      }
+    ],
+    "this\nspecification": [
+      {
+        "end": 265,
+        "start": 262,
+        "type": "NP"
+      }
+    ],
+    "those resources": [
+      {
+        "end": 300,
+        "start": 298,
+        "type": "NP"
+      }
+    ],
+    "threat mitigation": [
+      {
+        "end": 239,
+        "start": 237,
+        "type": "NP"
+      }
+    ],
+    "update": [
+      {
+        "end": 252,
+        "start": 251,
+        "type": "NP"
+      }
+    ],
+    "use": [
+      {
+        "end": 276,
+        "start": 275,
+        "type": "NP"
+      },
+      {
+        "end": 327,
+        "start": 326,
+        "type": "NP"
+      }
+    ],
+    "varying network topology": [
+      {
+        "end": 333,
+        "start": 330,
+        "type": "NP"
+      }
+    ],
+    "what": [
+      {
+        "end": 120,
+        "start": 119,
+        "type": "NP"
+      }
+    ],
+    "what sorts": [
+      {
+        "end": 148,
+        "start": 146,
+        "type": "NP"
+      }
+    ],
+    "\u201c thin client": [
+      {
+        "end": 346,
+        "start": 343,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "2141": [
+      {
+        "end": 409,
+        "start": 408,
+        "type": "DATE"
+      }
+    ],
+    "6.6": [
+      {
+        "end": 469,
+        "start": 468,
+        "type": "CARDINAL"
+      }
+    ],
+    "DID": [
+      {
+        "end": 10,
+        "start": 9,
+        "type": "ORG"
+      },
+      {
+        "end": 46,
+        "start": 45,
+        "type": "ORG"
+      },
+      {
+        "end": 368,
+        "start": 367,
+        "type": "ORG"
+      },
+      {
+        "end": 395,
+        "start": 394,
+        "type": "ORG"
+      },
+      {
+        "end": 437,
+        "start": 436,
+        "type": "ORG"
+      }
+    ],
+    "DID Operations": [
+      {
+        "end": 268,
+        "start": 266,
+        "type": "ORG"
+      }
+    ],
+    "MUST": [
+      {
+        "end": 204,
+        "start": 203,
+        "type": "ORG"
+      }
+    ],
+    "Section 5 of RFC 3552": [
+      {
+        "end": 213,
+        "start": 208,
+        "type": "LAW"
+      }
+    ],
+    "Section 7 of this\nspecification": [
+      {
+        "end": 265,
+        "start": 259,
+        "type": "LAW"
+      }
+    ],
+    "URN": [
+      {
+        "end": 403,
+        "start": 402,
+        "type": "ORG"
+      }
+    ],
+    "section\n5 of RFC 3552": [
+      {
+        "end": 37,
+        "start": 31,
+        "type": "LAW"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 469,
+        "label": "6.6",
+        "start": 468
+      }
+    ],
+    "DATE": [
+      {
+        "end": 409,
+        "label": "2141",
+        "start": 408
+      }
+    ],
+    "LAW": [
+      {
+        "end": 37,
+        "label": "section\n5 of RFC 3552",
+        "start": 31
+      },
+      {
+        "end": 213,
+        "label": "Section 5 of RFC 3552",
+        "start": 208
+      },
+      {
+        "end": 265,
+        "label": "Section 7 of this\nspecification",
+        "start": 259
+      }
+    ],
+    "ORG": [
+      {
+        "end": 10,
+        "label": "DID",
+        "start": 9
+      },
+      {
+        "end": 46,
+        "label": "DID",
+        "start": 45
+      },
+      {
+        "end": 204,
+        "label": "MUST",
+        "start": 203
+      },
+      {
+        "end": 268,
+        "label": "DID Operations",
+        "start": 266
+      },
+      {
+        "end": 368,
+        "label": "DID",
+        "start": 367
+      },
+      {
+        "end": 395,
+        "label": "DID",
+        "start": 394
+      },
+      {
+        "end": 403,
+        "label": "URN",
+        "start": 402
+      },
+      {
+        "end": 437,
+        "label": "DID",
+        "start": 436
+      }
+    ]
+  },
+  "verbs": {
+    "assign": 2,
+    "be": 1,
+    "consider": 3,
+    "define": 2,
+    "deploy": 1,
+    "discuss": 5,
+    "do": 3,
+    "expect": 1,
+    "fit": 1,
+    "follow": 1,
+    "give": 1,
+    "hold": 1,
+    "identify": 2,
+    "include": 1,
+    "incorporate": 1,
+    "indicate": 1,
+    "introduce": 1,
+    "involve": 1,
+    "know": 1,
+    "label": 1,
+    "make": 2,
+    "mention": 1,
+    "method": 1,
+    "offer": 1,
+    "protect": 1,
+    "prove": 1,
+    "provide": 1,
+    "reassign": 1,
+    "reduce": 1,
+    "require": 2,
+    "specify": 1,
+    "support": 1,
+    "use": 1,
+    "vary": 1
+  }
+}

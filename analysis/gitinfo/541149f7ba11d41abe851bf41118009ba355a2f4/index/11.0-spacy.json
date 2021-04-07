@@ -1,0 +1,3370 @@
+{
+  "nouns": {
+    "\"light node": [
+      {
+        "end": 553,
+        "start": 550,
+        "type": "NP"
+      }
+    ],
+    "(page": [
+      {
+        "end": 252,
+        "start": 250,
+        "type": "NP"
+      }
+    ],
+    "(personally-identifiable information": [
+      {
+        "end": 1013,
+        "start": 1008,
+        "type": "NP"
+      }
+    ],
+    "(sections": [
+      {
+        "end": 1204,
+        "start": 1202,
+        "type": "NP"
+      }
+    ],
+    "-": [
+      {
+        "end": 1135,
+        "start": 1134,
+        "type": "NP"
+      }
+    ],
+    "9.2.1 Proving Ownership": [
+      {
+        "end": 702,
+        "start": 698,
+        "type": "NP"
+      }
+    ],
+    "9.2.2 Proving Ownership": [
+      {
+        "end": 857,
+        "start": 853,
+        "type": "NP"
+      }
+    ],
+    "9.2.3 Identity Owner Authentication": [
+      {
+        "end": 992,
+        "start": 987,
+        "type": "NP"
+      }
+    ],
+    "A DID": [
+      {
+        "end": 607,
+        "start": 605,
+        "type": "NP"
+      },
+      {
+        "end": 998,
+        "start": 996,
+        "type": "NP"
+      }
+    ],
+    "Access control": [
+      {
+        "end": 1634,
+        "start": 1631,
+        "type": "NP"
+      }
+    ],
+    "An identity owner": [
+      {
+        "end": 1352,
+        "start": 1349,
+        "type": "NP"
+      },
+      {
+        "end": 1379,
+        "start": 1376,
+        "type": "NP"
+      }
+    ],
+    "At least the following forms": [
+      {
+        "end": 273,
+        "start": 267,
+        "type": "NP"
+      }
+    ],
+    "Binding": [
+      {
+        "end": 696,
+        "start": 694,
+        "type": "NP"
+      }
+    ],
+    "Control": [
+      {
+        "end": 1597,
+        "start": 1596,
+        "type": "NP"
+      }
+    ],
+    "DDO": [
+      {
+        "end": 707,
+        "start": 706,
+        "type": "NP"
+      },
+      {
+        "end": 845,
+        "start": 844,
+        "type": "NP"
+      },
+      {
+        "end": 1000,
+        "start": 999,
+        "type": "NP"
+      },
+      {
+        "end": 1220,
+        "start": 1219,
+        "type": "NP"
+      }
+    ],
+    "DDO updates": [
+      {
+        "end": 1141,
+        "start": 1139,
+        "type": "NP"
+      }
+    ],
+    "DDOs": [
+      {
+        "end": 66,
+        "start": 65,
+        "type": "NP"
+      },
+      {
+        "end": 173,
+        "start": 172,
+        "type": "NP"
+      }
+    ],
+    "DID Method Specifications": [
+      {
+        "end": 221,
+        "start": 218,
+        "type": "NP"
+      }
+    ],
+    "DID Operations": [
+      {
+        "end": 480,
+        "start": 478,
+        "type": "NP"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 64,
+        "start": 63,
+        "type": "NP"
+      },
+      {
+        "end": 103,
+        "start": 102,
+        "type": "NP"
+      },
+      {
+        "end": 171,
+        "start": 170,
+        "type": "NP"
+      },
+      {
+        "end": 597,
+        "start": 596,
+        "type": "NP"
+      },
+      {
+        "end": 1138,
+        "start": 1137,
+        "type": "NP"
+      },
+      {
+        "end": 1610,
+        "start": 1609,
+        "type": "NP"
+      },
+      {
+        "end": 1625,
+        "start": 1624,
+        "type": "NP"
+      }
+    ],
+    "DLT-based methods": [
+      {
+        "end": 1529,
+        "start": 1525,
+        "type": "NP"
+      }
+    ],
+    "DLTs": [
+      {
+        "end": 541,
+        "start": 540,
+        "type": "NP"
+      }
+    ],
+    "DPKI": [
+      {
+        "end": 84,
+        "start": 83,
+        "type": "NP"
+      }
+    ],
+    "Data": [
+      {
+        "end": 369,
+        "start": 368,
+        "type": "NP"
+      }
+    ],
+    "Further specification": [
+      {
+        "end": 1666,
+        "start": 1664,
+        "type": "NP"
+      }
+    ],
+    "IMPLEMENTERS": [
+      {
+        "end": 7,
+        "start": 6,
+        "type": "NP"
+      }
+    ],
+    "Identity": [
+      {
+        "end": 698,
+        "start": 697,
+        "type": "NP"
+      }
+    ],
+    "It": [
+      {
+        "end": 728,
+        "start": 727,
+        "type": "NP"
+      },
+      {
+        "end": 832,
+        "start": 831,
+        "type": "NP"
+      }
+    ],
+    "Key Revocation": [
+      {
+        "end": 1485,
+        "start": 1482,
+        "type": "NP"
+      }
+    ],
+    "Method-specific endpoint authentication": [
+      {
+        "end": 529,
+        "start": 523,
+        "type": "NP"
+      }
+    ],
+    "Non-Repudiation\n\n\n    \n      Non": [
+      {
+        "end": 1134,
+        "start": 1128,
+        "type": "NP"
+      }
+    ],
+    "Notification": [
+      {
+        "end": 1218,
+        "start": 1216,
+        "type": "NP"
+      }
+    ],
+    "Notifications": [
+      {
+        "end": 1328,
+        "start": 1327,
+        "type": "NP"
+      }
+    ],
+    "One mitigation": [
+      {
+        "end": 1224,
+        "start": 1221,
+        "type": "NP"
+      }
+    ],
+    "Potential denial": [
+      {
+        "end": 301,
+        "start": 299,
+        "type": "NP"
+      }
+    ],
+    "Proof": [
+      {
+        "end": 1595,
+        "start": 1594,
+        "type": "NP"
+      }
+    ],
+    "RECOMMENDED": [
+      {
+        "end": 1296,
+        "start": 1295,
+        "type": "NP"
+      }
+    ],
+    "RFC": [
+      {
+        "end": 249,
+        "start": 248,
+        "type": "NP"
+      },
+      {
+        "end": 424,
+        "start": 423,
+        "type": "NP"
+      },
+      {
+        "end": 619,
+        "start": 618,
+        "type": "NP"
+      }
+    ],
+    "Recovery\n\n\n    \n      Section": [
+      {
+        "end": 1489,
+        "start": 1486,
+        "type": "NP"
+      }
+    ],
+    "Requirements": [
+      {
+        "end": 217,
+        "start": 216,
+        "type": "NP"
+      }
+    ],
+    "Section": [
+      {
+        "end": 421,
+        "start": 420,
+        "type": "NP"
+      },
+      {
+        "end": 472,
+        "start": 471,
+        "type": "NP"
+      }
+    ],
+    "Self-monitoring": [
+      {
+        "end": 1348,
+        "start": 1344,
+        "type": "NP"
+      }
+    ],
+    "Some indication": [
+      {
+        "end": 353,
+        "start": 351,
+        "type": "NP"
+      }
+    ],
+    "Subscriptions": [
+      {
+        "end": 1299,
+        "start": 1297,
+        "type": "NP"
+      }
+    ],
+    "The DDO": [
+      {
+        "end": 736,
+        "start": 734,
+        "type": "NP"
+      }
+    ],
+    "The editors": [
+      {
+        "end": 31,
+        "start": 29,
+        "type": "NP"
+      }
+    ],
+    "The owner": [
+      {
+        "end": 749,
+        "start": 747,
+        "type": "NP"
+      }
+    ],
+    "The process": [
+      {
+        "end": 1017,
+        "start": 1015,
+        "type": "NP"
+      }
+    ],
+    "The static method": [
+      {
+        "end": 891,
+        "start": 888,
+        "type": "NP"
+      }
+    ],
+    "Their design": [
+      {
+        "end": 184,
+        "start": 182,
+        "type": "NP"
+      }
+    ],
+    "They": [
+      {
+        "end": 76,
+        "start": 75,
+        "type": "NP"
+      }
+    ],
+    "Third-party monitoring": [
+      {
+        "end": 1375,
+        "start": 1370,
+        "type": "NP"
+      }
+    ],
+    "This capability": [
+      {
+        "end": 1195,
+        "start": 1193,
+        "type": "NP"
+      }
+    ],
+    "This section": [
+      {
+        "end": 237,
+        "start": 235,
+        "type": "NP"
+      },
+      {
+        "end": 415,
+        "start": 413,
+        "type": "NP"
+      },
+      {
+        "end": 458,
+        "start": 456,
+        "type": "NP"
+      }
+    ],
+    "Verifiable Claims": [
+      {
+        "end": 995,
+        "start": 993,
+        "type": "NP"
+      }
+    ],
+    "Verifying": [
+      {
+        "end": 813,
+        "start": 811,
+        "type": "NP"
+      }
+    ],
+    "We": [
+      {
+        "end": 120,
+        "start": 119,
+        "type": "NP"
+      }
+    ],
+    "a DDO": [
+      {
+        "end": 803,
+        "start": 801,
+        "type": "NP"
+      },
+      {
+        "end": 1078,
+        "start": 1076,
+        "type": "NP"
+      },
+      {
+        "end": 1230,
+        "start": 1228,
+        "type": "NP"
+      },
+      {
+        "end": 1369,
+        "start": 1367,
+        "type": "NP"
+      },
+      {
+        "end": 1509,
+        "start": 1507,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 649,
+        "start": 647,
+        "type": "NP"
+      },
+      {
+        "end": 705,
+        "start": 703,
+        "type": "NP"
+      },
+      {
+        "end": 726,
+        "start": 724,
+        "type": "NP"
+      },
+      {
+        "end": 775,
+        "start": 773,
+        "type": "NP"
+      },
+      {
+        "end": 843,
+        "start": 841,
+        "type": "NP"
+      },
+      {
+        "end": 1021,
+        "start": 1019,
+        "type": "NP"
+      },
+      {
+        "end": 1276,
+        "start": 1274,
+        "type": "NP"
+      }
+    ],
+    "a DID method specification": [
+      {
+        "end": 1503,
+        "start": 1499,
+        "type": "NP"
+      },
+      {
+        "end": 1642,
+        "start": 1638,
+        "type": "NP"
+      }
+    ],
+    "a Public Key": [
+      {
+        "end": 861,
+        "start": 858,
+        "type": "NP"
+      }
+    ],
+    "a URN": [
+      {
+        "end": 615,
+        "start": 613,
+        "type": "NP"
+      }
+    ],
+    "a challenge message": [
+      {
+        "end": 949,
+        "start": 946,
+        "type": "NP"
+      }
+    ],
+    "a cryptocurrency account": [
+      {
+        "end": 1546,
+        "start": 1543,
+        "type": "NP"
+      }
+    ],
+    "a decentralized identity architecture": [
+      {
+        "end": 1408,
+        "start": 1404,
+        "type": "NP"
+      }
+    ],
+    "a distributed ledger": [
+      {
+        "end": 1550,
+        "start": 1547,
+        "type": "NP"
+      }
+    ],
+    "a key expiration": [
+      {
+        "end": 1457,
+        "start": 1454,
+        "type": "NP"
+      }
+    ],
+    "a manner": [
+      {
+        "end": 1537,
+        "start": 1535,
+        "type": "NP"
+      }
+    ],
+    "a matter": [
+      {
+        "end": 1674,
+        "start": 1672,
+        "type": "NP"
+      }
+    ],
+    "a nonce": [
+      {
+        "end": 961,
+        "start": 959,
+        "type": "NP"
+      }
+    ],
+    "a public key": [
+      {
+        "end": 932,
+        "start": 929,
+        "type": "NP"
+      }
+    ],
+    "a public key description": [
+      {
+        "end": 879,
+        "start": 875,
+        "type": "NP"
+      },
+      {
+        "end": 954,
+        "start": 950,
+        "type": "NP"
+      }
+    ],
+    "a quorum": [
+      {
+        "end": 1573,
+        "start": 1571,
+        "type": "NP"
+      }
+    ],
+    "a related protocol": [
+      {
+        "end": 440,
+        "start": 437,
+        "type": "NP"
+      }
+    ],
+    "a resource": [
+      {
+        "end": 632,
+        "start": 630,
+        "type": "NP"
+      }
+    ],
+    "a second track": [
+      {
+        "end": 1659,
+        "start": 1656,
+        "type": "NP"
+      }
+    ],
+    "a security context": [
+      {
+        "end": 641,
+        "start": 638,
+        "type": "NP"
+      }
+    ],
+    "a service endpoint": [
+      {
+        "end": 1082,
+        "start": 1079,
+        "type": "NP"
+      }
+    ],
+    "a signature": [
+      {
+        "end": 1481,
+        "start": 1479,
+        "type": "NP"
+      }
+    ],
+    "a specific party subject": [
+      {
+        "end": 658,
+        "start": 654,
+        "type": "NP"
+      }
+    ],
+    "a specific set": [
+      {
+        "end": 663,
+        "start": 660,
+        "type": "NP"
+      }
+    ],
+    "a system": [
+      {
+        "end": 143,
+        "start": 141,
+        "type": "NP"
+      }
+    ],
+    "a third party\nmonitoring service": [
+      {
+        "end": 1388,
+        "start": 1382,
+        "type": "NP"
+      }
+    ],
+    "a time": [
+      {
+        "end": 911,
+        "start": 909,
+        "type": "NP"
+      }
+    ],
+    "a time lock feature": [
+      {
+        "end": 1649,
+        "start": 1645,
+        "type": "NP"
+      }
+    ],
+    "a two step process": [
+      {
+        "end": 795,
+        "start": 791,
+        "type": "NP"
+      }
+    ],
+    "a verified signature": [
+      {
+        "end": 714,
+        "start": 711,
+        "type": "NP"
+      }
+    ],
+    "a vital component": [
+      {
+        "end": 70,
+        "start": 67,
+        "type": "NP"
+      }
+    ],
+    "account provider": [
+      {
+        "end": 1286,
+        "start": 1284,
+        "type": "NP"
+      }
+    ],
+    "account takeover": [
+      {
+        "end": 1251,
+        "start": 1249,
+        "type": "NP"
+      }
+    ],
+    "active attacks": [
+      {
+        "end": 181,
+        "start": 179,
+        "type": "NP"
+      }
+    ],
+    "adequate opportunity": [
+      {
+        "end": 1175,
+        "start": 1173,
+        "type": "NP"
+      }
+    ],
+    "all known DLTs": [
+      {
+        "end": 504,
+        "start": 501,
+        "type": "NP"
+      }
+    ],
+    "all operations": [
+      {
+        "end": 469,
+        "start": 467,
+        "type": "NP"
+      }
+    ],
+    "all the requirements": [
+      {
+        "end": 242,
+        "start": 239,
+        "type": "NP"
+      }
+    ],
+    "already-expired keys": [
+      {
+        "end": 1450,
+        "start": 1446,
+        "type": "NP"
+      }
+    ],
+    "an appropriate service endpoint": [
+      {
+        "end": 966,
+        "start": 962,
+        "type": "NP"
+      }
+    ],
+    "an attack": [
+      {
+        "end": 140,
+        "start": 138,
+        "type": "NP"
+      }
+    ],
+    "an augmentation": [
+      {
+        "end": 93,
+        "start": 91,
+        "type": "NP"
+      }
+    ],
+    "an existing DID": [
+      {
+        "end": 1343,
+        "start": 1340,
+        "type": "NP"
+      }
+    ],
+    "an identity": [
+      {
+        "end": 1030,
+        "start": 1028,
+        "type": "NP"
+      }
+    ],
+    "an identity owner": [
+      {
+        "end": 1091,
+        "start": 1088,
+        "type": "NP"
+      }
+    ],
+    "an updated DDO": [
+      {
+        "end": 1516,
+        "start": 1513,
+        "type": "NP"
+      }
+    ],
+    "another vector": [
+      {
+        "end": 1394,
+        "start": 1392,
+        "type": "NP"
+      }
+    ],
+    "any further use": [
+      {
+        "end": 1463,
+        "start": 1460,
+        "type": "NP"
+      }
+    ],
+    "attack": [
+      {
+        "end": 275,
+        "start": 274,
+        "type": "NP"
+      },
+      {
+        "end": 1396,
+        "start": 1395,
+        "type": "NP"
+      }
+    ],
+    "attacks": [
+      {
+        "end": 362,
+        "start": 361,
+        "type": "NP"
+      }
+    ],
+    "authentication": [
+      {
+        "end": 394,
+        "start": 393,
+        "type": "NP"
+      },
+      {
+        "end": 466,
+        "start": 464,
+        "type": "NP"
+      },
+      {
+        "end": 1085,
+        "start": 1084,
+        "type": "NP"
+      }
+    ],
+    "authorization": [
+      {
+        "end": 1087,
+        "start": 1086,
+        "type": "NP"
+      }
+    ],
+    "authorization rights": [
+      {
+        "end": 666,
+        "start": 664,
+        "type": "NP"
+      }
+    ],
+    "change notifications": [
+      {
+        "end": 1316,
+        "start": 1314,
+        "type": "NP"
+      }
+    ],
+    "changes": [
+      {
+        "end": 1242,
+        "start": 1241,
+        "type": "NP"
+      },
+      {
+        "end": 1366,
+        "start": 1365,
+        "type": "NP"
+      }
+    ],
+    "cipher": [
+      {
+        "end": 447,
+        "start": 446,
+        "type": "NP"
+      }
+    ],
+    "claims": [
+      {
+        "end": 1032,
+        "start": 1031,
+        "type": "NP"
+      }
+    ],
+    "compromise": [
+      {
+        "end": 200,
+        "start": 199,
+        "type": "NP"
+      },
+      {
+        "end": 436,
+        "start": 435,
+        "type": "NP"
+      }
+    ],
+    "control": [
+      {
+        "end": 1608,
+        "start": 1607,
+        "type": "NP"
+      },
+      {
+        "end": 1661,
+        "start": 1660,
+        "type": "NP"
+      },
+      {
+        "end": 1671,
+        "start": 1670,
+        "type": "NP"
+      }
+    ],
+    "conventional X.509 certificates": [
+      {
+        "end": 97,
+        "start": 94,
+        "type": "NP"
+      }
+    ],
+    "conventional username/password accounts": [
+      {
+        "end": 1257,
+        "start": 1252,
+        "type": "NP"
+      }
+    ],
+    "cryptographic protection mechanisms": [
+      {
+        "end": 317,
+        "start": 314,
+        "type": "NP"
+      }
+    ],
+    "decentralized identities": [
+      {
+        "end": 62,
+        "start": 60,
+        "type": "NP"
+      }
+    ],
+    "decentralized identity management": [
+      {
+        "end": 74,
+        "start": 71,
+        "type": "NP"
+      }
+    ],
+    "decentralized public key infrastructure": [
+      {
+        "end": 89,
+        "start": 85,
+        "type": "NP"
+      }
+    ],
+    "deletion": [
+      {
+        "end": 287,
+        "start": 286,
+        "type": "NP"
+      }
+    ],
+    "denial": [
+      {
+        "end": 520,
+        "start": 519,
+        "type": "NP"
+      }
+    ],
+    "early implementations": [
+      {
+        "end": 28,
+        "start": 26,
+        "type": "NP"
+      }
+    ],
+    "eavesdropping": [
+      {
+        "end": 280,
+        "start": 279,
+        "type": "NP"
+      }
+    ],
+    "external key-signing hardware": [
+      {
+        "end": 151,
+        "start": 146,
+        "type": "NP"
+      }
+    ],
+    "feedback": [
+      {
+        "end": 35,
+        "start": 34,
+        "type": "NP"
+      }
+    ],
+    "file": [
+      {
+        "end": 1268,
+        "start": 1267,
+        "type": "NP"
+      }
+    ],
+    "future work": [
+      {
+        "end": 1677,
+        "start": 1675,
+        "type": "NP"
+      }
+    ],
+    "identity owner": [
+      {
+        "end": 1108,
+        "start": 1106,
+        "type": "NP"
+      }
+    ],
+    "implementations": [
+      {
+        "end": 561,
+        "start": 559,
+        "type": "NP"
+      },
+      {
+        "end": 577,
+        "start": 576,
+        "type": "NP"
+      },
+      {
+        "end": 1469,
+        "start": 1468,
+        "type": "NP"
+      }
+    ],
+    "incorrect\nimplementation": [
+      {
+        "end": 444,
+        "start": 441,
+        "type": "NP"
+      }
+    ],
+    "integrity protection": [
+      {
+        "end": 462,
+        "start": 460,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 319,
+        "start": 318,
+        "type": "NP"
+      },
+      {
+        "end": 743,
+        "start": 742,
+        "type": "NP"
+      },
+      {
+        "end": 789,
+        "start": 788,
+        "type": "NP"
+      },
+      {
+        "end": 1097,
+        "start": 1096,
+        "type": "NP"
+      },
+      {
+        "end": 1478,
+        "start": 1477,
+        "type": "NP"
+      },
+      {
+        "end": 1512,
+        "start": 1511,
+        "type": "NP"
+      }
+    ],
+    "its DID method\nspecification": [
+      {
+        "end": 810,
+        "start": 805,
+        "type": "NP"
+      }
+    ],
+    "its status": [
+      {
+        "end": 1475,
+        "start": 1473,
+        "type": "NP"
+      }
+    ],
+    "itself": [
+      {
+        "end": 710,
+        "start": 709,
+        "type": "NP"
+      }
+    ],
+    "key compromise": [
+      {
+        "end": 1654,
+        "start": 1652,
+        "type": "NP"
+      }
+    ],
+    "key or signature expiration policies": [
+      {
+        "end": 1421,
+        "start": 1416,
+        "type": "NP"
+      }
+    ],
+    "key recovery": [
+      {
+        "end": 1580,
+        "start": 1578,
+        "type": "NP"
+      },
+      {
+        "end": 1637,
+        "start": 1635,
+        "type": "NP"
+      }
+    ],
+    "key revocation": [
+      {
+        "end": 159,
+        "start": 157,
+        "type": "NP"
+      },
+      {
+        "end": 1524,
+        "start": 1522,
+        "type": "NP"
+      }
+    ],
+    "keys": [
+      {
+        "end": 1433,
+        "start": 1432,
+        "type": "NP"
+      }
+    ],
+    "legitimate reasons": [
+      {
+        "end": 1445,
+        "start": 1443,
+        "type": "NP"
+      }
+    ],
+    "malicious updates": [
+      {
+        "end": 1179,
+        "start": 1177,
+        "type": "NP"
+      }
+    ],
+    "man": [
+      {
+        "end": 292,
+        "start": 291,
+        "type": "NP"
+      }
+    ],
+    "many IETF standards": [
+      {
+        "end": 118,
+        "start": 115,
+        "type": "NP"
+      }
+    ],
+    "message insertion": [
+      {
+        "end": 285,
+        "start": 283,
+        "type": "NP"
+      }
+    ],
+    "messages": [
+      {
+        "end": 127,
+        "start": 126,
+        "type": "NP"
+      }
+    ],
+    "methods": [
+      {
+        "end": 486,
+        "start": 485,
+        "type": "NP"
+      },
+      {
+        "end": 537,
+        "start": 535,
+        "type": "NP"
+      },
+      {
+        "end": 589,
+        "start": 588,
+        "type": "NP"
+      },
+      {
+        "end": 670,
+        "start": 669,
+        "type": "NP"
+      }
+    ],
+    "modification": [
+      {
+        "end": 289,
+        "start": 288,
+        "type": "NP"
+      }
+    ],
+    "network": [
+      {
+        "end": 1305,
+        "start": 1304,
+        "type": "NP"
+      }
+    ],
+    "no centralized authorities": [
+      {
+        "end": 1414,
+        "start": 1411,
+        "type": "NP"
+      }
+    ],
+    "no intermediary registrar": [
+      {
+        "end": 1283,
+        "start": 1280,
+        "type": "NP"
+      }
+    ],
+    "not all DID method specifications": [
+      {
+        "end": 1605,
+        "start": 1600,
+        "type": "NP"
+      }
+    ],
+    "online agent": [
+      {
+        "end": 1361,
+        "start": 1359,
+        "type": "NP"
+      }
+    ],
+    "operation": [
+      {
+        "end": 193,
+        "start": 192,
+        "type": "NP"
+      }
+    ],
+    "other DID methods": [
+      {
+        "end": 1615,
+        "start": 1612,
+        "type": "NP"
+      }
+    ],
+    "other client applications": [
+      {
+        "end": 1429,
+        "start": 1426,
+        "type": "NP"
+      }
+    ],
+    "owners": [
+      {
+        "end": 1326,
+        "start": 1325,
+        "type": "NP"
+      }
+    ],
+    "ownership": [
+      {
+        "end": 723,
+        "start": 722,
+        "type": "NP"
+      },
+      {
+        "end": 772,
+        "start": 771,
+        "type": "NP"
+      },
+      {
+        "end": 840,
+        "start": 839,
+        "type": "NP"
+      },
+      {
+        "end": 869,
+        "start": 868,
+        "type": "NP"
+      },
+      {
+        "end": 904,
+        "start": 903,
+        "type": "NP"
+      },
+      {
+        "end": 928,
+        "start": 927,
+        "type": "NP"
+      }
+    ],
+    "particularly user-host authentication": [
+      {
+        "end": 400,
+        "start": 395,
+        "type": "NP"
+      }
+    ],
+    "party": [
+      {
+        "end": 1112,
+        "start": 1111,
+        "type": "NP"
+      }
+    ],
+    "passively monitored networks": [
+      {
+        "end": 197,
+        "start": 194,
+        "type": "NP"
+      }
+    ],
+    "password reset notifications": [
+      {
+        "end": 1262,
+        "start": 1259,
+        "type": "NP"
+      }
+    ],
+    "peer": [
+      {
+        "end": 494,
+        "start": 493,
+        "type": "NP"
+      }
+    ],
+    "portions": [
+      {
+        "end": 325,
+        "start": 324,
+        "type": "NP"
+      }
+    ],
+    "private keys": [
+      {
+        "end": 203,
+        "start": 201,
+        "type": "NP"
+      }
+    ],
+    "public/private key cryptography": [
+      {
+        "end": 190,
+        "start": 185,
+        "type": "NP"
+      }
+    ],
+    "random seeds": [
+      {
+        "end": 380,
+        "start": 378,
+        "type": "NP"
+      }
+    ],
+    "recovery": [
+      {
+        "end": 161,
+        "start": 160,
+        "type": "NP"
+      },
+      {
+        "end": 1663,
+        "start": 1662,
+        "type": "NP"
+      }
+    ],
+    "relation": [
+      {
+        "end": 518,
+        "start": 517,
+        "type": "NP"
+      }
+    ],
+    "replay": [
+      {
+        "end": 282,
+        "start": 281,
+        "type": "NP"
+      }
+    ],
+    "repudiation": [
+      {
+        "end": 1136,
+        "start": 1135,
+        "type": "NP"
+      }
+    ],
+    "required computing resources": [
+      {
+        "end": 566,
+        "start": 563,
+        "type": "NP"
+      }
+    ],
+    "resolvers": [
+      {
+        "end": 1425,
+        "start": 1424,
+        "type": "NP"
+      }
+    ],
+    "revocation": [
+      {
+        "end": 1506,
+        "start": 1505,
+        "type": "NP"
+      }
+    ],
+    "scope": [
+      {
+        "end": 1039,
+        "start": 1038,
+        "type": "NP"
+      }
+    ],
+    "secret (keying material": [
+      {
+        "end": 377,
+        "start": 373,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 245,
+        "start": 244,
+        "type": "NP"
+      },
+      {
+        "end": 680,
+        "start": 679,
+        "type": "NP"
+      },
+      {
+        "end": 1093,
+        "start": 1092,
+        "type": "NP"
+      },
+      {
+        "end": 1162,
+        "start": 1161,
+        "type": "NP"
+      },
+      {
+        "end": 1190,
+        "start": 1189,
+        "type": "NP"
+      },
+      {
+        "end": 1592,
+        "start": 1591,
+        "type": "NP"
+      },
+      {
+        "end": 1680,
+        "start": 1679,
+        "type": "NP"
+      }
+    ],
+    "security topics": [
+      {
+        "end": 21,
+        "start": 19,
+        "type": "NP"
+      }
+    ],
+    "self-signed DDO": [
+      {
+        "end": 719,
+        "start": 715,
+        "type": "NP"
+      }
+    ],
+    "service": [
+      {
+        "end": 522,
+        "start": 521,
+        "type": "NP"
+      }
+    ],
+    "service attacks": [
+      {
+        "end": 304,
+        "start": 302,
+        "type": "NP"
+      }
+    ],
+    "some use cases": [
+      {
+        "end": 1441,
+        "start": 1438,
+        "type": "NP"
+      }
+    ],
+    "special security properties": [
+      {
+        "end": 177,
+        "start": 174,
+        "type": "NP"
+      }
+    ],
+    "specifications": [
+      {
+        "end": 225,
+        "start": 224,
+        "type": "NP"
+      },
+      {
+        "end": 1567,
+        "start": 1566,
+        "type": "NP"
+      }
+    ],
+    "support": [
+      {
+        "end": 1570,
+        "start": 1569,
+        "type": "NP"
+      }
+    ],
+    "that service endpoint": [
+      {
+        "end": 1127,
+        "start": 1124,
+        "type": "NP"
+      }
+    ],
+    "the\n        verifiable claims\n       standardization work": [
+      {
+        "end": 1057,
+        "start": 1050,
+        "type": "NP"
+      }
+    ],
+    "the\nDDO": [
+      {
+        "end": 971,
+        "start": 968,
+        "type": "NP"
+      }
+    ],
+    "the\nrelevant service endpoints": [
+      {
+        "end": 1338,
+        "start": 1333,
+        "type": "NP"
+      }
+    ],
+    "the\nsignature": [
+      {
+        "end": 761,
+        "start": 758,
+        "type": "NP"
+      }
+    ],
+    "the DDO": [
+      {
+        "end": 752,
+        "start": 750,
+        "type": "NP"
+      },
+      {
+        "end": 786,
+        "start": 784,
+        "type": "NP"
+      },
+      {
+        "end": 850,
+        "start": 848,
+        "type": "NP"
+      },
+      {
+        "end": 882,
+        "start": 880,
+        "type": "NP"
+      },
+      {
+        "end": 896,
+        "start": 894,
+        "type": "NP"
+      },
+      {
+        "end": 916,
+        "start": 914,
+        "type": "NP"
+      },
+      {
+        "end": 923,
+        "start": 921,
+        "type": "NP"
+      },
+      {
+        "end": 936,
+        "start": 934,
+        "type": "NP"
+      },
+      {
+        "end": 958,
+        "start": 956,
+        "type": "NP"
+      }
+    ],
+    "the DID": [
+      {
+        "end": 783,
+        "start": 781,
+        "type": "NP"
+      },
+      {
+        "end": 800,
+        "start": 798,
+        "type": "NP"
+      },
+      {
+        "end": 1309,
+        "start": 1307,
+        "type": "NP"
+      }
+    ],
+    "the DID\nmethod": [
+      {
+        "end": 582,
+        "start": 578,
+        "type": "NP"
+      }
+    ],
+    "the DID method's access control mechanism": [
+      {
+        "end": 1188,
+        "start": 1181,
+        "type": "NP"
+      }
+    ],
+    "the DID operations": [
+      {
+        "end": 259,
+        "start": 256,
+        "type": "NP"
+      },
+      {
+        "end": 1494,
+        "start": 1491,
+        "type": "NP"
+      }
+    ],
+    "the DLTs": [
+      {
+        "end": 169,
+        "start": 167,
+        "type": "NP"
+      }
+    ],
+    "the Implementer\u2019s Draft stage": [
+      {
+        "end": 14,
+        "start": 9,
+        "type": "NP"
+      }
+    ],
+    "the W3C": [
+      {
+        "end": 1060,
+        "start": 1058,
+        "type": "NP"
+      }
+    ],
+    "the assumption": [
+      {
+        "end": 1146,
+        "start": 1144,
+        "type": "NP"
+      }
+    ],
+    "the authentication method": [
+      {
+        "end": 407,
+        "start": 404,
+        "type": "NP"
+      }
+    ],
+    "the authentication protocol(s": [
+      {
+        "end": 1121,
+        "start": 1118,
+        "type": "NP"
+      }
+    ],
+    "the balance": [
+      {
+        "end": 1542,
+        "start": 1540,
+        "type": "NP"
+      },
+      {
+        "end": 1554,
+        "start": 1552,
+        "type": "NP"
+      }
+    ],
+    "the binding": [
+      {
+        "end": 780,
+        "start": 778,
+        "type": "NP"
+      }
+    ],
+    "the case": [
+      {
+        "end": 1273,
+        "start": 1271,
+        "type": "NP"
+      }
+    ],
+    "the cryptographic protection": [
+      {
+        "end": 365,
+        "start": 362,
+        "type": "NP"
+      }
+    ],
+    "the data": [
+      {
+        "end": 328,
+        "start": 326,
+        "type": "NP"
+      }
+    ],
+    "the email addresses": [
+      {
+        "end": 1266,
+        "start": 1263,
+        "type": "NP"
+      }
+    ],
+    "the entire DID": [
+      {
+        "end": 1560,
+        "start": 1557,
+        "type": "NP"
+      }
+    ],
+    "the expected burdens": [
+      {
+        "end": 509,
+        "start": 506,
+        "type": "NP"
+      }
+    ],
+    "the facilities": [
+      {
+        "end": 1585,
+        "start": 1583,
+        "type": "NP"
+      }
+    ],
+    "the focus": [
+      {
+        "end": 1049,
+        "start": 1047,
+        "type": "NP"
+      }
+    ],
+    "the following approaches": [
+      {
+        "end": 1294,
+        "start": 1291,
+        "type": "NP"
+      }
+    ],
+    "the foundational building blocks": [
+      {
+        "end": 82,
+        "start": 78,
+        "type": "NP"
+      }
+    ],
+    "the functional definition": [
+      {
+        "end": 611,
+        "start": 608,
+        "type": "NP"
+      }
+    ],
+    "the general Internet threat model": [
+      {
+        "end": 113,
+        "start": 108,
+        "type": "NP"
+      }
+    ],
+    "the id property": [
+      {
+        "end": 818,
+        "start": 814,
+        "type": "NP"
+      }
+    ],
+    "the identity owner": [
+      {
+        "end": 1154,
+        "start": 1151,
+        "type": "NP"
+      },
+      {
+        "end": 1171,
+        "start": 1168,
+        "type": "NP"
+      },
+      {
+        "end": 1238,
+        "start": 1235,
+        "type": "NP"
+      }
+    ],
+    "the key": [
+      {
+        "end": 1466,
+        "start": 1464,
+        "type": "NP"
+      }
+    ],
+    "the ledger": [
+      {
+        "end": 1303,
+        "start": 1301,
+        "type": "NP"
+      }
+    ],
+    "the network": [
+      {
+        "end": 135,
+        "start": 133,
+        "type": "NP"
+      }
+    ],
+    "the notification": [
+      {
+        "end": 1290,
+        "start": 1288,
+        "type": "NP"
+      }
+    ],
+    "the owner": [
+      {
+        "end": 1035,
+        "start": 1033,
+        "type": "NP"
+      }
+    ],
+    "the policy mechanism": [
+      {
+        "end": 594,
+        "start": 591,
+        "type": "NP"
+      }
+    ],
+    "the private key": [
+      {
+        "end": 756,
+        "start": 753,
+        "type": "NP"
+      },
+      {
+        "end": 873,
+        "start": 870,
+        "type": "NP"
+      },
+      {
+        "end": 900,
+        "start": 897,
+        "type": "NP"
+      },
+      {
+        "end": 908,
+        "start": 905,
+        "type": "NP"
+      }
+    ],
+    "the protections": [
+      {
+        "end": 334,
+        "start": 332,
+        "type": "NP"
+      }
+    ],
+    "the protocol": [
+      {
+        "end": 313,
+        "start": 311,
+        "type": "NP"
+      }
+    ],
+    "the public key\ndescription": [
+      {
+        "end": 986,
+        "start": 981,
+        "type": "NP"
+      }
+    ],
+    "the real-world owner": [
+      {
+        "end": 1027,
+        "start": 1022,
+        "type": "NP"
+      }
+    ],
+    "the requirements": [
+      {
+        "end": 1117,
+        "start": 1115,
+        "type": "NP"
+      }
+    ],
+    "the response message": [
+      {
+        "end": 980,
+        "start": 977,
+        "type": "NP"
+      }
+    ],
+    "the responsibility": [
+      {
+        "end": 1100,
+        "start": 1098,
+        "type": "NP"
+      }
+    ],
+    "the resulting DDO": [
+      {
+        "end": 822,
+        "start": 819,
+        "type": "NP"
+      }
+    ],
+    "the risks": [
+      {
+        "end": 434,
+        "start": 432,
+        "type": "NP"
+      }
+    ],
+    "the root identity records": [
+      {
+        "end": 59,
+        "start": 55,
+        "type": "NP"
+      }
+    ],
+    "the same method": [
+      {
+        "end": 1630,
+        "start": 1627,
+        "type": "NP"
+      }
+    ],
+    "the security": [
+      {
+        "end": 403,
+        "start": 401,
+        "type": "NP"
+      }
+    ],
+    "the security\nassumptions": [
+      {
+        "end": 571,
+        "start": 567,
+        "type": "NP"
+      }
+    ],
+    "the security requirements": [
+      {
+        "end": 687,
+        "start": 684,
+        "type": "NP"
+      }
+    ],
+    "the service endpoint provider": [
+      {
+        "end": 1105,
+        "start": 1101,
+        "type": "NP"
+      }
+    ],
+    "the signature": [
+      {
+        "end": 766,
+        "start": 764,
+        "type": "NP"
+      },
+      {
+        "end": 976,
+        "start": 974,
+        "type": "NP"
+      }
+    ],
+    "the spec": [
+      {
+        "end": 52,
+        "start": 50,
+        "type": "NP"
+      }
+    ],
+    "the specification": [
+      {
+        "end": 263,
+        "start": 261,
+        "type": "NP"
+      }
+    ],
+    "the supported\nauthentication protocol": [
+      {
+        "end": 693,
+        "start": 688,
+        "type": "NP"
+      }
+    ],
+    "the target DLT system": [
+      {
+        "end": 1213,
+        "start": 1209,
+        "type": "NP"
+      }
+    ],
+    "the technology": [
+      {
+        "end": 392,
+        "start": 390,
+        "type": "NP"
+      }
+    ],
+    "the term": [
+      {
+        "end": 1064,
+        "start": 1062,
+        "type": "NP"
+      }
+    ],
+    "the time": [
+      {
+        "end": 764,
+        "start": 762,
+        "type": "NP"
+      }
+    ],
+    "the topology": [
+      {
+        "end": 574,
+        "start": 572,
+        "type": "NP"
+      }
+    ],
+    "the-middle": [
+      {
+        "end": 298,
+        "start": 295,
+        "type": "NP"
+      }
+    ],
+    "their own Security\nConsiderations sections": [
+      {
+        "end": 233,
+        "start": 227,
+        "type": "NP"
+      }
+    ],
+    "their part": [
+      {
+        "end": 166,
+        "start": 164,
+        "type": "NP"
+      }
+    ],
+    "they": [
+      {
+        "end": 1617,
+        "start": 1616,
+        "type": "NP"
+      }
+    ],
+    "third-party control": [
+      {
+        "end": 1623,
+        "start": 1619,
+        "type": "NP"
+      }
+    ],
+    "this\nspecification": [
+      {
+        "end": 477,
+        "start": 474,
+        "type": "NP"
+      }
+    ],
+    "this process": [
+      {
+        "end": 838,
+        "start": 836,
+        "type": "NP"
+      }
+    ],
+    "this section": [
+      {
+        "end": 17,
+        "start": 15,
+        "type": "NP"
+      },
+      {
+        "end": 47,
+        "start": 45,
+        "type": "NP"
+      }
+    ],
+    "this service": [
+      {
+        "end": 1319,
+        "start": 1317,
+        "type": "NP"
+      }
+    ],
+    "this specification": [
+      {
+        "end": 1042,
+        "start": 1040,
+        "type": "NP"
+      }
+    ],
+    "this topic": [
+      {
+        "end": 1046,
+        "start": 1044,
+        "type": "NP"
+      }
+    ],
+    "this type": [
+      {
+        "end": 1669,
+        "start": 1667,
+        "type": "NP"
+      }
+    ],
+    "those resources": [
+      {
+        "end": 512,
+        "start": 510,
+        "type": "NP"
+      }
+    ],
+    "threat mitigation": [
+      {
+        "end": 451,
+        "start": 449,
+        "type": "NP"
+      }
+    ],
+    "threat mitigations": [
+      {
+        "end": 40,
+        "start": 38,
+        "type": "NP"
+      }
+    ],
+    "threats": [
+      {
+        "end": 37,
+        "start": 36,
+        "type": "NP"
+      }
+    ],
+    "timestamps": [
+      {
+        "end": 1200,
+        "start": 1199,
+        "type": "NP"
+      },
+      {
+        "end": 1215,
+        "start": 1214,
+        "type": "NP"
+      }
+    ],
+    "trusted parties": [
+      {
+        "end": 1576,
+        "start": 1574,
+        "type": "NP"
+      }
+    ],
+    "two methods": [
+      {
+        "end": 866,
+        "start": 864,
+        "type": "NP"
+      }
+    ],
+    "unauthorized changes": [
+      {
+        "end": 1227,
+        "start": 1225,
+        "type": "NP"
+      }
+    ],
+    "unauthorized updates": [
+      {
+        "end": 1159,
+        "start": 1157,
+        "type": "NP"
+      }
+    ],
+    "uncompromised endpoints": [
+      {
+        "end": 123,
+        "start": 121,
+        "type": "NP"
+      }
+    ],
+    "update": [
+      {
+        "end": 464,
+        "start": 463,
+        "type": "NP"
+      }
+    ],
+    "use": [
+      {
+        "end": 488,
+        "start": 487,
+        "type": "NP"
+      },
+      {
+        "end": 539,
+        "start": 538,
+        "type": "NP"
+      }
+    ],
+    "varying network topology": [
+      {
+        "end": 545,
+        "start": 542,
+        "type": "NP"
+      }
+    ],
+    "what": [
+      {
+        "end": 207,
+        "start": 206,
+        "type": "NP"
+      },
+      {
+        "end": 332,
+        "start": 331,
+        "type": "NP"
+      }
+    ],
+    "what sorts": [
+      {
+        "end": 360,
+        "start": 358,
+        "type": "NP"
+      }
+    ],
+    "\u201c thin client": [
+      {
+        "end": 558,
+        "start": 555,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "1": [
+      {
+        "end": 1150,
+        "start": 1149,
+        "type": "CARDINAL"
+      }
+    ],
+    "2": [
+      {
+        "end": 1167,
+        "start": 1166,
+        "type": "CARDINAL"
+      }
+    ],
+    "2141": [
+      {
+        "end": 621,
+        "start": 620,
+        "type": "DATE"
+      }
+    ],
+    "6.5": [
+      {
+        "end": 156,
+        "start": 155,
+        "type": "CARDINAL"
+      },
+      {
+        "end": 1191,
+        "start": 1190,
+        "type": "CARDINAL"
+      },
+      {
+        "end": 1593,
+        "start": 1592,
+        "type": "CARDINAL"
+      }
+    ],
+    "6.6": [
+      {
+        "end": 681,
+        "start": 680,
+        "type": "CARDINAL"
+      },
+      {
+        "end": 1094,
+        "start": 1093,
+        "type": "CARDINAL"
+      }
+    ],
+    "6.7": [
+      {
+        "end": 1205,
+        "start": 1204,
+        "type": "CARDINAL"
+      }
+    ],
+    "6.8": [
+      {
+        "end": 1207,
+        "start": 1206,
+        "type": "CARDINAL"
+      }
+    ],
+    "9.2.2 Proving Ownership of a Public Key\n\n\n\n    \n      ": [
+      {
+        "end": 862,
+        "start": 854,
+        "type": "ORG"
+      }
+    ],
+    "9.2.3": [
+      {
+        "end": 989,
+        "start": 988,
+        "type": "CARDINAL"
+      }
+    ],
+    "DDO": [
+      {
+        "end": 719,
+        "start": 718,
+        "type": "ORG"
+      },
+      {
+        "end": 736,
+        "start": 735,
+        "type": "ORG"
+      },
+      {
+        "end": 752,
+        "start": 751,
+        "type": "ORG"
+      },
+      {
+        "end": 786,
+        "start": 785,
+        "type": "ORG"
+      },
+      {
+        "end": 803,
+        "start": 802,
+        "type": "ORG"
+      },
+      {
+        "end": 822,
+        "start": 821,
+        "type": "ORG"
+      },
+      {
+        "end": 845,
+        "start": 844,
+        "type": "ORG"
+      },
+      {
+        "end": 850,
+        "start": 849,
+        "type": "ORG"
+      },
+      {
+        "end": 882,
+        "start": 881,
+        "type": "ORG"
+      },
+      {
+        "end": 896,
+        "start": 895,
+        "type": "ORG"
+      },
+      {
+        "end": 916,
+        "start": 915,
+        "type": "ORG"
+      },
+      {
+        "end": 923,
+        "start": 922,
+        "type": "ORG"
+      },
+      {
+        "end": 936,
+        "start": 935,
+        "type": "ORG"
+      },
+      {
+        "end": 958,
+        "start": 957,
+        "type": "ORG"
+      },
+      {
+        "end": 971,
+        "start": 970,
+        "type": "ORG"
+      },
+      {
+        "end": 1000,
+        "start": 999,
+        "type": "ORG"
+      },
+      {
+        "end": 1078,
+        "start": 1077,
+        "type": "ORG"
+      },
+      {
+        "end": 1140,
+        "start": 1139,
+        "type": "ORG"
+      },
+      {
+        "end": 1230,
+        "start": 1229,
+        "type": "ORG"
+      },
+      {
+        "end": 1369,
+        "start": 1368,
+        "type": "ORG"
+      },
+      {
+        "end": 1509,
+        "start": 1508,
+        "type": "ORG"
+      },
+      {
+        "end": 1516,
+        "start": 1515,
+        "type": "ORG"
+      }
+    ],
+    "DDO\n\n\n\n    \n      ": [
+      {
+        "end": 708,
+        "start": 706,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 209,
+        "start": 208,
+        "type": "ORG"
+      },
+      {
+        "end": 223,
+        "start": 222,
+        "type": "ORG"
+      },
+      {
+        "end": 258,
+        "start": 257,
+        "type": "ORG"
+      },
+      {
+        "end": 580,
+        "start": 579,
+        "type": "ORG"
+      },
+      {
+        "end": 607,
+        "start": 606,
+        "type": "ORG"
+      },
+      {
+        "end": 649,
+        "start": 648,
+        "type": "ORG"
+      },
+      {
+        "end": 705,
+        "start": 704,
+        "type": "ORG"
+      },
+      {
+        "end": 726,
+        "start": 725,
+        "type": "ORG"
+      },
+      {
+        "end": 775,
+        "start": 774,
+        "type": "ORG"
+      },
+      {
+        "end": 783,
+        "start": 782,
+        "type": "ORG"
+      },
+      {
+        "end": 800,
+        "start": 799,
+        "type": "ORG"
+      },
+      {
+        "end": 807,
+        "start": 806,
+        "type": "ORG"
+      },
+      {
+        "end": 843,
+        "start": 842,
+        "type": "ORG"
+      },
+      {
+        "end": 998,
+        "start": 997,
+        "type": "ORG"
+      },
+      {
+        "end": 1021,
+        "start": 1020,
+        "type": "ORG"
+      },
+      {
+        "end": 1066,
+        "start": 1065,
+        "type": "ORG"
+      },
+      {
+        "end": 1183,
+        "start": 1182,
+        "type": "ORG"
+      },
+      {
+        "end": 1276,
+        "start": 1275,
+        "type": "ORG"
+      },
+      {
+        "end": 1309,
+        "start": 1308,
+        "type": "ORG"
+      },
+      {
+        "end": 1325,
+        "start": 1324,
+        "type": "ORG"
+      },
+      {
+        "end": 1343,
+        "start": 1342,
+        "type": "ORG"
+      },
+      {
+        "end": 1424,
+        "start": 1423,
+        "type": "ORG"
+      },
+      {
+        "end": 1493,
+        "start": 1492,
+        "type": "ORG"
+      },
+      {
+        "end": 1501,
+        "start": 1500,
+        "type": "ORG"
+      },
+      {
+        "end": 1560,
+        "start": 1559,
+        "type": "ORG"
+      },
+      {
+        "end": 1603,
+        "start": 1602,
+        "type": "ORG"
+      },
+      {
+        "end": 1640,
+        "start": 1639,
+        "type": "ORG"
+      }
+    ],
+    "DID Operations": [
+      {
+        "end": 480,
+        "start": 478,
+        "type": "ORG"
+      }
+    ],
+    "DLT": [
+      {
+        "end": 1212,
+        "start": 1211,
+        "type": "ORG"
+      },
+      {
+        "end": 1526,
+        "start": 1525,
+        "type": "ORG"
+      }
+    ],
+    "DPKI": [
+      {
+        "end": 84,
+        "start": 83,
+        "type": "ORG"
+      }
+    ],
+    "Identity Owner Authentication and Verifiable Claims\n\n\n\n    \n      ": [
+      {
+        "end": 996,
+        "start": 989,
+        "type": "ORG"
+      }
+    ],
+    "MUST": [
+      {
+        "end": 416,
+        "start": 415,
+        "type": "ORG"
+      }
+    ],
+    "Non-Repudiation\n\n\n    \n      Non-repudiation": [
+      {
+        "end": 1136,
+        "start": 1129,
+        "type": "ORG"
+      }
+    ],
+    "One": [
+      {
+        "end": 1223,
+        "start": 1222,
+        "type": "CARDINAL"
+      }
+    ],
+    "Section 5 of RFC 3552": [
+      {
+        "end": 425,
+        "start": 420,
+        "type": "LAW"
+      }
+    ],
+    "Section 7 of this\nspecification": [
+      {
+        "end": 477,
+        "start": 471,
+        "type": "LAW"
+      }
+    ],
+    "Third": [
+      {
+        "end": 1372,
+        "start": 1371,
+        "type": "ORDINAL"
+      }
+    ],
+    "URN": [
+      {
+        "end": 615,
+        "start": 614,
+        "type": "ORG"
+      }
+    ],
+    "second": [
+      {
+        "end": 1658,
+        "start": 1657,
+        "type": "ORDINAL"
+      }
+    ],
+    "section\n5 of RFC 3552": [
+      {
+        "end": 250,
+        "start": 244,
+        "type": "LAW"
+      }
+    ],
+    "section 11.4": [
+      {
+        "end": 1681,
+        "start": 1679,
+        "type": "LAW"
+      }
+    ],
+    "the Implementer\u2019s": [
+      {
+        "end": 12,
+        "start": 9,
+        "type": "ORG"
+      }
+    ],
+    "third": [
+      {
+        "end": 1384,
+        "start": 1383,
+        "type": "ORDINAL"
+      },
+      {
+        "end": 1620,
+        "start": 1619,
+        "type": "ORDINAL"
+      }
+    ],
+    "two": [
+      {
+        "end": 793,
+        "start": 792,
+        "type": "CARDINAL"
+      },
+      {
+        "end": 865,
+        "start": 864,
+        "type": "CARDINAL"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 156,
+        "label": "6.5",
+        "start": 155
+      },
+      {
+        "end": 681,
+        "label": "6.6",
+        "start": 680
+      },
+      {
+        "end": 793,
+        "label": "two",
+        "start": 792
+      },
+      {
+        "end": 865,
+        "label": "two",
+        "start": 864
+      },
+      {
+        "end": 989,
+        "label": "9.2.3",
+        "start": 988
+      },
+      {
+        "end": 1094,
+        "label": "6.6",
+        "start": 1093
+      },
+      {
+        "end": 1150,
+        "label": "1",
+        "start": 1149
+      },
+      {
+        "end": 1167,
+        "label": "2",
+        "start": 1166
+      },
+      {
+        "end": 1191,
+        "label": "6.5",
+        "start": 1190
+      },
+      {
+        "end": 1205,
+        "label": "6.7",
+        "start": 1204
+      },
+      {
+        "end": 1207,
+        "label": "6.8",
+        "start": 1206
+      },
+      {
+        "end": 1223,
+        "label": "One",
+        "start": 1222
+      },
+      {
+        "end": 1593,
+        "label": "6.5",
+        "start": 1592
+      }
+    ],
+    "DATE": [
+      {
+        "end": 621,
+        "label": "2141",
+        "start": 620
+      }
+    ],
+    "LAW": [
+      {
+        "end": 250,
+        "label": "section\n5 of RFC 3552",
+        "start": 244
+      },
+      {
+        "end": 425,
+        "label": "Section 5 of RFC 3552",
+        "start": 420
+      },
+      {
+        "end": 477,
+        "label": "Section 7 of this\nspecification",
+        "start": 471
+      },
+      {
+        "end": 1681,
+        "label": "section 11.4",
+        "start": 1679
+      }
+    ],
+    "ORDINAL": [
+      {
+        "end": 1372,
+        "label": "Third",
+        "start": 1371
+      },
+      {
+        "end": 1384,
+        "label": "third",
+        "start": 1383
+      },
+      {
+        "end": 1620,
+        "label": "third",
+        "start": 1619
+      },
+      {
+        "end": 1658,
+        "label": "second",
+        "start": 1657
+      }
+    ],
+    "ORG": [
+      {
+        "end": 12,
+        "label": "the Implementer\u2019s",
+        "start": 9
+      },
+      {
+        "end": 84,
+        "label": "DPKI",
+        "start": 83
+      },
+      {
+        "end": 209,
+        "label": "DID",
+        "start": 208
+      },
+      {
+        "end": 223,
+        "label": "DID",
+        "start": 222
+      },
+      {
+        "end": 258,
+        "label": "DID",
+        "start": 257
+      },
+      {
+        "end": 416,
+        "label": "MUST",
+        "start": 415
+      },
+      {
+        "end": 480,
+        "label": "DID Operations",
+        "start": 478
+      },
+      {
+        "end": 580,
+        "label": "DID",
+        "start": 579
+      },
+      {
+        "end": 607,
+        "label": "DID",
+        "start": 606
+      },
+      {
+        "end": 615,
+        "label": "URN",
+        "start": 614
+      },
+      {
+        "end": 649,
+        "label": "DID",
+        "start": 648
+      },
+      {
+        "end": 705,
+        "label": "DID",
+        "start": 704
+      },
+      {
+        "end": 708,
+        "label": "DDO\n\n\n\n    \n      ",
+        "start": 706
+      },
+      {
+        "end": 719,
+        "label": "DDO",
+        "start": 718
+      },
+      {
+        "end": 726,
+        "label": "DID",
+        "start": 725
+      },
+      {
+        "end": 736,
+        "label": "DDO",
+        "start": 735
+      },
+      {
+        "end": 752,
+        "label": "DDO",
+        "start": 751
+      },
+      {
+        "end": 775,
+        "label": "DID",
+        "start": 774
+      },
+      {
+        "end": 783,
+        "label": "DID",
+        "start": 782
+      },
+      {
+        "end": 786,
+        "label": "DDO",
+        "start": 785
+      },
+      {
+        "end": 800,
+        "label": "DID",
+        "start": 799
+      },
+      {
+        "end": 803,
+        "label": "DDO",
+        "start": 802
+      },
+      {
+        "end": 807,
+        "label": "DID",
+        "start": 806
+      },
+      {
+        "end": 822,
+        "label": "DDO",
+        "start": 821
+      },
+      {
+        "end": 843,
+        "label": "DID",
+        "start": 842
+      },
+      {
+        "end": 845,
+        "label": "DDO",
+        "start": 844
+      },
+      {
+        "end": 850,
+        "label": "DDO",
+        "start": 849
+      },
+      {
+        "end": 862,
+        "label": "9.2.2 Proving Ownership of a Public Key\n\n\n\n    \n      ",
+        "start": 854
+      },
+      {
+        "end": 882,
+        "label": "DDO",
+        "start": 881
+      },
+      {
+        "end": 896,
+        "label": "DDO",
+        "start": 895
+      },
+      {
+        "end": 916,
+        "label": "DDO",
+        "start": 915
+      },
+      {
+        "end": 923,
+        "label": "DDO",
+        "start": 922
+      },
+      {
+        "end": 936,
+        "label": "DDO",
+        "start": 935
+      },
+      {
+        "end": 958,
+        "label": "DDO",
+        "start": 957
+      },
+      {
+        "end": 971,
+        "label": "DDO",
+        "start": 970
+      },
+      {
+        "end": 996,
+        "label": "Identity Owner Authentication and Verifiable Claims\n\n\n\n    \n      ",
+        "start": 989
+      },
+      {
+        "end": 998,
+        "label": "DID",
+        "start": 997
+      },
+      {
+        "end": 1000,
+        "label": "DDO",
+        "start": 999
+      },
+      {
+        "end": 1021,
+        "label": "DID",
+        "start": 1020
+      },
+      {
+        "end": 1066,
+        "label": "DID",
+        "start": 1065
+      },
+      {
+        "end": 1078,
+        "label": "DDO",
+        "start": 1077
+      },
+      {
+        "end": 1136,
+        "label": "Non-Repudiation\n\n\n    \n      Non-repudiation",
+        "start": 1129
+      },
+      {
+        "end": 1140,
+        "label": "DDO",
+        "start": 1139
+      },
+      {
+        "end": 1183,
+        "label": "DID",
+        "start": 1182
+      },
+      {
+        "end": 1212,
+        "label": "DLT",
+        "start": 1211
+      },
+      {
+        "end": 1230,
+        "label": "DDO",
+        "start": 1229
+      },
+      {
+        "end": 1276,
+        "label": "DID",
+        "start": 1275
+      },
+      {
+        "end": 1309,
+        "label": "DID",
+        "start": 1308
+      },
+      {
+        "end": 1325,
+        "label": "DID",
+        "start": 1324
+      },
+      {
+        "end": 1343,
+        "label": "DID",
+        "start": 1342
+      },
+      {
+        "end": 1369,
+        "label": "DDO",
+        "start": 1368
+      },
+      {
+        "end": 1424,
+        "label": "DID",
+        "start": 1423
+      },
+      {
+        "end": 1493,
+        "label": "DID",
+        "start": 1492
+      },
+      {
+        "end": 1501,
+        "label": "DID",
+        "start": 1500
+      },
+      {
+        "end": 1509,
+        "label": "DDO",
+        "start": 1508
+      },
+      {
+        "end": 1516,
+        "label": "DDO",
+        "start": 1515
+      },
+      {
+        "end": 1526,
+        "label": "DLT",
+        "start": 1525
+      },
+      {
+        "end": 1560,
+        "label": "DID",
+        "start": 1559
+      },
+      {
+        "end": 1603,
+        "label": "DID",
+        "start": 1602
+      },
+      {
+        "end": 1640,
+        "label": "DID",
+        "start": 1639
+      }
+    ]
+  },
+  "verbs": {
+    "accord": 2,
+    "allow": 2,
+    "assign": 2,
+    "assume": 1,
+    "attempt": 1,
+    "base": 1,
+    "be": 5,
+    "bind": 1,
+    "carry": 1,
+    "change": 1,
+    "check": 2,
+    "comply": 1,
+    "compromise": 1,
+    "consider": 3,
+    "contain": 1,
+    "control": 1,
+    "correspond": 1,
+    "corrupt": 1,
+    "decentralize": 2,
+    "define": 2,
+    "deploy": 1,
+    "describe": 3,
+    "design": 1,
+    "discuss": 5,
+    "distribute": 1,
+    "do": 6,
+    "employ": 1,
+    "enable": 2,
+    "encounter": 1,
+    "enforce": 1,
+    "exist": 1,
+    "expect": 2,
+    "expire": 2,
+    "extend": 1,
+    "fit": 1,
+    "focus": 1,
+    "follow": 4,
+    "generate": 2,
+    "give": 1,
+    "handle": 1,
+    "have": 3,
+    "hold": 1,
+    "host": 1,
+    "identify": 2,
+    "include": 4,
+    "incorporate": 1,
+    "indicate": 1,
+    "intend": 1,
+    "introduce": 2,
+    "involve": 1,
+    "know": 1,
+    "label": 1,
+    "list": 1,
+    "maintain": 1,
+    "make": 3,
+    "match": 1,
+    "mention": 1,
+    "method": 2,
+    "monitor": 4,
+    "note": 3,
+    "notify": 1,
+    "offer": 2,
+    "operate": 1,
+    "originate": 1,
+    "prevent": 3,
+    "protect": 3,
+    "prove": 8,
+    "provide": 1,
+    "publish": 1,
+    "read": 1,
+    "reassign": 1,
+    "recognize": 1,
+    "reduce": 1,
+    "reflect": 1,
+    "regard": 1,
+    "register": 4,
+    "rely": 2,
+    "replace": 1,
+    "require": 4,
+    "resolve": 2,
+    "restrict": 1,
+    "result": 1,
+    "revoke": 2,
+    "risk": 1,
+    "section": 1,
+    "see": 3,
+    "seek": 1,
+    "send": 3,
+    "sign": 5,
+    "specify": 2,
+    "suggest": 1,
+    "support": 7,
+    "tamper": 1,
+    "trust": 1,
+    "update": 2,
+    "use": 7,
+    "validate": 1,
+    "vary": 1,
+    "verify": 2
+  }
+}

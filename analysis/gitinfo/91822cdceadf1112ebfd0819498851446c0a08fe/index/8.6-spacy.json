@@ -1,0 +1,503 @@
+{
+  "nouns": {
+    "\"https://openid.example.com/456": [
+      {
+        "end": 218,
+        "start": 216,
+        "type": "NP"
+      }
+    ],
+    "\"xdi": [
+      {
+        "end": 223,
+        "start": 220,
+        "type": "NP"
+      }
+    ],
+    "A DDO": [
+      {
+        "end": 81,
+        "start": 79,
+        "type": "NP"
+      }
+    ],
+    "A service endpoint": [
+      {
+        "end": 41,
+        "start": 38,
+        "type": "NP"
+      }
+    ],
+    "Appendix B": [
+      {
+        "end": 147,
+        "start": 145,
+        "type": "NP"
+      }
+    ],
+    "DID records": [
+      {
+        "end": 26,
+        "start": 24,
+        "type": "NP"
+      }
+    ],
+    "Example": [
+      {
+        "end": 202,
+        "start": 200,
+        "type": "NP"
+      }
+    ],
+    "Optional": [
+      {
+        "end": 8,
+        "start": 7,
+        "type": "NP"
+      }
+    ],
+    "RFC": [
+      {
+        "end": 171,
+        "start": 170,
+        "type": "NP"
+      },
+      {
+        "end": 185,
+        "start": 184,
+        "type": "NP"
+      }
+    ],
+    "Service Endpoint References": [
+      {
+        "end": 6,
+        "start": 3,
+        "type": "NP"
+      }
+    ],
+    "The key": [
+      {
+        "end": 93,
+        "start": 91,
+        "type": "NP"
+      }
+    ],
+    "The rules": [
+      {
+        "end": 73,
+        "start": 71,
+        "type": "NP"
+      }
+    ],
+    "The value": [
+      {
+        "end": 103,
+        "start": 101,
+        "type": "NP"
+      },
+      {
+        "end": 160,
+        "start": 158,
+        "type": "NP"
+      }
+    ],
+    "a method-specific context\ndefinition": [
+      {
+        "end": 156,
+        "start": 149,
+        "type": "NP"
+      }
+    ],
+    "a nested JSON object": [
+      {
+        "end": 112,
+        "start": 108,
+        "type": "NP"
+      }
+    ],
+    "a service": [
+      {
+        "end": 133,
+        "start": 131,
+        "type": "NP"
+      }
+    ],
+    "addition": [
+      {
+        "end": 12,
+        "start": 11,
+        "type": "NP"
+      }
+    ],
+    "any\nnormalization rules": [
+      {
+        "end": 193,
+        "start": 189,
+        "type": "NP"
+      }
+    ],
+    "any type": [
+      {
+        "end": 45,
+        "start": 43,
+        "type": "NP"
+      }
+    ],
+    "authentication": [
+      {
+        "end": 64,
+        "start": 63,
+        "type": "NP"
+      }
+    ],
+    "authentication service endpoints": [
+      {
+        "end": 246,
+        "start": 243,
+        "type": "NP"
+      }
+    ],
+    "authorization": [
+      {
+        "end": 66,
+        "start": 65,
+        "type": "NP"
+      }
+    ],
+    "cryptographic key material": [
+      {
+        "end": 18,
+        "start": 15,
+        "type": "NP"
+      }
+    ],
+    "decentralized identity management services": [
+      {
+        "end": 59,
+        "start": 55,
+        "type": "NP"
+      }
+    ],
+    "discovery": [
+      {
+        "end": 30,
+        "start": 29,
+        "type": "NP"
+      }
+    ],
+    "each property": [
+      {
+        "end": 122,
+        "start": 120,
+        "type": "NP"
+      }
+    ],
+    "either the generic\nJSON-LD context": [
+      {
+        "end": 143,
+        "start": 135,
+        "type": "NP"
+      }
+    ],
+    "exactly one property representing service endpoints": [
+      {
+        "end": 89,
+        "start": 83,
+        "type": "NP"
+      }
+    ],
+    "further discovery": [
+      {
+        "end": 62,
+        "start": 60,
+        "type": "NP"
+      }
+    ],
+    "further security considerations": [
+      {
+        "end": 242,
+        "start": 239,
+        "type": "NP"
+      }
+    ],
+    "interaction": [
+      {
+        "end": 69,
+        "start": 68,
+        "type": "NP"
+      }
+    ],
+    "its applicable URI scheme specification": [
+      {
+        "end": 199,
+        "start": 194,
+        "type": "NP"
+      }
+    ],
+    "publication": [
+      {
+        "end": 14,
+        "start": 13,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 182,
+        "start": 181,
+        "type": "NP"
+      }
+    ],
+    "sections": [
+      {
+        "end": 235,
+        "start": 234,
+        "type": "NP"
+      }
+    ],
+    "service": [
+      {
+        "end": 47,
+        "start": 46,
+        "type": "NP"
+      },
+      {
+        "end": 99,
+        "start": 98,
+        "type": "NP"
+      }
+    ],
+    "service endpoints": [
+      {
+        "end": 33,
+        "start": 31,
+        "type": "NP"
+      },
+      {
+        "end": 76,
+        "start": 74,
+        "type": "NP"
+      }
+    ],
+    "the identity owner": [
+      {
+        "end": 37,
+        "start": 34,
+        "type": "NP"
+      },
+      {
+        "end": 50,
+        "start": 47,
+        "type": "NP"
+      }
+    ],
+    "the name": [
+      {
+        "end": 130,
+        "start": 128,
+        "type": "NP"
+      }
+    ],
+    "the other primary purpose": [
+      {
+        "end": 23,
+        "start": 19,
+        "type": "NP"
+      }
+    ],
+    "the rules": [
+      {
+        "end": 180,
+        "start": 178,
+        "type": "NP"
+      }
+    ],
+    "this key": [
+      {
+        "end": 106,
+        "start": 104,
+        "type": "NP"
+      },
+      {
+        "end": 163,
+        "start": 161,
+        "type": "NP"
+      }
+    ],
+    "this nested JSON object": [
+      {
+        "end": 119,
+        "start": 115,
+        "type": "NP"
+      }
+    ],
+    "this property": [
+      {
+        "end": 96,
+        "start": 94,
+        "type": "NP"
+      }
+    ],
+    "{\n            \"openid": [
+      {
+        "end": 214,
+        "start": 210,
+        "type": "NP"
+      }
+    ],
+    "{\n      \"service": [
+      {
+        "end": 208,
+        "start": 204,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "6": [
+      {
+        "end": 183,
+        "start": 182,
+        "type": "CARDINAL"
+      }
+    ],
+    "6.6": [
+      {
+        "end": 2,
+        "start": 1,
+        "type": "CARDINAL"
+      }
+    ],
+    "9.1": [
+      {
+        "end": 236,
+        "start": 235,
+        "type": "CARDINAL"
+      }
+    ],
+    "9.3": [
+      {
+        "end": 238,
+        "start": 237,
+        "type": "CARDINAL"
+      }
+    ],
+    "DDO": [
+      {
+        "end": 81,
+        "start": 80,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 25,
+        "start": 24,
+        "type": "ORG"
+      }
+    ],
+    "MUST": [
+      {
+        "end": 123,
+        "start": 122,
+        "type": "ORG"
+      }
+    ],
+    "RFC 3986 \u00a0": [
+      {
+        "end": 173,
+        "start": 170,
+        "type": "PERSON"
+      }
+    ],
+    "Service Endpoint References": [
+      {
+        "end": 6,
+        "start": 3,
+        "type": "ORG"
+      }
+    ],
+    "URI": [
+      {
+        "end": 197,
+        "start": 196,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 2,
+        "label": "6.6",
+        "start": 1
+      },
+      {
+        "end": 183,
+        "label": "6",
+        "start": 182
+      },
+      {
+        "end": 236,
+        "label": "9.1",
+        "start": 235
+      },
+      {
+        "end": 238,
+        "label": "9.3",
+        "start": 237
+      }
+    ],
+    "ORG": [
+      {
+        "end": 6,
+        "label": "Service Endpoint References",
+        "start": 3
+      },
+      {
+        "end": 25,
+        "label": "DID",
+        "start": 24
+      },
+      {
+        "end": 81,
+        "label": "DDO",
+        "start": 80
+      },
+      {
+        "end": 123,
+        "label": "MUST",
+        "start": 122
+      },
+      {
+        "end": 197,
+        "label": "URI",
+        "start": 196
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 173,
+        "label": "RFC 3986 \u00a0",
+        "start": 170
+      }
+    ]
+  },
+  "verbs": {
+    "accord": 1,
+    "advertise": 1,
+    "be": 3,
+    "conform": 1,
+    "decentralize": 1,
+    "enable": 1,
+    "establish": 1,
+    "have": 2,
+    "include": 1,
+    "nest": 2,
+    "normalize": 1,
+    "regard": 1,
+    "represent": 3,
+    "see": 2,
+    "wish": 1
+  }
+}

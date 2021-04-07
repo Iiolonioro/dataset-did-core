@@ -1,0 +1,485 @@
+{
+  "nouns": {
+    "9.7 Key Revocation and Recovery\n\n\n    \n      Section": [
+      {
+        "end": 8,
+        "start": 1,
+        "type": "NP"
+      }
+    ],
+    "Access control": [
+      {
+        "end": 153,
+        "start": 150,
+        "type": "NP"
+      }
+    ],
+    "Control": [
+      {
+        "end": 116,
+        "start": 115,
+        "type": "NP"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 129,
+        "start": 128,
+        "type": "NP"
+      },
+      {
+        "end": 144,
+        "start": 143,
+        "type": "NP"
+      }
+    ],
+    "DLT-based methods": [
+      {
+        "end": 48,
+        "start": 44,
+        "type": "NP"
+      }
+    ],
+    "Further specification": [
+      {
+        "end": 185,
+        "start": 183,
+        "type": "NP"
+      }
+    ],
+    "Proof": [
+      {
+        "end": 114,
+        "start": 113,
+        "type": "NP"
+      }
+    ],
+    "a DDO": [
+      {
+        "end": 28,
+        "start": 26,
+        "type": "NP"
+      }
+    ],
+    "a DID method specification": [
+      {
+        "end": 22,
+        "start": 18,
+        "type": "NP"
+      },
+      {
+        "end": 161,
+        "start": 157,
+        "type": "NP"
+      }
+    ],
+    "a cryptocurrency account": [
+      {
+        "end": 65,
+        "start": 62,
+        "type": "NP"
+      }
+    ],
+    "a distributed ledger": [
+      {
+        "end": 69,
+        "start": 66,
+        "type": "NP"
+      }
+    ],
+    "a manner": [
+      {
+        "end": 56,
+        "start": 54,
+        "type": "NP"
+      }
+    ],
+    "a matter": [
+      {
+        "end": 193,
+        "start": 191,
+        "type": "NP"
+      }
+    ],
+    "a quorum": [
+      {
+        "end": 92,
+        "start": 90,
+        "type": "NP"
+      }
+    ],
+    "a second track": [
+      {
+        "end": 178,
+        "start": 175,
+        "type": "NP"
+      }
+    ],
+    "a time lock feature": [
+      {
+        "end": 168,
+        "start": 164,
+        "type": "NP"
+      }
+    ],
+    "an updated DDO": [
+      {
+        "end": 35,
+        "start": 32,
+        "type": "NP"
+      }
+    ],
+    "control": [
+      {
+        "end": 127,
+        "start": 126,
+        "type": "NP"
+      },
+      {
+        "end": 180,
+        "start": 179,
+        "type": "NP"
+      },
+      {
+        "end": 190,
+        "start": 189,
+        "type": "NP"
+      }
+    ],
+    "future work": [
+      {
+        "end": 196,
+        "start": 194,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 31,
+        "start": 30,
+        "type": "NP"
+      }
+    ],
+    "key compromise": [
+      {
+        "end": 173,
+        "start": 171,
+        "type": "NP"
+      }
+    ],
+    "key recovery": [
+      {
+        "end": 99,
+        "start": 97,
+        "type": "NP"
+      },
+      {
+        "end": 156,
+        "start": 154,
+        "type": "NP"
+      }
+    ],
+    "key revocation": [
+      {
+        "end": 43,
+        "start": 41,
+        "type": "NP"
+      }
+    ],
+    "not all DID method specifications": [
+      {
+        "end": 124,
+        "start": 119,
+        "type": "NP"
+      }
+    ],
+    "other DID methods": [
+      {
+        "end": 134,
+        "start": 131,
+        "type": "NP"
+      }
+    ],
+    "recovery": [
+      {
+        "end": 182,
+        "start": 181,
+        "type": "NP"
+      }
+    ],
+    "revocation": [
+      {
+        "end": 25,
+        "start": 24,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 111,
+        "start": 110,
+        "type": "NP"
+      },
+      {
+        "end": 199,
+        "start": 198,
+        "type": "NP"
+      }
+    ],
+    "specifications": [
+      {
+        "end": 86,
+        "start": 85,
+        "type": "NP"
+      }
+    ],
+    "support": [
+      {
+        "end": 89,
+        "start": 88,
+        "type": "NP"
+      }
+    ],
+    "the DID operations": [
+      {
+        "end": 13,
+        "start": 10,
+        "type": "NP"
+      }
+    ],
+    "the balance": [
+      {
+        "end": 61,
+        "start": 59,
+        "type": "NP"
+      },
+      {
+        "end": 73,
+        "start": 71,
+        "type": "NP"
+      }
+    ],
+    "the entire DID": [
+      {
+        "end": 79,
+        "start": 76,
+        "type": "NP"
+      }
+    ],
+    "the facilities": [
+      {
+        "end": 104,
+        "start": 102,
+        "type": "NP"
+      }
+    ],
+    "the same method": [
+      {
+        "end": 149,
+        "start": 146,
+        "type": "NP"
+      }
+    ],
+    "they": [
+      {
+        "end": 136,
+        "start": 135,
+        "type": "NP"
+      }
+    ],
+    "third-party control": [
+      {
+        "end": 142,
+        "start": 138,
+        "type": "NP"
+      }
+    ],
+    "this type": [
+      {
+        "end": 188,
+        "start": 186,
+        "type": "NP"
+      }
+    ],
+    "trusted parties": [
+      {
+        "end": 95,
+        "start": 93,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "6.5": [
+      {
+        "end": 112,
+        "start": 111,
+        "type": "CARDINAL"
+      }
+    ],
+    "DDO": [
+      {
+        "end": 28,
+        "start": 27,
+        "type": "ORG"
+      },
+      {
+        "end": 35,
+        "start": 34,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 12,
+        "start": 11,
+        "type": "ORG"
+      },
+      {
+        "end": 20,
+        "start": 19,
+        "type": "ORG"
+      },
+      {
+        "end": 79,
+        "start": 78,
+        "type": "ORG"
+      },
+      {
+        "end": 122,
+        "start": 121,
+        "type": "ORG"
+      },
+      {
+        "end": 159,
+        "start": 158,
+        "type": "ORG"
+      }
+    ],
+    "DLT": [
+      {
+        "end": 45,
+        "start": 44,
+        "type": "ORG"
+      }
+    ],
+    "second": [
+      {
+        "end": 177,
+        "start": 176,
+        "type": "ORDINAL"
+      }
+    ],
+    "section 11.4": [
+      {
+        "end": 200,
+        "start": 198,
+        "type": "LAW"
+      }
+    ],
+    "third": [
+      {
+        "end": 139,
+        "start": 138,
+        "type": "ORDINAL"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 112,
+        "label": "6.5",
+        "start": 111
+      }
+    ],
+    "LAW": [
+      {
+        "end": 200,
+        "label": "section 11.4",
+        "start": 198
+      }
+    ],
+    "ORDINAL": [
+      {
+        "end": 139,
+        "label": "third",
+        "start": 138
+      },
+      {
+        "end": 177,
+        "label": "second",
+        "start": 176
+      }
+    ],
+    "ORG": [
+      {
+        "end": 12,
+        "label": "DID",
+        "start": 11
+      },
+      {
+        "end": 20,
+        "label": "DID",
+        "start": 19
+      },
+      {
+        "end": 28,
+        "label": "DDO",
+        "start": 27
+      },
+      {
+        "end": 35,
+        "label": "DDO",
+        "start": 34
+      },
+      {
+        "end": 45,
+        "label": "DLT",
+        "start": 44
+      },
+      {
+        "end": 79,
+        "label": "DID",
+        "start": 78
+      },
+      {
+        "end": 122,
+        "label": "DID",
+        "start": 121
+      },
+      {
+        "end": 159,
+        "label": "DID",
+        "start": 158
+      }
+    ]
+  },
+  "verbs": {
+    "base": 1,
+    "be": 1,
+    "check": 2,
+    "distribute": 1,
+    "do": 1,
+    "enable": 2,
+    "expect": 1,
+    "handle": 1,
+    "include": 2,
+    "maintain": 1,
+    "method": 1,
+    "note": 1,
+    "protect": 1,
+    "recognize": 1,
+    "register": 1,
+    "replace": 1,
+    "restrict": 1,
+    "revoke": 1,
+    "see": 1,
+    "specify": 1,
+    "suggest": 1,
+    "support": 1,
+    "trust": 1,
+    "update": 1,
+    "use": 2
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "nouns": {
+    "The DID method specification": [
+      {
+        "end": 7,
+        "start": 3,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 22,
+        "start": 20,
+        "type": "NP"
+      }
+    ],
+    "a DID record": [
+      {
+        "end": 16,
+        "start": 13,
+        "type": "NP"
+      }
+    ],
+    "a client": [
+      {
+        "end": 12,
+        "start": 10,
+        "type": "NP"
+      }
+    ],
+    "all cryptographic operations": [
+      {
+        "end": 36,
+        "start": 33,
+        "type": "NP"
+      }
+    ],
+    "its associated DDO": [
+      {
+        "end": 26,
+        "start": 23,
+        "type": "NP"
+      }
+    ],
+    "ownership": [
+      {
+        "end": 42,
+        "start": 41,
+        "type": "NP"
+      }
+    ],
+    "proof": [
+      {
+        "end": 40,
+        "start": 39,
+        "type": "NP"
+      }
+    ],
+    "the combination": [
+      {
+        "end": 19,
+        "start": 17,
+        "type": "NP"
+      }
+    ],
+    "the target system": [
+      {
+        "end": 31,
+        "start": 28,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "Create\n\n\n    \n      ": [
+      {
+        "end": 3,
+        "start": 1,
+        "type": "PERSON"
+      }
+    ],
+    "DDO": [
+      {
+        "end": 26,
+        "start": 25,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 5,
+        "start": 4,
+        "type": "ORG"
+      },
+      {
+        "end": 15,
+        "start": 14,
+        "type": "ORG"
+      },
+      {
+        "end": 22,
+        "start": 21,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "ORG": [
+      {
+        "end": 5,
+        "label": "DID",
+        "start": 4
+      },
+      {
+        "end": 15,
+        "label": "DID",
+        "start": 14
+      },
+      {
+        "end": 22,
+        "label": "DID",
+        "start": 21
+      },
+      {
+        "end": 26,
+        "label": "DDO",
+        "start": 25
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 3,
+        "label": "Create\n\n\n    \n      ",
+        "start": 1
+      }
+    ]
+  },
+  "verbs": {
+    "create": 1,
+    "establish": 1,
+    "include": 1,
+    "specify": 1
+  }
+}

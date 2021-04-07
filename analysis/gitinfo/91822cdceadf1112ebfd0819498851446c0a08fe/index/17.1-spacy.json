@@ -1,0 +1,100 @@
+{
+  "nouns": {
+    "\"CryptographicKey": [
+      {
+        "end": 32,
+        "start": 30,
+        "type": "NP"
+      }
+    ],
+    "\"did:example:21tDAKCERh95uGgKbJNHYp#key/2\",\n            \"type": [
+      {
+        "end": 27,
+        "start": 18,
+        "type": "NP"
+      }
+    ],
+    "RsaPublicKey": [
+      {
+        "end": 36,
+        "start": 35,
+        "type": "NP"
+      }
+    ],
+    "id": [
+      {
+        "end": 16,
+        "start": 14,
+        "type": "NP"
+      }
+    ],
+    "{\n      \"owner": [
+      {
+        "end": 8,
+        "start": 4,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "2017": [
+      {
+        "end": 46,
+        "start": 45,
+        "type": "CARDINAL"
+      }
+    ],
+    "CryptographicKey": [
+      {
+        "end": 32,
+        "start": 31,
+        "type": "ORG"
+      }
+    ],
+    "MIIBOgIBAAJBAKkbSUT9": [
+      {
+        "end": 59,
+        "start": 58,
+        "type": "PERSON"
+      }
+    ],
+    "RSA Keys\n\n      ": [
+      {
+        "end": 4,
+        "start": 1,
+        "type": "PERSON"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 46,
+        "label": "2017",
+        "start": 45
+      }
+    ],
+    "ORG": [
+      {
+        "end": 32,
+        "label": "CryptographicKey",
+        "start": 31
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 4,
+        "label": "RSA Keys\n\n      ",
+        "start": 1
+      },
+      {
+        "end": 59,
+        "label": "MIIBOgIBAAJBAKkbSUT9",
+        "start": 58
+      }
+    ]
+  },
+  "verbs": {
+    "expire": 1
+  }
+}

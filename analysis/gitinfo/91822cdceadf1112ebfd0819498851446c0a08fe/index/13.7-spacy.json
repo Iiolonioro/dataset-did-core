@@ -1,0 +1,195 @@
+{
+  "nouns": {
+    "11.7 Alternate Serializations": [
+      {
+        "end": 4,
+        "start": 1,
+        "type": "NP"
+      }
+    ],
+    "Future versions": [
+      {
+        "end": 30,
+        "start": 28,
+        "type": "NP"
+      }
+    ],
+    "Graph Models": [
+      {
+        "end": 7,
+        "start": 5,
+        "type": "NP"
+      }
+    ],
+    "JSON XDI Data": [
+      {
+        "end": 50,
+        "start": 47,
+        "type": "NP"
+      }
+    ],
+    "JSON-LD": [
+      {
+        "end": 18,
+        "start": 15,
+        "type": "NP"
+      }
+    ],
+    "JXD": [
+      {
+        "end": 46,
+        "start": 45,
+        "type": "NP"
+      }
+    ],
+    "This version": [
+      {
+        "end": 10,
+        "start": 8,
+        "type": "NP"
+      }
+    ],
+    "a DDO": [
+      {
+        "end": 27,
+        "start": 25,
+        "type": "NP"
+      },
+      {
+        "end": 42,
+        "start": 40,
+        "type": "NP"
+      }
+    ],
+    "a serialization format": [
+      {
+        "end": 55,
+        "start": 52,
+        "type": "NP"
+      }
+    ],
+    "other semantic graph formats": [
+      {
+        "end": 39,
+        "start": 35,
+        "type": "NP"
+      }
+    ],
+    "the RDF graph model": [
+      {
+        "end": 23,
+        "start": 19,
+        "type": "NP"
+      }
+    ],
+    "the XDI graph model": [
+      {
+        "end": 60,
+        "start": 56,
+        "type": "NP"
+      }
+    ],
+    "the specification": [
+      {
+        "end": 13,
+        "start": 11,
+        "type": "NP"
+      }
+    ],
+    "this specification": [
+      {
+        "end": 33,
+        "start": 31,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "1.0": [
+      {
+        "end": 69,
+        "start": 68,
+        "type": "CARDINAL"
+      }
+    ],
+    "DDO": [
+      {
+        "end": 27,
+        "start": 26,
+        "type": "ORG"
+      },
+      {
+        "end": 42,
+        "start": 41,
+        "type": "ORG"
+      }
+    ],
+    "Graph Models\n\n\n    \n      ": [
+      {
+        "end": 8,
+        "start": 5,
+        "type": "PERSON"
+      }
+    ],
+    "JSON-LD": [
+      {
+        "end": 18,
+        "start": 15,
+        "type": "GPE"
+      }
+    ],
+    "RDF": [
+      {
+        "end": 21,
+        "start": 20,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 69,
+        "label": "1.0",
+        "start": 68
+      }
+    ],
+    "GPE": [
+      {
+        "end": 18,
+        "label": "JSON-LD",
+        "start": 15
+      }
+    ],
+    "ORG": [
+      {
+        "end": 21,
+        "label": "RDF",
+        "start": 20
+      },
+      {
+        "end": 27,
+        "label": "DDO",
+        "start": 26
+      },
+      {
+        "end": 42,
+        "label": "DDO",
+        "start": 41
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 8,
+        "label": "Graph Models\n\n\n    \n      ",
+        "start": 5
+      }
+    ]
+  },
+  "verbs": {
+    "define": 1,
+    "express": 1,
+    "rely": 1,
+    "specify": 1
+  }
+}

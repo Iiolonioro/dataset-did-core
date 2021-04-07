@@ -34,6 +34,7 @@ run() (
 
   dc explode-git
 	dc process-index
+	kbash_info where is that kv-sh-env coming from
   dc prepare-for-jekyll
 	dc build-runnable-index
 	#kbash_warn "Analyzing Absttracts"

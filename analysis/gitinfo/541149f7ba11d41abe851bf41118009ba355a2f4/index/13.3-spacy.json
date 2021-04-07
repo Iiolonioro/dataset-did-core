@@ -1,0 +1,292 @@
+{
+  "nouns": {
+    "\"median time": [
+      {
+        "end": 76,
+        "start": 73,
+        "type": "NP"
+      }
+    ],
+    "A generic DDO timestamping mechanism": [
+      {
+        "end": 96,
+        "start": 91,
+        "type": "NP"
+      }
+    ],
+    "Bitcoin BIP": [
+      {
+        "end": 82,
+        "start": 80,
+        "type": "NP"
+      }
+    ],
+    "DDO": [
+      {
+        "end": 55,
+        "start": 54,
+        "type": "NP"
+      }
+    ],
+    "DLTs": [
+      {
+        "end": 19,
+        "start": 18,
+        "type": "NP"
+      }
+    ],
+    "The generic mechanism": [
+      {
+        "end": 119,
+        "start": 116,
+        "type": "NP"
+      }
+    ],
+    "Timestamps\n\n\n    \n      Verifiable timestamps": [
+      {
+        "end": 5,
+        "start": 1,
+        "type": "NP"
+      }
+    ],
+    "a DLT's immediate timing": [
+      {
+        "end": 65,
+        "start": 60,
+        "type": "NP"
+      }
+    ],
+    "a future version": [
+      {
+        "end": 137,
+        "start": 134,
+        "type": "NP"
+      }
+    ],
+    "a good fit": [
+      {
+        "end": 17,
+        "start": 14,
+        "type": "NP"
+      }
+    ],
+    "a mechanism": [
+      {
+        "end": 108,
+        "start": 106,
+        "type": "NP"
+      }
+    ],
+    "all DLTs": [
+      {
+        "end": 102,
+        "start": 100,
+        "type": "NP"
+      }
+    ],
+    "either individual transactions": [
+      {
+        "end": 112,
+        "start": 109,
+        "type": "NP"
+      }
+    ],
+    "identity records": [
+      {
+        "end": 11,
+        "start": 9,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 130,
+        "start": 129,
+        "type": "NP"
+      }
+    ],
+    "scope": [
+      {
+        "end": 124,
+        "start": 123,
+        "type": "NP"
+      }
+    ],
+    "significant utility": [
+      {
+        "end": 8,
+        "start": 6,
+        "type": "NP"
+      }
+    ],
+    "some cases": [
+      {
+        "end": 60,
+        "start": 58,
+        "type": "NP"
+      }
+    ],
+    "some transactional cost": [
+      {
+        "end": 33,
+        "start": 30,
+        "type": "NP"
+      }
+    ],
+    "some type": [
+      {
+        "end": 25,
+        "start": 23,
+        "type": "NP"
+      }
+    ],
+    "systems": [
+      {
+        "end": 44,
+        "start": 43,
+        "type": "NP"
+      }
+    ],
+    "the world": [
+      {
+        "end": 47,
+        "start": 45,
+        "type": "NP"
+      }
+    ],
+    "their sense": [
+      {
+        "end": 71,
+        "start": 69,
+        "type": "NP"
+      }
+    ],
+    "they": [
+      {
+        "end": 35,
+        "start": 34,
+        "type": "NP"
+      },
+      {
+        "end": 50,
+        "start": 49,
+        "type": "NP"
+      }
+    ],
+    "this specification": [
+      {
+        "end": 140,
+        "start": 138,
+        "type": "NP"
+      }
+    ],
+    "this version": [
+      {
+        "end": 127,
+        "start": 125,
+        "type": "NP"
+      }
+    ],
+    "timestamp mechanism": [
+      {
+        "end": 28,
+        "start": 26,
+        "type": "NP"
+      }
+    ],
+    "transaction": [
+      {
+        "end": 42,
+        "start": 41,
+        "type": "NP"
+      }
+    ],
+    "transaction batches": [
+      {
+        "end": 115,
+        "start": 113,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "113": [
+      {
+        "end": 83,
+        "start": 82,
+        "type": "CARDINAL"
+      }
+    ],
+    "Bitcoin BIP": [
+      {
+        "end": 82,
+        "start": 80,
+        "type": "PERSON"
+      }
+    ],
+    "DDO": [
+      {
+        "end": 55,
+        "start": 54,
+        "type": "ORG"
+      },
+      {
+        "end": 94,
+        "start": 93,
+        "type": "ORG"
+      }
+    ],
+    "DLT": [
+      {
+        "end": 62,
+        "start": 61,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 83,
+        "label": "113",
+        "start": 82
+      }
+    ],
+    "ORG": [
+      {
+        "end": 55,
+        "label": "DDO",
+        "start": 54
+      },
+      {
+        "end": 62,
+        "label": "DLT",
+        "start": 61
+      },
+      {
+        "end": 94,
+        "label": "DDO",
+        "start": 93
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 82,
+        "label": "Bitcoin BIP",
+        "start": 80
+      }
+    ]
+  },
+  "verbs": {
+    "deem": 1,
+    "define": 1,
+    "have": 1,
+    "include": 2,
+    "offer": 1,
+    "operate": 1,
+    "order": 1,
+    "see": 1,
+    "timestampe": 1,
+    "work": 1
+  }
+}

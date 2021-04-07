@@ -1,0 +1,145 @@
+{
+  "nouns": {
+    "a decentralized identity architecture": [
+      {
+        "end": 11,
+        "start": 7,
+        "type": "NP"
+      }
+    ],
+    "a key expiration": [
+      {
+        "end": 60,
+        "start": 57,
+        "type": "NP"
+      }
+    ],
+    "a signature": [
+      {
+        "end": 84,
+        "start": 82,
+        "type": "NP"
+      }
+    ],
+    "already-expired keys": [
+      {
+        "end": 53,
+        "start": 49,
+        "type": "NP"
+      }
+    ],
+    "any further use": [
+      {
+        "end": 66,
+        "start": 63,
+        "type": "NP"
+      }
+    ],
+    "implementations": [
+      {
+        "end": 72,
+        "start": 71,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 81,
+        "start": 80,
+        "type": "NP"
+      }
+    ],
+    "its status": [
+      {
+        "end": 78,
+        "start": 76,
+        "type": "NP"
+      }
+    ],
+    "key or signature expiration policies": [
+      {
+        "end": 24,
+        "start": 19,
+        "type": "NP"
+      }
+    ],
+    "keys": [
+      {
+        "end": 36,
+        "start": 35,
+        "type": "NP"
+      }
+    ],
+    "legitimate reasons": [
+      {
+        "end": 48,
+        "start": 46,
+        "type": "NP"
+      }
+    ],
+    "no centralized authorities": [
+      {
+        "end": 17,
+        "start": 14,
+        "type": "NP"
+      }
+    ],
+    "other client applications": [
+      {
+        "end": 32,
+        "start": 29,
+        "type": "NP"
+      }
+    ],
+    "resolvers": [
+      {
+        "end": 28,
+        "start": 27,
+        "type": "NP"
+      }
+    ],
+    "some use cases": [
+      {
+        "end": 44,
+        "start": 41,
+        "type": "NP"
+      }
+    ],
+    "the key": [
+      {
+        "end": 69,
+        "start": 67,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DID": [
+      {
+        "end": 27,
+        "start": 26,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "ORG": [
+      {
+        "end": 27,
+        "label": "DID",
+        "start": 26
+      }
+    ]
+  },
+  "verbs": {
+    "attempt": 1,
+    "encounter": 1,
+    "enforce": 1,
+    "expire": 2,
+    "extend": 1,
+    "have": 1,
+    "prevent": 1,
+    "update": 1,
+    "validate": 1
+  }
+}

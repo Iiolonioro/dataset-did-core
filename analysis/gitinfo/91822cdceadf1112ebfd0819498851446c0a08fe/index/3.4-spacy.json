@@ -1,0 +1,377 @@
+{
+  "nouns": {
+    "DIDs": [
+      {
+        "end": 11,
+        "start": 10,
+        "type": "NP"
+      },
+      {
+        "end": 162,
+        "start": 161,
+        "type": "NP"
+      }
+    ],
+    "Human-Friendly Identifiers": [
+      {
+        "end": 9,
+        "start": 5,
+        "type": "NP"
+      }
+    ],
+    "It": [
+      {
+        "end": 212,
+        "start": 211,
+        "type": "NP"
+      }
+    ],
+    "Solutions": [
+      {
+        "end": 190,
+        "start": 188,
+        "type": "NP"
+      }
+    ],
+    "The Role": [
+      {
+        "end": 4,
+        "start": 2,
+        "type": "NP"
+      }
+    ],
+    "The algorithms": [
+      {
+        "end": 39,
+        "start": 37,
+        "type": "NP"
+      }
+    ],
+    "Zooko": [
+      {
+        "end": 69,
+        "start": 67,
+        "type": "NP"
+      }
+    ],
+    "a\nmobile telephone number": [
+      {
+        "end": 138,
+        "start": 133,
+        "type": "NP"
+      }
+    ],
+    "a DID owner": [
+      {
+        "end": 131,
+        "start": 128,
+        "type": "NP"
+      }
+    ],
+    "a central\nregistration authority": [
+      {
+        "end": 23,
+        "start": 18,
+        "type": "NP"
+      }
+    ],
+    "a conventional address": [
+      {
+        "end": 127,
+        "start": 124,
+        "type": "NP"
+      }
+    ],
+    "a domain name": [
+      {
+        "end": 122,
+        "start": 119,
+        "type": "NP"
+      }
+    ],
+    "a natural language\nname": [
+      {
+        "end": 118,
+        "start": 113,
+        "type": "NP"
+      }
+    ],
+    "a target entity": [
+      {
+        "end": 246,
+        "start": 243,
+        "type": "NP"
+      }
+    ],
+    "a way": [
+      {
+        "end": 170,
+        "start": 168,
+        "type": "NP"
+      }
+    ],
+    "blog URL": [
+      {
+        "end": 148,
+        "start": 146,
+        "type": "NP"
+      }
+    ],
+    "cases": [
+      {
+        "end": 95,
+        "start": 94,
+        "type": "NP"
+      }
+    ],
+    "characters": [
+      {
+        "end": 52,
+        "start": 51,
+        "type": "NP"
+      }
+    ],
+    "course": [
+      {
+        "end": 92,
+        "start": 91,
+        "type": "NP"
+      }
+    ],
+    "email address": [
+      {
+        "end": 141,
+        "start": 139,
+        "type": "NP"
+      }
+    ],
+    "global uniqueness": [
+      {
+        "end": 14,
+        "start": 12,
+        "type": "NP"
+      }
+    ],
+    "globally unique\nidentifiers": [
+      {
+        "end": 46,
+        "start": 42,
+        "type": "NP"
+      }
+    ],
+    "human\nmemorability": [
+      {
+        "end": 36,
+        "start": 33,
+        "type": "NP"
+      }
+    ],
+    "human-friendly identifiers": [
+      {
+        "end": 160,
+        "start": 156,
+        "type": "NP"
+      },
+      {
+        "end": 261,
+        "start": 257,
+        "type": "NP"
+      }
+    ],
+    "identifiers": [
+      {
+        "end": 65,
+        "start": 64,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 97,
+        "start": 96,
+        "type": "NP"
+      }
+    ],
+    "no human meaning": [
+      {
+        "end": 58,
+        "start": 55,
+        "type": "NP"
+      }
+    ],
+    "random strings": [
+      {
+        "end": 50,
+        "start": 48,
+        "type": "NP"
+      }
+    ],
+    "scope": [
+      {
+        "end": 183,
+        "start": 182,
+        "type": "NP"
+      }
+    ],
+    "separate specifications": [
+      {
+        "end": 206,
+        "start": 204,
+        "type": "NP"
+      }
+    ],
+    "such specifications": [
+      {
+        "end": 219,
+        "start": 217,
+        "type": "NP"
+      }
+    ],
+    "the axiom": [
+      {
+        "end": 63,
+        "start": 61,
+        "type": "NP"
+      }
+    ],
+    "the cost": [
+      {
+        "end": 32,
+        "start": 30,
+        "type": "NP"
+      }
+    ],
+    "the need": [
+      {
+        "end": 17,
+        "start": 15,
+        "type": "NP"
+      }
+    ],
+    "the numerous security attacks": [
+      {
+        "end": 230,
+        "start": 226,
+        "type": "NP"
+      }
+    ],
+    "the privacy\nconsequences": [
+      {
+        "end": 255,
+        "start": 251,
+        "type": "NP"
+      }
+    ],
+    "the problem": [
+      {
+        "end": 154,
+        "start": 152,
+        "type": "NP"
+      }
+    ],
+    "they": [
+      {
+        "end": 270,
+        "start": 269,
+        "type": "NP"
+      }
+    ],
+    "this problem": [
+      {
+        "end": 193,
+        "start": 191,
+        "type": "NP"
+      }
+    ],
+    "this specification": [
+      {
+        "end": 187,
+        "start": 185,
+        "type": "NP"
+      },
+      {
+        "end": 210,
+        "start": 208,
+        "type": "NP"
+      }
+    ],
+    "users": [
+      {
+        "end": 234,
+        "start": 233,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DID": [
+      {
+        "end": 130,
+        "start": 129,
+        "type": "ORG"
+      }
+    ],
+    "Twitter": [
+      {
+        "end": 143,
+        "start": 142,
+        "type": "PRODUCT"
+      }
+    ],
+    "two": [
+      {
+        "end": 85,
+        "start": 84,
+        "type": "CARDINAL"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 85,
+        "label": "two",
+        "start": 84
+      }
+    ],
+    "ORG": [
+      {
+        "end": 130,
+        "label": "DID",
+        "start": 129
+      }
+    ],
+    "PRODUCT": [
+      {
+        "end": 143,
+        "label": "Twitter",
+        "start": 142
+      }
+    ]
+  },
+  "verbs": {
+    "achieve": 1,
+    "base": 1,
+    "be": 4,
+    "come": 1,
+    "consider": 1,
+    "deceive": 1,
+    "define": 1,
+    "demonstrate": 1,
+    "discover": 1,
+    "do": 2,
+    "generate": 1,
+    "handle": 1,
+    "have": 1,
+    "know": 1,
+    "map": 1,
+    "pick": 1,
+    "produce": 1,
+    "recommend": 1,
+    "reference": 1,
+    "start": 1,
+    "trust": 1,
+    "use": 2,
+    "verify": 1
+  }
+}

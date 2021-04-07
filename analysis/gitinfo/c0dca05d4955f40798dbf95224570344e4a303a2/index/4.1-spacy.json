@@ -1,0 +1,499 @@
+{
+  "nouns": {
+    "\"CryptographicKey": [
+      {
+        "end": 203,
+        "start": 201,
+        "type": "NP"
+      }
+    ],
+    "\"https://openid.example.com/456": [
+      {
+        "end": 297,
+        "start": 295,
+        "type": "NP"
+      }
+    ],
+    "\"xdi": [
+      {
+        "end": 302,
+        "start": 299,
+        "type": "NP"
+      }
+    ],
+    ",\n            \"publicKeyBase64": [
+      {
+        "end": 172,
+        "start": 168,
+        "type": "NP"
+      }
+    ],
+    ",\n            \"signatureValue": [
+      {
+        "end": 378,
+        "start": 374,
+        "type": "NP"
+      }
+    ],
+    ",\n            \"type": [
+      {
+        "end": 135,
+        "start": 131,
+        "type": "NP"
+      }
+    ],
+    ",\n        \"service": [
+      {
+        "end": 287,
+        "start": 283,
+        "type": "NP"
+      }
+    ],
+    "2016-02-08T16:02:20Z": [
+      {
+        "end": 362,
+        "start": 357,
+        "type": "NP"
+      }
+    ],
+    "2016-10-17T02:41:00Z\",\n        \"signature": [
+      {
+        "end": 339,
+        "start": 329,
+        "type": "NP"
+      }
+    ],
+    "2017-02-08T16:02:20Z": [
+      {
+        "end": 167,
+        "start": 162,
+        "type": "NP"
+      }
+    ],
+    ": \"did:example:21tDAKCERh95uGgKbJNHYp\",\n        \"owner": [
+      {
+        "end": 116,
+        "start": 106,
+        "type": "NP"
+      }
+    ],
+    "Appendix B": [
+      {
+        "end": 75,
+        "start": 73,
+        "type": "NP"
+      }
+    ],
+    "EdDsaPublicKey": [
+      {
+        "end": 144,
+        "start": 143,
+        "type": "NP"
+      }
+    ],
+    "Example Owner-Managed DDO": [
+      {
+        "end": 6,
+        "start": 0,
+        "type": "NP"
+      }
+    ],
+    "PUBLIC KEY-----\\r\\nMIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV\\r\\n-----END PUBLIC": [
+      {
+        "end": 237,
+        "start": 230,
+        "type": "NP"
+      }
+    ],
+    "RsaPublicKey": [
+      {
+        "end": 207,
+        "start": 206,
+        "type": "NP"
+      }
+    ],
+    "RsaSignature2016": [
+      {
+        "end": 349,
+        "start": 348,
+        "type": "NP"
+      }
+    ],
+    "This\nexample": [
+      {
+        "end": 23,
+        "start": 20,
+        "type": "NP"
+      }
+    ],
+    "[\"CryptographicKey": [
+      {
+        "end": 140,
+        "start": 137,
+        "type": "NP"
+      }
+    ],
+    "[{\n            \"type": [
+      {
+        "end": 253,
+        "start": 248,
+        "type": "NP"
+      }
+    ],
+    "],\n        \"control": [
+      {
+        "end": 246,
+        "start": 241,
+        "type": "NP"
+      }
+    ],
+    "a DDO": [
+      {
+        "end": 14,
+        "start": 12,
+        "type": "NP"
+      },
+      {
+        "end": 57,
+        "start": 55,
+        "type": "NP"
+      }
+    ],
+    "a guardian": [
+      {
+        "end": 61,
+        "start": 59,
+        "type": "NP"
+      }
+    ],
+    "an example": [
+      {
+        "end": 11,
+        "start": 9,
+        "type": "NP"
+      },
+      {
+        "end": 54,
+        "start": 52,
+        "type": "NP"
+      }
+    ],
+    "ed25519": [
+      {
+        "end": 154,
+        "start": 153,
+        "type": "NP"
+      }
+    ],
+    "example:8uQhQMGzWxR8vw5P3UWH1j": [
+      {
+        "end": 277,
+        "start": 276,
+        "type": "NP"
+      }
+    ],
+    "id": [
+      {
+        "end": 105,
+        "start": 103,
+        "type": "NP"
+      },
+      {
+        "end": 124,
+        "start": 122,
+        "type": "NP"
+      },
+      {
+        "end": 187,
+        "start": 185,
+        "type": "NP"
+      }
+    ],
+    "illustration": [
+      {
+        "end": 88,
+        "start": 87,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 49,
+        "start": 48,
+        "type": "NP"
+      }
+    ],
+    "the\nprivate keys": [
+      {
+        "end": 37,
+        "start": 33,
+        "type": "NP"
+      }
+    ],
+    "the @context\nproperty": [
+      {
+        "end": 83,
+        "start": 79,
+        "type": "NP"
+      }
+    ],
+    "the DDO": [
+      {
+        "end": 46,
+        "start": 44,
+        "type": "NP"
+      }
+    ],
+    "the DID": [
+      {
+        "end": 18,
+        "start": 16,
+        "type": "NP"
+      }
+    ],
+    "the URL": [
+      {
+        "end": 78,
+        "start": 76,
+        "type": "NP"
+      }
+    ],
+    "the authoritative\nJSON-LD context definition": [
+      {
+        "end": 71,
+        "start": 63,
+        "type": "NP"
+      }
+    ],
+    "the entity": [
+      {
+        "end": 31,
+        "start": 29,
+        "type": "NP"
+      }
+    ],
+    "the identity owner": [
+      {
+        "end": 28,
+        "start": 25,
+        "type": "NP"
+      }
+    ],
+    "this identity": [
+      {
+        "end": 40,
+        "start": 38,
+        "type": "NP"
+      }
+    ],
+    "{\n            \"openid": [
+      {
+        "end": 293,
+        "start": 289,
+        "type": "NP"
+      }
+    ],
+    "{\n            \"type": [
+      {
+        "end": 345,
+        "start": 341,
+        "type": "NP"
+      }
+    ],
+    "{\n      \"@context": [
+      {
+        "end": 95,
+        "start": 91,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "2.2": [
+      {
+        "end": 51,
+        "start": 50,
+        "type": "CARDINAL"
+      }
+    ],
+    "2002-10-10T17:00:00Z": [
+      {
+        "end": 321,
+        "start": 316,
+        "type": "DATE"
+      }
+    ],
+    "2016-02-08T16:02:20Z": [
+      {
+        "end": 362,
+        "start": 357,
+        "type": "DATE"
+      }
+    ],
+    "2016-10-17T02:41:00Z": [
+      {
+        "end": 334,
+        "start": 329,
+        "type": "DATE"
+      }
+    ],
+    "2017": [
+      {
+        "end": 217,
+        "start": 216,
+        "type": "CARDINAL"
+      }
+    ],
+    "2017-02-08T16:02:20Z": [
+      {
+        "end": 167,
+        "start": 162,
+        "type": "DATE"
+      }
+    ],
+    "CryptographicKey": [
+      {
+        "end": 140,
+        "start": 139,
+        "type": "ORG"
+      },
+      {
+        "end": 203,
+        "start": 202,
+        "type": "ORG"
+      }
+    ],
+    "DDO": [
+      {
+        "end": 14,
+        "start": 13,
+        "type": "ORG"
+      },
+      {
+        "end": 46,
+        "start": 45,
+        "type": "ORG"
+      },
+      {
+        "end": 57,
+        "start": 56,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 18,
+        "start": 17,
+        "type": "ORG"
+      }
+    ],
+    "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s=": [
+      {
+        "end": 384,
+        "start": 381,
+        "type": "WORK_OF_ART"
+      }
+    ],
+    "XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV\\r\\n-----END PUBLIC KEY-----": [
+      {
+        "end": 238,
+        "start": 235,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 51,
+        "label": "2.2",
+        "start": 50
+      },
+      {
+        "end": 217,
+        "label": "2017",
+        "start": 216
+      }
+    ],
+    "DATE": [
+      {
+        "end": 167,
+        "label": "2017-02-08T16:02:20Z",
+        "start": 162
+      },
+      {
+        "end": 321,
+        "label": "2002-10-10T17:00:00Z",
+        "start": 316
+      },
+      {
+        "end": 334,
+        "label": "2016-10-17T02:41:00Z",
+        "start": 329
+      },
+      {
+        "end": 362,
+        "label": "2016-02-08T16:02:20Z",
+        "start": 357
+      }
+    ],
+    "ORG": [
+      {
+        "end": 14,
+        "label": "DDO",
+        "start": 13
+      },
+      {
+        "end": 18,
+        "label": "DID",
+        "start": 17
+      },
+      {
+        "end": 46,
+        "label": "DDO",
+        "start": 45
+      },
+      {
+        "end": 57,
+        "label": "DDO",
+        "start": 56
+      },
+      {
+        "end": 140,
+        "label": "CryptographicKey",
+        "start": 139
+      },
+      {
+        "end": 203,
+        "label": "CryptographicKey",
+        "start": 202
+      },
+      {
+        "end": 238,
+        "label": "XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV\\r\\n-----END PUBLIC KEY-----",
+        "start": 235
+      }
+    ],
+    "WORK_OF_ART": [
+      {
+        "end": 384,
+        "label": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s=",
+        "start": 381
+      }
+    ]
+  },
+  "verbs": {
+    "assume": 1,
+    "control": 1,
+    "create": 3,
+    "describe": 1,
+    "do": 4,
+    "example:21tdakcerh95uggkbjnhyp#key-1": 1,
+    "example:21tdakcerh95uggkbjnhyp#key-2": 1,
+    "expire": 2,
+    "follow": 1,
+    "manage": 1,
+    "see": 2,
+    "update": 1
+  }
+}

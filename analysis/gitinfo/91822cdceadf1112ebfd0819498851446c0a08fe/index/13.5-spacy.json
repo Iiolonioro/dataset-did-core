@@ -1,0 +1,138 @@
+{
+  "nouns": {
+    "A potential future solution": [
+      {
+        "end": 45,
+        "start": 41,
+        "type": "NP"
+      }
+    ],
+    "Control": [
+      {
+        "end": 14,
+        "start": 13,
+        "type": "NP"
+      },
+      {
+        "end": 32,
+        "start": 31,
+        "type": "NP"
+      }
+    ],
+    "Not all DLTs": [
+      {
+        "end": 8,
+        "start": 5,
+        "type": "NP"
+      }
+    ],
+    "a\n        Smart Signature\n       specification": [
+      {
+        "end": 52,
+        "start": 46,
+        "type": "NP"
+      }
+    ],
+    "any conformant DLT": [
+      {
+        "end": 59,
+        "start": 56,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 17,
+        "start": 16,
+        "type": "NP"
+      }
+    ],
+    "signature control logic": [
+      {
+        "end": 66,
+        "start": 63,
+        "type": "NP"
+      }
+    ],
+    "specifications": [
+      {
+        "end": 40,
+        "start": 39,
+        "type": "NP"
+      }
+    ],
+    "the code": [
+      {
+        "end": 56,
+        "start": 54,
+        "type": "NP"
+      }
+    ],
+    "the specification": [
+      {
+        "end": 27,
+        "start": 25,
+        "type": "NP"
+      }
+    ],
+    "this version": [
+      {
+        "end": 24,
+        "start": 22,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DID": [
+      {
+        "end": 38,
+        "start": 37,
+        "type": "ORG"
+      }
+    ],
+    "DLT": [
+      {
+        "end": 59,
+        "start": 58,
+        "type": "ORG"
+      }
+    ],
+    "section 6.5": [
+      {
+        "end": 18,
+        "start": 16,
+        "type": "LAW"
+      }
+    ]
+  },
+  "types": {
+    "LAW": [
+      {
+        "end": 18,
+        "label": "section 6.5",
+        "start": 16
+      }
+    ],
+    "ORG": [
+      {
+        "end": 38,
+        "label": "DID",
+        "start": 37
+      },
+      {
+        "end": 59,
+        "label": "DLT",
+        "start": 58
+      }
+    ]
+  },
+  "verbs": {
+    "delegate": 1,
+    "implement": 1,
+    "method": 1,
+    "process": 1,
+    "specify": 1,
+    "support": 1
+  }
+}

@@ -1,0 +1,850 @@
+{
+  "nouns": {
+    "\",\n            \"type": [
+      {
+        "end": 294,
+        "start": 289,
+        "type": "NP"
+      }
+    ],
+    "\"CryptographicKey": [
+      {
+        "end": 362,
+        "start": 360,
+        "type": "NP"
+      }
+    ],
+    "\"],\n            \"curve": [
+      {
+        "end": 309,
+        "start": 303,
+        "type": "NP"
+      }
+    ],
+    "(Required": [
+      {
+        "end": 6,
+        "start": 4,
+        "type": "NP"
+      }
+    ],
+    ",\n            \"publicKeyBase64": [
+      {
+        "end": 331,
+        "start": 327,
+        "type": "NP"
+      }
+    ],
+    "2017-02-08T16:02:20Z": [
+      {
+        "end": 326,
+        "start": 321,
+        "type": "NP"
+      }
+    ],
+    "A\nlist": [
+      {
+        "end": 192,
+        "start": 189,
+        "type": "NP"
+      }
+    ],
+    "A DDO": [
+      {
+        "end": 119,
+        "start": 117,
+        "type": "NP"
+      },
+      {
+        "end": 137,
+        "start": 135,
+        "type": "NP"
+      }
+    ],
+    "A new key\ndescription": [
+      {
+        "end": 206,
+        "start": 201,
+        "type": "NP"
+      }
+    ],
+    "Appendix C.": [
+      {
+        "end": 201,
+        "start": 199,
+        "type": "NP"
+      }
+    ],
+    "Control": [
+      {
+        "end": 60,
+        "start": 59,
+        "type": "NP"
+      }
+    ],
+    "DDO": [
+      {
+        "end": 31,
+        "start": 30,
+        "type": "NP"
+      },
+      {
+        "end": 410,
+        "start": 409,
+        "type": "NP"
+      }
+    ],
+    "DID resolvers": [
+      {
+        "end": 419,
+        "start": 417,
+        "type": "NP"
+      }
+    ],
+    "Example": [
+      {
+        "end": 269,
+        "start": 267,
+        "type": "NP"
+      }
+    ],
+    "Ownership": [
+      {
+        "end": 4,
+        "start": 3,
+        "type": "NP"
+      },
+      {
+        "end": 14,
+        "start": 13,
+        "type": "NP"
+      },
+      {
+        "end": 54,
+        "start": 53,
+        "type": "NP"
+      },
+      {
+        "end": 114,
+        "start": 113,
+        "type": "NP"
+      }
+    ],
+    "Proof": [
+      {
+        "end": 2,
+        "start": 0,
+        "type": "NP"
+      },
+      {
+        "end": 12,
+        "start": 10,
+        "type": "NP"
+      },
+      {
+        "end": 52,
+        "start": 51,
+        "type": "NP"
+      },
+      {
+        "end": 58,
+        "start": 57,
+        "type": "NP"
+      },
+      {
+        "end": 112,
+        "start": 111,
+        "type": "NP"
+      }
+    ],
+    "RsaPublicKey": [
+      {
+        "end": 366,
+        "start": 365,
+        "type": "NP"
+      }
+    ],
+    "The key": [
+      {
+        "end": 152,
+        "start": 150,
+        "type": "NP"
+      }
+    ],
+    "The rules": [
+      {
+        "end": 110,
+        "start": 108,
+        "type": "NP"
+      }
+    ],
+    "The value": [
+      {
+        "end": 162,
+        "start": 160,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 29,
+        "start": 27,
+        "type": "NP"
+      },
+      {
+        "end": 245,
+        "start": 243,
+        "type": "NP"
+      }
+    ],
+    "a DID fragment": [
+      {
+        "end": 256,
+        "start": 253,
+        "type": "NP"
+      }
+    ],
+    "a DID method specification": [
+      {
+        "end": 215,
+        "start": 211,
+        "type": "NP"
+      }
+    ],
+    "a guardian": [
+      {
+        "end": 123,
+        "start": 121,
+        "type": "NP"
+      },
+      {
+        "end": 143,
+        "start": 141,
+        "type": "NP"
+      }
+    ],
+    "a key description": [
+      {
+        "end": 180,
+        "start": 177,
+        "type": "NP"
+      }
+    ],
+    "a property": [
+      {
+        "end": 235,
+        "start": 233,
+        "type": "NP"
+      }
+    ],
+    "a set": [
+      {
+        "end": 37,
+        "start": 35,
+        "type": "NP"
+      }
+    ],
+    "a valid public key": [
+      {
+        "end": 185,
+        "start": 181,
+        "type": "NP"
+      }
+    ],
+    "an array": [
+      {
+        "end": 169,
+        "start": 167,
+        "type": "NP"
+      }
+    ],
+    "an identity owner": [
+      {
+        "end": 22,
+        "start": 19,
+        "type": "NP"
+      },
+      {
+        "end": 64,
+        "start": 61,
+        "type": "NP"
+      }
+    ],
+    "each key\ndescription": [
+      {
+        "end": 231,
+        "start": 227,
+        "type": "NP"
+      }
+    ],
+    "each member": [
+      {
+        "end": 172,
+        "start": 170,
+        "type": "NP"
+      }
+    ],
+    "ed25519": [
+      {
+        "end": 313,
+        "start": 312,
+        "type": "NP"
+      }
+    ],
+    "exactly one\nowner": [
+      {
+        "end": 133,
+        "start": 129,
+        "type": "NP"
+      }
+    ],
+    "exactly one owner": [
+      {
+        "end": 148,
+        "start": 145,
+        "type": "NP"
+      }
+    ],
+    "example": [
+      {
+        "end": 77,
+        "start": 76,
+        "type": "NP"
+      }
+    ],
+    "id": [
+      {
+        "end": 283,
+        "start": 281,
+        "type": "NP"
+      },
+      {
+        "end": 346,
+        "start": 344,
+        "type": "NP"
+      }
+    ],
+    "key descriptions": [
+      {
+        "end": 44,
+        "start": 42,
+        "type": "NP"
+      }
+    ],
+    "key recovery": [
+      {
+        "end": 83,
+        "start": 81,
+        "type": "NP"
+      }
+    ],
+    "more than one key description": [
+      {
+        "end": 226,
+        "start": 221,
+        "type": "NP"
+      }
+    ],
+    "other clients": [
+      {
+        "end": 422,
+        "start": 420,
+        "type": "NP"
+      }
+    ],
+    "other entities": [
+      {
+        "end": 70,
+        "start": 68,
+        "type": "NP"
+      }
+    ],
+    "owner": [
+      {
+        "end": 158,
+        "start": 157,
+        "type": "NP"
+      }
+    ],
+    "ownership": [
+      {
+        "end": 26,
+        "start": 25,
+        "type": "NP"
+      },
+      {
+        "end": 95,
+        "start": 94,
+        "type": "NP"
+      }
+    ],
+    "public key": [
+      {
+        "end": 40,
+        "start": 38,
+        "type": "NP"
+      }
+    ],
+    "reference": [
+      {
+        "end": 247,
+        "start": 245,
+        "type": "NP"
+      },
+      {
+        "end": 261,
+        "start": 259,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 47,
+        "start": 46,
+        "type": "NP"
+      },
+      {
+        "end": 87,
+        "start": 86,
+        "type": "NP"
+      },
+      {
+        "end": 125,
+        "start": 124,
+        "type": "NP"
+      },
+      {
+        "end": 425,
+        "start": 424,
+        "type": "NP"
+      }
+    ],
+    "standard key descriptions": [
+      {
+        "end": 196,
+        "start": 193,
+        "type": "NP"
+      }
+    ],
+    "the\narray": [
+      {
+        "end": 176,
+        "start": 173,
+        "type": "NP"
+      }
+    ],
+    "the DDO": [
+      {
+        "end": 74,
+        "start": 72,
+        "type": "NP"
+      }
+    ],
+    "the identity owner": [
+      {
+        "end": 105,
+        "start": 102,
+        "type": "NP"
+      }
+    ],
+    "the keys": [
+      {
+        "end": 408,
+        "start": 406,
+        "type": "NP"
+      }
+    ],
+    "the mechanism": [
+      {
+        "end": 17,
+        "start": 15,
+        "type": "NP"
+      }
+    ],
+    "the primary DID": [
+      {
+        "end": 252,
+        "start": 249,
+        "type": "NP"
+      }
+    ],
+    "the responsibility": [
+      {
+        "end": 416,
+        "start": 414,
+        "type": "NP"
+      }
+    ],
+    "them": [
+      {
+        "end": 92,
+        "start": 91,
+        "type": "NP"
+      }
+    ],
+    "this array": [
+      {
+        "end": 220,
+        "start": 218,
+        "type": "NP"
+      }
+    ],
+    "this key": [
+      {
+        "end": 165,
+        "start": 163,
+        "type": "NP"
+      }
+    ],
+    "this key description": [
+      {
+        "end": 266,
+        "start": 263,
+        "type": "NP"
+      }
+    ],
+    "this property": [
+      {
+        "end": 155,
+        "start": 153,
+        "type": "NP"
+      }
+    ],
+    "verification key": [
+      {
+        "end": 188,
+        "start": 186,
+        "type": "NP"
+      }
+    ],
+    "virtue": [
+      {
+        "end": 33,
+        "start": 32,
+        "type": "NP"
+      }
+    ],
+    "whose value": [
+      {
+        "end": 242,
+        "start": 240,
+        "type": "NP"
+      }
+    ],
+    "{\n      \"owner": [
+      {
+        "end": 275,
+        "start": 271,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "2017": [
+      {
+        "end": 376,
+        "start": 375,
+        "type": "CARDINAL"
+      }
+    ],
+    "2017-02-08T16:02:20Z": [
+      {
+        "end": 326,
+        "start": 321,
+        "type": "DATE"
+      }
+    ],
+    "9.6": [
+      {
+        "end": 426,
+        "start": 425,
+        "type": "CARDINAL"
+      }
+    ],
+    "Appendix C.": [
+      {
+        "end": 201,
+        "start": 199,
+        "type": "ORG"
+      }
+    ],
+    "CryptographicKey": [
+      {
+        "end": 299,
+        "start": 298,
+        "type": "ORG"
+      },
+      {
+        "end": 362,
+        "start": 361,
+        "type": "ORG"
+      }
+    ],
+    "DDO": [
+      {
+        "end": 31,
+        "start": 30,
+        "type": "ORG"
+      },
+      {
+        "end": 74,
+        "start": 73,
+        "type": "ORG"
+      },
+      {
+        "end": 119,
+        "start": 118,
+        "type": "ORG"
+      },
+      {
+        "end": 137,
+        "start": 136,
+        "type": "ORG"
+      },
+      {
+        "end": 410,
+        "start": 409,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 29,
+        "start": 28,
+        "type": "ORG"
+      },
+      {
+        "end": 213,
+        "start": 212,
+        "type": "ORG"
+      },
+      {
+        "end": 245,
+        "start": 244,
+        "type": "ORG"
+      },
+      {
+        "end": 252,
+        "start": 251,
+        "type": "ORG"
+      },
+      {
+        "end": 255,
+        "start": 254,
+        "type": "ORG"
+      },
+      {
+        "end": 418,
+        "start": 417,
+        "type": "ORG"
+      }
+    ],
+    "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s=": [
+      {
+        "end": 337,
+        "start": 334,
+        "type": "WORK_OF_ART"
+      }
+    ],
+    "MIIBOgIBAAJBAKkbSUT9": [
+      {
+        "end": 389,
+        "start": 388,
+        "type": "PERSON"
+      }
+    ],
+    "Proof of Control": [
+      {
+        "end": 60,
+        "start": 57,
+        "type": "ORG"
+      }
+    ],
+    "Proof of Ownership": [
+      {
+        "end": 54,
+        "start": 51,
+        "type": "ORG"
+      }
+    ],
+    "Proof of Ownership (Required": [
+      {
+        "end": 6,
+        "start": 1,
+        "type": "ORG"
+      }
+    ],
+    "more than one": [
+      {
+        "end": 224,
+        "start": 221,
+        "type": "CARDINAL"
+      }
+    ],
+    "section 6.5": [
+      {
+        "end": 88,
+        "start": 86,
+        "type": "LAW"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 224,
+        "label": "more than one",
+        "start": 221
+      },
+      {
+        "end": 376,
+        "label": "2017",
+        "start": 375
+      },
+      {
+        "end": 426,
+        "label": "9.6",
+        "start": 425
+      }
+    ],
+    "DATE": [
+      {
+        "end": 326,
+        "label": "2017-02-08T16:02:20Z",
+        "start": 321
+      }
+    ],
+    "LAW": [
+      {
+        "end": 88,
+        "label": "section 6.5",
+        "start": 86
+      }
+    ],
+    "ORG": [
+      {
+        "end": 6,
+        "label": "Proof of Ownership (Required",
+        "start": 1
+      },
+      {
+        "end": 29,
+        "label": "DID",
+        "start": 28
+      },
+      {
+        "end": 31,
+        "label": "DDO",
+        "start": 30
+      },
+      {
+        "end": 54,
+        "label": "Proof of Ownership",
+        "start": 51
+      },
+      {
+        "end": 60,
+        "label": "Proof of Control",
+        "start": 57
+      },
+      {
+        "end": 74,
+        "label": "DDO",
+        "start": 73
+      },
+      {
+        "end": 119,
+        "label": "DDO",
+        "start": 118
+      },
+      {
+        "end": 137,
+        "label": "DDO",
+        "start": 136
+      },
+      {
+        "end": 201,
+        "label": "Appendix C.",
+        "start": 199
+      },
+      {
+        "end": 213,
+        "label": "DID",
+        "start": 212
+      },
+      {
+        "end": 245,
+        "label": "DID",
+        "start": 244
+      },
+      {
+        "end": 252,
+        "label": "DID",
+        "start": 251
+      },
+      {
+        "end": 255,
+        "label": "DID",
+        "start": 254
+      },
+      {
+        "end": 299,
+        "label": "CryptographicKey",
+        "start": 298
+      },
+      {
+        "end": 362,
+        "label": "CryptographicKey",
+        "start": 361
+      },
+      {
+        "end": 410,
+        "label": "DDO",
+        "start": 409
+      },
+      {
+        "end": 418,
+        "label": "DID",
+        "start": 417
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 389,
+        "label": "MIIBOgIBAAJBAKkbSUT9",
+        "start": 388
+      }
+    ],
+    "WORK_OF_ART": [
+      {
+        "end": 337,
+        "label": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s=",
+        "start": 334
+      }
+    ]
+  },
+  "verbs": {
+    "assist": 1,
+    "be": 5,
+    "cache": 1,
+    "consist": 1,
+    "contain": 1,
+    "d": 1,
+    "define": 1,
+    "discuss": 1,
+    "do": 1,
+    "enable": 2,
+    "expire": 2,
+    "have": 2,
+    "identify": 1,
+    "impersonate": 1,
+    "include": 4,
+    "note": 2,
+    "prove": 2,
+    "publish": 1,
+    "see": 2,
+    "update": 1,
+    "verification": 1,
+    "wish": 1
+  }
+}

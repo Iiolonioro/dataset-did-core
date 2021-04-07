@@ -1,0 +1,299 @@
+{
+  "nouns": {
+    "11.4 Time Locks": [
+      {
+        "end": 4,
+        "start": 1,
+        "type": "NP"
+      }
+    ],
+    "Control": [
+      {
+        "end": 48,
+        "start": 47,
+        "type": "NP"
+      },
+      {
+        "end": 92,
+        "start": 91,
+        "type": "NP"
+      }
+    ],
+    "DDO Recovery\n\n\n    \n      Section": [
+      {
+        "end": 9,
+        "start": 5,
+        "type": "NP"
+      }
+    ],
+    "Proof": [
+      {
+        "end": 46,
+        "start": 45,
+        "type": "NP"
+      }
+    ],
+    "The technique": [
+      {
+        "end": 31,
+        "start": 29,
+        "type": "NP"
+      }
+    ],
+    "This protection": [
+      {
+        "end": 65,
+        "start": 63,
+        "type": "NP"
+      }
+    ],
+    "We": [
+      {
+        "end": 101,
+        "start": 100,
+        "type": "NP"
+      }
+    ],
+    "a\n        time lock": [
+      {
+        "end": 72,
+        "start": 68,
+        "type": "NP"
+      }
+    ],
+    "a DDO": [
+      {
+        "end": 44,
+        "start": 42,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 24,
+        "start": 22,
+        "type": "NP"
+      }
+    ],
+    "a future version": [
+      {
+        "end": 112,
+        "start": 109,
+        "type": "NP"
+      }
+    ],
+    "a key compromise": [
+      {
+        "end": 28,
+        "start": 25,
+        "type": "NP"
+      }
+    ],
+    "an ability": [
+      {
+        "end": 35,
+        "start": 33,
+        "type": "NP"
+      }
+    ],
+    "an earlier version": [
+      {
+        "end": 53,
+        "start": 50,
+        "type": "NP"
+      }
+    ],
+    "control": [
+      {
+        "end": 21,
+        "start": 20,
+        "type": "NP"
+      },
+      {
+        "end": 99,
+        "start": 98,
+        "type": "NP"
+      }
+    ],
+    "one possible clever use": [
+      {
+        "end": 15,
+        "start": 11,
+        "type": "NP"
+      }
+    ],
+    "order": [
+      {
+        "end": 58,
+        "start": 57,
+        "type": "NP"
+      }
+    ],
+    "part": [
+      {
+        "end": 82,
+        "start": 81,
+        "type": "NP"
+      }
+    ],
+    "support": [
+      {
+        "end": 105,
+        "start": 104,
+        "type": "NP"
+      }
+    ],
+    "the DDO": [
+      {
+        "end": 56,
+        "start": 54,
+        "type": "NP"
+      }
+    ],
+    "the attacker": [
+      {
+        "end": 62,
+        "start": 60,
+        "type": "NP"
+      }
+    ],
+    "the most recent update": [
+      {
+        "end": 41,
+        "start": 37,
+        "type": "NP"
+      }
+    ],
+    "the transaction chain": [
+      {
+        "end": 86,
+        "start": 83,
+        "type": "NP"
+      }
+    ],
+    "this specification": [
+      {
+        "end": 115,
+        "start": 113,
+        "type": "NP"
+      }
+    ],
+    "time locks": [
+      {
+        "end": 18,
+        "start": 16,
+        "type": "NP"
+      },
+      {
+        "end": 108,
+        "start": 106,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "11.4 Time Locks": [
+      {
+        "end": 4,
+        "start": 1,
+        "type": "ORG"
+      }
+    ],
+    "Bitcoin BIP": [
+      {
+        "end": 76,
+        "start": 74,
+        "type": "ORG"
+      }
+    ],
+    "DDO": [
+      {
+        "end": 44,
+        "start": 43,
+        "type": "ORG"
+      },
+      {
+        "end": 56,
+        "start": 55,
+        "type": "ORG"
+      }
+    ],
+    "DDO Recovery": [
+      {
+        "end": 7,
+        "start": 5,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 24,
+        "start": 23,
+        "type": "ORG"
+      }
+    ],
+    "one": [
+      {
+        "end": 12,
+        "start": 11,
+        "type": "CARDINAL"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 12,
+        "label": "one",
+        "start": 11
+      }
+    ],
+    "ORG": [
+      {
+        "end": 4,
+        "label": "11.4 Time Locks",
+        "start": 1
+      },
+      {
+        "end": 7,
+        "label": "DDO Recovery",
+        "start": 5
+      },
+      {
+        "end": 24,
+        "label": "DID",
+        "start": 23
+      },
+      {
+        "end": 44,
+        "label": "DDO",
+        "start": 43
+      },
+      {
+        "end": 56,
+        "label": "DDO",
+        "start": 55
+      },
+      {
+        "end": 76,
+        "label": "Bitcoin BIP",
+        "start": 74
+      }
+    ]
+  },
+  "verbs": {
+    "add": 2,
+    "apply": 1,
+    "defeat": 1,
+    "depend": 1,
+    "enable": 1,
+    "mention": 1,
+    "override": 1,
+    "plan": 1,
+    "protect": 1,
+    "recover": 2,
+    "rely": 1,
+    "see": 1,
+    "use": 1
+  }
+}

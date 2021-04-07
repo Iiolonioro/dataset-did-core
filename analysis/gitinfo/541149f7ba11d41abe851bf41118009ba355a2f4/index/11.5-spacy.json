@@ -1,0 +1,400 @@
+{
+  "nouns": {
+    "An identity owner": [
+      {
+        "end": 136,
+        "start": 133,
+        "type": "NP"
+      },
+      {
+        "end": 163,
+        "start": 160,
+        "type": "NP"
+      }
+    ],
+    "DDO": [
+      {
+        "end": 4,
+        "start": 3,
+        "type": "NP"
+      }
+    ],
+    "Notification": [
+      {
+        "end": 2,
+        "start": 1,
+        "type": "NP"
+      }
+    ],
+    "Notifications": [
+      {
+        "end": 112,
+        "start": 111,
+        "type": "NP"
+      }
+    ],
+    "One mitigation": [
+      {
+        "end": 8,
+        "start": 5,
+        "type": "NP"
+      }
+    ],
+    "RECOMMENDED": [
+      {
+        "end": 80,
+        "start": 79,
+        "type": "NP"
+      }
+    ],
+    "Self-monitoring": [
+      {
+        "end": 132,
+        "start": 128,
+        "type": "NP"
+      }
+    ],
+    "Subscriptions": [
+      {
+        "end": 83,
+        "start": 81,
+        "type": "NP"
+      }
+    ],
+    "Third-party monitoring": [
+      {
+        "end": 159,
+        "start": 154,
+        "type": "NP"
+      }
+    ],
+    "a DDO": [
+      {
+        "end": 14,
+        "start": 12,
+        "type": "NP"
+      },
+      {
+        "end": 153,
+        "start": 151,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 60,
+        "start": 58,
+        "type": "NP"
+      }
+    ],
+    "a third party\nmonitoring service": [
+      {
+        "end": 172,
+        "start": 166,
+        "type": "NP"
+      }
+    ],
+    "account provider": [
+      {
+        "end": 70,
+        "start": 68,
+        "type": "NP"
+      }
+    ],
+    "account takeover": [
+      {
+        "end": 35,
+        "start": 33,
+        "type": "NP"
+      }
+    ],
+    "an existing DID": [
+      {
+        "end": 127,
+        "start": 124,
+        "type": "NP"
+      }
+    ],
+    "another vector": [
+      {
+        "end": 178,
+        "start": 176,
+        "type": "NP"
+      }
+    ],
+    "attack": [
+      {
+        "end": 180,
+        "start": 179,
+        "type": "NP"
+      }
+    ],
+    "change notifications": [
+      {
+        "end": 100,
+        "start": 98,
+        "type": "NP"
+      }
+    ],
+    "changes": [
+      {
+        "end": 26,
+        "start": 25,
+        "type": "NP"
+      },
+      {
+        "end": 150,
+        "start": 149,
+        "type": "NP"
+      }
+    ],
+    "conventional username/password accounts": [
+      {
+        "end": 41,
+        "start": 36,
+        "type": "NP"
+      }
+    ],
+    "file": [
+      {
+        "end": 52,
+        "start": 51,
+        "type": "NP"
+      }
+    ],
+    "network": [
+      {
+        "end": 89,
+        "start": 88,
+        "type": "NP"
+      }
+    ],
+    "no intermediary registrar": [
+      {
+        "end": 67,
+        "start": 64,
+        "type": "NP"
+      }
+    ],
+    "online agent": [
+      {
+        "end": 145,
+        "start": 143,
+        "type": "NP"
+      }
+    ],
+    "owners": [
+      {
+        "end": 110,
+        "start": 109,
+        "type": "NP"
+      }
+    ],
+    "password reset notifications": [
+      {
+        "end": 46,
+        "start": 43,
+        "type": "NP"
+      }
+    ],
+    "the\nrelevant service endpoints": [
+      {
+        "end": 122,
+        "start": 117,
+        "type": "NP"
+      }
+    ],
+    "the DID": [
+      {
+        "end": 93,
+        "start": 91,
+        "type": "NP"
+      }
+    ],
+    "the case": [
+      {
+        "end": 57,
+        "start": 55,
+        "type": "NP"
+      }
+    ],
+    "the email addresses": [
+      {
+        "end": 50,
+        "start": 47,
+        "type": "NP"
+      }
+    ],
+    "the following approaches": [
+      {
+        "end": 78,
+        "start": 75,
+        "type": "NP"
+      }
+    ],
+    "the identity owner": [
+      {
+        "end": 22,
+        "start": 19,
+        "type": "NP"
+      }
+    ],
+    "the ledger": [
+      {
+        "end": 87,
+        "start": 85,
+        "type": "NP"
+      }
+    ],
+    "the notification": [
+      {
+        "end": 74,
+        "start": 72,
+        "type": "NP"
+      }
+    ],
+    "this service": [
+      {
+        "end": 103,
+        "start": 101,
+        "type": "NP"
+      }
+    ],
+    "unauthorized changes": [
+      {
+        "end": 11,
+        "start": 9,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DDO": [
+      {
+        "end": 14,
+        "start": 13,
+        "type": "ORG"
+      },
+      {
+        "end": 153,
+        "start": 152,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 60,
+        "start": 59,
+        "type": "ORG"
+      },
+      {
+        "end": 93,
+        "start": 92,
+        "type": "ORG"
+      },
+      {
+        "end": 109,
+        "start": 108,
+        "type": "ORG"
+      },
+      {
+        "end": 127,
+        "start": 126,
+        "type": "ORG"
+      }
+    ],
+    "One": [
+      {
+        "end": 7,
+        "start": 6,
+        "type": "CARDINAL"
+      }
+    ],
+    "Third": [
+      {
+        "end": 156,
+        "start": 155,
+        "type": "ORDINAL"
+      }
+    ],
+    "third": [
+      {
+        "end": 168,
+        "start": 167,
+        "type": "ORDINAL"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 7,
+        "label": "One",
+        "start": 6
+      }
+    ],
+    "ORDINAL": [
+      {
+        "end": 156,
+        "label": "Third",
+        "start": 155
+      },
+      {
+        "end": 168,
+        "label": "third",
+        "start": 167
+      }
+    ],
+    "ORG": [
+      {
+        "end": 14,
+        "label": "DDO",
+        "start": 13
+      },
+      {
+        "end": 60,
+        "label": "DID",
+        "start": 59
+      },
+      {
+        "end": 93,
+        "label": "DID",
+        "start": 92
+      },
+      {
+        "end": 109,
+        "label": "DID",
+        "start": 108
+      },
+      {
+        "end": 127,
+        "label": "DID",
+        "start": 126
+      },
+      {
+        "end": 153,
+        "label": "DDO",
+        "start": 152
+      }
+    ]
+  },
+  "verbs": {
+    "be": 2,
+    "change": 1,
+    "do": 1,
+    "employ": 1,
+    "exist": 1,
+    "follow": 1,
+    "generate": 1,
+    "introduce": 1,
+    "list": 1,
+    "monitor": 2,
+    "notify": 1,
+    "offer": 1,
+    "prevent": 1,
+    "register": 1,
+    "rely": 1,
+    "send": 2,
+    "support": 1
+  }
+}

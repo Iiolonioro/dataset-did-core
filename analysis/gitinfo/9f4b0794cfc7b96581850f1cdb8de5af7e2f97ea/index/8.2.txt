@@ -1,35 +1,33 @@
 
-Specific DID Method Schemes
+Primary DID (Required)
 
-A DID method specification MUST define exactly one specific DID scheme
-identified by exactly one method name (the method rule in section 5.1).
-Since DIDs are intended for decentralized identity infrastructure, it is
-NOT RECOMMENDED to establish a registry of unique DID method names.
-Rather the uniqueness of DID method names should be established via
-human consensus, i.e., a specific DID scheme MUST use a method name that
-is unique among all DID method names known to the specification authors
-at the time of publication.
+The primary DID is the primary index key for the DDO, i.e., it is DID
+described by DDO. The rules for a primary DID are:
 
 
-A list of known DID method names is included in Appendix A.
+
+A DDO MUST have exactly one primary DID.
+  
+
+The key for this property MUST be id.
+  
+
+The value of this key MUST be a valid DID.
+  
+
+When this DDO is registered with the target distributed ledger or
+network, the registered DID MUST match this primary DID value.
+  
 
 
-Since the method name is part of the DID, it SHOULD be as short as
-practical. A method name of five characters or less is RECOMMENDED. The
-method name MAY reflect the name of the distributed ledger or network to
-which the DID method specification applies.
+Example:
 
 
-The DID method specification for the specific DID scheme MUST specify
-how to generate the specific-idstring component of a DID. The
-specific-idstring value MUST be able to be generated without the use of
-a centralized registry service. The specific-idstring value SHOULD be
-globally unique by itself. The fully qualified DID as defined by the did
-rule in section 5.1 MUST be globally unique.
+      {
+        "id": "did:example:21tDAKCERh95uGgKbJNHYp"
+      }
 
 
-If needed, a specific DID scheme MAY define multiple specific
-specific-idstring formats. It is RECOMMENDED that a specific DID scheme
-define as few specific-idstring formats as possible.
+
 
 

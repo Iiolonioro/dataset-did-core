@@ -1,0 +1,371 @@
+{
+  "nouns": {
+    "(Required": [
+      {
+        "end": 6,
+        "start": 4,
+        "type": "NP"
+      }
+    ],
+    "@context": [
+      {
+        "end": 84,
+        "start": 83,
+        "type": "NP"
+      },
+      {
+        "end": 119,
+        "start": 118,
+        "type": "NP"
+      }
+    ],
+    "A DDO": [
+      {
+        "end": 35,
+        "start": 33,
+        "type": "NP"
+      }
+    ],
+    "Appendix": [
+      {
+        "end": 178,
+        "start": 177,
+        "type": "NP"
+      }
+    ],
+    "Appendix B.\n  \n\n\nExample": [
+      {
+        "end": 108,
+        "start": 104,
+        "type": "NP"
+      }
+    ],
+    "Context": [
+      {
+        "end": 4,
+        "start": 3,
+        "type": "NP"
+      }
+    ],
+    "DDOs": [
+      {
+        "end": 73,
+        "start": 72,
+        "type": "NP"
+      }
+    ],
+    "JSON objects": [
+      {
+        "end": 10,
+        "start": 8,
+        "type": "NP"
+      }
+    ],
+    "JSON-LD": [
+      {
+        "end": 69,
+        "start": 66,
+        "type": "NP"
+      }
+    ],
+    "JSON-LD format": [
+      {
+        "end": 15,
+        "start": 11,
+        "type": "NP"
+      }
+    ],
+    "Method-specific contexts": [
+      {
+        "end": 163,
+        "start": 159,
+        "type": "NP"
+      }
+    ],
+    "The key": [
+      {
+        "end": 78,
+        "start": 76,
+        "type": "NP"
+      }
+    ],
+    "The rules": [
+      {
+        "end": 27,
+        "start": 25,
+        "type": "NP"
+      }
+    ],
+    "The value": [
+      {
+        "end": 88,
+        "start": 86,
+        "type": "NP"
+      }
+    ],
+    "This statement": [
+      {
+        "end": 48,
+        "start": 46,
+        "type": "NP"
+      }
+    ],
+    "a JSON-LD context statement": [
+      {
+        "end": 23,
+        "start": 17,
+        "type": "NP"
+      }
+    ],
+    "a new context": [
+      {
+        "end": 150,
+        "start": 147,
+        "type": "NP"
+      }
+    ],
+    "an example URL": [
+      {
+        "end": 113,
+        "start": 110,
+        "type": "NP"
+      }
+    ],
+    "exactly one top-level context statement": [
+      {
+        "end": 44,
+        "start": 37,
+        "type": "NP"
+      }
+    ],
+    "https://example.org/did/v1": [
+      {
+        "end": 123,
+        "start": 122,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 142,
+        "start": 141,
+        "type": "NP"
+      }
+    ],
+    "specifications": [
+      {
+        "end": 130,
+        "start": 129,
+        "type": "NP"
+      }
+    ],
+    "the JSON object": [
+      {
+        "end": 57,
+        "start": 54,
+        "type": "NP"
+      }
+    ],
+    "the URL": [
+      {
+        "end": 95,
+        "start": 93,
+        "type": "NP"
+      }
+    ],
+    "the first line": [
+      {
+        "end": 53,
+        "start": 50,
+        "type": "NP"
+      }
+    ],
+    "the generic DID context": [
+      {
+        "end": 175,
+        "start": 171,
+        "type": "NP"
+      }
+    ],
+    "the method": [
+      {
+        "end": 158,
+        "start": 156,
+        "type": "NP"
+      }
+    ],
+    "the terms": [
+      {
+        "end": 169,
+        "start": 167,
+        "type": "NP"
+      }
+    ],
+    "their own JSON-LD contexts": [
+      {
+        "end": 138,
+        "start": 132,
+        "type": "NP"
+      }
+    ],
+    "this key": [
+      {
+        "end": 91,
+        "start": 89,
+        "type": "NP"
+      }
+    ],
+    "this property": [
+      {
+        "end": 81,
+        "start": 79,
+        "type": "NP"
+      }
+    ],
+    "this statement": [
+      {
+        "end": 30,
+        "start": 28,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "Appendix B.": [
+      {
+        "end": 106,
+        "start": 104,
+        "type": "NORP"
+      }
+    ],
+    "DDO": [
+      {
+        "end": 35,
+        "start": 34,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 99,
+        "start": 98,
+        "type": "ORG"
+      },
+      {
+        "end": 128,
+        "start": 127,
+        "type": "ORG"
+      },
+      {
+        "end": 174,
+        "start": 173,
+        "type": "ORG"
+      }
+    ],
+    "JSON-LD": [
+      {
+        "end": 14,
+        "start": 11,
+        "type": "GPE"
+      },
+      {
+        "end": 21,
+        "start": 18,
+        "type": "ORG"
+      },
+      {
+        "end": 69,
+        "start": 66,
+        "type": "ORG"
+      },
+      {
+        "end": 137,
+        "start": 134,
+        "type": "ORG"
+      }
+    ],
+    "first": [
+      {
+        "end": 52,
+        "start": 51,
+        "type": "ORDINAL"
+      }
+    ]
+  },
+  "types": {
+    "GPE": [
+      {
+        "end": 14,
+        "label": "JSON-LD",
+        "start": 11
+      }
+    ],
+    "NORP": [
+      {
+        "end": 106,
+        "label": "Appendix B.",
+        "start": 104
+      }
+    ],
+    "ORDINAL": [
+      {
+        "end": 52,
+        "label": "first",
+        "start": 51
+      }
+    ],
+    "ORG": [
+      {
+        "end": 21,
+        "label": "JSON-LD",
+        "start": 18
+      },
+      {
+        "end": 35,
+        "label": "DDO",
+        "start": 34
+      },
+      {
+        "end": 69,
+        "label": "JSON-LD",
+        "start": 66
+      },
+      {
+        "end": 99,
+        "label": "DID",
+        "start": 98
+      },
+      {
+        "end": 128,
+        "label": "DID",
+        "start": 127
+      },
+      {
+        "end": 137,
+        "label": "JSON-LD",
+        "start": 134
+      },
+      {
+        "end": 174,
+        "label": "DID",
+        "start": 173
+      }
+    ]
+  },
+  "verbs": {
+    "be": 3,
+    "context": 1,
+    "define": 3,
+    "do": 2,
+    "have": 1,
+    "implement": 1,
+    "include": 1,
+    "list": 1,
+    "method": 1,
+    "override": 1,
+    "recommend": 1,
+    "require": 1,
+    "specify": 1,
+    "use": 1
+  }
+}

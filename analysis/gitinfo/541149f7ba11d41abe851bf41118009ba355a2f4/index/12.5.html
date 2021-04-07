@@ -1,32 +1,14 @@
 
-Notification of DDO Changes
+Herd Privacy
 
 
     
-      One mitigation against unauthorized changes to a DDO is monitoring and actively notifying the identity owner when there are changes. This is analogous to helping prevent account takeover on conventional username/password accounts by sending password reset notifications to the email addresses on file.
+      When an entity is indistinguishable from others in the herd, privacy is available. When the act of engaging privately with another party is by itself a recognizable flag, privacy is greatly diminished.
 
     
-      In the case of a DID, where there is no intermediary registrar or account provider to generate the notification, the following approaches are RECOMMENDED:
-
-
-
-
-
-Subscriptions. If the ledger or network on which the DID is
-registered directly supports change notifications, this service can be
-offered to DID owners. Notifications may be sent directly to the
-relevant service endpoints listed in an existing DID.
-  
-
-Self-monitoring. An identity owner may employ its own local or
-online agent to periodically monitor for changes to a DDO.
-  
-
-Third-party monitoring. An identity owner may rely on a third party
-monitoring service, however this introduces another vector of attack.
-  
-
-
+      DIDs and DID methods SHOULD work to improve herd privacy, particularly for those who legitimately need it most. Choose technologies and human interfaces that default to preserving anonymity and pseudonymity. In order to reduce
+        digital fingerprints
+      , share common settings across client implementations, keep negotiated options to a minimum on wire protocols, use encrypted transport layers, and pad messages to standard lengths.
 
 
 

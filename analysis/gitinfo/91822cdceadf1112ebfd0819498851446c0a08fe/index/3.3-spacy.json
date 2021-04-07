@@ -1,0 +1,401 @@
+{
+  "nouns": {
+    "A URI": [
+      {
+        "end": 47,
+        "start": 44,
+        "type": "NP"
+      },
+      {
+        "end": 87,
+        "start": 85,
+        "type": "NP"
+      },
+      {
+        "end": 147,
+        "start": 145,
+        "type": "NP"
+      }
+    ],
+    "DDOs": [
+      {
+        "end": 168,
+        "start": 167,
+        "type": "NP"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 6,
+        "start": 5,
+        "type": "NP"
+      },
+      {
+        "end": 133,
+        "start": 132,
+        "type": "NP"
+      },
+      {
+        "end": 166,
+        "start": 165,
+        "type": "NP"
+      }
+    ],
+    "DNS names": [
+      {
+        "end": 117,
+        "start": 115,
+        "type": "NP"
+      }
+    ],
+    "IP addresses": [
+      {
+        "end": 120,
+        "start": 118,
+        "type": "NP"
+      }
+    ],
+    "Motivations": [
+      {
+        "end": 4,
+        "start": 3,
+        "type": "NP"
+      }
+    ],
+    "The growing need": [
+      {
+        "end": 10,
+        "start": 7,
+        "type": "NP"
+      }
+    ],
+    "The overwhelming majority": [
+      {
+        "end": 108,
+        "start": 105,
+        "type": "NP"
+      }
+    ],
+    "URI": [
+      {
+        "end": 25,
+        "start": 24,
+        "type": "NP"
+      }
+    ],
+    "URI/URL/URN\narchitecture": [
+      {
+        "end": 36,
+        "start": 29,
+        "type": "NP"
+      }
+    ],
+    "URIs": [
+      {
+        "end": 110,
+        "start": 109,
+        "type": "NP"
+      }
+    ],
+    "a\nURI": [
+      {
+        "end": 79,
+        "start": 76,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 75,
+        "start": 73,
+        "type": "NP"
+      }
+    ],
+    "a URL": [
+      {
+        "end": 69,
+        "start": 67,
+        "type": "NP"
+      }
+    ],
+    "a URN": [
+      {
+        "end": 53,
+        "start": 51,
+        "type": "NP"
+      }
+    ],
+    "a centralized authority": [
+      {
+        "end": 94,
+        "start": 91,
+        "type": "NP"
+      }
+    ],
+    "a new type": [
+      {
+        "end": 23,
+        "start": 20,
+        "type": "NP"
+      }
+    ],
+    "a resource": [
+      {
+        "end": 66,
+        "start": 64,
+        "type": "NP"
+      }
+    ],
+    "any such authority": [
+      {
+        "end": 143,
+        "start": 140,
+        "type": "NP"
+      }
+    ],
+    "both functions": [
+      {
+        "end": 83,
+        "start": 81,
+        "type": "NP"
+      }
+    ],
+    "centralized\nauthorities": [
+      {
+        "end": 126,
+        "start": 123,
+        "type": "NP"
+      }
+    ],
+    "decentralized identity": [
+      {
+        "end": 13,
+        "start": 11,
+        "type": "NP"
+      }
+    ],
+    "distributed\nledgers": [
+      {
+        "end": 181,
+        "start": 178,
+        "type": "NP"
+      }
+    ],
+    "essence": [
+      {
+        "end": 72,
+        "start": 71,
+        "type": "NP"
+      }
+    ],
+    "public\nkeys": [
+      {
+        "end": 157,
+        "start": 154,
+        "type": "NP"
+      }
+    ],
+    "registration": [
+      {
+        "end": 128,
+        "start": 127,
+        "type": "NP"
+      }
+    ],
+    "resolve": [
+      {
+        "end": 99,
+        "start": 98,
+        "type": "NP"
+      }
+    ],
+    "the same public/private key cryptography": [
+      {
+        "end": 177,
+        "start": 170,
+        "type": "NP"
+      }
+    ],
+    "three specific\nrequirements": [
+      {
+        "end": 19,
+        "start": 15,
+        "type": "NP"
+      }
+    ],
+    "traditional way": [
+      {
+        "end": 43,
+        "start": 41,
+        "type": "NP"
+      }
+    ],
+    "ultimate control": [
+      {
+        "end": 131,
+        "start": 129,
+        "type": "NP"
+      }
+    ],
+    "update": [
+      {
+        "end": 101,
+        "start": 100,
+        "type": "NP"
+      }
+    ],
+    "whose ownership and associated metadata": [
+      {
+        "end": 152,
+        "start": 147,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DID": [
+      {
+        "end": 75,
+        "start": 74,
+        "type": "ORG"
+      }
+    ],
+    "DNS": [
+      {
+        "end": 116,
+        "start": 115,
+        "type": "ORG"
+      }
+    ],
+    "IP": [
+      {
+        "end": 119,
+        "start": 118,
+        "type": "ORG"
+      }
+    ],
+    "URI": [
+      {
+        "end": 25,
+        "start": 24,
+        "type": "ORG"
+      },
+      {
+        "end": 47,
+        "start": 46,
+        "type": "ORG"
+      },
+      {
+        "end": 87,
+        "start": 86,
+        "type": "ORG"
+      },
+      {
+        "end": 147,
+        "start": 146,
+        "type": "ORG"
+      }
+    ],
+    "URN": [
+      {
+        "end": 53,
+        "start": 52,
+        "type": "ORG"
+      }
+    ],
+    "three": [
+      {
+        "end": 16,
+        "start": 15,
+        "type": "CARDINAL"
+      }
+    ],
+    "today": [
+      {
+        "end": 111,
+        "start": 110,
+        "type": "DATE"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 16,
+        "label": "three",
+        "start": 15
+      }
+    ],
+    "DATE": [
+      {
+        "end": 111,
+        "label": "today",
+        "start": 110
+      }
+    ],
+    "ORG": [
+      {
+        "end": 25,
+        "label": "URI",
+        "start": 24
+      },
+      {
+        "end": 47,
+        "label": "URI",
+        "start": 46
+      },
+      {
+        "end": 53,
+        "label": "URN",
+        "start": 52
+      },
+      {
+        "end": 75,
+        "label": "DID",
+        "start": 74
+      },
+      {
+        "end": 87,
+        "label": "URI",
+        "start": 86
+      },
+      {
+        "end": 116,
+        "label": "DNS",
+        "start": 115
+      },
+      {
+        "end": 119,
+        "label": "IP",
+        "start": 118
+      },
+      {
+        "end": 147,
+        "label": "URI",
+        "start": 146
+      }
+    ]
+  },
+  "verbs": {
+    "-": 1,
+    "associate": 1,
+    "base": 1,
+    "be": 1,
+    "create": 1,
+    "depend": 1,
+    "distribute": 1,
+    "fit": 1,
+    "grow": 1,
+    "include": 1,
+    "locate": 1,
+    "manage": 1,
+    "produce": 1,
+    "reference": 1,
+    "register": 1,
+    "require": 1,
+    "resolve": 1,
+    "revoke": 1,
+    "serve": 1,
+    "verify": 1
+  }
+}

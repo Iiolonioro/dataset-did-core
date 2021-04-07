@@ -1,0 +1,911 @@
+{
+  "nouns": {
+    "(decentralized PKI": [
+      {
+        "end": 432,
+        "start": 429,
+        "type": "NP"
+      }
+    ],
+    "A DDO": [
+      {
+        "end": 255,
+        "start": 253,
+        "type": "NP"
+      }
+    ],
+    "A DID\nmethod": [
+      {
+        "end": 339,
+        "start": 335,
+        "type": "NP"
+      }
+    ],
+    "A corresponding public key": [
+      {
+        "end": 242,
+        "start": 238,
+        "type": "NP"
+      }
+    ],
+    "Conventional identity\nmanagement systems": [
+      {
+        "end": 8,
+        "start": 3,
+        "type": "NP"
+      }
+    ],
+    "DID records": [
+      {
+        "end": 403,
+        "start": 401,
+        "type": "NP"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 466,
+        "start": 465,
+        "type": "NP"
+      }
+    ],
+    "DLT": [
+      {
+        "end": 80,
+        "start": 79,
+        "type": "NP"
+      }
+    ],
+    "DPKI": [
+      {
+        "end": 429,
+        "start": 427,
+        "type": "NP"
+      }
+    ],
+    "Each DID record": [
+      {
+        "end": 196,
+        "start": 193,
+        "type": "NP"
+      }
+    ],
+    "Each identity owner": [
+      {
+        "end": 147,
+        "start": 144,
+        "type": "NP"
+      }
+    ],
+    "Note": [
+      {
+        "end": 436,
+        "start": 434,
+        "type": "NP"
+      }
+    ],
+    "Overview": [
+      {
+        "end": 2,
+        "start": 0,
+        "type": "NP"
+      }
+    ],
+    "Privacy": [
+      {
+        "end": 276,
+        "start": 275,
+        "type": "NP"
+      }
+    ],
+    "The emergence": [
+      {
+        "end": 74,
+        "start": 72,
+        "type": "NP"
+      }
+    ],
+    "The index key": [
+      {
+        "end": 164,
+        "start": 161,
+        "type": "NP"
+      }
+    ],
+    "This design": [
+      {
+        "end": 368,
+        "start": 366,
+        "type": "NP"
+      }
+    ],
+    "a\nkey description": [
+      {
+        "end": 252,
+        "start": 248,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 167,
+        "start": 165,
+        "type": "NP"
+      },
+      {
+        "end": 315,
+        "start": 313,
+        "type": "NP"
+      },
+      {
+        "end": 348,
+        "start": 346,
+        "type": "NP"
+      }
+    ],
+    "a DID method": [
+      {
+        "end": 328,
+        "start": 325,
+        "type": "NP"
+      }
+    ],
+    "a DID record": [
+      {
+        "end": 192,
+        "start": 189,
+        "type": "NP"
+      }
+    ],
+    "a common root": [
+      {
+        "end": 119,
+        "start": 116,
+        "type": "NP"
+      }
+    ],
+    "a decentralized P2P\nnetwork": [
+      {
+        "end": 137,
+        "start": 132,
+        "type": "NP"
+      }
+    ],
+    "a distributed\nledger": [
+      {
+        "end": 409,
+        "start": 405,
+        "type": "NP"
+      }
+    ],
+    "a globally distributed ledger": [
+      {
+        "end": 130,
+        "start": 126,
+        "type": "NP"
+      }
+    ],
+    "a guardian": [
+      {
+        "end": 225,
+        "start": 223,
+        "type": "NP"
+      }
+    ],
+    "a guardian-managed\nidentity": [
+      {
+        "end": 236,
+        "start": 230,
+        "type": "NP"
+      }
+    ],
+    "a key-value\npair": [
+      {
+        "end": 160,
+        "start": 154,
+        "type": "NP"
+      }
+    ],
+    "a ledger": [
+      {
+        "end": 153,
+        "start": 151,
+        "type": "NP"
+      }
+    ],
+    "a particular distributed ledger": [
+      {
+        "end": 320,
+        "start": 316,
+        "type": "NP"
+      }
+    ],
+    "a separate DID method specification": [
+      {
+        "end": 334,
+        "start": 329,
+        "type": "NP"
+      }
+    ],
+    "a set": [
+      {
+        "end": 260,
+        "start": 258,
+        "type": "NP"
+      }
+    ],
+    "all participants": [
+      {
+        "end": 107,
+        "start": 105,
+        "type": "NP"
+      }
+    ],
+    "an\narchitecture": [
+      {
+        "end": 424,
+        "start": 421,
+        "type": "NP"
+      }
+    ],
+    "an\ninteroperability bridge": [
+      {
+        "end": 473,
+        "start": 469,
+        "type": "NP"
+      }
+    ],
+    "an\nowner-managed identity": [
+      {
+        "end": 221,
+        "start": 215,
+        "type": "NP"
+      }
+    ],
+    "an identity owner": [
+      {
+        "end": 210,
+        "start": 207,
+        "type": "NP"
+      }
+    ],
+    "blockchain technology": [
+      {
+        "end": 89,
+        "start": 87,
+        "type": "NP"
+      }
+    ],
+    "centralized authorities": [
+      {
+        "end": 13,
+        "start": 11,
+        "type": "NP"
+      }
+    ],
+    "centralized certificate authorities": [
+      {
+        "end": 382,
+        "start": 379,
+        "type": "NP"
+      }
+    ],
+    "centralized registries": [
+      {
+        "end": 373,
+        "start": 371,
+        "type": "NP"
+      }
+    ],
+    "centralized, federated,\nand decentralized identity": [
+      {
+        "end": 485,
+        "start": 477,
+        "type": "NP"
+      }
+    ],
+    "certificate\nauthorities": [
+      {
+        "end": 24,
+        "start": 21,
+        "type": "NP"
+      }
+    ],
+    "contexts": [
+      {
+        "end": 309,
+        "start": 308,
+        "type": "NP"
+      }
+    ],
+    "cryptographic trust\nverification": [
+      {
+        "end": 39,
+        "start": 35,
+        "type": "NP"
+      }
+    ],
+    "decentralized identity management": [
+      {
+        "end": 100,
+        "start": 96,
+        "type": "NP"
+      }
+    ],
+    "dependence": [
+      {
+        "end": 370,
+        "start": 369,
+        "type": "NP"
+      }
+    ],
+    "distributed ledger technology": [
+      {
+        "end": 78,
+        "start": 75,
+        "type": "NP"
+      }
+    ],
+    "domain name\nregistries": [
+      {
+        "end": 30,
+        "start": 26,
+        "type": "NP"
+      }
+    ],
+    "each identity owner": [
+      {
+        "end": 283,
+        "start": 280,
+        "type": "NP"
+      },
+      {
+        "end": 413,
+        "start": 410,
+        "type": "NP"
+      }
+    ],
+    "federated\nidentity systems": [
+      {
+        "end": 461,
+        "start": 457,
+        "type": "NP"
+      }
+    ],
+    "federated identity\nmanagement": [
+      {
+        "end": 70,
+        "start": 66,
+        "type": "NP"
+      }
+    ],
+    "federated identity management systems": [
+      {
+        "end": 452,
+        "start": 448,
+        "type": "NP"
+      }
+    ],
+    "hierarchical PKI": [
+      {
+        "end": 393,
+        "start": 391,
+        "type": "NP"
+      }
+    ],
+    "identifiers": [
+      {
+        "end": 376,
+        "start": 374,
+        "type": "NP"
+      }
+    ],
+    "identities": [
+      {
+        "end": 110,
+        "start": 109,
+        "type": "NP"
+      },
+      {
+        "end": 303,
+        "start": 302,
+        "type": "NP"
+      },
+      {
+        "end": 445,
+        "start": 444,
+        "type": "NP"
+      }
+    ],
+    "identity management": [
+      {
+        "end": 59,
+        "start": 57,
+        "type": "NP"
+      }
+    ],
+    "identity owners": [
+      {
+        "end": 114,
+        "start": 112,
+        "type": "NP"
+      }
+    ],
+    "its associated DDO": [
+      {
+        "end": 179,
+        "start": 176,
+        "type": "NP"
+      }
+    ],
+    "its own\n  root": [
+      {
+        "end": 51,
+        "start": 47,
+        "type": "NP"
+      }
+    ],
+    "its own root authority": [
+      {
+        "end": 420,
+        "start": 416,
+        "type": "NP"
+      }
+    ],
+    "key\nmanagement": [
+      {
+        "end": 386,
+        "start": 383,
+        "type": "NP"
+      }
+    ],
+    "methods": [
+      {
+        "end": 439,
+        "start": 438,
+        "type": "NP"
+      }
+    ],
+    "network": [
+      {
+        "end": 322,
+        "start": 321,
+        "type": "NP"
+      },
+      {
+        "end": 364,
+        "start": 363,
+        "type": "NP"
+      }
+    ],
+    "personas": [
+      {
+        "end": 305,
+        "start": 304,
+        "type": "NP"
+      }
+    ],
+    "private keys": [
+      {
+        "end": 203,
+        "start": 201,
+        "type": "NP"
+      }
+    ],
+    "public\nkey infrastructure": [
+      {
+        "end": 398,
+        "start": 394,
+        "type": "NP"
+      }
+    ],
+    "records": [
+      {
+        "end": 289,
+        "start": 288,
+        "type": "NP"
+      }
+    ],
+    "rules": [
+      {
+        "end": 344,
+        "start": 343,
+        "type": "NP"
+      }
+    ],
+    "separation": [
+      {
+        "end": 301,
+        "start": 300,
+        "type": "NP"
+      }
+    ],
+    "service endpoints": [
+      {
+        "end": 263,
+        "start": 261,
+        "type": "NP"
+      }
+    ],
+    "similar capabilities": [
+      {
+        "end": 141,
+        "start": 139,
+        "type": "NP"
+      }
+    ],
+    "support": [
+      {
+        "end": 464,
+        "start": 463,
+        "type": "NP"
+      }
+    ],
+    "that specific ledger": [
+      {
+        "end": 362,
+        "start": 359,
+        "type": "NP"
+      }
+    ],
+    "the\nvalue": [
+      {
+        "end": 175,
+        "start": 172,
+        "type": "NP"
+      }
+    ],
+    "the DDO": [
+      {
+        "end": 247,
+        "start": 245,
+        "type": "NP"
+      }
+    ],
+    "the case": [
+      {
+        "end": 214,
+        "start": 212,
+        "type": "NP"
+      },
+      {
+        "end": 229,
+        "start": 227,
+        "type": "NP"
+      }
+    ],
+    "the control": [
+      {
+        "end": 206,
+        "start": 204,
+        "type": "NP"
+      }
+    ],
+    "the dictums": [
+      {
+        "end": 274,
+        "start": 272,
+        "type": "NP"
+      }
+    ],
+    "the form": [
+      {
+        "end": 125,
+        "start": 123,
+        "type": "NP"
+      }
+    ],
+    "the identity owner": [
+      {
+        "end": 270,
+        "start": 267,
+        "type": "NP"
+      },
+      {
+        "end": 298,
+        "start": 295,
+        "type": "NP"
+      }
+    ],
+    "the opportunity": [
+      {
+        "end": 93,
+        "start": 91,
+        "type": "NP"
+      }
+    ],
+    "the set": [
+      {
+        "end": 342,
+        "start": 340,
+        "type": "NP"
+      }
+    ],
+    "the standard pattern": [
+      {
+        "end": 390,
+        "start": 387,
+        "type": "NP"
+      }
+    ],
+    "the standpoint": [
+      {
+        "end": 34,
+        "start": 32,
+        "type": "NP"
+      }
+    ],
+    "the worlds": [
+      {
+        "end": 476,
+        "start": 474,
+        "type": "NP"
+      }
+    ],
+    "their part": [
+      {
+        "end": 456,
+        "start": 454,
+        "type": "NP"
+      }
+    ],
+    "these centralized authorities": [
+      {
+        "end": 45,
+        "start": 42,
+        "type": "NP"
+      }
+    ],
+    "these systems": [
+      {
+        "end": 63,
+        "start": 61,
+        "type": "NP"
+      }
+    ],
+    "this ecosystem": [
+      {
+        "end": 104,
+        "start": 102,
+        "type": "NP"
+      }
+    ],
+    "trust": [
+      {
+        "end": 53,
+        "start": 52,
+        "type": "NP"
+      },
+      {
+        "end": 121,
+        "start": 120,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DDO": [
+      {
+        "end": 179,
+        "start": 178,
+        "type": "ORG"
+      },
+      {
+        "end": 247,
+        "start": 246,
+        "type": "ORG"
+      },
+      {
+        "end": 255,
+        "start": 254,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 167,
+        "start": 166,
+        "type": "ORG"
+      },
+      {
+        "end": 181,
+        "start": 180,
+        "type": "ORG"
+      },
+      {
+        "end": 191,
+        "start": 190,
+        "type": "ORG"
+      },
+      {
+        "end": 195,
+        "start": 194,
+        "type": "ORG"
+      },
+      {
+        "end": 288,
+        "start": 287,
+        "type": "ORG"
+      },
+      {
+        "end": 315,
+        "start": 314,
+        "type": "ORG"
+      },
+      {
+        "end": 327,
+        "start": 326,
+        "type": "ORG"
+      },
+      {
+        "end": 332,
+        "start": 331,
+        "type": "ORG"
+      },
+      {
+        "end": 337,
+        "start": 336,
+        "type": "ORG"
+      },
+      {
+        "end": 348,
+        "start": 347,
+        "type": "ORG"
+      },
+      {
+        "end": 402,
+        "start": 401,
+        "type": "ORG"
+      }
+    ],
+    "DLT": [
+      {
+        "end": 80,
+        "start": 79,
+        "type": "ORG"
+      }
+    ],
+    "PKI": [
+      {
+        "end": 393,
+        "start": 392,
+        "type": "ORG"
+      },
+      {
+        "end": 432,
+        "start": 431,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "ORG": [
+      {
+        "end": 80,
+        "label": "DLT",
+        "start": 79
+      },
+      {
+        "end": 167,
+        "label": "DID",
+        "start": 166
+      },
+      {
+        "end": 179,
+        "label": "DDO",
+        "start": 178
+      },
+      {
+        "end": 181,
+        "label": "DID",
+        "start": 180
+      },
+      {
+        "end": 191,
+        "label": "DID",
+        "start": 190
+      },
+      {
+        "end": 195,
+        "label": "DID",
+        "start": 194
+      },
+      {
+        "end": 247,
+        "label": "DDO",
+        "start": 246
+      },
+      {
+        "end": 255,
+        "label": "DDO",
+        "start": 254
+      },
+      {
+        "end": 288,
+        "label": "DID",
+        "start": 287
+      },
+      {
+        "end": 315,
+        "label": "DID",
+        "start": 314
+      },
+      {
+        "end": 327,
+        "label": "DID",
+        "start": 326
+      },
+      {
+        "end": 332,
+        "label": "DID",
+        "start": 331
+      },
+      {
+        "end": 337,
+        "label": "DID",
+        "start": 336
+      },
+      {
+        "end": 348,
+        "label": "DID",
+        "start": 347
+      },
+      {
+        "end": 393,
+        "label": "PKI",
+        "start": 392
+      },
+      {
+        "end": 402,
+        "label": "DID",
+        "start": 401
+      },
+      {
+        "end": 432,
+        "label": "PKI",
+        "start": 431
+      }
+    ]
+  },
+  "verbs": {
+    "add": 1,
+    "base": 1,
+    "be": 2,
+    "call": 1,
+    "centralize": 1,
+    "contain": 1,
+    "correspond": 1,
+    "create": 1,
+    "decentralize": 4,
+    "define": 1,
+    "desire": 1,
+    "develop": 1,
+    "distribute": 4,
+    "do": 3,
+    "eliminate": 1,
+    "federate": 3,
+    "follow": 1,
+    "form": 1,
+    "have": 1,
+    "identify": 1,
+    "implement": 2,
+    "interact": 1,
+    "make": 1,
+    "manage": 2,
+    "object": 1,
+    "provide": 2,
+    "publish": 1,
+    "refer": 2,
+    "register": 2,
+    "require": 2,
+    "resolve": 1,
+    "respect": 1,
+    "revoke": 1,
+    "secure": 1,
+    "serve": 2,
+    "share": 1,
+    "specify": 1,
+    "update": 1,
+    "use": 2
+  }
+}

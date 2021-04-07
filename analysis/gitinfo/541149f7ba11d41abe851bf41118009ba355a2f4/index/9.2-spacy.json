@@ -1,0 +1,107 @@
+{
+  "nouns": {
+    "The DID method specification": [
+      {
+        "end": 9,
+        "start": 5,
+        "type": "NP"
+      }
+    ],
+    "a DDO": [
+      {
+        "end": 21,
+        "start": 19,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 17,
+        "start": 15,
+        "type": "NP"
+      }
+    ],
+    "a client": [
+      {
+        "end": 14,
+        "start": 12,
+        "type": "NP"
+      }
+    ],
+    "the authenticity": [
+      {
+        "end": 34,
+        "start": 32,
+        "type": "NP"
+      }
+    ],
+    "the client": [
+      {
+        "end": 30,
+        "start": 28,
+        "type": "NP"
+      }
+    ],
+    "the response": [
+      {
+        "end": 37,
+        "start": 35,
+        "type": "NP"
+      }
+    ],
+    "the target system": [
+      {
+        "end": 25,
+        "start": 22,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DDO": [
+      {
+        "end": 21,
+        "start": 20,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 7,
+        "start": 6,
+        "type": "ORG"
+      },
+      {
+        "end": 17,
+        "start": 16,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "ORG": [
+      {
+        "end": 7,
+        "label": "DID",
+        "start": 6
+      },
+      {
+        "end": 17,
+        "label": "DID",
+        "start": 16
+      },
+      {
+        "end": 21,
+        "label": "DDO",
+        "start": 20
+      }
+    ]
+  },
+  "verbs": {
+    "include": 1,
+    "request": 1,
+    "specify": 1,
+    "use": 1,
+    "verify": 2
+  }
+}

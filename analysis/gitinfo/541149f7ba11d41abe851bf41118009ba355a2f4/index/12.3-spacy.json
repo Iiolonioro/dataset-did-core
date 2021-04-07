@@ -1,0 +1,242 @@
+{
+  "nouns": {
+    "A pseudonymous": [
+      {
+        "end": 60,
+        "start": 58,
+        "type": "NP"
+      }
+    ],
+    "DID Correlation Risks": [
+      {
+        "end": 4,
+        "start": 0,
+        "type": "NP"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 17,
+        "start": 16,
+        "type": "NP"
+      }
+    ],
+    "Identity owners": [
+      {
+        "end": 25,
+        "start": 23,
+        "type": "NP"
+      }
+    ],
+    "a large number": [
+      {
+        "end": 108,
+        "start": 105,
+        "type": "NP"
+      }
+    ],
+    "a pseudonym": [
+      {
+        "end": 57,
+        "start": 55,
+        "type": "NP"
+      }
+    ],
+    "any type": [
+      {
+        "end": 11,
+        "start": 9,
+        "type": "NP"
+      }
+    ],
+    "correlation": [
+      {
+        "end": 22,
+        "start": 21,
+        "type": "NP"
+      },
+      {
+        "end": 77,
+        "start": 76,
+        "type": "NP"
+      }
+    ],
+    "effect": [
+      {
+        "end": 50,
+        "start": 49,
+        "type": "NP"
+      }
+    ],
+    "every relationship": [
+      {
+        "end": 47,
+        "start": 45,
+        "type": "NP"
+      }
+    ],
+    "more than one party": [
+      {
+        "end": 70,
+        "start": 66,
+        "type": "NP"
+      }
+    ],
+    "pairwise unique DIDs": [
+      {
+        "end": 35,
+        "start": 32,
+        "type": "NP"
+      }
+    ],
+    "parties": [
+      {
+        "end": 110,
+        "start": 109,
+        "type": "NP"
+      }
+    ],
+    "pseudonymous DIDs": [
+      {
+        "end": 85,
+        "start": 83,
+        "type": "NP"
+      }
+    ],
+    "public identification": [
+      {
+        "end": 120,
+        "start": 118,
+        "type": "NP"
+      }
+    ],
+    "the default": [
+      {
+        "end": 88,
+        "start": 86,
+        "type": "NP"
+      }
+    ],
+    "the identity owner": [
+      {
+        "end": 74,
+        "start": 71,
+        "type": "NP"
+      },
+      {
+        "end": 116,
+        "start": 113,
+        "type": "NP"
+      }
+    ],
+    "this privacy risk": [
+      {
+        "end": 30,
+        "start": 27,
+        "type": "NP"
+      }
+    ],
+    "those parties": [
+      {
+        "end": 80,
+        "start": 78,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DID": [
+      {
+        "end": 44,
+        "start": 43,
+        "type": "ORG"
+      },
+      {
+        "end": 53,
+        "start": 52,
+        "type": "ORG"
+      },
+      {
+        "end": 61,
+        "start": 60,
+        "type": "ORG"
+      },
+      {
+        "end": 97,
+        "start": 96,
+        "type": "ORG"
+      },
+      {
+        "end": 100,
+        "start": 99,
+        "type": "ORG"
+      }
+    ],
+    "DID Correlation Risks": [
+      {
+        "end": 4,
+        "start": 1,
+        "type": "ORG"
+      }
+    ],
+    "more than one": [
+      {
+        "end": 69,
+        "start": 66,
+        "type": "CARDINAL"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 69,
+        "label": "more than one",
+        "start": 66
+      }
+    ],
+    "ORG": [
+      {
+        "end": 4,
+        "label": "DID Correlation Risks",
+        "start": 1
+      },
+      {
+        "end": 44,
+        "label": "DID",
+        "start": 43
+      },
+      {
+        "end": 53,
+        "label": "DID",
+        "start": 52
+      },
+      {
+        "end": 61,
+        "label": "DID",
+        "start": 60
+      },
+      {
+        "end": 97,
+        "label": "DID",
+        "start": 96
+      },
+      {
+        "end": 100,
+        "label": "DID",
+        "start": 99
+      }
+    ]
+  },
+  "verbs": {
+    "act": 1,
+    "authorize": 1,
+    "be": 1,
+    "desire": 1,
+    "do": 4,
+    "mitigate": 1,
+    "publish": 1,
+    "share": 3,
+    "use": 2
+  }
+}

@@ -1,95 +1,194 @@
 
-2. Example DIDs and DDOs
+3. Terminology and Acronyms
 
-This is an example of a DID:
-
-
-did:example:21tDAKCERh95uGgKbJNHYp
-
-
-2.1. Example Owner-Managed DDO
-
-Following is an example of a DDO that describes the DID above. This
-example assumes that the identity owner—the entity that controls the
-private keys for this identity—is authoritative for the DDO. See section
-2.2 for an example of a DDO created by a guardian. For the authoritative
-JSON-LD context definition, see Appendix B (the URL for the @context
-property below is just for illustration).
+This specification defines the requirements of a conformant DID method
+specification. The key words "MUST", "MUST NOT", "REQUIRED", "SHALL",
+  "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
+  "OPTIONAL" in this document are to be interpreted as described in
+  RFC 2119 .
 
 
-      {
-      "@context": "https://example.org/did/v1",
-        "id": "did:example:21tDAKCERh95uGgKbJNHYp",
-        "owner": [{
-            "id": "did:example:21tDAKCERh95uGgKbJNHYp#key-1",
-            "type": ["CryptographicKey", "EdDsaPublicKey"],
-            "curve": "ed25519",
-            "expires": "2017-02-08T16:02:20Z",
-            "publicKeyBase64": "lji9qTtkCydxtez/bt1zdLxVMMbz4SzWvlqgOBmURoM="
-        }, {
-            "id": "did:example:21tDAKCERh95uGgKbJNHYp#key-2",
-            "type": ["CryptographicKey", "RsaPublicKey"],
-            "expires": "2017-03-22T00:00:00Z",
-            "publicKeyPem": "----BEGIN PUBLIC KEY-----\r\nMIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV\r\n-----END PUBLIC KEY-----"
-        }],
-        "control": [{
-            "type": "OrControl",
-            "signer": [
-                "did:example:21tDAKCERh95uGgKbJNHYp",
-                "did:example:8uQhQMGzWxR8vw5P3UWH1j"
-            ]
-        }],
-        "service": {
-            "openid": "https://openid.example.com/456",
-            "xdi": "https://xdi.example.com/123"
-        },
-        "created": "2002-10-10T17:00:00Z",
-        "updated": "2016-10-17T02:41:00Z",
-        "signature": {
-            "type": "RsaSignature2016",
-            "created": "2016-02-08T16:02:20Z",
-            "creator": "did:example:8uQhQMGzWxR8vw5P3UWH1j#key/1",
-            "signatureValue": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
-        }
-      }
+All other terms used in this specification are defined in this glossary.
 
 
+Blockchain. A specific type of distributed ledger technology (DLT) that
+stores ledger entries in blocks of transactions that are grouped
+together and hashed into a cryptographic chain. Because this type of DLT
+was introduced by Bitcoin , the term
+  "blockchain" is sometimes used to refer specifically to the Bitcoin
+ledger.
 
 
-2.2. Example Guardian-Managed DDO
-
-Following is a second example of a DDO that describes the DID above. In
-this case the DDO describes a dependent—an entity who is not currently
-in a position to control the private keys for this identity. This DDO
-was created by a guardian—a separate identity owner with its own DID
-that serves as a trustee for the dependent. Note that while this DDO
-asserts a set of service endpoints, it does not yet contain a set of key
-descriptions because the dependent does not yet have its own set of
-private keys.
+Decentralized identifier (DID). A globally unique identifier that does
+not require a centralized registration authority because it is
+registered with distributed ledger technology or other form of
+decentralized network. The generic format of a DID is defined in this
+specification. A specific DID scheme is defined in a DID method
+specification.
 
 
-      {
-      "@context": "https://example.org/did/v1",
-        "id": "did:example:21tDAKCERh95uGgKbJNHYp",
-        "guardian": "did:example:8uQhQMGzWxR8vw5P3UWH1j"
-        "control": [ "did:example:8uQhQMGzWxR8vw5P3UWH1j" ],
-        "service": {
-            "openid": "https://openid.example.com/456",
-            "xdi": "https://xdi.example.com/123"
-        },
-        "type": "http://schema.org/Person",
-        "created": "2002-10-10T17:00:00Z",
-        "updated": "2016-10-17T02:41:00Z",
-        "signature": {
-            "type": "RsaSignature2016",
-            "created": "2016-02-08T16:02:20Z",
-            "creator": "did:example:8uQhQMGzWxR8vw5P3UWH1j#key-1",
-            "signatureValue": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
-        }
-      }
+Decentralized identity management (DIDM). Identity
+management  based on decentralized identifiers. DIDM extends
+identifier creation authority beyond the traditional roots of trust
+required by X.500
+directory services , the Domain Name
+System , national ID systems, etc.
 
 
+Decentralized PKI (DPKI). Public key infrastructure based on
+decentralized identifiers and identity records (e.g., DDOs) containing
+verifiable public key descriptions.
 
 
+DDO. Acronym for DID descriptor object.
+
+
+Dependent. A person, organization, or thing whose DID record is
+registered and maintained by a guardian because the dependent is not in
+a position to control the private keys. A dependent becomes an identity
+owner when the dependent takes control of the private keys.
+
+
+DID. Acronym for decentralized identifier.
+
+
+DID descriptor object (DDO). A JSON data structure containing metadata
+describing an identity owner, including the cryptographic key material
+required for the identity owner to prove ownership and control of the
+DID record. A DDO may also contain other attributes  or
+  claims
+   describing the identity owner.
+
+
+DID fragment. The portion of a DID reference that follows the first hash
+sign character ("#"). A DID fragment uses the same syntax as a URI
+fragment. See section 5.5. Note that a DID fragment MUST immediately
+follow a DID. If a DID reference includes a DID path followed by a
+fragment, that fragment is NOT a DID fragment.
+
+
+DID method. A definition of how a specific DID scheme can be implemented
+on a specific distributed ledger or network, including the precise
+method(s) by which DIDs and DDOs can be read, written, and revoked.
+
+
+DID method conformance profile. A specification (or section of a
+specification) that defines the rules an implementer must follow in
+order to conform with another DID method specification. A conformance
+profile narrows the set of options that may be used in order to meet a
+specific implementation goal.
+
+
+DID method specification. The specification for a specific DID scheme
+and DID method that is conformant with the requirements of this
+specification.
+
+
+DID path. The portion of a DID reference that follows the first forward
+slash character. A DID path uses the identical syntax as a URI path. See
+section 5.4. Note that if a DID path is followed by a fragment, that
+fragment is NOT a DID fragment.
+
+
+DID record. The combination of a DID and a DDO that forms the "root
+identity record" for an identity owner. From the standpoint of claims-based
+identity , a DID record is the “genesis claim” for an identity.
+
+
+DID reference. A DID plus an optional DID path or DID fragment.
+
+
+DID scheme. The formal syntax of a DID identifier. The generic DID
+scheme is defined in this specification. A DID method specification
+defines a specific DID scheme that works with a specific DID method.
+
+
+DIDM. Acronym for decentralized identity management.
+
+
+Distributed ledger technology (DLT). A distributed
+database  in which the various nodes use a consensus
+protocol  to maintain a shared ledger in which each transaction is
+cryptographically signed and chained to the previous transaction. See
+also blockchain.
+
+
+DLT. Acronym for distributed ledger technology.
+
+
+DPKI. Acronym for decentralized PKI.
+
+
+Guardian. An identity owner who creates a DID record for a dependent who
+does not yet have the capacity to control the private keys. The
+dependent must rely on the guardian to safeguard the private keys until
+the dependent can assume control and become an identity owner.
+
+
+Identity owner. The natural person, party, organization, or thing whose
+identity is represented by a DID record and who directly controls the
+private keys to control that record. (Note: this specification avoids
+the term "user" since an identity owner is not always an individual
+person.)
+
+
+Identity record. Another name for a DID record.
+
+
+JSON-LD (JSON Linked Data). A method of encoding Linked Data  using JSON.
+The W3C JSON-LD 1.0
+specification  enables object properties in a JSON document to be
+linked to concepts in an RDF ontology
+  .
+
+
+Key description. A JSON object contained inside a DDO that contains all
+the metadata necessary to use a public key or verification key. A list
+of standard key descriptions is included in Appendix C.
+
+
+Ledger. In the context of this specification, a shared database of
+transactions maintained via distributed ledger technology.
+
+
+PKI. Acronym for public key
+infrastructure .
+
+
+RDF (Resource Description Framework). A semantic graph model defined by
+the W3C RDF Working Group
+  .
+
+
+Service endpoint. A network address at which a service operates on
+behalf of an identity owner. Examples of specific DIDM services include
+discovery services, authentication services, authorization services,
+interaction services, etc. A DIDM service endpoint may also be provided
+by a generalized data interchange protocol such as XDI.
+
+
+UUID. Universally Unique Identifier as specified by RFC 4122 .
+
+
+URI (Uniform Resource Identifier). The official name for all Web
+identifiers as defined by IETF RFC 3986 . See section 1.2.
+
+
+URL (Uniform Resource Locator). Any URI that can be resolved or
+de-referenced to locate a specific resource on the Web. See section 1.2.
+
+
+URN (Uniform Resource Name). A URI intended to serve as a persistent,
+location-independent identifier of a resource, i.e., an identifier that
+will always represent the same resource and never change (ideally
+forever). URN syntax is defined by IETF RFC 2141 . In general URNs
+cannot directly be resolved or de-referenced to locate the resource they
+identify. See section 1.2.
+
+
+XDI (Extensible Data Interchange) (also XRI Data Interchange)—a semantic
+graph format and semantic data interchange protocol defined by the
+  OASIS XDI Technical
+Committee .
 
 

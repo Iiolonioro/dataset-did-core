@@ -1,0 +1,271 @@
+{
+  "nouns": {
+    "(the did-path rule": [
+      {
+        "end": 15,
+        "start": 9,
+        "type": "NP"
+      }
+    ],
+    "-rootless ABNF rule": [
+      {
+        "end": 39,
+        "start": 35,
+        "type": "NP"
+      }
+    ],
+    "5.3 DID Paths": [
+      {
+        "end": 4,
+        "start": 1,
+        "type": "NP"
+      }
+    ],
+    "A DID path": [
+      {
+        "end": 47,
+        "start": 44,
+        "type": "NP"
+      }
+    ],
+    "A generic DID path": [
+      {
+        "end": 9,
+        "start": 5,
+        "type": "NP"
+      }
+    ],
+    "A specific DID scheme": [
+      {
+        "end": 71,
+        "start": 67,
+        "type": "NP"
+      }
+    ],
+    "ABNF rules": [
+      {
+        "end": 75,
+        "start": 73,
+        "type": "NP"
+      }
+    ],
+    "DID paths": [
+      {
+        "end": 78,
+        "start": 76,
+        "type": "NP"
+      }
+    ],
+    "RFC": [
+      {
+        "end": 42,
+        "start": 41,
+        "type": "NP"
+      }
+    ],
+    "a\nURI path": [
+      {
+        "end": 26,
+        "start": 22,
+        "type": "NP"
+      }
+    ],
+    "a DID service\nendpoint": [
+      {
+        "end": 61,
+        "start": 56,
+        "type": "NP"
+      }
+    ],
+    "resources": [
+      {
+        "end": 54,
+        "start": 53,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 17,
+        "start": 16,
+        "type": "NP"
+      },
+      {
+        "end": 64,
+        "start": 63,
+        "type": "NP"
+      }
+    ],
+    "the ABNF": [
+      {
+        "end": 32,
+        "start": 30,
+        "type": "NP"
+      }
+    ],
+    "the generic rules": [
+      {
+        "end": 87,
+        "start": 84,
+        "type": "NP"
+      }
+    ],
+    "the path": [
+      {
+        "end": 35,
+        "start": 33,
+        "type": "NP"
+      }
+    ],
+    "this section": [
+      {
+        "end": 90,
+        "start": 88,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "5.3": [
+      {
+        "end": 2,
+        "start": 1,
+        "type": "CARDINAL"
+      }
+    ],
+    "6.6": [
+      {
+        "end": 65,
+        "start": 64,
+        "type": "CARDINAL"
+      }
+    ],
+    "ABNF": [
+      {
+        "end": 38,
+        "start": 37,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 8,
+        "start": 7,
+        "type": "ORG"
+      },
+      {
+        "end": 46,
+        "start": 45,
+        "type": "ORG"
+      },
+      {
+        "end": 58,
+        "start": 57,
+        "type": "ORG"
+      },
+      {
+        "end": 70,
+        "start": 69,
+        "type": "ORG"
+      },
+      {
+        "end": 77,
+        "start": 76,
+        "type": "ORG"
+      }
+    ],
+    "MAY": [
+      {
+        "end": 72,
+        "start": 71,
+        "type": "CARDINAL"
+      }
+    ],
+    "MUST": [
+      {
+        "end": 28,
+        "start": 27,
+        "type": "ORG"
+      }
+    ],
+    "section 5.1": [
+      {
+        "end": 18,
+        "start": 16,
+        "type": "LAW"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 2,
+        "label": "5.3",
+        "start": 1
+      },
+      {
+        "end": 65,
+        "label": "6.6",
+        "start": 64
+      },
+      {
+        "end": 72,
+        "label": "MAY",
+        "start": 71
+      }
+    ],
+    "LAW": [
+      {
+        "end": 18,
+        "label": "section 5.1",
+        "start": 16
+      }
+    ],
+    "ORG": [
+      {
+        "end": 8,
+        "label": "DID",
+        "start": 7
+      },
+      {
+        "end": 28,
+        "label": "MUST",
+        "start": 27
+      },
+      {
+        "end": 38,
+        "label": "ABNF",
+        "start": 37
+      },
+      {
+        "end": 46,
+        "label": "DID",
+        "start": 45
+      },
+      {
+        "end": 58,
+        "label": "DID",
+        "start": 57
+      },
+      {
+        "end": 70,
+        "label": "DID",
+        "start": 69
+      },
+      {
+        "end": 77,
+        "label": "DID",
+        "start": 76
+      }
+    ]
+  },
+  "verbs": {
+    "address": 1,
+    "be": 1,
+    "conform": 1,
+    "do": 1,
+    "see": 1,
+    "specify": 1,
+    "use": 1
+  }
+}

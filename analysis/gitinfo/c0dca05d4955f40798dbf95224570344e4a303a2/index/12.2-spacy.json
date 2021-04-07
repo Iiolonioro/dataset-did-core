@@ -1,0 +1,256 @@
+{
+  "nouns": {
+    "All PII": [
+      {
+        "end": 48,
+        "start": 46,
+        "type": "NP"
+      }
+    ],
+    "DDOs": [
+      {
+        "end": 31,
+        "start": 30,
+        "type": "NP"
+      },
+      {
+        "end": 42,
+        "start": 41,
+        "type": "NP"
+      }
+    ],
+    "DID records": [
+      {
+        "end": 96,
+        "start": 94,
+        "type": "NP"
+      }
+    ],
+    "PII": [
+      {
+        "end": 8,
+        "start": 7,
+        "type": "NP"
+      },
+      {
+        "end": 71,
+        "start": 70,
+        "type": "NP"
+      }
+    ],
+    "Personally-Identifiable Information": [
+      {
+        "end": 6,
+        "start": 2,
+        "type": "NP"
+      }
+    ],
+    "STRONGLY RECOMMENDED": [
+      {
+        "end": 40,
+        "start": 38,
+        "type": "NP"
+      }
+    ],
+    "a DID method specification": [
+      {
+        "end": 18,
+        "start": 14,
+        "type": "NP"
+      }
+    ],
+    "a public ledger": [
+      {
+        "end": 24,
+        "start": 21,
+        "type": "NP"
+      }
+    ],
+    "all DIDs": [
+      {
+        "end": 29,
+        "start": 27,
+        "type": "NP"
+      }
+    ],
+    "an immutable ledger": [
+      {
+        "end": 127,
+        "start": 124,
+        "type": "NP"
+      }
+    ],
+    "communications channels": [
+      {
+        "end": 87,
+        "start": 85,
+        "type": "NP"
+      }
+    ],
+    "identity owners": [
+      {
+        "end": 102,
+        "start": 100,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 37,
+        "start": 36,
+        "type": "NP"
+      }
+    ],
+    "key descriptions": [
+      {
+        "end": 93,
+        "start": 91,
+        "type": "NP"
+      }
+    ],
+    "network": [
+      {
+        "end": 26,
+        "start": 25,
+        "type": "NP"
+      }
+    ],
+    "no PII": [
+      {
+        "end": 45,
+        "start": 43,
+        "type": "NP"
+      },
+      {
+        "end": 120,
+        "start": 118,
+        "type": "NP"
+      }
+    ],
+    "off-ledger": [
+      {
+        "end": 54,
+        "start": 51,
+        "type": "NP"
+      }
+    ],
+    "peer": [
+      {
+        "end": 83,
+        "start": 82,
+        "type": "NP"
+      }
+    ],
+    "relying parties": [
+      {
+        "end": 105,
+        "start": 103,
+        "type": "NP"
+      }
+    ],
+    "service endpoints": [
+      {
+        "end": 57,
+        "start": 55,
+        "type": "NP"
+      }
+    ],
+    "the control": [
+      {
+        "end": 60,
+        "start": 58,
+        "type": "NP"
+      }
+    ],
+    "the identity owner": [
+      {
+        "end": 64,
+        "start": 61,
+        "type": "NP"
+      }
+    ],
+    "this privacy architecture": [
+      {
+        "end": 69,
+        "start": 66,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DID": [
+      {
+        "end": 16,
+        "start": 15,
+        "type": "ORG"
+      },
+      {
+        "end": 95,
+        "start": 94,
+        "type": "ORG"
+      }
+    ],
+    "PII": [
+      {
+        "end": 45,
+        "start": 44,
+        "type": "PERSON"
+      },
+      {
+        "end": 71,
+        "start": 70,
+        "type": "ORG"
+      },
+      {
+        "end": 120,
+        "start": 119,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "ORG": [
+      {
+        "end": 16,
+        "label": "DID",
+        "start": 15
+      },
+      {
+        "end": 71,
+        "label": "PII",
+        "start": 70
+      },
+      {
+        "end": 95,
+        "label": "DID",
+        "start": 94
+      },
+      {
+        "end": 120,
+        "label": "PII",
+        "start": 119
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 45,
+        "label": "PII",
+        "start": 44
+      }
+    ]
+  },
+  "verbs": {
+    "be": 1,
+    "contain": 1,
+    "enable": 1,
+    "exchange": 1,
+    "forget": 1,
+    "identify": 1,
+    "implement": 1,
+    "keep": 2,
+    "rely": 1,
+    "secure": 1,
+    "use": 1,
+    "write": 2
+  }
+}

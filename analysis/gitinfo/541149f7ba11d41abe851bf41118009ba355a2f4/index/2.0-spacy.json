@@ -1,0 +1,75 @@
+{
+  "nouns": {
+    "(subscribe": [
+      {
+        "end": 26,
+        "start": 24,
+        "type": "NP"
+      }
+    ],
+    "Comments": [
+      {
+        "end": 2,
+        "start": 1,
+        "type": "NP"
+      }
+    ],
+    "GitHub": [
+      {
+        "end": 15,
+        "start": 14,
+        "type": "NP"
+      }
+    ],
+    "Please file issues": [
+      {
+        "end": 11,
+        "start": 8,
+        "type": "NP"
+      }
+    ],
+    "archives": [
+      {
+        "end": 29,
+        "start": 27,
+        "type": "NP"
+      }
+    ],
+    "them": [
+      {
+        "end": 20,
+        "start": 19,
+        "type": "NP"
+      }
+    ],
+    "this document": [
+      {
+        "end": 5,
+        "start": 3,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "GitHub": [
+      {
+        "end": 15,
+        "start": 14,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "ORG": [
+      {
+        "end": 15,
+        "label": "GitHub",
+        "start": 14
+      }
+    ]
+  },
+  "verbs": {
+    "regard": 1,
+    "send": 1
+  }
+}

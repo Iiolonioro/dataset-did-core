@@ -1,0 +1,492 @@
+{
+  "nouns": {
+    "(SOA": [
+      {
+        "end": 99,
+        "start": 97,
+        "type": "NP"
+      }
+    ],
+    "5.6 DID Persistence": [
+      {
+        "end": 4,
+        "start": 1,
+        "type": "NP"
+      }
+    ],
+    "A DID": [
+      {
+        "end": 7,
+        "start": 5,
+        "type": "NP"
+      }
+    ],
+    "DID records": [
+      {
+        "end": 192,
+        "start": 190,
+        "type": "NP"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 129,
+        "start": 128,
+        "type": "NP"
+      }
+    ],
+    "Future Work": [
+      {
+        "end": 224,
+        "start": 222,
+        "type": "NP"
+      }
+    ],
+    "Ideally a DID": [
+      {
+        "end": 32,
+        "start": 29,
+        "type": "NP"
+      }
+    ],
+    "It": [
+      {
+        "end": 103,
+        "start": 102,
+        "type": "NP"
+      }
+    ],
+    "NOTE": [
+      {
+        "end": 163,
+        "start": 162,
+        "type": "NP"
+      }
+    ],
+    "RECOMMENDED": [
+      {
+        "end": 121,
+        "start": 120,
+        "type": "NP"
+      }
+    ],
+    "Such equivalence relations": [
+      {
+        "end": 207,
+        "start": 204,
+        "type": "NP"
+      }
+    ],
+    "a DDO equivID property": [
+      {
+        "end": 183,
+        "start": 179,
+        "type": "NP"
+      }
+    ],
+    "a UUID": [
+      {
+        "end": 44,
+        "start": 42,
+        "type": "NP"
+      }
+    ],
+    "a single persistent abstract DID": [
+      {
+        "end": 219,
+        "start": 214,
+        "type": "NP"
+      }
+    ],
+    "an identity owner": [
+      {
+        "end": 20,
+        "start": 17,
+        "type": "NP"
+      }
+    ],
+    "any particular ledger": [
+      {
+        "end": 70,
+        "start": 67,
+        "type": "NP"
+      }
+    ],
+    "authority": [
+      {
+        "end": 96,
+        "start": 95,
+        "type": "NP"
+      }
+    ],
+    "commitment": [
+      {
+        "end": 149,
+        "start": 148,
+        "type": "NP"
+      }
+    ],
+    "developers": [
+      {
+        "end": 111,
+        "start": 109,
+        "type": "NP"
+      }
+    ],
+    "extremely hard identity ownership": [
+      {
+        "end": 90,
+        "start": 86,
+        "type": "NP"
+      }
+    ],
+    "future versions": [
+      {
+        "end": 173,
+        "start": 171,
+        "type": "NP"
+      }
+    ],
+    "implementation complexity": [
+      {
+        "end": 108,
+        "start": 106,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 119,
+        "start": 118,
+        "type": "NP"
+      }
+    ],
+    "its persistence": [
+      {
+        "end": 65,
+        "start": 63,
+        "type": "NP"
+      }
+    ],
+    "methods": [
+      {
+        "end": 132,
+        "start": 131,
+        "type": "NP"
+      }
+    ],
+    "multiple ledgers": [
+      {
+        "end": 82,
+        "start": 80,
+        "type": "NP"
+      },
+      {
+        "end": 201,
+        "start": 199,
+        "type": "NP"
+      }
+    ],
+    "multiple underlying distributed ledgers": [
+      {
+        "end": 55,
+        "start": 51,
+        "type": "NP"
+      }
+    ],
+    "network": [
+      {
+        "end": 73,
+        "start": 71,
+        "type": "NP"
+      }
+    ],
+    "networks": [
+      {
+        "end": 57,
+        "start": 56,
+        "type": "NP"
+      },
+      {
+        "end": 85,
+        "start": 83,
+        "type": "NP"
+      },
+      {
+        "end": 141,
+        "start": 139,
+        "type": "NP"
+      },
+      {
+        "end": 203,
+        "start": 202,
+        "type": "NP"
+      }
+    ],
+    "persistence": [
+      {
+        "end": 152,
+        "start": 151,
+        "type": "NP"
+      }
+    ],
+    "problems": [
+      {
+        "end": 101,
+        "start": 100,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 226,
+        "start": 225,
+        "type": "NP"
+      }
+    ],
+    "specifications": [
+      {
+        "end": 125,
+        "start": 124,
+        "type": "NP"
+      }
+    ],
+    "strong, stable ledgers": [
+      {
+        "end": 138,
+        "start": 134,
+        "type": "NP"
+      }
+    ],
+    "the DID": [
+      {
+        "end": 155,
+        "start": 153,
+        "type": "NP"
+      }
+    ],
+    "the highest level": [
+      {
+        "end": 147,
+        "start": 144,
+        "type": "NP"
+      }
+    ],
+    "the practical equivalent": [
+      {
+        "end": 213,
+        "start": 210,
+        "type": "NP"
+      }
+    ],
+    "the same identity\nowner": [
+      {
+        "end": 198,
+        "start": 193,
+        "type": "NP"
+      }
+    ],
+    "these issues": [
+      {
+        "end": 117,
+        "start": 115,
+        "type": "NP"
+      }
+    ],
+    "this\nspecification": [
+      {
+        "end": 177,
+        "start": 174,
+        "type": "NP"
+      }
+    ],
+    "this version": [
+      {
+        "end": 170,
+        "start": 168,
+        "type": "NP"
+      }
+    ],
+    "time": [
+      {
+        "end": 59,
+        "start": 58,
+        "type": "NP"
+      },
+      {
+        "end": 160,
+        "start": 159,
+        "type": "NP"
+      }
+    ],
+    "verifiable\nequivalence relations": [
+      {
+        "end": 189,
+        "start": 185,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "5.6": [
+      {
+        "end": 2,
+        "start": 1,
+        "type": "CARDINAL"
+      }
+    ],
+    "DDO": [
+      {
+        "end": 181,
+        "start": 180,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 32,
+        "start": 31,
+        "type": "ORG"
+      },
+      {
+        "end": 123,
+        "start": 122,
+        "type": "ORG"
+      },
+      {
+        "end": 131,
+        "start": 130,
+        "type": "ORG"
+      },
+      {
+        "end": 155,
+        "start": 154,
+        "type": "ORG"
+      },
+      {
+        "end": 157,
+        "start": 156,
+        "type": "ORG"
+      },
+      {
+        "end": 191,
+        "start": 190,
+        "type": "ORG"
+      },
+      {
+        "end": 219,
+        "start": 218,
+        "type": "ORG"
+      }
+    ],
+    "RECOMMENDED": [
+      {
+        "end": 121,
+        "start": 120,
+        "type": "ORG"
+      }
+    ],
+    "SOA": [
+      {
+        "end": 99,
+        "start": 98,
+        "type": "ORG"
+      }
+    ],
+    "UUID": [
+      {
+        "end": 44,
+        "start": 43,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 2,
+        "label": "5.6",
+        "start": 1
+      }
+    ],
+    "ORG": [
+      {
+        "end": 32,
+        "label": "DID",
+        "start": 31
+      },
+      {
+        "end": 44,
+        "label": "UUID",
+        "start": 43
+      },
+      {
+        "end": 99,
+        "label": "SOA",
+        "start": 98
+      },
+      {
+        "end": 121,
+        "label": "RECOMMENDED",
+        "start": 120
+      },
+      {
+        "end": 123,
+        "label": "DID",
+        "start": 122
+      },
+      {
+        "end": 131,
+        "label": "DID",
+        "start": 130
+      },
+      {
+        "end": 155,
+        "label": "DID",
+        "start": 154
+      },
+      {
+        "end": 157,
+        "label": "DID",
+        "start": 156
+      },
+      {
+        "end": 181,
+        "label": "DDO",
+        "start": 180
+      },
+      {
+        "end": 191,
+        "label": "DID",
+        "start": 190
+      },
+      {
+        "end": 219,
+        "label": "DID",
+        "start": 218
+      }
+    ]
+  },
+  "verbs": {
+    "avoid": 1,
+    "be": 2,
+    "bind": 3,
+    "change": 1,
+    "decentralize": 1,
+    "distribute": 1,
+    "do": 2,
+    "establish": 1,
+    "include": 1,
+    "increase": 1,
+    "introduce": 1,
+    "maintain": 1,
+    "make": 1,
+    "method": 2,
+    "produce": 2,
+    "register": 1,
+    "represent": 1,
+    "see": 1,
+    "support": 1,
+    "underlie": 1
+  }
+}

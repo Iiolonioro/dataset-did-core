@@ -1,17 +1,174 @@
 
-DID Normalization
-
-For the broadest interoperability, DID normalization should be as simple
-and universal as possible. Therefore:
+Proof of Control (Optional and Method-Specific)
 
 
-The did: scheme name MUST be lowercase.
+    
+      Proof of Control is the mechanism by which an identity owner may give itself or other entities permission to update the DDO—for example to assist with key recovery. Note that Proof of Control is separate from Proof of Ownership as explained in section 6.4. This is particularly important for key recovery in the case of key loss, when the identity owner no longer has access to the keys described using the owner property (section 6.4), or key compromise, where the owner’s trusted third parties need to override malicious activity by an attacker. See section 9.
+
+    
+      Because the access control logic in a Proof of Control block must be implemented by the target distributed ledger or network, a DID method specification MUST include its own Proof of Control rules and processing logic. It is RECOMMENDED that all DID method specifications support the generic Proof of Control rules specified in this section. A DID method specification MAY add its own method-specific Proof of Control rules.
+
+    
+      The generic Proof of Control rules are:
+
+
+
+
+A DDO MAY have exactly one property representing Proof of Control.
   
-The method name MUST be lowercase.
+The key for this property MUST be control.
   
-Case sensitivity and normalization of the value of the
-specific-idstring rule in section 5.1 MUST be defined by the governing
-DID method specification.
+The value of this key MUST be an array.
   
+The values of this array MUST be defined in a DID method
+specification.
+  
+If a Proof of Control rule accepts a DID without a fragment as a
+value, then an update signature verified with any key in the owner of
+the DDO dereferenced from that DID MUST be considered valid for Proof of
+Control.
+  
+If a Proof of Control rule accepts a DID with a fragment as a value,
+then:
+  
+
+
+
+
+
+
+The fragment MUST identify a key description in the DDO dereferenced
+from that DID.
+  
+An update signature verified with the key in target key description
+MUST be considered valid for Proof of Control.
+  
+
+
+
+
+
+
+
+6.5.1 "Or" Control
+
+
+
+    
+      To assert that any single member of a group of other DID owners has permission to update the DDO, the control block array MAY contain a single JSON object with two properties:
+
+
+
+
+A property type whose value is the string OrControl.
+  
+A property signers whose value is an array of DIDs with or without
+fragments.
+  
+
+
+
+    
+      If at least one update signature from a DID in this array is verified, it MUST be considered valid for Proof of Control.
+
+
+
+
+
+6.5.2 "And" Control
+
+
+
+    
+      To assert that only all members of a group of other DID owners must act together to update the DDO, the control block array MAY contain a single JSON object with two properties:
+
+
+
+
+A property type whose value is the string AndControl.
+  
+A property signers whose value is an array of DIDs with or without
+fragments.
+  
+
+
+
+    
+      If update signatures from ALL DIDs in this array are verified, it MUST be considered valid for Proof of Control.
+
+
+
+
+
+6.5.3 "M-of-N" Control
+
+
+
+    
+      To assert that a minimum number of members of a group of other DID owners must act together to update the DDO, the control block array MAY contain a single JSON object with three properties:
+
+
+
+
+A property type whose value is the string MofNControl.
+  
+A property minimumSignatures whose value is an integer representing
+the minimum threshold of signatures required to act together.
+  
+A property signers whose value is an array of DIDs with or without
+fragments.
+  
+
+
+
+    
+      If the number of verified update signatures from DIDs in this array equals or exceeds the value of minimumSignatures, it MUST be considered valid for Proof of Control.
+
+    
+
+
+    
+      Following is an example of a Proof of Control property implementing these rules:
+
+    
+      {
+
+
+
+
+
+      "control": [{
+            "type": "OrControl",
+            "signer": [            "did:example:21tDAKCERh95uGgKbJNHYp",
+                    "did:example:8uQhQMGzWxR8vw5P3UWH1j"
+               ]
+        }, {
+            "type": "AndControl",
+            "signer": [
+                    "did:example:7P7xfv5AeTSSWcuq6hPptQ",
+                    "did:example:X2v8rvzoCxayhYV5mhESQ1"
+               ]
+        }, {
+            "type": "MofNControl",
+            "minimumSignatures": 2,
+            "signer": [
+                    "did:example:4XirzuHiNnTrwfjCMtBEJ6",
+                    "did:example:iCGjJEChRbAdfZbGqZAYT7",
+                    "did:example:WUoAyXB7mhfcVESjypm5ty"
+               ]
+        }]
+
+
+
+
+    
+      }
+
+
+
+
+
+
+
 
 

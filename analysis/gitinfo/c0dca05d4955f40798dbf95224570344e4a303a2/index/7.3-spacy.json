@@ -1,0 +1,259 @@
+{
+  "nouns": {
+    "(the did-path rule": [
+      {
+        "end": 14,
+        "start": 8,
+        "type": "NP"
+      }
+    ],
+    "-rootless ABNF rule": [
+      {
+        "end": 38,
+        "start": 34,
+        "type": "NP"
+      }
+    ],
+    "A DID path": [
+      {
+        "end": 46,
+        "start": 43,
+        "type": "NP"
+      }
+    ],
+    "A generic DID path": [
+      {
+        "end": 8,
+        "start": 4,
+        "type": "NP"
+      }
+    ],
+    "A specific DID scheme": [
+      {
+        "end": 70,
+        "start": 66,
+        "type": "NP"
+      }
+    ],
+    "ABNF rules": [
+      {
+        "end": 74,
+        "start": 72,
+        "type": "NP"
+      }
+    ],
+    "DID Paths": [
+      {
+        "end": 3,
+        "start": 0,
+        "type": "NP"
+      }
+    ],
+    "DID paths": [
+      {
+        "end": 77,
+        "start": 75,
+        "type": "NP"
+      }
+    ],
+    "RFC": [
+      {
+        "end": 41,
+        "start": 40,
+        "type": "NP"
+      }
+    ],
+    "a\nURI path": [
+      {
+        "end": 25,
+        "start": 21,
+        "type": "NP"
+      }
+    ],
+    "a DID service\nendpoint": [
+      {
+        "end": 60,
+        "start": 55,
+        "type": "NP"
+      }
+    ],
+    "resources": [
+      {
+        "end": 53,
+        "start": 52,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 16,
+        "start": 15,
+        "type": "NP"
+      },
+      {
+        "end": 63,
+        "start": 62,
+        "type": "NP"
+      }
+    ],
+    "the ABNF": [
+      {
+        "end": 31,
+        "start": 29,
+        "type": "NP"
+      }
+    ],
+    "the generic rules": [
+      {
+        "end": 86,
+        "start": 83,
+        "type": "NP"
+      }
+    ],
+    "the path": [
+      {
+        "end": 34,
+        "start": 32,
+        "type": "NP"
+      }
+    ],
+    "this section": [
+      {
+        "end": 89,
+        "start": 87,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "6.6": [
+      {
+        "end": 64,
+        "start": 63,
+        "type": "CARDINAL"
+      }
+    ],
+    "ABNF": [
+      {
+        "end": 37,
+        "start": 36,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 7,
+        "start": 6,
+        "type": "ORG"
+      },
+      {
+        "end": 45,
+        "start": 44,
+        "type": "ORG"
+      },
+      {
+        "end": 57,
+        "start": 56,
+        "type": "ORG"
+      },
+      {
+        "end": 69,
+        "start": 68,
+        "type": "ORG"
+      },
+      {
+        "end": 76,
+        "start": 75,
+        "type": "ORG"
+      }
+    ],
+    "MAY": [
+      {
+        "end": 71,
+        "start": 70,
+        "type": "CARDINAL"
+      }
+    ],
+    "MUST": [
+      {
+        "end": 27,
+        "start": 26,
+        "type": "ORG"
+      }
+    ],
+    "section 5.1": [
+      {
+        "end": 17,
+        "start": 15,
+        "type": "LAW"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 64,
+        "label": "6.6",
+        "start": 63
+      },
+      {
+        "end": 71,
+        "label": "MAY",
+        "start": 70
+      }
+    ],
+    "LAW": [
+      {
+        "end": 17,
+        "label": "section 5.1",
+        "start": 15
+      }
+    ],
+    "ORG": [
+      {
+        "end": 7,
+        "label": "DID",
+        "start": 6
+      },
+      {
+        "end": 27,
+        "label": "MUST",
+        "start": 26
+      },
+      {
+        "end": 37,
+        "label": "ABNF",
+        "start": 36
+      },
+      {
+        "end": 45,
+        "label": "DID",
+        "start": 44
+      },
+      {
+        "end": 57,
+        "label": "DID",
+        "start": 56
+      },
+      {
+        "end": 69,
+        "label": "DID",
+        "start": 68
+      },
+      {
+        "end": 76,
+        "label": "DID",
+        "start": 75
+      }
+    ]
+  },
+  "verbs": {
+    "address": 1,
+    "be": 1,
+    "conform": 1,
+    "do": 2,
+    "see": 1,
+    "specify": 1,
+    "use": 1
+  }
+}

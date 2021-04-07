@@ -1,9 +1,11 @@
 
-10.4 DDO Correlation Risks
+11.4 Time Locks and DDO Recovery
 
 
     
-      The anti-correlation protections of pseudonymous DIDs are easily defeated if the data in the corresponding DDOs can be correlated. For example, using same public key descriptions or bespoke service endpoints in multiple DDOs can provide as much correlation information as using the same DID. Therefore the DDO for a pseudonymous DID SHOULD also use pairwise-unique public keys and pairwise-unique service endpoints.
+      Section 9.7 mentions one possible clever use of time locks to recover control of a DID after a key compromise. The technique relies on an ability to override the most recent update to a DDO with Proof of Control applied by an earlier version of the DDO in order to defeat the attacker. This protection depends on adding a
+        time lock (see Bitcoin BIP 65)
+       to protect part of the transaction chain, enabling a Proof of Control block to be used to recover control. We plan to add support for time locks in a future version of this specification.
 
 
 

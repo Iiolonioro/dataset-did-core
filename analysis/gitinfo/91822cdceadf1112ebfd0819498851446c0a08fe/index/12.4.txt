@@ -1,9 +1,9 @@
 
-9.4 Non-Repudiation
+10.4 DDO Correlation Risks
 
 
     
-      Non-repudiation of DIDs and DDO updates is supported under the assumption that: (1) the identity owner is monitoring for unauthorized updates (see section 9.5) and (2) the identity owner has had adequate opportunity to revoke malicious updates according to the DID method's access control mechanism (section 6.5). This capability is further supported if timestamps are included (sections 6.7 and 6.8) and the target DLT system supports timestamps.
+      The anti-correlation protections of pseudonymous DIDs are easily defeated if the data in the corresponding DDOs can be correlated. For example, using same public key descriptions or bespoke service endpoints in multiple DDOs can provide as much correlation information as using the same DID. Therefore the DDO for a pseudonymous DID SHOULD also use pairwise-unique public keys and pairwise-unique service endpoints.
 
 
 

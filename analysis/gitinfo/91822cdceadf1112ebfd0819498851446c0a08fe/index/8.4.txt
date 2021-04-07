@@ -1,17 +1,74 @@
 
-5.4 DID Fragments
-
-A generic DID fragment (the did-fragment rule in section 5.1) is
-identical to a URI fragment and MUST conform to the ABNF of the fragment
-ABNF rule in RFC 3986
-  . A DID fragment MUST be used only as a method-independent pointer into
-the DDO to identify a unique key description or other DDO component. To
-resolve this pointer, the complete DID reference including the DID
-fragment MUST be used as the value of the id key for the target JSON
-object.
+6.4. Proof of Ownership (Required If No Guardian)
 
 
-A specific DID scheme MAY specify ABNF rules for DID fragments that are
-more restrictive than the generic rules in this section.
+    
+      Proof of Ownership is the mechanism by which an identity owner can cryptographically prove ownership of a DID and DDO by virtue of publishing a set of public key or verification key descriptions. See section 9.2. Note that Proof of Ownership is separate from Proof of Control because an identity owner may wish to enable other entities to update the DDO (for example, to assist with key recovery as discussed in section 6.5) without enabling them to prove ownership (and thus be able to impersonate the identity owner).
+
+    
+      The rules for Proof of Ownership are:
+
+
+
+
+A DDO that includes a guardian (section 6.3) MAY have exactly one
+owner.
+  
+A DDO that does not include a guardian MUST have exactly one owner.
+  
+The key for this property MUST be owner.
+  
+The value of this key MUST be an array where each member of the
+array is a key description of a valid public key or verification key. A
+list of standard key descriptions is included in Appendix C. A new key
+description MAY also be defined by a DID method specification.
+  
+If this array contains more than one key description, each key
+description MUST include a property with the key id whose value is a DID
+reference consisting of the primary DID and a DID fragment. This DID
+reference uniquely identifies this key description.
+  
+
+
+
+    
+
+
+    
+      Example:
+
+    
+
+
+
+
+
+
+      {
+      "owner": [{
+            "id": "did:example:21tDAKCERh95uGgKbJNHYp#key/1",
+            "type": ["CryptographicKey", "EdDsaSAPublicKey"],
+            "curve": "ed25519",
+            "expires": "2017-02-08T16:02:20Z",
+            "publicKeyBase64": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
+        }, {
+            "id": "did:example:21tDAKCERh95uGgKbJNHYp#key/2",
+            "type": ["CryptographicKey", "RsaPublicKey"],
+            "expires": "2017-03-22T00:00:00Z",
+            "publicKeyBase64": "MIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV"
+        }]
+      }
+
+
+
+
+    
+
+
+    
+      Note that caching and expiration of the keys in DDO key descriptions is entirely the responsibility of DID resolvers and other clients. See section 9.6.
+
+
+
 
 

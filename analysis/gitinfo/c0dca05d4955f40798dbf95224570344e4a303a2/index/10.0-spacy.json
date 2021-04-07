@@ -1,0 +1,312 @@
+{
+  "nouns": {
+    "DID Resolvers\n\n\n    \n      A": [
+      {
+        "end": 5,
+        "start": 0,
+        "type": "NP"
+      }
+    ],
+    "DID lookups": [
+      {
+        "end": 21,
+        "start": 19,
+        "type": "NP"
+      }
+    ],
+    "MAY": [
+      {
+        "end": 106,
+        "start": 104,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 50,
+        "start": 48,
+        "type": "NP"
+      }
+    ],
+    "a DID resolver": [
+      {
+        "end": 43,
+        "start": 40,
+        "type": "NP"
+      }
+    ],
+    "a software component": [
+      {
+        "end": 11,
+        "start": 8,
+        "type": "NP"
+      }
+    ],
+    "an API": [
+      {
+        "end": 14,
+        "start": 12,
+        "type": "NP"
+      }
+    ],
+    "an error": [
+      {
+        "end": 66,
+        "start": 64,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 62,
+        "start": 61,
+        "type": "NP"
+      },
+      {
+        "end": 100,
+        "start": 99,
+        "type": "NP"
+      }
+    ],
+    "its DID method\nspecification": [
+      {
+        "end": 59,
+        "start": 54,
+        "type": "NP"
+      }
+    ],
+    "requested properties": [
+      {
+        "end": 113,
+        "start": 111,
+        "type": "NP"
+      }
+    ],
+    "requests": [
+      {
+        "end": 18,
+        "start": 17,
+        "type": "NP"
+      }
+    ],
+    "resolution operations": [
+      {
+        "end": 85,
+        "start": 83,
+        "type": "NP"
+      }
+    ],
+    "resolver": [
+      {
+        "end": 7,
+        "start": 6,
+        "type": "NP"
+      }
+    ],
+    "specification": [
+      {
+        "end": 80,
+        "start": 78,
+        "type": "NP"
+      }
+    ],
+    "the DDO": [
+      {
+        "end": 98,
+        "start": 96,
+        "type": "NP"
+      },
+      {
+        "end": 116,
+        "start": 114,
+        "type": "NP"
+      }
+    ],
+    "the authoritative DDO": [
+      {
+        "end": 32,
+        "start": 29,
+        "type": "NP"
+      }
+    ],
+    "the corresponding DID method": [
+      {
+        "end": 27,
+        "start": 23,
+        "type": "NP"
+      }
+    ],
+    "the integrity": [
+      {
+        "end": 95,
+        "start": 93,
+        "type": "NP"
+      }
+    ],
+    "the requirements": [
+      {
+        "end": 73,
+        "start": 71,
+        "type": "NP"
+      }
+    ],
+    "the service": [
+      {
+        "end": 91,
+        "start": 89,
+        "type": "NP"
+      },
+      {
+        "end": 109,
+        "start": 107,
+        "type": "NP"
+      }
+    ],
+    "this specification": [
+      {
+        "end": 39,
+        "start": 37,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DDO": [
+      {
+        "end": 32,
+        "start": 31,
+        "type": "ORG"
+      },
+      {
+        "end": 98,
+        "start": 97,
+        "type": "ORG"
+      },
+      {
+        "end": 116,
+        "start": 115,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 6,
+        "start": 5,
+        "type": "ORG"
+      },
+      {
+        "end": 20,
+        "start": 19,
+        "type": "ORG"
+      },
+      {
+        "end": 26,
+        "start": 25,
+        "type": "ORG"
+      },
+      {
+        "end": 42,
+        "start": 41,
+        "type": "ORG"
+      },
+      {
+        "end": 50,
+        "start": 49,
+        "type": "ORG"
+      },
+      {
+        "end": 56,
+        "start": 55,
+        "type": "ORG"
+      },
+      {
+        "end": 77,
+        "start": 76,
+        "type": "ORG"
+      },
+      {
+        "end": 83,
+        "start": 82,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "ORG": [
+      {
+        "end": 6,
+        "label": "DID",
+        "start": 5
+      },
+      {
+        "end": 20,
+        "label": "DID",
+        "start": 19
+      },
+      {
+        "end": 26,
+        "label": "DID",
+        "start": 25
+      },
+      {
+        "end": 32,
+        "label": "DDO",
+        "start": 31
+      },
+      {
+        "end": 42,
+        "label": "DID",
+        "start": 41
+      },
+      {
+        "end": 50,
+        "label": "DID",
+        "start": 49
+      },
+      {
+        "end": 56,
+        "label": "DID",
+        "start": 55
+      },
+      {
+        "end": 77,
+        "label": "DID",
+        "start": 76
+      },
+      {
+        "end": 83,
+        "label": "DID",
+        "start": 82
+      },
+      {
+        "end": 98,
+        "label": "DDO",
+        "start": 97
+      },
+      {
+        "end": 116,
+        "label": "DDO",
+        "start": 115
+      }
+    ]
+  },
+  "verbs": {
+    "accept": 1,
+    "accord": 1,
+    "be": 1,
+    "conform": 1,
+    "design": 1,
+    "do": 2,
+    "execute": 1,
+    "method": 1,
+    "offer": 2,
+    "perform": 1,
+    "produce": 1,
+    "request": 1,
+    "retrieve": 1,
+    "return": 1,
+    "sign": 1,
+    "validate": 1,
+    "verify": 1
+  }
+}

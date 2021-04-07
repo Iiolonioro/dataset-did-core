@@ -1,23 +1,9 @@
 
-10.1 Requirements of DID Method Specifications
+11.1 Upper Limits on DID Character Length
 
 
-
-
-
-DID method specifications MUST include their own Privacy
-Considerations sections, if only to point to the general privacy
-considerations in this section.
-  
-The DID method privacy section MUST discuss any subsection of
-section 5 of RFC 6973t
-   that could apply in a method-specific manner. The subsections to
-consider are: surveillance, stored data compromise, unsolicited traffic,
-misattribution, correlation, identification, secondary use, disclosure,
-exclusion.
-  
-
-
+    
+      The current specification does not take a position on maximum length of a DID. The maximum interoperable URL length is currently about 2K characters. QR codes can handle about 4K characters. Clients using DIDs will be responsible for storing many DIDs, and some methods would be able to externalize some of their costs onto clients by relying on more complicated signature schemes or by adding state into DIDs intended for temporary use. A future version of this specification should set reasonable limits on DID character length to minimize externalities.
 
 
 

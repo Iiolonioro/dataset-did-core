@@ -1,0 +1,218 @@
+{
+  "nouns": {
+    "(Optional)\n\n\n    \n      Standard metadata": [
+      {
+        "end": 10,
+        "start": 4,
+        "type": "NP"
+      }
+    ],
+    "A DDO": [
+      {
+        "end": 34,
+        "start": 32,
+        "type": "NP"
+      }
+    ],
+    "It": [
+      {
+        "end": 47,
+        "start": 46,
+        "type": "NP"
+      }
+    ],
+    "RECOMMENDED": [
+      {
+        "end": 49,
+        "start": 48,
+        "type": "NP"
+      }
+    ],
+    "The key": [
+      {
+        "end": 57,
+        "start": 55,
+        "type": "NP"
+      }
+    ],
+    "The rules": [
+      {
+        "end": 24,
+        "start": 22,
+        "type": "NP"
+      }
+    ],
+    "The value": [
+      {
+        "end": 67,
+        "start": 65,
+        "type": "NP"
+      }
+    ],
+    "a timestamp": [
+      {
+        "end": 16,
+        "start": 14,
+        "type": "NP"
+      }
+    ],
+    "a updated timestamp": [
+      {
+        "end": 29,
+        "start": 26,
+        "type": "NP"
+      }
+    ],
+    "an updated\ntimestamp": [
+      {
+        "end": 45,
+        "start": 41,
+        "type": "NP"
+      }
+    ],
+    "identity records": [
+      {
+        "end": 13,
+        "start": 11,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 85,
+        "start": 84,
+        "type": "NP"
+      }
+    ],
+    "the formatting rules": [
+      {
+        "end": 75,
+        "start": 72,
+        "type": "NP"
+      }
+    ],
+    "the most recent change": [
+      {
+        "end": 21,
+        "start": 17,
+        "type": "NP"
+      }
+    ],
+    "this key": [
+      {
+        "end": 70,
+        "start": 68,
+        "type": "NP"
+      }
+    ],
+    "this property": [
+      {
+        "end": 53,
+        "start": 51,
+        "type": "NP"
+      },
+      {
+        "end": 60,
+        "start": 58,
+        "type": "NP"
+      }
+    ],
+    "zero or one property": [
+      {
+        "end": 40,
+        "start": 36,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "2016-10-17T02:41:00Z": [
+      {
+        "end": 103,
+        "start": 98,
+        "type": "DATE"
+      }
+    ],
+    "3, 4": [
+      {
+        "end": 79,
+        "start": 76,
+        "type": "DATE"
+      }
+    ],
+    "Optional": [
+      {
+        "end": 6,
+        "start": 5,
+        "type": "ORG"
+      }
+    ],
+    "RECOMMENDED": [
+      {
+        "end": 49,
+        "start": 48,
+        "type": "ORG"
+      }
+    ],
+    "one": [
+      {
+        "end": 39,
+        "start": 38,
+        "type": "CARDINAL"
+      }
+    ],
+    "zero": [
+      {
+        "end": 37,
+        "start": 36,
+        "type": "CARDINAL"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 37,
+        "label": "zero",
+        "start": 36
+      },
+      {
+        "end": 39,
+        "label": "one",
+        "start": 38
+      }
+    ],
+    "DATE": [
+      {
+        "end": 79,
+        "label": "3, 4",
+        "start": 76
+      },
+      {
+        "end": 103,
+        "label": "2016-10-17T02:41:00Z",
+        "start": 98
+      }
+    ],
+    "ORG": [
+      {
+        "end": 6,
+        "label": "Optional",
+        "start": 5
+      },
+      {
+        "end": 49,
+        "label": "RECOMMENDED",
+        "start": 48
+      }
+    ]
+  },
+  "verbs": {
+    "follow": 1,
+    "format": 1,
+    "have": 1,
+    "include": 3,
+    "represent": 1,
+    "update": 5
+  }
+}

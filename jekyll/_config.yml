@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "DID Core Analysis"
+title                    : "DID Core Dataset"
 title_separator          : "-"
-name                     : "Eric Welton (Korsimoro)"
-description              : "Support for Decentralized Identity Foundation"
-url                      : https://www.korsimoro.com
+name                     : "Eric Welton"
+description              : "Analysis of the DID Specification Suite"
+url                      : https://github.io/ewelton/did-core-specification
 baseurl                  : /did-core-dataset
 repository               : korsimoro/did-core-dataset
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -286,10 +286,12 @@ collections:
    intro:
       output: true
       permalink:  /:collection/:path/
+      sort_by: COMMIT_TIMESTAMP
    index:
       output: true
       permalink:  /:collection/:path/
-collections_dir: collections
+      sort_by: COMMIT_TIMESTAMP
+collections_dir: collections/
 
 # Defaults
 defaults:
@@ -311,13 +313,17 @@ defaults:
       type: intro
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
-      comments: # true
-      share: true
-      related: true
+      layout: collection
       sidebar:
-        nav: "dnav"
+        - title: "Title"
+          image: http://placehold.it/350x250
+          image_alt: "image"
+          text: "Some text here."
+        - title: "Another Title"
+          text: "More text here."
+          nav: history
   # _posts
   - scope:
       path: ""

@@ -1,169 +1,95 @@
 
-1. Introduction
+2. Example DIDs and DDOs
 
-1.1 Overview
-
-Conventional identity
-management systems are based on centralized authorities such as
-corporate directory services
-  , certificate
-authorities , or domain name
-registries . From the standpoint of cryptographic trust
-verification, each of these centralized authorities serves as its own
-  root of trust .
-To make identity management work across these systems requires
-implementing federated identity
-management .
+This is an example of a DID:
 
 
-The emergence of distributed ledger technology (DLT), sometimes referred
-to as blockchain technology, provides the opportunity to implement fully
-decentralized identity management. In this ecosystem, all participants
-with identities (called identity owners) share a common root of trust in
-the form of a globally distributed ledger (or a decentralized P2P
-network that provides similar capabilities).
+did:example:21tDAKCERh95uGgKbJNHYp
 
 
-Each identity owner can be identified on a ledger with a key-value
-pair . The index key is a DID (decentralized identifier) and the
-value is its associated DDO (DID description object). Together these
-form a DID record. Each DID record is cryptographically secured by
-private keys under the control of an identity owner (in the case of an
-owner-managed identity) or a guardian (in the case of a guardian-managed
-identity). A corresponding public key is published in the DDO using a
-key description. A DDO may also contain a set of service endpoints for
-interacting with the identity owner. Following the dictums of Privacy by Design
-  , each identity owner may have as many DID records as necessary, to
-respect the identity owner’s desired separation of identities, personas,
-and contexts.
+2.1. Example Owner-Managed DDO
+
+Following is an example of a DDO that describes the DID above. This
+example assumes that the identity owner—the entity that controls the
+private keys for this identity—is authoritative for the DDO. See section
+2.2 for an example of a DDO created by a guardian. For the authoritative
+JSON-LD context definition, see Appendix B (the URL for the @context
+property below is just for illustration).
 
 
-To use a DID with a particular distributed ledger or network requires
-defining a DID method in a separate DID method specification. A DID
-method specifies the set of rules for how a DID is registered, resolved,
-updated, and revoked on that specific ledger or network.
-
-
-This design eliminates dependence on centralized registries for
-identifiers as well as centralized certificate authorities for key
-management—the standard pattern in hierarchical PKI (public
-key infrastructure ). Because DID records are on a distributed
-ledger, each identity owner may serve as its own root authority—an
-architecture referred to as 
-DPKI (decentralized PKI) .
-
-
-Note that DID methods may also be developed for identities registered in
-federated identity management systems. For their part, federated
-identity systems may add support for DIDs. This creates an
-interoperability bridge between the worlds of centralized, federated,
-and decentralized identity.
+      {
+      "@context": "https://example.org/did/v1",
+        "id": "did:example:21tDAKCERh95uGgKbJNHYp",
+        "owner": [{
+            "id": "did:example:21tDAKCERh95uGgKbJNHYp#key-1",
+            "type": ["CryptographicKey", "EdDsaPublicKey"],
+            "curve": "ed25519",
+            "expires": "2017-02-08T16:02:20Z",
+            "publicKeyBase64": "lji9qTtkCydxtez/bt1zdLxVMMbz4SzWvlqgOBmURoM="
+        }, {
+            "id": "did:example:21tDAKCERh95uGgKbJNHYp#key-2",
+            "type": ["CryptographicKey", "RsaPublicKey"],
+            "expires": "2017-03-22T00:00:00Z",
+            "publicKeyPem": "----BEGIN PUBLIC KEY-----\r\nMIIBOgIBAAJBAKkbSUT9/Q2uBfGRau6/XJyZhcF5abo7b37I5hr3EmwGykdzyk8GSyJK3TOrjyl0sdJsGbFmgQaRyV\r\n-----END PUBLIC KEY-----"
+        }],
+        "control": [{
+            "type": "OrControl",
+            "signer": [
+                "did:example:21tDAKCERh95uGgKbJNHYp",
+                "did:example:8uQhQMGzWxR8vw5P3UWH1j"
+            ]
+        }],
+        "service": {
+            "openid": "https://openid.example.com/456",
+            "xdi": "https://xdi.example.com/123"
+        },
+        "created": "2002-10-10T17:00:00Z",
+        "updated": "2016-10-17T02:41:00Z",
+        "signature": {
+            "type": "RsaSignature2016",
+            "created": "2016-02-08T16:02:20Z",
+            "creator": "did:example:8uQhQMGzWxR8vw5P3UWH1j#key/1",
+            "signatureValue": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
+        }
+      }
 
 
 
-1.2. URIs, URLs, and URNs
 
-DIDs have a foundation in URIs, so it's important to understand how the
-W3C clarified
-   the terms URI (Uniform Resource Identifier), URL (Uniform Resource
-Locator), and URN (Uniform Resource Name) in September 2001. The key
-difference between these three categories of identifiers are:
+2.2. Example Guardian-Managed DDO
 
-
-URI is the term for any type of identifier used to identify a
-resource on the Web.
-  
-URL is the term for any type of URI that can be resolved or
-de-referenced to locate a representation of a resource on the Web (e.g.,
-Web page, file, image, etc.)
-  
-URN is the term for a specific type of URI intended to persistently
-identify a resource, i.e., an identifier that will never change no
-matter how often the resource moves, changes names, changes owners, etc.
-URNs are intended to last forever.
-  
+Following is a second example of a DDO that describes the DID above. In
+this case the DDO describes a dependent—an entity who is not currently
+in a position to control the private keys for this identity. This DDO
+was created by a guardian—a separate identity owner with its own DID
+that serves as a trustee for the dependent. Note that while this DDO
+asserts a set of service endpoints, it does not yet contain a set of key
+descriptions because the dependent does not yet have its own set of
+private keys.
 
 
-
-1.3. Motivations for DIDs
-
-The growing need for decentralized identity has produced three specific
-requirements for a new type of URI that still fits within URI/URL/URN
-architecture but in a less than traditional way:
-
-
-A URI that is persistent like a URN yet can be resolved or
-de-referenced to locate a resource like a URL. In essence, a DID is a
-URI that serves both functions.
-  
-A URI that does not require a centralized authority to register,
-resolve, update, or revoke. The overwhelming majority of URIs today are
-based on DNS names or IP addresses that depend on centralized
-authorities for registration and ultimate control. DIDs can be created
-and managed without any such authority.
-  
-A URI whose ownership and associated metadata, including public
-keys, can be cryptographically verified. Control of DIDs and DDOs
-leverages the same public/private key cryptography as distributed
-ledgers.
-  
+      {
+      "@context": "https://example.org/did/v1",
+        "id": "did:example:21tDAKCERh95uGgKbJNHYp",
+        "guardian": "did:example:8uQhQMGzWxR8vw5P3UWH1j"
+        "control": [ "did:example:8uQhQMGzWxR8vw5P3UWH1j" ],
+        "service": {
+            "openid": "https://openid.example.com/456",
+            "xdi": "https://xdi.example.com/123"
+        },
+        "type": "http://schema.org/Person",
+        "created": "2002-10-10T17:00:00Z",
+        "updated": "2016-10-17T02:41:00Z",
+        "signature": {
+            "type": "RsaSignature2016",
+            "created": "2016-02-08T16:02:20Z",
+            "creator": "did:example:8uQhQMGzWxR8vw5P3UWH1j#key-1",
+            "signatureValue": "IOmA4R7TfhkYTYW87z640O3GYFldw0yqie9Wl1kZ5OBYNAKOwG5uOsPRK8/2C4STOWF+83cMcbZ3CBMq2/gi25s="
+        }
+      }
 
 
 
-1.4 The Role of Human-Friendly Identifiers
-
-DIDs achieve global uniqueness without the need for a central
-registration authority. This comes, however, at the cost of human
-memorability. The algorithms capable of generating globally unique
-identifiers automatically produce random strings of characters that have
-no human meaning. This demonstrates the axiom about identifiers known as
-  Zooko’s
-Triangle : "human-meaningful, decentralized, secure—pick any two".
-
-
-There are of course many use cases where it is desirable to discover a
-DID when starting from a human-friendly identifier—a natural language
-name, a domain name, or a conventional address for a DID owner such as a
-mobile telephone number, email address, Twitter handle, or blog URL.
-However, the problem of mapping human-friendly identifiers to DIDs (and
-doing so in a way that can be verified and trusted) is out-of-scope for
-this specification.
-
-
-Solutions to this problem (and there are many) should be defined in
-separate specifications that reference this specification. It is
-strongly recommended that such specifications carefully consider: (a)
-the numerous security attacks based on deceiving users about the true
-human-friendly identifier for a target entity, and (b) the privacy
-consequences of using human-friendly identifiers that are inherently
-correlatable, especially if they are globally unique.
-
-
-
-1.5. Purpose of This Specification
-
-The first purpose of this specification is to define the generic DID
-scheme and a generic set of operations on DID records that can be
-implemented for any distributed ledger or network capable of accepting
-DID records. The second purpose of this specification to define the
-conformance requirements for a DID method specification—a separate
-specification that defines a specific DID scheme and specific set of DID
-record operations for a specific distributed ledger or network.
-
-
-Conceptually, the relationship of this specification and a DID method
-specification is similar to the relationship of the IETF generic URI
-specification ( RFC
-3986 ) and a specific URI
-scheme  (such as the http: and https: schemes specified in RFC 7230 ). It is also similar to
-the relationship of the IETF generic URN specification ( RFC 2141 ) and a specific URN
-namespace definition (such as the UUID URN namespace defined in RFC 4122 ). The difference is
-that a DID method specification, in addition to defining a specific DID
-scheme, must also specify the methods for reading, writing, and revoking
-DID records on the network for which it is written.
-
-
-For a list of DID method specifications, see Appendix A.
 
 
 

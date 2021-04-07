@@ -1,0 +1,403 @@
+{
+  "nouns": {
+    "(Uniform Resource\nLocator": [
+      {
+        "end": 44,
+        "start": 39,
+        "type": "NP"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 11,
+        "start": 10,
+        "type": "NP"
+      }
+    ],
+    "September": [
+      {
+        "end": 55,
+        "start": 54,
+        "type": "NP"
+      }
+    ],
+    "The key\ndifference": [
+      {
+        "end": 61,
+        "start": 57,
+        "type": "NP"
+      }
+    ],
+    "URI": [
+      {
+        "end": 32,
+        "start": 31,
+        "type": "NP"
+      },
+      {
+        "end": 71,
+        "start": 70,
+        "type": "NP"
+      },
+      {
+        "end": 99,
+        "start": 98,
+        "type": "NP"
+      },
+      {
+        "end": 143,
+        "start": 142,
+        "type": "NP"
+      }
+    ],
+    "URIs": [
+      {
+        "end": 4,
+        "start": 3,
+        "type": "NP"
+      },
+      {
+        "end": 16,
+        "start": 15,
+        "type": "NP"
+      }
+    ],
+    "URL": [
+      {
+        "end": 39,
+        "start": 38,
+        "type": "NP"
+      },
+      {
+        "end": 91,
+        "start": 89,
+        "type": "NP"
+      }
+    ],
+    "URLs": [
+      {
+        "end": 6,
+        "start": 5,
+        "type": "NP"
+      }
+    ],
+    "URN": [
+      {
+        "end": 48,
+        "start": 47,
+        "type": "NP"
+      },
+      {
+        "end": 134,
+        "start": 133,
+        "type": "NP"
+      }
+    ],
+    "URNs": [
+      {
+        "end": 9,
+        "start": 8,
+        "type": "NP"
+      },
+      {
+        "end": 178,
+        "start": 176,
+        "type": "NP"
+      }
+    ],
+    "Uniform Resource Identifier": [
+      {
+        "end": 36,
+        "start": 33,
+        "type": "NP"
+      }
+    ],
+    "Uniform Resource Name": [
+      {
+        "end": 52,
+        "start": 49,
+        "type": "NP"
+      }
+    ],
+    "a\nresource": [
+      {
+        "end": 85,
+        "start": 82,
+        "type": "NP"
+      }
+    ],
+    "a foundation": [
+      {
+        "end": 14,
+        "start": 12,
+        "type": "NP"
+      }
+    ],
+    "a representation": [
+      {
+        "end": 112,
+        "start": 110,
+        "type": "NP"
+      }
+    ],
+    "a resource": [
+      {
+        "end": 115,
+        "start": 113,
+        "type": "NP"
+      },
+      {
+        "end": 150,
+        "start": 148,
+        "type": "NP"
+      }
+    ],
+    "a specific type": [
+      {
+        "end": 141,
+        "start": 138,
+        "type": "NP"
+      }
+    ],
+    "any type": [
+      {
+        "end": 77,
+        "start": 75,
+        "type": "NP"
+      },
+      {
+        "end": 97,
+        "start": 95,
+        "type": "NP"
+      }
+    ],
+    "e.g.,\nWeb page": [
+      {
+        "end": 124,
+        "start": 119,
+        "type": "NP"
+      }
+    ],
+    "file": [
+      {
+        "end": 126,
+        "start": 125,
+        "type": "NP"
+      }
+    ],
+    "identifiers": [
+      {
+        "end": 67,
+        "start": 66,
+        "type": "NP"
+      }
+    ],
+    "image": [
+      {
+        "end": 128,
+        "start": 127,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 19,
+        "start": 18,
+        "type": "NP"
+      }
+    ],
+    "names": [
+      {
+        "end": 170,
+        "start": 169,
+        "type": "NP"
+      }
+    ],
+    "no\nmatter": [
+      {
+        "end": 162,
+        "start": 159,
+        "type": "NP"
+      }
+    ],
+    "the\nW3C": [
+      {
+        "end": 27,
+        "start": 24,
+        "type": "NP"
+      }
+    ],
+    "the Web": [
+      {
+        "end": 88,
+        "start": 86,
+        "type": "NP"
+      },
+      {
+        "end": 118,
+        "start": 116,
+        "type": "NP"
+      }
+    ],
+    "the term": [
+      {
+        "end": 74,
+        "start": 72,
+        "type": "NP"
+      },
+      {
+        "end": 94,
+        "start": 92,
+        "type": "NP"
+      },
+      {
+        "end": 137,
+        "start": 135,
+        "type": "NP"
+      }
+    ],
+    "the terms": [
+      {
+        "end": 31,
+        "start": 29,
+        "type": "NP"
+      }
+    ],
+    "these three categories": [
+      {
+        "end": 65,
+        "start": 62,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "September 2001": [
+      {
+        "end": 56,
+        "start": 54,
+        "type": "DATE"
+      }
+    ],
+    "URI": [
+      {
+        "end": 32,
+        "start": 31,
+        "type": "ORG"
+      },
+      {
+        "end": 99,
+        "start": 98,
+        "type": "ORG"
+      },
+      {
+        "end": 143,
+        "start": 142,
+        "type": "ORG"
+      }
+    ],
+    "URN": [
+      {
+        "end": 48,
+        "start": 47,
+        "type": "ORG"
+      }
+    ],
+    "Uniform Resource": [
+      {
+        "end": 42,
+        "start": 40,
+        "type": "ORG"
+      }
+    ],
+    "Uniform Resource Identifier": [
+      {
+        "end": 36,
+        "start": 33,
+        "type": "ORG"
+      }
+    ],
+    "Uniform Resource Name": [
+      {
+        "end": 52,
+        "start": 49,
+        "type": "ORG"
+      }
+    ],
+    "three": [
+      {
+        "end": 64,
+        "start": 63,
+        "type": "CARDINAL"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 64,
+        "label": "three",
+        "start": 63
+      }
+    ],
+    "DATE": [
+      {
+        "end": 56,
+        "label": "September 2001",
+        "start": 54
+      }
+    ],
+    "ORG": [
+      {
+        "end": 32,
+        "label": "URI",
+        "start": 31
+      },
+      {
+        "end": 36,
+        "label": "Uniform Resource Identifier",
+        "start": 33
+      },
+      {
+        "end": 42,
+        "label": "Uniform Resource",
+        "start": 40
+      },
+      {
+        "end": 48,
+        "label": "URN",
+        "start": 47
+      },
+      {
+        "end": 52,
+        "label": "Uniform Resource Name",
+        "start": 49
+      },
+      {
+        "end": 99,
+        "label": "URI",
+        "start": 98
+      },
+      {
+        "end": 143,
+        "label": "URI",
+        "start": 142
+      }
+    ]
+  },
+  "verbs": {
+    "-": 1,
+    "be": 1,
+    "change": 2,
+    "clarify": 1,
+    "have": 1,
+    "identify": 2,
+    "intend": 2,
+    "last": 1,
+    "locate": 1,
+    "reference": 1,
+    "resolve": 1,
+    "understand": 1,
+    "use": 1
+  }
+}

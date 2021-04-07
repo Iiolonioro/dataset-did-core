@@ -1,0 +1,624 @@
+{
+  "nouns": {
+    "(cryptographic key management system": [
+      {
+        "end": 105,
+        "start": 100,
+        "type": "NP"
+      }
+    ],
+    "DDOs": [
+      {
+        "end": 15,
+        "start": 14,
+        "type": "NP"
+      },
+      {
+        "end": 84,
+        "start": 83,
+        "type": "NP"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 13,
+        "start": 12,
+        "type": "NP"
+      }
+    ],
+    "Each operation": [
+      {
+        "end": 52,
+        "start": 50,
+        "type": "NP"
+      }
+    ],
+    "Key recovery": [
+      {
+        "end": 121,
+        "start": 119,
+        "type": "NP"
+      }
+    ],
+    "Key replacement": [
+      {
+        "end": 115,
+        "start": 113,
+        "type": "NP"
+      }
+    ],
+    "Key rotation": [
+      {
+        "end": 118,
+        "start": 116,
+        "type": "NP"
+      }
+    ],
+    "The DID method specification": [
+      {
+        "end": 133,
+        "start": 129,
+        "type": "NP"
+      },
+      {
+        "end": 180,
+        "start": 176,
+        "type": "NP"
+      },
+      {
+        "end": 218,
+        "start": 214,
+        "type": "NP"
+      }
+    ],
+    "a CKMS": [
+      {
+        "end": 100,
+        "start": 98,
+        "type": "NP"
+      }
+    ],
+    "a DDO": [
+      {
+        "end": 192,
+        "start": 190,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 148,
+        "start": 146,
+        "type": "NP"
+      },
+      {
+        "end": 188,
+        "start": 186,
+        "type": "NP"
+      }
+    ],
+    "a DID method specification": [
+      {
+        "end": 33,
+        "start": 29,
+        "type": "NP"
+      }
+    ],
+    "a DID record": [
+      {
+        "end": 142,
+        "start": 139,
+        "type": "NP"
+      },
+      {
+        "end": 228,
+        "start": 225,
+        "type": "NP"
+      },
+      {
+        "end": 275,
+        "start": 272,
+        "type": "NP"
+      }
+    ],
+    "a client": [
+      {
+        "end": 49,
+        "start": 47,
+        "type": "NP"
+      },
+      {
+        "end": 138,
+        "start": 136,
+        "type": "NP"
+      },
+      {
+        "end": 185,
+        "start": 183,
+        "type": "NP"
+      },
+      {
+        "end": 223,
+        "start": 221,
+        "type": "NP"
+      },
+      {
+        "end": 270,
+        "start": 268,
+        "type": "NP"
+      }
+    ],
+    "a core feature": [
+      {
+        "end": 255,
+        "start": 252,
+        "type": "NP"
+      }
+    ],
+    "a particular distributed ledger": [
+      {
+        "end": 20,
+        "start": 16,
+        "type": "NP"
+      }
+    ],
+    "all cryptographic operations": [
+      {
+        "end": 162,
+        "start": 159,
+        "type": "NP"
+      },
+      {
+        "end": 237,
+        "start": 234,
+        "type": "NP"
+      },
+      {
+        "end": 284,
+        "start": 281,
+        "type": "NP"
+      }
+    ],
+    "all the operations": [
+      {
+        "end": 96,
+        "start": 93,
+        "type": "NP"
+      }
+    ],
+    "control": [
+      {
+        "end": 243,
+        "start": 242,
+        "type": "NP"
+      }
+    ],
+    "detail": [
+      {
+        "end": 60,
+        "start": 59,
+        "type": "NP"
+      }
+    ],
+    "distributed ledgers": [
+      {
+        "end": 258,
+        "start": 256,
+        "type": "NP"
+      }
+    ],
+    "e.g.:\n\n\n\n\nKey registration": [
+      {
+        "end": 112,
+        "start": 107,
+        "type": "NP"
+      }
+    ],
+    "interoperable client implementations": [
+      {
+        "end": 68,
+        "start": 65,
+        "type": "NP"
+      }
+    ],
+    "its associated DDO": [
+      {
+        "end": 152,
+        "start": 149,
+        "type": "NP"
+      }
+    ],
+    "network": [
+      {
+        "end": 22,
+        "start": 21,
+        "type": "NP"
+      }
+    ],
+    "ownership": [
+      {
+        "end": 168,
+        "start": 167,
+        "type": "NP"
+      }
+    ],
+    "proof": [
+      {
+        "end": 166,
+        "start": 165,
+        "type": "NP"
+      },
+      {
+        "end": 241,
+        "start": 240,
+        "type": "NP"
+      },
+      {
+        "end": 288,
+        "start": 287,
+        "type": "NP"
+      }
+    ],
+    "revocation": [
+      {
+        "end": 290,
+        "start": 289,
+        "type": "NP"
+      }
+    ],
+    "the DID method specification": [
+      {
+        "end": 265,
+        "start": 261,
+        "type": "NP"
+      }
+    ],
+    "the authenticity": [
+      {
+        "end": 205,
+        "start": 203,
+        "type": "NP"
+      }
+    ],
+    "the client": [
+      {
+        "end": 201,
+        "start": 199,
+        "type": "NP"
+      }
+    ],
+    "the combination": [
+      {
+        "end": 145,
+        "start": 143,
+        "type": "NP"
+      }
+    ],
+    "the following\n        CRUD\n       operations": [
+      {
+        "end": 44,
+        "start": 38,
+        "type": "NP"
+      }
+    ],
+    "the full functionality": [
+      {
+        "end": 11,
+        "start": 8,
+        "type": "NP"
+      }
+    ],
+    "the level": [
+      {
+        "end": 58,
+        "start": 56,
+        "type": "NP"
+      }
+    ],
+    "the response": [
+      {
+        "end": 208,
+        "start": 206,
+        "type": "NP"
+      }
+    ],
+    "the specified contents": [
+      {
+        "end": 82,
+        "start": 79,
+        "type": "NP"
+      }
+    ],
+    "the target system": [
+      {
+        "end": 27,
+        "start": 24,
+        "type": "NP"
+      },
+      {
+        "end": 72,
+        "start": 69,
+        "type": "NP"
+      },
+      {
+        "end": 157,
+        "start": 154,
+        "type": "NP"
+      },
+      {
+        "end": 196,
+        "start": 193,
+        "type": "NP"
+      },
+      {
+        "end": 232,
+        "start": 229,
+        "type": "NP"
+      },
+      {
+        "end": 279,
+        "start": 276,
+        "type": "NP"
+      }
+    ],
+    "these operations": [
+      {
+        "end": 87,
+        "start": 85,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "7.1": [
+      {
+        "end": 126,
+        "start": 125,
+        "type": "CARDINAL"
+      }
+    ],
+    "7.2": [
+      {
+        "end": 171,
+        "start": 170,
+        "type": "CARDINAL"
+      }
+    ],
+    "7.3": [
+      {
+        "end": 211,
+        "start": 210,
+        "type": "CARDINAL"
+      }
+    ],
+    "7.4": [
+      {
+        "end": 246,
+        "start": 245,
+        "type": "CARDINAL"
+      }
+    ],
+    "Create\n\n\n    \n      ": [
+      {
+        "end": 129,
+        "start": 127,
+        "type": "PERSON"
+      }
+    ],
+    "DDO": [
+      {
+        "end": 152,
+        "start": 151,
+        "type": "ORG"
+      },
+      {
+        "end": 192,
+        "start": 191,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 31,
+        "start": 30,
+        "type": "ORG"
+      },
+      {
+        "end": 131,
+        "start": 130,
+        "type": "ORG"
+      },
+      {
+        "end": 141,
+        "start": 140,
+        "type": "ORG"
+      },
+      {
+        "end": 148,
+        "start": 147,
+        "type": "ORG"
+      },
+      {
+        "end": 178,
+        "start": 177,
+        "type": "ORG"
+      },
+      {
+        "end": 188,
+        "start": 187,
+        "type": "ORG"
+      },
+      {
+        "end": 216,
+        "start": 215,
+        "type": "ORG"
+      },
+      {
+        "end": 227,
+        "start": 226,
+        "type": "ORG"
+      },
+      {
+        "end": 263,
+        "start": 262,
+        "type": "ORG"
+      },
+      {
+        "end": 274,
+        "start": 273,
+        "type": "ORG"
+      }
+    ],
+    "DID Operations\n\n\n    \n      ": [
+      {
+        "end": 6,
+        "start": 3,
+        "type": "ORG"
+      }
+    ],
+    "Delete/Revoke\n\n\n    \n      ": [
+      {
+        "end": 251,
+        "start": 247,
+        "type": "ORG"
+      }
+    ],
+    "Update\n\n\n    \n      ": [
+      {
+        "end": 214,
+        "start": 212,
+        "type": "PERSON"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 126,
+        "label": "7.1",
+        "start": 125
+      },
+      {
+        "end": 171,
+        "label": "7.2",
+        "start": 170
+      },
+      {
+        "end": 211,
+        "label": "7.3",
+        "start": 210
+      },
+      {
+        "end": 246,
+        "label": "7.4",
+        "start": 245
+      }
+    ],
+    "ORG": [
+      {
+        "end": 6,
+        "label": "DID Operations\n\n\n    \n      ",
+        "start": 3
+      },
+      {
+        "end": 31,
+        "label": "DID",
+        "start": 30
+      },
+      {
+        "end": 131,
+        "label": "DID",
+        "start": 130
+      },
+      {
+        "end": 141,
+        "label": "DID",
+        "start": 140
+      },
+      {
+        "end": 148,
+        "label": "DID",
+        "start": 147
+      },
+      {
+        "end": 152,
+        "label": "DDO",
+        "start": 151
+      },
+      {
+        "end": 178,
+        "label": "DID",
+        "start": 177
+      },
+      {
+        "end": 188,
+        "label": "DID",
+        "start": 187
+      },
+      {
+        "end": 192,
+        "label": "DDO",
+        "start": 191
+      },
+      {
+        "end": 216,
+        "label": "DID",
+        "start": 215
+      },
+      {
+        "end": 227,
+        "label": "DID",
+        "start": 226
+      },
+      {
+        "end": 251,
+        "label": "Delete/Revoke\n\n\n    \n      ",
+        "start": 247
+      },
+      {
+        "end": 263,
+        "label": "DID",
+        "start": 262
+      },
+      {
+        "end": 274,
+        "label": "DID",
+        "start": 273
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 129,
+        "label": "Create\n\n\n    \n      ",
+        "start": 127
+      },
+      {
+        "end": 214,
+        "label": "Update\n\n\n    \n      ",
+        "start": 212
+      }
+    ]
+  },
+  "verbs": {
+    "be": 1,
+    "build": 1,
+    "call": 1,
+    "create": 2,
+    "distribute": 2,
+    "do": 1,
+    "enable": 1,
+    "establish": 3,
+    "follow": 1,
+    "include": 4,
+    "note": 1,
+    "perform": 2,
+    "request": 1,
+    "require": 1,
+    "revoke": 1,
+    "specify": 7,
+    "test": 1,
+    "update": 2,
+    "use": 2,
+    "verify": 2
+  }
+}

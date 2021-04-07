@@ -19,7 +19,9 @@ KEYWORDS=$ANALYSIS/keywords
 GITINFO=$ANALYSIS/gitinfo
 JEKYLL=$DIDCORE/jekyll
 HISTORY=$ANALYSIS/history
-RUNNABLE=$ANALYSIS/runnable
+RUNNABLE=$JEKYLL/static/runnable
+GITDATA=$JEKYLL/_data
+GITEXPORTS=$JEKYLL/static/exports
 
 SUMMARY=$KEYWORDS/summary.csv
 if [ -f "$ANALYSIS/commit-list.txt" ]; then

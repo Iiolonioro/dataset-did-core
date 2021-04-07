@@ -62,8 +62,8 @@ extract_commit_data() (
 	mkdir -p $RDIR
 	rm -rf $LINK
 	ln -s $HASHDIR/snapshot $LINK
-	ln -s $HASHDIR $HASHDIR/snapshot/gitinfo
 	COMMIT_RUNNABLE="static/runnable/$COMMIT_DATE/$COMMIT_TIME/launcher"
+	echo $HASHDIR > $LINK/gitinfo.txt
 
 	# save environment
 	echo $COMMIT_HASH > commit.txt

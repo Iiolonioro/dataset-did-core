@@ -1,38 +1,11 @@
 
-Context (Required)
-
-JSON objects in JSON-LD format must include a JSON-LD context statement.
-The rules for this statement are:
+Create
 
 
-A DDO MUST have exactly one top-level context statement.
-  
-This statement MUST be the first line in the JSON object. (This is
-not strictly necessary under JSON-LD but required for DDOs.)
-  
-The key for this property MUST be @context.
-  
-The value of this key MUST be the URL for the generic DID context as
-specified in Appendix B.
-  
+    
+      The DID method specification MUST specify how a client creates a DID record—the combination of a DID and its associated DDO—on the target system, including all cryptographic operations necessary to establish proof of ownership.
 
 
-Example (using an example URL):
 
-
-  {
-
-
-  "@context": "https://example.org/did/v1"
-
-
-  }
-
-
-DID method specifications MAY define their own JSON-LD contexts. However
-it is NOT RECOMMENDED to define a new context unless necessary to
-properly implement the method. Method-specific contexts MUST NOT
-override the terms defined in the generic DID context listed in Appendix
-B.
 
 

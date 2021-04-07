@@ -36,6 +36,13 @@ process_index() (
 	python3 $DIDCORE/python/spacy_anal.py abstract.txt > abstract-spacy.json &
 	python3 $DIDCORE/python/spacy_anal.py sotd.txt > sotd-spacy.json &
 	python3 $DIDCORE/python/spacy_anal.py intro.txt > intro-spacy.json &
+
+
+	FILES=`find . -regex '\.\/[0-9]+.*\.txt' | sed s/.txt//g | colrm 1 2`
+	for file in $FILES; do
+		sha256sum < $file.txt > $file.hash &
+		python3 $DIDCORE/python/spacy_anal.py $file.txt > $file-spacy.json &
+	done
 	cd ..
 
 	kvrestore < key-value.dump

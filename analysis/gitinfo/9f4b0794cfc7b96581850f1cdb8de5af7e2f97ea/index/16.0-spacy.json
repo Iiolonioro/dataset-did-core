@@ -1,0 +1,393 @@
+{
+  "nouns": {
+    "\"@type": [
+      {
+        "end": 107,
+        "start": 104,
+        "type": "NP"
+      },
+      {
+        "end": 157,
+        "start": 154,
+        "type": "NP"
+      }
+    ],
+    "\"AndControl": [
+      {
+        "end": 288,
+        "start": 285,
+        "type": "NP"
+      }
+    ],
+    "\"MofNControl": [
+      {
+        "end": 299,
+        "start": 296,
+        "type": "NP"
+      }
+    ],
+    "\"OrControl": [
+      {
+        "end": 277,
+        "start": 274,
+        "type": "NP"
+      }
+    ],
+    "\"curve": [
+      {
+        "end": 118,
+        "start": 115,
+        "type": "NP"
+      }
+    ],
+    "\"ddo:control": [
+      {
+        "end": 102,
+        "start": 98,
+        "type": "NP"
+      }
+    ],
+    "\"guardian": [
+      {
+        "end": 129,
+        "start": 126,
+        "type": "NP"
+      }
+    ],
+    "\"minimumSignatures": [
+      {
+        "end": 140,
+        "start": 137,
+        "type": "NP"
+      }
+    ],
+    "\"openid": [
+      {
+        "end": 170,
+        "start": 167,
+        "type": "NP"
+      }
+    ],
+    "\"publicKeyBase64": [
+      {
+        "end": 181,
+        "start": 178,
+        "type": "NP"
+      }
+    ],
+    "\"sec": [
+      {
+        "end": 185,
+        "start": 183,
+        "type": "NP"
+      },
+      {
+        "end": 207,
+        "start": 205,
+        "type": "NP"
+      },
+      {
+        "end": 259,
+        "start": 257,
+        "type": "NP"
+      },
+      {
+        "end": 270,
+        "start": 268,
+        "type": "NP"
+      }
+    ],
+    "\"service": [
+      {
+        "end": 192,
+        "start": 189,
+        "type": "NP"
+      }
+    ],
+    "\"signer": [
+      {
+        "end": 203,
+        "start": 200,
+        "type": "NP"
+      }
+    ],
+    "\"xdi": [
+      {
+        "end": 244,
+        "start": 241,
+        "type": "NP"
+      }
+    ],
+    ",\n        \"@type": [
+      {
+        "end": 231,
+        "start": 227,
+        "type": "NP"
+      }
+    ],
+    ",\n    \"control": [
+      {
+        "end": 90,
+        "start": 86,
+        "type": "NP"
+      }
+    ],
+    "@context": [
+      {
+        "end": 59,
+        "start": 58,
+        "type": "NP"
+      }
+    ],
+    "AndControl": [
+      {
+        "end": 294,
+        "start": 293,
+        "type": "NP"
+      }
+    ],
+    "Context": [
+      {
+        "end": 8,
+        "start": 7,
+        "type": "NP"
+      }
+    ],
+    "EdDsaPublicKey": [
+      {
+        "end": 255,
+        "start": 254,
+        "type": "NP"
+      },
+      {
+        "end": 261,
+        "start": 260,
+        "type": "NP"
+      }
+    ],
+    "JSON-LD": [
+      {
+        "end": 12,
+        "start": 9,
+        "type": "NP"
+      }
+    ],
+    "OrControl": [
+      {
+        "end": 283,
+        "start": 282,
+        "type": "NP"
+      }
+    ],
+    "RsaPublicKey": [
+      {
+        "end": 266,
+        "start": 265,
+        "type": "NP"
+      },
+      {
+        "end": 272,
+        "start": 271,
+        "type": "NP"
+      }
+    ],
+    "The Generic": [
+      {
+        "end": 6,
+        "start": 4,
+        "type": "NP"
+      }
+    ],
+    "This JSON-LD document": [
+      {
+        "end": 18,
+        "start": 13,
+        "type": "NP"
+      }
+    ],
+    "all DDOs": [
+      {
+        "end": 25,
+        "start": 23,
+        "type": "NP"
+      }
+    ],
+    "curve": [
+      {
+        "end": 124,
+        "start": 123,
+        "type": "NP"
+      }
+    ],
+    "https://github.com/WebOfTrustInfo/rebooting-the-web-of-trust-fall2016/blob/master/final-documents/did-context-v1-draft-01.txt": [
+      {
+        "end": 54,
+        "start": 53,
+        "type": "NP"
+      }
+    ],
+    "https://w3id.org/control#": [
+      {
+        "end": 75,
+        "start": 73,
+        "type": "NP"
+      }
+    ],
+    "integer": [
+      {
+        "end": 163,
+        "start": 162,
+        "type": "NP"
+      }
+    ],
+    "minimumSignatures": [
+      {
+        "end": 152,
+        "start": 151,
+        "type": "NP"
+      }
+    ],
+    "publicKeyBase64": [
+      {
+        "end": 187,
+        "start": 186,
+        "type": "NP"
+      }
+    ],
+    "sec": [
+      {
+        "end": 122,
+        "start": 121,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 28,
+        "start": 27,
+        "type": "NP"
+      }
+    ],
+    "service": [
+      {
+        "end": 198,
+        "start": 197,
+        "type": "NP"
+      }
+    ],
+    "signer": [
+      {
+        "end": 209,
+        "start": 208,
+        "type": "NP"
+      }
+    ],
+    "the URL": [
+      {
+        "end": 47,
+        "start": 45,
+        "type": "NP"
+      }
+    ],
+    "the generic context": [
+      {
+        "end": 22,
+        "start": 19,
+        "type": "NP"
+      }
+    ],
+    "the rules": [
+      {
+        "end": 33,
+        "start": 31,
+        "type": "NP"
+      }
+    ],
+    "this context": [
+      {
+        "end": 37,
+        "start": 35,
+        "type": "NP"
+      },
+      {
+        "end": 50,
+        "start": 48,
+        "type": "NP"
+      }
+    ],
+    "this implementer\u2019s draft": [
+      {
+        "end": 44,
+        "start": 40,
+        "type": "NP"
+      }
+    ],
+    "xdi": [
+      {
+        "end": 250,
+        "start": 249,
+        "type": "NP"
+      }
+    ],
+    "xsd": [
+      {
+        "end": 161,
+        "start": 160,
+        "type": "NP"
+      },
+      {
+        "end": 235,
+        "start": 234,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "AndControl": [
+      {
+        "end": 288,
+        "start": 287,
+        "type": "ORG"
+      },
+      {
+        "end": 294,
+        "start": 293,
+        "type": "ORG"
+      }
+    ],
+    "JSON-LD": [
+      {
+        "end": 12,
+        "start": 9,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "ORG": [
+      {
+        "end": 12,
+        "label": "JSON-LD",
+        "start": 9
+      },
+      {
+        "end": 288,
+        "label": "AndControl",
+        "start": 287
+      },
+      {
+        "end": 294,
+        "label": "AndControl",
+        "start": 293
+      }
+    ]
+  },
+  "verbs": {
+    "ctrl": 4,
+    "do": 1,
+    "https://w3id.org/ddo": 1,
+    "see": 1,
+    "update": 2,
+    "use": 1
+  }
+}

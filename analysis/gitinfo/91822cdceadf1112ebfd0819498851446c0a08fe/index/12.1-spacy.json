@@ -1,0 +1,188 @@
+{
+  "nouns": {
+    "10.1 Requirements": [
+      {
+        "end": 3,
+        "start": 1,
+        "type": "NP"
+      }
+    ],
+    "DID Method Specifications": [
+      {
+        "end": 7,
+        "start": 4,
+        "type": "NP"
+      }
+    ],
+    "RFC": [
+      {
+        "end": 50,
+        "start": 49,
+        "type": "NP"
+      }
+    ],
+    "The DID method privacy section": [
+      {
+        "end": 40,
+        "start": 35,
+        "type": "NP"
+      }
+    ],
+    "The subsections": [
+      {
+        "end": 65,
+        "start": 63,
+        "type": "NP"
+      }
+    ],
+    "a method-specific manner": [
+      {
+        "end": 62,
+        "start": 57,
+        "type": "NP"
+      }
+    ],
+    "any subsection": [
+      {
+        "end": 44,
+        "start": 42,
+        "type": "NP"
+      }
+    ],
+    "correlation": [
+      {
+        "end": 83,
+        "start": 82,
+        "type": "NP"
+      }
+    ],
+    "disclosure": [
+      {
+        "end": 90,
+        "start": 89,
+        "type": "NP"
+      }
+    ],
+    "exclusion": [
+      {
+        "end": 93,
+        "start": 92,
+        "type": "NP"
+      }
+    ],
+    "identification": [
+      {
+        "end": 85,
+        "start": 84,
+        "type": "NP"
+      }
+    ],
+    "misattribution": [
+      {
+        "end": 81,
+        "start": 80,
+        "type": "NP"
+      }
+    ],
+    "secondary use": [
+      {
+        "end": 88,
+        "start": 86,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 47,
+        "start": 45,
+        "type": "NP"
+      }
+    ],
+    "specifications": [
+      {
+        "end": 11,
+        "start": 10,
+        "type": "NP"
+      }
+    ],
+    "stored data compromise": [
+      {
+        "end": 75,
+        "start": 72,
+        "type": "NP"
+      }
+    ],
+    "surveillance": [
+      {
+        "end": 71,
+        "start": 70,
+        "type": "NP"
+      }
+    ],
+    "the general privacy\nconsiderations": [
+      {
+        "end": 30,
+        "start": 25,
+        "type": "NP"
+      }
+    ],
+    "their own Privacy\nConsiderations sections": [
+      {
+        "end": 19,
+        "start": 13,
+        "type": "NP"
+      }
+    ],
+    "this section": [
+      {
+        "end": 33,
+        "start": 31,
+        "type": "NP"
+      }
+    ],
+    "unsolicited traffic": [
+      {
+        "end": 78,
+        "start": 76,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DID": [
+      {
+        "end": 9,
+        "start": 8,
+        "type": "ORG"
+      },
+      {
+        "end": 37,
+        "start": 36,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "ORG": [
+      {
+        "end": 9,
+        "label": "DID",
+        "start": 8
+      },
+      {
+        "end": 37,
+        "label": "DID",
+        "start": 36
+      }
+    ]
+  },
+  "verbs": {
+    "apply": 1,
+    "consider": 1,
+    "discuss": 1,
+    "include": 1,
+    "method": 1,
+    "point": 1,
+    "store": 1
+  }
+}

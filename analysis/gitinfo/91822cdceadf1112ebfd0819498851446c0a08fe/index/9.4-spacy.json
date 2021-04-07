@@ -1,0 +1,115 @@
+{
+  "nouns": {
+    "a DID record": [
+      {
+        "end": 31,
+        "start": 28,
+        "type": "NP"
+      }
+    ],
+    "a client": [
+      {
+        "end": 26,
+        "start": 24,
+        "type": "NP"
+      }
+    ],
+    "a core feature": [
+      {
+        "end": 11,
+        "start": 8,
+        "type": "NP"
+      }
+    ],
+    "all cryptographic operations": [
+      {
+        "end": 40,
+        "start": 37,
+        "type": "NP"
+      }
+    ],
+    "distributed ledgers": [
+      {
+        "end": 14,
+        "start": 12,
+        "type": "NP"
+      }
+    ],
+    "proof": [
+      {
+        "end": 44,
+        "start": 43,
+        "type": "NP"
+      }
+    ],
+    "revocation": [
+      {
+        "end": 46,
+        "start": 45,
+        "type": "NP"
+      }
+    ],
+    "the DID method specification": [
+      {
+        "end": 21,
+        "start": 17,
+        "type": "NP"
+      }
+    ],
+    "the target system": [
+      {
+        "end": 35,
+        "start": 32,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DID": [
+      {
+        "end": 19,
+        "start": 18,
+        "type": "ORG"
+      },
+      {
+        "end": 30,
+        "start": 29,
+        "type": "ORG"
+      }
+    ],
+    "Delete/Revoke\n\n\n    \n      ": [
+      {
+        "end": 7,
+        "start": 3,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "ORG": [
+      {
+        "end": 7,
+        "label": "Delete/Revoke\n\n\n    \n      ",
+        "start": 3
+      },
+      {
+        "end": 19,
+        "label": "DID",
+        "start": 18
+      },
+      {
+        "end": 30,
+        "label": "DID",
+        "start": 29
+      }
+    ]
+  },
+  "verbs": {
+    "be": 1,
+    "distribute": 1,
+    "establish": 1,
+    "include": 1,
+    "revoke": 1,
+    "specify": 1
+  }
+}

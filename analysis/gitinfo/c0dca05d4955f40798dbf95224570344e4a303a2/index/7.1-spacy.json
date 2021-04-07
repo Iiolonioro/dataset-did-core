@@ -1,0 +1,399 @@
+{
+  "nouns": {
+    "-reference": [
+      {
+        "end": 114,
+        "start": 112,
+        "type": "NP"
+      }
+    ],
+    "= \"did:\" method": [
+      {
+        "end": 141,
+        "start": 135,
+        "type": "NP"
+      }
+    ],
+    "= ALPHA": [
+      {
+        "end": 179,
+        "start": 177,
+        "type": "NP"
+      }
+    ],
+    "A-Z": [
+      {
+        "end": 108,
+        "start": 105,
+        "type": "NP"
+      }
+    ],
+    "DID paths": [
+      {
+        "end": 202,
+        "start": 200,
+        "type": "NP"
+      }
+    ],
+    "It": [
+      {
+        "end": 20,
+        "start": 19,
+        "type": "NP"
+      }
+    ],
+    "RFC": [
+      {
+        "end": 17,
+        "start": 16,
+        "type": "NP"
+      },
+      {
+        "end": 94,
+        "start": 93,
+        "type": "NP"
+      }
+    ],
+    "Scheme": [
+      {
+        "end": 5,
+        "start": 4,
+        "type": "NP"
+      }
+    ],
+    "The Generic": [
+      {
+        "end": 3,
+        "start": 1,
+        "type": "NP"
+      }
+    ],
+    "The generic DID scheme": [
+      {
+        "end": 10,
+        "start": 6,
+        "type": "NP"
+      }
+    ],
+    "The term": [
+      {
+        "end": 35,
+        "start": 33,
+        "type": "NP"
+      }
+    ],
+    "a DID reference": [
+      {
+        "end": 82,
+        "start": 79,
+        "type": "NP"
+      }
+    ],
+    "a path": [
+      {
+        "end": 63,
+        "start": 61,
+        "type": "NP"
+      },
+      {
+        "end": 75,
+        "start": 73,
+        "type": "NP"
+      }
+    ],
+    "an optional path": [
+      {
+        "end": 30,
+        "start": 27,
+        "type": "NP"
+      }
+    ],
+    "fragment": [
+      {
+        "end": 65,
+        "start": 64,
+        "type": "NP"
+      },
+      {
+        "end": 77,
+        "start": 76,
+        "type": "NP"
+      }
+    ],
+    "fragments": [
+      {
+        "end": 205,
+        "start": 203,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 58,
+        "start": 57,
+        "type": "NP"
+      }
+    ],
+    "path": [
+      {
+        "end": 124,
+        "start": 123,
+        "type": "NP"
+      }
+    ],
+    "sections": [
+      {
+        "end": 192,
+        "start": 191,
+        "type": "NP"
+      }
+    ],
+    "the ABNF": [
+      {
+        "end": 50,
+        "start": 48,
+        "type": "NP"
+      }
+    ],
+    "the ABNF definition": [
+      {
+        "end": 89,
+        "start": 86,
+        "type": "NP"
+      }
+    ],
+    "the ABNF rules": [
+      {
+        "end": 199,
+        "start": 196,
+        "type": "NP"
+      }
+    ],
+    "the did rule": [
+      {
+        "end": 47,
+        "start": 44,
+        "type": "NP"
+      }
+    ],
+    "the identifier conforming": [
+      {
+        "end": 43,
+        "start": 40,
+        "type": "NP"
+      }
+    ],
+    "the syntax": [
+      {
+        "end": 92,
+        "start": 90,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "1*methodcharmethodchar": [
+      {
+        "end": 152,
+        "start": 151,
+        "type": "DATE"
+      }
+    ],
+    "5.3": [
+      {
+        "end": 193,
+        "start": 192,
+        "type": "CARDINAL"
+      }
+    ],
+    "5.4": [
+      {
+        "end": 195,
+        "start": 194,
+        "type": "CARDINAL"
+      }
+    ],
+    "5234": [
+      {
+        "end": 95,
+        "start": 94,
+        "type": "CARDINAL"
+      }
+    ],
+    "A-Z": [
+      {
+        "end": 108,
+        "start": 105,
+        "type": "WORK_OF_ART"
+      }
+    ],
+    "ABNF": [
+      {
+        "end": 88,
+        "start": 87,
+        "type": "ORG"
+      },
+      {
+        "end": 198,
+        "start": 197,
+        "type": "ORG"
+      }
+    ],
+    "ALPHA": [
+      {
+        "end": 100,
+        "start": 99,
+        "type": "ORG"
+      },
+      {
+        "end": 179,
+        "start": 178,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 9,
+        "start": 8,
+        "type": "ORG"
+      },
+      {
+        "end": 36,
+        "start": 35,
+        "type": "ORG"
+      },
+      {
+        "end": 68,
+        "start": 67,
+        "type": "ORG"
+      },
+      {
+        "end": 81,
+        "start": 80,
+        "type": "ORG"
+      },
+      {
+        "end": 201,
+        "start": 200,
+        "type": "ORG"
+      }
+    ],
+    "URI": [
+      {
+        "end": 13,
+        "start": 12,
+        "type": "ORG"
+      }
+    ],
+    "a\nDID": [
+      {
+        "end": 25,
+        "start": 22,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 95,
+        "label": "5234",
+        "start": 94
+      },
+      {
+        "end": 193,
+        "label": "5.3",
+        "start": 192
+      },
+      {
+        "end": 195,
+        "label": "5.4",
+        "start": 194
+      }
+    ],
+    "DATE": [
+      {
+        "end": 152,
+        "label": "1*methodcharmethodchar",
+        "start": 151
+      }
+    ],
+    "ORG": [
+      {
+        "end": 9,
+        "label": "DID",
+        "start": 8
+      },
+      {
+        "end": 13,
+        "label": "URI",
+        "start": 12
+      },
+      {
+        "end": 25,
+        "label": "a\nDID",
+        "start": 22
+      },
+      {
+        "end": 36,
+        "label": "DID",
+        "start": 35
+      },
+      {
+        "end": 68,
+        "label": "DID",
+        "start": 67
+      },
+      {
+        "end": 81,
+        "label": "DID",
+        "start": 80
+      },
+      {
+        "end": 88,
+        "label": "ABNF",
+        "start": 87
+      },
+      {
+        "end": 100,
+        "label": "ALPHA",
+        "start": 99
+      },
+      {
+        "end": 179,
+        "label": "ALPHA",
+        "start": 178
+      },
+      {
+        "end": 198,
+        "label": "ABNF",
+        "start": 197
+      },
+      {
+        "end": 201,
+        "label": "DID",
+        "start": 200
+      }
+    ],
+    "WORK_OF_ART": [
+      {
+        "end": 108,
+        "label": "A-Z",
+        "start": 105
+      }
+    ]
+  },
+  "verbs": {
+    "call": 1,
+    "consist": 1,
+    "define": 2,
+    "do": 10,
+    "follow": 2,
+    "idstre": 4,
+    "include": 2,
+    "lowercase": 1,
+    "refer": 1,
+    "see": 1,
+    "use": 2
+  }
+}

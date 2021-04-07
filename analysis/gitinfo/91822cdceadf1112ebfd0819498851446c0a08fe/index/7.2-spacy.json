@@ -1,0 +1,664 @@
+{
+  "nouns": {
+    "A DID method specification": [
+      {
+        "end": 12,
+        "start": 8,
+        "type": "NP"
+      }
+    ],
+    "A list": [
+      {
+        "end": 111,
+        "start": 109,
+        "type": "NP"
+      }
+    ],
+    "A method name": [
+      {
+        "end": 144,
+        "start": 141,
+        "type": "NP"
+      }
+    ],
+    "Appendix A.": [
+      {
+        "end": 121,
+        "start": 119,
+        "type": "NP"
+      }
+    ],
+    "DID method names": [
+      {
+        "end": 68,
+        "start": 65,
+        "type": "NP"
+      },
+      {
+        "end": 96,
+        "start": 93,
+        "type": "NP"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 38,
+        "start": 37,
+        "type": "NP"
+      }
+    ],
+    "It": [
+      {
+        "end": 273,
+        "start": 272,
+        "type": "NP"
+      }
+    ],
+    "Method Schemes": [
+      {
+        "end": 7,
+        "start": 5,
+        "type": "NP"
+      }
+    ],
+    "RECOMMENDED": [
+      {
+        "end": 151,
+        "start": 150,
+        "type": "NP"
+      },
+      {
+        "end": 275,
+        "start": 274,
+        "type": "NP"
+      }
+    ],
+    "The\nmethod name": [
+      {
+        "end": 156,
+        "start": 152,
+        "type": "NP"
+      }
+    ],
+    "The\nspecific-idstring value": [
+      {
+        "end": 206,
+        "start": 200,
+        "type": "NP"
+      }
+    ],
+    "The fully qualified DID": [
+      {
+        "end": 239,
+        "start": 235,
+        "type": "NP"
+      }
+    ],
+    "The specific-idstring value": [
+      {
+        "end": 227,
+        "start": 222,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 199,
+        "start": 197,
+        "type": "NP"
+      }
+    ],
+    "a centralized registry service": [
+      {
+        "end": 221,
+        "start": 217,
+        "type": "NP"
+      }
+    ],
+    "a method name": [
+      {
+        "end": 87,
+        "start": 84,
+        "type": "NP"
+      }
+    ],
+    "a registry": [
+      {
+        "end": 54,
+        "start": 52,
+        "type": "NP"
+      }
+    ],
+    "a specific DID scheme": [
+      {
+        "end": 82,
+        "start": 78,
+        "type": "NP"
+      },
+      {
+        "end": 262,
+        "start": 258,
+        "type": "NP"
+      }
+    ],
+    "as few specific-idstring formats": [
+      {
+        "end": 288,
+        "start": 282,
+        "type": "NP"
+      }
+    ],
+    "decentralized identity infrastructure": [
+      {
+        "end": 44,
+        "start": 41,
+        "type": "NP"
+      }
+    ],
+    "exactly one method name": [
+      {
+        "end": 26,
+        "start": 22,
+        "type": "NP"
+      }
+    ],
+    "exactly one specific DID scheme": [
+      {
+        "end": 19,
+        "start": 14,
+        "type": "NP"
+      }
+    ],
+    "five characters": [
+      {
+        "end": 147,
+        "start": 145,
+        "type": "NP"
+      }
+    ],
+    "human consensus": [
+      {
+        "end": 75,
+        "start": 72,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 46,
+        "start": 45,
+        "type": "NP"
+      },
+      {
+        "end": 133,
+        "start": 132,
+        "type": "NP"
+      }
+    ],
+    "itself": [
+      {
+        "end": 234,
+        "start": 233,
+        "type": "NP"
+      }
+    ],
+    "known DID method names": [
+      {
+        "end": 116,
+        "start": 112,
+        "type": "NP"
+      }
+    ],
+    "multiple specific\nspecific-idstring formats": [
+      {
+        "end": 271,
+        "start": 264,
+        "type": "NP"
+      }
+    ],
+    "network": [
+      {
+        "end": 166,
+        "start": 165,
+        "type": "NP"
+      }
+    ],
+    "part": [
+      {
+        "end": 128,
+        "start": 127,
+        "type": "NP"
+      }
+    ],
+    "publication": [
+      {
+        "end": 107,
+        "start": 106,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 32,
+        "start": 31,
+        "type": "NP"
+      },
+      {
+        "end": 248,
+        "start": 247,
+        "type": "NP"
+      }
+    ],
+    "specification": [
+      {
+        "end": 180,
+        "start": 179,
+        "type": "NP"
+      }
+    ],
+    "the DID": [
+      {
+        "end": 131,
+        "start": 129,
+        "type": "NP"
+      }
+    ],
+    "the DID method specification": [
+      {
+        "end": 173,
+        "start": 169,
+        "type": "NP"
+      }
+    ],
+    "the did\nrule": [
+      {
+        "end": 246,
+        "start": 242,
+        "type": "NP"
+      }
+    ],
+    "the distributed ledger": [
+      {
+        "end": 164,
+        "start": 161,
+        "type": "NP"
+      }
+    ],
+    "the method name": [
+      {
+        "end": 126,
+        "start": 123,
+        "type": "NP"
+      }
+    ],
+    "the name": [
+      {
+        "end": 160,
+        "start": 158,
+        "type": "NP"
+      }
+    ],
+    "the specific DID scheme": [
+      {
+        "end": 185,
+        "start": 181,
+        "type": "NP"
+      }
+    ],
+    "the specific-idstring component": [
+      {
+        "end": 196,
+        "start": 191,
+        "type": "NP"
+      }
+    ],
+    "the specification authors": [
+      {
+        "end": 101,
+        "start": 98,
+        "type": "NP"
+      }
+    ],
+    "the time": [
+      {
+        "end": 105,
+        "start": 103,
+        "type": "NP"
+      }
+    ],
+    "the uniqueness": [
+      {
+        "end": 64,
+        "start": 62,
+        "type": "NP"
+      }
+    ],
+    "the use": [
+      {
+        "end": 215,
+        "start": 213,
+        "type": "NP"
+      }
+    ],
+    "unique DID method names": [
+      {
+        "end": 59,
+        "start": 55,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "5.2": [
+      {
+        "end": 2,
+        "start": 1,
+        "type": "CARDINAL"
+      }
+    ],
+    "Appendix A.": [
+      {
+        "end": 121,
+        "start": 119,
+        "type": "PERSON"
+      }
+    ],
+    "DID": [
+      {
+        "end": 10,
+        "start": 9,
+        "type": "ORG"
+      },
+      {
+        "end": 18,
+        "start": 17,
+        "type": "ORG"
+      },
+      {
+        "end": 57,
+        "start": 56,
+        "type": "ORG"
+      },
+      {
+        "end": 66,
+        "start": 65,
+        "type": "ORG"
+      },
+      {
+        "end": 81,
+        "start": 80,
+        "type": "ORG"
+      },
+      {
+        "end": 94,
+        "start": 93,
+        "type": "ORG"
+      },
+      {
+        "end": 114,
+        "start": 113,
+        "type": "ORG"
+      },
+      {
+        "end": 131,
+        "start": 130,
+        "type": "ORG"
+      },
+      {
+        "end": 171,
+        "start": 170,
+        "type": "ORG"
+      },
+      {
+        "end": 178,
+        "start": 177,
+        "type": "ORG"
+      },
+      {
+        "end": 184,
+        "start": 183,
+        "type": "ORG"
+      },
+      {
+        "end": 199,
+        "start": 198,
+        "type": "ORG"
+      },
+      {
+        "end": 239,
+        "start": 238,
+        "type": "ORG"
+      },
+      {
+        "end": 261,
+        "start": 260,
+        "type": "ORG"
+      },
+      {
+        "end": 279,
+        "start": 278,
+        "type": "ORG"
+      }
+    ],
+    "MAY": [
+      {
+        "end": 157,
+        "start": 156,
+        "type": "DATE"
+      },
+      {
+        "end": 263,
+        "start": 262,
+        "type": "ORG"
+      }
+    ],
+    "RECOMMENDED": [
+      {
+        "end": 151,
+        "start": 150,
+        "type": "ORG"
+      },
+      {
+        "end": 275,
+        "start": 274,
+        "type": "ORG"
+      }
+    ],
+    "Specific DID Method Schemes": [
+      {
+        "end": 7,
+        "start": 3,
+        "type": "ORG"
+      }
+    ],
+    "five": [
+      {
+        "end": 146,
+        "start": 145,
+        "type": "CARDINAL"
+      }
+    ],
+    "one": [
+      {
+        "end": 16,
+        "start": 15,
+        "type": "CARDINAL"
+      }
+    ],
+    "section 5.1": [
+      {
+        "end": 33,
+        "start": 31,
+        "type": "LAW"
+      },
+      {
+        "end": 249,
+        "start": 247,
+        "type": "LAW"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 2,
+        "label": "5.2",
+        "start": 1
+      },
+      {
+        "end": 16,
+        "label": "one",
+        "start": 15
+      },
+      {
+        "end": 146,
+        "label": "five",
+        "start": 145
+      }
+    ],
+    "DATE": [
+      {
+        "end": 157,
+        "label": "MAY",
+        "start": 156
+      }
+    ],
+    "LAW": [
+      {
+        "end": 33,
+        "label": "section 5.1",
+        "start": 31
+      },
+      {
+        "end": 249,
+        "label": "section 5.1",
+        "start": 247
+      }
+    ],
+    "ORG": [
+      {
+        "end": 7,
+        "label": "Specific DID Method Schemes",
+        "start": 3
+      },
+      {
+        "end": 10,
+        "label": "DID",
+        "start": 9
+      },
+      {
+        "end": 18,
+        "label": "DID",
+        "start": 17
+      },
+      {
+        "end": 57,
+        "label": "DID",
+        "start": 56
+      },
+      {
+        "end": 66,
+        "label": "DID",
+        "start": 65
+      },
+      {
+        "end": 81,
+        "label": "DID",
+        "start": 80
+      },
+      {
+        "end": 94,
+        "label": "DID",
+        "start": 93
+      },
+      {
+        "end": 114,
+        "label": "DID",
+        "start": 113
+      },
+      {
+        "end": 131,
+        "label": "DID",
+        "start": 130
+      },
+      {
+        "end": 151,
+        "label": "RECOMMENDED",
+        "start": 150
+      },
+      {
+        "end": 171,
+        "label": "DID",
+        "start": 170
+      },
+      {
+        "end": 178,
+        "label": "DID",
+        "start": 177
+      },
+      {
+        "end": 184,
+        "label": "DID",
+        "start": 183
+      },
+      {
+        "end": 199,
+        "label": "DID",
+        "start": 198
+      },
+      {
+        "end": 239,
+        "label": "DID",
+        "start": 238
+      },
+      {
+        "end": 261,
+        "label": "DID",
+        "start": 260
+      },
+      {
+        "end": 263,
+        "label": "MAY",
+        "start": 262
+      },
+      {
+        "end": 275,
+        "label": "RECOMMENDED",
+        "start": 274
+      },
+      {
+        "end": 279,
+        "label": "DID",
+        "start": 278
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 121,
+        "label": "Appendix A.",
+        "start": 119
+      }
+    ]
+  },
+  "verbs": {
+    "apply": 1,
+    "be": 5,
+    "decentralize": 1,
+    "define": 3,
+    "distribute": 1,
+    "do": 1,
+    "establish": 2,
+    "generate": 2,
+    "identify": 1,
+    "idstre": 5,
+    "include": 1,
+    "intend": 1,
+    "know": 2,
+    "method": 3,
+    "need": 1,
+    "recommend": 1,
+    "reflect": 1,
+    "specify": 1,
+    "use": 1
+  }
+}

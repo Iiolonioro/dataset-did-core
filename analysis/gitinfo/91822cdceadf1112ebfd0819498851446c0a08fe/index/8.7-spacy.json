@@ -1,0 +1,385 @@
+{
+  "nouns": {
+    "(XSD": [
+      {
+        "end": 91,
+        "start": 89,
+        "type": "NP"
+      }
+    ],
+    "1.1 Part": [
+      {
+        "end": 94,
+        "start": 92,
+        "type": "NP"
+      }
+    ],
+    "A DDO": [
+      {
+        "end": 33,
+        "start": 31,
+        "type": "NP"
+      }
+    ],
+    "Bitcoin BIP": [
+      {
+        "end": 146,
+        "start": 144,
+        "type": "NP"
+      }
+    ],
+    "Created (Optional)\n\n\n    \n      Standard metadata": [
+      {
+        "end": 10,
+        "start": 3,
+        "type": "NP"
+      }
+    ],
+    "DLTs": [
+      {
+        "end": 125,
+        "start": 124,
+        "type": "NP"
+      }
+    ],
+    "Datatypes": [
+      {
+        "end": 97,
+        "start": 96,
+        "type": "NP"
+      }
+    ],
+    "It": [
+      {
+        "end": 46,
+        "start": 45,
+        "type": "NP"
+      }
+    ],
+    "Method specifications": [
+      {
+        "end": 121,
+        "start": 118,
+        "type": "NP"
+      }
+    ],
+    "RECOMMENDED": [
+      {
+        "end": 48,
+        "start": 47,
+        "type": "NP"
+      }
+    ],
+    "The key": [
+      {
+        "end": 56,
+        "start": 54,
+        "type": "NP"
+      }
+    ],
+    "The rules": [
+      {
+        "end": 23,
+        "start": 21,
+        "type": "NP"
+      }
+    ],
+    "The value": [
+      {
+        "end": 66,
+        "start": 64,
+        "type": "NP"
+      }
+    ],
+    "This datetime value": [
+      {
+        "end": 102,
+        "start": 99,
+        "type": "NP"
+      }
+    ],
+    "UTC": [
+      {
+        "end": 107,
+        "start": 106,
+        "type": "NP"
+      }
+    ],
+    "W3C\nXML Schema Definition Language": [
+      {
+        "end": 89,
+        "start": 83,
+        "type": "NP"
+      }
+    ],
+    "a creation\ntimestamp": [
+      {
+        "end": 44,
+        "start": 40,
+        "type": "NP"
+      }
+    ],
+    "a creation timestamp": [
+      {
+        "end": 28,
+        "start": 25,
+        "type": "NP"
+      }
+    ],
+    "a notion": [
+      {
+        "end": 157,
+        "start": 155,
+        "type": "NP"
+      }
+    ],
+    "a timestamp": [
+      {
+        "end": 16,
+        "start": 14,
+        "type": "NP"
+      }
+    ],
+    "a valid XML datetime value": [
+      {
+        "end": 76,
+        "start": 71,
+        "type": "NP"
+      }
+    ],
+    "identity records": [
+      {
+        "end": 13,
+        "start": 11,
+        "type": "NP"
+      }
+    ],
+    "section 3.3.7": [
+      {
+        "end": 82,
+        "start": 80,
+        "type": "NP"
+      }
+    ],
+    "the DLT": [
+      {
+        "end": 152,
+        "start": 150,
+        "type": "NP"
+      }
+    ],
+    "the known \"median\ntime": [
+      {
+        "end": 139,
+        "start": 133,
+        "type": "NP"
+      }
+    ],
+    "the original creation": [
+      {
+        "end": 20,
+        "start": 17,
+        "type": "NP"
+      }
+    ],
+    "the trailing \"Z": [
+      {
+        "end": 116,
+        "start": 112,
+        "type": "NP"
+      }
+    ],
+    "this key": [
+      {
+        "end": 69,
+        "start": 67,
+        "type": "NP"
+      }
+    ],
+    "this property": [
+      {
+        "end": 52,
+        "start": 50,
+        "type": "NP"
+      },
+      {
+        "end": 59,
+        "start": 57,
+        "type": "NP"
+      }
+    ],
+    "time values": [
+      {
+        "end": 129,
+        "start": 127,
+        "type": "NP"
+      }
+    ],
+    "zero or one property": [
+      {
+        "end": 39,
+        "start": 35,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "1.1": [
+      {
+        "end": 93,
+        "start": 92,
+        "type": "CARDINAL"
+      }
+    ],
+    "113": [
+      {
+        "end": 147,
+        "start": 146,
+        "type": "CARDINAL"
+      }
+    ],
+    "2": [
+      {
+        "end": 95,
+        "start": 94,
+        "type": "CARDINAL"
+      }
+    ],
+    "2002-10-10T17:00:00Z": [
+      {
+        "end": 174,
+        "start": 169,
+        "type": "DATE"
+      }
+    ],
+    "Bitcoin BIP": [
+      {
+        "end": 146,
+        "start": 144,
+        "type": "ORG"
+      }
+    ],
+    "DLT": [
+      {
+        "end": 152,
+        "start": 151,
+        "type": "ORG"
+      }
+    ],
+    "Datatypes": [
+      {
+        "end": 97,
+        "start": 96,
+        "type": "ORG"
+      }
+    ],
+    "RECOMMENDED": [
+      {
+        "end": 48,
+        "start": 47,
+        "type": "ORG"
+      }
+    ],
+    "one": [
+      {
+        "end": 38,
+        "start": 37,
+        "type": "CARDINAL"
+      }
+    ],
+    "section 3.3.7": [
+      {
+        "end": 82,
+        "start": 80,
+        "type": "LAW"
+      }
+    ],
+    "zero": [
+      {
+        "end": 36,
+        "start": 35,
+        "type": "CARDINAL"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 36,
+        "label": "zero",
+        "start": 35
+      },
+      {
+        "end": 38,
+        "label": "one",
+        "start": 37
+      },
+      {
+        "end": 93,
+        "label": "1.1",
+        "start": 92
+      },
+      {
+        "end": 95,
+        "label": "2",
+        "start": 94
+      },
+      {
+        "end": 147,
+        "label": "113",
+        "start": 146
+      }
+    ],
+    "DATE": [
+      {
+        "end": 174,
+        "label": "2002-10-10T17:00:00Z",
+        "start": 169
+      }
+    ],
+    "LAW": [
+      {
+        "end": 82,
+        "label": "section 3.3.7",
+        "start": 80
+      }
+    ],
+    "ORG": [
+      {
+        "end": 48,
+        "label": "RECOMMENDED",
+        "start": 47
+      },
+      {
+        "end": 97,
+        "label": "Datatypes",
+        "start": 96
+      },
+      {
+        "end": 146,
+        "label": "Bitcoin BIP",
+        "start": 144
+      },
+      {
+        "end": 152,
+        "label": "DLT",
+        "start": 151
+      }
+    ]
+  },
+  "verbs": {
+    "be": 2,
+    "create": 3,
+    "define": 2,
+    "have": 1,
+    "include": 3,
+    "indicate": 1,
+    "know": 1,
+    "normalize": 1,
+    "rely": 1,
+    "represent": 1,
+    "require": 1,
+    "support": 1,
+    "trail": 1
+  }
+}
