@@ -1,27 +1,19 @@
 ---
+title: Timeline
 layout: single
+permalink: /timeline
 author_profile: false
 sidebar:
   nav: timeline
 ---
 
-Timeline - here is an example.  Try the menu on the left.
+Timelines are views of events thorough time.  Basically it comes down to a
+date and a description - but the description has to be "simple enough" that
+it can fit on the timeline, and likewise, the dates have to be sparse enough
+that the timeline is comprehensible under "appropriate zoom".
 
+Determining a timeline is a bit of an art - a little bit of hack-fu.  GraphQL
+provides a pretty cool way to do that, though.... so.... you know... seems
+like a fit.
 
-<div id="timeline"></div>
-
-<script>
-  milestones('#timeline')
-    .mapping({
-      'timestamp': 'year',
-      'text': 'title'
-    })
-    .parseTime('%Y')
-    .aggregateBy('year')
-    .render([
-      { year: 789, title: 'Vikings begin attacks on England.' },
-      { year: 840, title: 'Vikings found Dublin in Ireland.' },
-      { year: 1050, title: 'The city of Oslo is founded in Norway.' },
-      { year: 1066, title: 'Battle of Hastings.' }
-    ]);
-</script>
+Have no f'ing idea how to do that - so sticking with the menu on the left.

@@ -1,12 +1,11 @@
 ---
-title: DID Specification on 2017-07-06 at 18:38:06
 layout: single
 classes: wide
 sidebar:
-  - title: Title
+  - title: DID Specification on 2017-07-06 at 18:38:06
     image: http://placehold.it/350x250
     image_alt: image
-    text: Some text here.
+    text: Fix errneous <pre> tags..
   - title: Another Title
     text: More text here.
     nav: history

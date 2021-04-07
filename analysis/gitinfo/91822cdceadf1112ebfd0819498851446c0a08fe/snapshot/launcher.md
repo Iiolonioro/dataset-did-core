@@ -1,12 +1,11 @@
 ---
-title: DID Specification on 2017-07-06 at 18:14:19
 layout: single
 classes: wide
 sidebar:
-  - title: Title
+  - title: DID Specification on 2017-07-06 at 18:14:19
     image: http://placehold.it/350x250
     image_alt: image
-    text: Some text here.
+    text: Add sections to auto-generate Table of Contents..
   - title: Another Title
     text: More text here.
     nav: history

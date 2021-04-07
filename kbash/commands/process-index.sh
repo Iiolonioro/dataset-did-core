@@ -28,10 +28,10 @@ process_index() (
 	echo "\n" >> intro.txt
 	cat sotd.txt >> intro.txt
 
-	sha256sum < abstract.txt > abstract.hash &
-	sha256sum < sotd.txt > sotd.hash &
-	sha256sum < intro.txt > intro.hash &
-	sha256sum < toc.md > toc.hash &
+	dc generate-hash < abstract.txt > abstract.hash &
+	dc generate-hash < sotd.txt > sotd.hash &
+	dc generate-hash < intro.txt > intro.hash &
+	dc generate-hash < toc.md > toc.hash &
 
 	python3 $DIDCORE/python/spacy_anal.py abstract.txt > abstract-spacy.json &
 	python3 $DIDCORE/python/spacy_anal.py sotd.txt > sotd-spacy.json &
@@ -40,7 +40,7 @@ process_index() (
 
 	FILES=`find . -regex '\.\/[0-9]+.*\.txt' | sed s/.txt//g | colrm 1 2`
 	for file in $FILES; do
-		sha256sum < $file.txt > $file.hash &
+		dc generate-hash < $file.txt > $file.hash &
 		python3 $DIDCORE/python/spacy_anal.py $file.txt > $file-spacy.json &
 	done
 	cd ..

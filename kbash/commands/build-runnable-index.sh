@@ -25,22 +25,6 @@ run() (
       GITINFO=`cat gitinfo.txt`
       . $GITINFO/key-value.dump
 
-      echo "---
-title: DID Specification on $DATE at $TIME
-layout: single
-classes: wide
-sidebar:
-  - title: "Title"
-    image: http://placehold.it/350x250
-    image_alt: "image"
-    text: "Some text here."
-  - title: "Another Title"
-    text: "More text here."
-    nav: history
----
-<iframe src=\"../index.html\" width=\"120%\" height=\"800\"></iframe>
-" > ./launcher.md
-
       #ls -al
       echo "$YPREFIX- date: $DATE" >> $YML
       echo "$YPREFIX  time: $TIME" >> $YML

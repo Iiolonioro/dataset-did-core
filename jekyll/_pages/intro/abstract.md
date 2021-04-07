@@ -3,7 +3,7 @@ layout: single
 author_profile: false
 permalink: /abstract
 sidebar:
-  nav: timeline
+  nav: abstract
 ---
 
 Timeline - here is an example.  Try the menu on the left.

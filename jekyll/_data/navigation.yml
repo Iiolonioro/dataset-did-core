@@ -12,7 +12,7 @@ home:
     url: /#how
     children:
       - title: Code of Engagement
-        url: /#code-of-endgagement
+        url: /#code-of-engagement
       - title: Emperical Community Journalism
         url: /#emperical-community-journalism
       - title: Role of did:git
@@ -44,21 +44,42 @@ history:
 # main links
 main:
   - title: "Timeline"
-    url: /_pages/timeline/
+    url: /timeline
   - title: "Terms"
-    url: /_pages/terms/
+    url: /terms
+
+abstract:
+  - title: Abstract
+    children:
+    - title: Nouns
+      url: /_pages/intro/abstract/nouns
+    - title: Verbs
+      url: /_pages/intro/abstract/verbs
+    - title: Sentences
+      url: /_pages/intro/abstract/sentences
+    - title: Inventory
+      url: /_pages/intro/abstract/inventory
+    - title: Timeline
+      url: /_pages/intro/abstract/timeline
+    - title: Allegidence
+      url: /_pages/intro/abstract/allegidence
+
 
 timeline:
-  - title: Meetings
-    url: /_pages/timeline/meetings
-  - title: Formal Events
-    url: /_pages/timeline/formalevents
-  - title: Issues
-    url: /_pages/timeline/issues
-  - title: Commits
-    url: /_pages/timeline/commits
-  - title: Changes to the Introduction
-    url: /_pages/timeline/intros
+  - title: Timeline
+    url: /timeline
+    children:
+    - title: Meetings
+      url: /_pages/timeline/meetings
+    - title: Formal Events
+      url: /_pages/timeline/formalevents
+    - title: Issues
+      url: /_pages/timeline/issues
+    - title: Commits
+      url: /_pages/timeline/commits
+    - title: Changes to the Introduction
+      url: /_pages/timeline/intros
+
 terms:
   - title: Summary
     children:

@@ -36,6 +36,7 @@ run() (
 	dc process-index
 	kbash_info where is that kv-sh-env coming from
   dc prepare-for-jekyll
+	dc build-launcher
 	dc build-runnable-index
 	#kbash_warn "Analyzing Absttracts"
   #dc analyze-abstracts

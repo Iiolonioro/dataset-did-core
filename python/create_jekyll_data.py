@@ -39,7 +39,9 @@ def load_suite(file):
 
 with open(os.path.join(sourcedir,"toc_index.json")) as fp:
     toc = json.load(fp)
+    print(os.environ['COMMIT_LINE'])
     commit_data={
+        "title":os.environ.get('COMMIT_LINE',"no commit line found in environment"),
         "section":{
             "named":{
                 "sotd":{},
@@ -51,7 +53,7 @@ with open(os.path.join(sourcedir,"toc_index.json")) as fp:
             "numbered":{}
             },
         "hash":{}
-    }
+        }
     for t,title in toc:
         (major,minor) = t.split(".")
         base = os.path.join(sourcedir,t)
@@ -61,6 +63,15 @@ with open(os.path.join(sourcedir,"toc_index.json")) as fp:
         maj = commit_data['section']['numbered'].get(major,{})
         maj[minor]=suite
         commit_data['section']['numbered'][major]=maj
-        commit_data['hash'][suite['hash']]=t
+        commit_data['hash'][suite['hash']]={
+            "term":t,
+            "major":major,
+            "minor":minor,
+            "title":title,
+            "txt":suite['txt']
+            }
+
+
+
     with open(jekylldir+".json","w") as fp:
         json.dump(commit_data,fp,indent=2,sort_keys=True)
