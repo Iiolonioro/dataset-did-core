@@ -9,3 +9,4 @@ cd did-core-dataset
 ./go.sh
 ```
 
+# legal-demo
