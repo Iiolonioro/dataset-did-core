@@ -1,0 +1,78 @@
+---
+layout: single
+---
+
+[
+ {
+   "Issue Subject": "Figure out three fundamental roles of DIDs (controller, subject, XXX) #4",
+   "Issue Creation Date": "September 17, 2019",
+   "Number of Comments": 41,
+   "Issue Status": "Closed",
+   "Issue Participants": 13,
+   "Issue Related Commits": "",
+   "Issue Summary": "One instance of biometrics in terms of matching government docs. Is not in context of biometrics being removed."
+ },
+ {
+   "Issue Subject": "Include discussion of eIDAS levels-of-assurance #151",
+   "Issue Creation Date": "January 21, 2020",
+   "Number of Comments": 56,
+   "Issue Status": "Closed",
+   "Issue Participants": 16,
+   "Issue Related Commits": "",
+   "Issue Summary": "Two instances of biometrics. The first instance mentions how biometrics is not sufficient for MFA. \nThe second instance is about how FIDO allows for local biometrics. Not in context of removing biometrics from DID: Core."
+ },
+ {
+   "Issue Subject": "Service Endpoints in the DID Doc might be an anti-pattern #382",
+   "Issue Creation Date": "August 28, 2020",
+   "Number of Comments": 149,
+   "Issue Status": "Closed",
+   "Issue Participants": 17,
+   "Issue Related Commits": "",
+   "Issue Summary": "Three instances of biometrics, all within the same comment. It describes in terms that it is not possible to rotate the identifier with biometrics. Not in context of removing biometrics for DID: Core."
+ },
+ {
+   "Issue Subject": "appendix text added #460",
+   "Issue Creation Date": "November 16, 2020",
+   "Number of Comments": 121,
+   "Issue Status": "Merged",
+   "Issue Participants": 12,
+   "Issue Related Commits": "b95cb85\n934779c\n96eed45\n694c7ec\n94dfbcf",
+   "Issue Summary": "One instance of biometrics. It refers to biometrics being a verifier for in person transactions. Not in context of removing biometrics."
+ },
+ {
+   "Issue Subject": "Amplify/broaden def of 'verification method' #284",
+   "Issue Creation Date": "May 17, 2020",
+   "Number of Comments": 10,
+   "Issue Status": "Merged",
+   "Issue Participants": 5,
+   "Issue Related Commits": "cd14e2d\n5333464\n46a8f22",
+   "Issue Summary": "One instance of biometrics. It is one  remark about signatures and biometrics. It does not clarify anything else in terms of biometrics. Not in context of removing biometrics."
+ },
+ {
+   "Issue Subject": "Add diagram \"resolve() and resolveRepresentation()\". #597",
+   "Issue Creation Date": "February 3, 2021",
+   "Number of Comments": 28,
+   "Issue Status": "Merged",
+   "Issue Participants": 7,
+   "Issue Related Commits": "700b0a5\nbe50c3a\n790e9b5\n2ee68b1",
+   "Issue Summary": "One instance of biometrics. First time that \"pseudonymous biometrics\" is used. It is used in context of \"DID Document\". Not in context of removing biometrics."
+ },
+ {
+   "Issue Subject": "editorial: remove biometrics examples #459",
+   "Issue Creation Date": "November 16,2020",
+   "Number of Comments": 14,
+   "Issue Status": "Merged",
+   "Issue Participants": 5,
+   "Issue Related Commits": "73de94f\n5870811\n9631fd3",
+   "Issue Summary": "Nine instances of biometrics in the conversation. The conversation is centered around whether biometrics should be removed. rhiaro says, \"Personal preference to remove biometrics examples from the spec. This is too dystopian, and I don't think we should be encouraging it even if it's technically possible. It's also dancing close to the PII and bound-forever problems (even though the example refers to an endpoint, rather than biometric data in the DID doc). I've replaced the example with something less specific about credentials, but also happy to see a better more specific example suggested instead.\" Peacekeeper responds, :\"Hmm I agree in general with not encouraging (or actively discouraging) things that can be dangerous and misused. But I also believe it's important to not lose the idea that verification methods can be very flexible and not limited to cryptographic keys.\nI think there will be non-dystophian use cases where for some reason you are unable to use cryptographic keys, but you still want a decentralized identifier and a way to prove control over it (including by using biometrics).\nSo I'd be fine with removing the example, as long as it's still possible to do it.\" In the end msporny comments, \"Editorial, changes requested and made, multiple positive reviews, no objections, merging.\""
+ },
+ {
+   "Issue Subject": "Fix editorial issues with Terminology section. #619",
+   "Issue Creation Date": "February 11, 2021",
+   "Number of Comments": 24,
+   "Issue Status": "Merged",
+   "Issue Participants": 6,
+   "Issue Related Commits": "f88f005\n0a24710\na1c3018\nd342964",
+   "Issue Summary": "Three instances of biometrics all used within the same comment. It refers to removing \"pseudonymous biometrics\" from terminology section. Peacekeeper saying, \"Agree with removing \"pseudonymous biometrics\" here. If we wanted to say anything about biometrics, we should have done that elsewhere, not in the terminology section.\""
+ }
+]

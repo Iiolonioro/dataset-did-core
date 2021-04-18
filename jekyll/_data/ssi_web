@@ -1,0 +1,128 @@
+[
+ {
+   "A": "Webinar Title",
+   "B": "Date",
+   "C": "Presenter",
+   "D": "Subject",
+   "E": "Link"
+ },
+ {
+   "A": "Key Event Receipt Infrastructure (KERI): A secure identifier overlay for the internet – Webinar 58",
+   "B": "43970",
+   "C": "Sam Smith",
+   "D": "KERI, DID:uni, and DKMI",
+   "E": "https://ssimeetup.org/key-event-receipt-infrastructure-keri-secure-identifier-overlay-internet-sam-smith-webinar-58/"
+ },
+ {
+   "A": "The SSI Ecosystem in South Korea  – Webinar 56",
+   "B": "43955",
+   "C": "Jaehoon Shim",
+   "D": "SSI ecosystem in Korea",
+   "E": "https://ssimeetup.org/ssi-ecosystem-south-korea-jaehoon-shim-webinar-56/"
+ },
+ {
+   "A": "Introducing the SSI eIDAS Legal Report  – Webinar 55",
+   "B": "43958",
+   "C": " Ignacio Alamillo",
+   "D": "SSI, eIDAS bridge, and ESSIF",
+   "E": "https://ssimeetup.org/introducing-ssi-eidas-legal-report-ignacio-alamillo-webinar-55/"
+ },
+ {
+   "A": "Decentralized identifiers (DIDs) fundamentals – IdentityBook.info – Webinar 46",
+   "B": "43854",
+   "C": "Drummond Reed & Markus Sabadello ",
+   "D": "DIDs standarization, VCs, and SSI",
+   "E": "https://ssimeetup.org/decentralized-identifiers-dids-fundamentals-identitybook-info-drummond-reed-markus-sabadello-webinar-46/"
+ },
+ {
+   "A": "The DID Report 2: The 2nd Official W3C DID Working Group Meeting (The Netherlands)– Webinar 45",
+   "B": "43854",
+   "C": "Drummond Reed/Markus Sabadello ",
+   "D": "DIDs to full web standard",
+   "E": "https://ssimeetup.org/did-report-2-2nd-official-w3c-did-working-group-meeting-netherlands-drummond-reed-markus-sabadello-webinar-45/"
+ },
+ {
+   "A": "Peer DIDs: a secure and scalable method for DIDs that’s entirely off-ledger  – Webinar 42",
+   "B": "43776",
+   "C": "Daniel Hardman",
+   "D": "PEER DIDs and SSI",
+   "E": "https://ssimeetup.org/peer-dids-secure-scalable-method-dids-off-ledger-daniel-hardman-webinar-42/"
+ },
+ {
+   "A": "The DID Report 1: The First Official W3C DID Working Group Meeting (Japan) – Webinar 36",
+   "B": "43725",
+   "C": "Drummond Reed/Markus Sabadello",
+   "D": "First DID working group",
+   "E": "https://ssimeetup.org/did-report-1-first-official-w3c-did-working-group-meeting-japan-drummond-reed-webinar-36/"
+ },
+ {
+   "A": "The Element DID Method: Sidetree, Ethereum & IPFS  – Webinar 31",
+   "B": "43650",
+   "C": "Orie Steele",
+   "D": "Transmute, Element DID,Sidetree, and Ethereum ",
+   "E": "https://ssimeetup.org/element-did-method-sidetree-ethereum-ipfs-orie-steele-webinar-31/"
+ },
+ {
+   "A": "Machine Identity – DIDs & Verifiable Credentials for trust & interoperability in IoT – Webinar 25 ",
+   "B": "43558",
+   "C": "Mrinal Wadhwa",
+   "D": "IoT, Ockam's DID method, Go DID Parser",
+   "E": "https://ssimeetup.org/machine-identity-dids-verifiable-credentials-trust-interoperability-iot-webinar-25-mrinal-wadhwa/"
+ },
+ {
+   "A": "Decentralized Identifiers (DIDs) and W3C  – Webinar 15",
+   "B": "43387",
+   "C": "Manu Sporny and Drummond Reed",
+   "D": "Proposing  working group",
+   "E": "https://ssimeetup.org/decentralized-identifiers-dids-w3c-manu-sporny-drummond-reed-webinar-15/"
+ },
+ {
+   "A": "DID Resolution: Given a DID how do I retrieve its document?  – Webinar 13",
+   "B": "43374",
+   "C": "Markus Sabadello",
+   "D": "Retreiving DID docs",
+   "E": "https://ssimeetup.org/did-resolution-given-did-how-do-retrieve-document-markus-sabadello-webinar-13/"
+ },
+ {
+   "A": "Verifiable Credentials 101 for SSI  – Webinar 11",
+   "B": "43355",
+   "C": "Tyler Ruff",
+   "D": "DIDs for SSI",
+   "E": "https://ssimeetup.org/verifiable-credentials-101-ssi-tyler-ruff-webinar-11/"
+ },
+ {
+   "A": "Introduction to DID Auth for SSI  – Webinar 10",
+   "B": "43285",
+   "C": "Markus Sabadello",
+   "D": "DID Auth for SSI",
+   "E": "https://ssimeetup.org/introduction-did-auth-markus-sabadello-webinar-10/"
+ },
+ {
+   "A": "Decentralized Key Management (DKMS): An Essential Missing Piece of the SSI Puzzle – Webinar 8",
+   "B": "43279",
+   "C": "Drummond Reed ",
+   "D": "DKMS, SSI, DID:stack, and PKI",
+   "E": "https://ssimeetup.org/decentralized-key-management-dkms-essential-missing-piece-ssi-puzzle-drummond-reed-webinar-8/"
+ },
+ {
+   "A": "DIDs Demystified: A hands-on intro to DIDs via the BTCR DID Method  – Webinar 5",
+   "B": "43252",
+   "C": "Kim Hamilton Duffy",
+   "D": "DID: BTCR, SSI, ",
+   "E": "https://ssimeetup.org/dids-demystified-hands-intro-dids-btcr-did-method-kim-hamilton-duffy-webinar-5/"
+ },
+ {
+   "A": "Decentralized Identifiers (DIDs): The Fundamental Building Block of Self-Sovereign Identity– Webinar 2",
+   "B": "43228",
+   "C": "Drummond Reed ",
+   "D": "SSI",
+   "E": "https://ssimeetup.org/decentralized-identifiers-did-fundamental-block-self-sovereign-identity-drummond-reed-webinar-2/"
+ },
+ {
+   "A": "The Story of Open SSI Standards – Webinar 1",
+   "B": "43217",
+   "C": "Drummond Reed/Evernym",
+   "D": "SSI",
+   "E": "https://ssimeetup.org/story-open-ssi-standards-drummond-reed-evernym-webinar-1/"
+ },
+ 
