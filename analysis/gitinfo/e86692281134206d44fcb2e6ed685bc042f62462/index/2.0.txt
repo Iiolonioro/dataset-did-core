@@ -1,0 +1,22 @@
+
+
+Comments regarding this document are welcome. Please file issues
+directly on GitHub,
+or send them to
+public-credentials@w3.org
+(subscribe,
+archives).
+
+
+Work on this specification has been funded in part by the United States
+Department of Homeland Security's Science and Technology Directorate under
+contract HSHQDC-16-R00012-H-SB2016-1-002. The content of this specification
+does not necessarily reflect the position or the policy of the U.S.
+Government and no official endorsement should be inferred.
+
+
+Work on this specification has also been supported by the Rebooting the
+Web of Trust group facilitated by Christopher Allen, Brian Weller,
+Kiara Robles, and Shannon Appelcline.
+
+

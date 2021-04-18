@@ -1,0 +1,66 @@
+commit f5f0162dfc1f298d02160a5875c576f6080cb1e8
+tree 79d19a08e96d903ce13e359281c1b3e9615d12a3
+parent 8d88a0bd59c454b80f7fa87497b6e8d7d14a3640
+author Manu Sporny <msporny@digitalbazaar.com> 1508098216 -0400
+committer Manu Sporny <msporny@digitalbazaar.com> 1509881234 -0500
+
+    Fix DID JSON-LD context URL.
+
+diff --git a/index.html b/index.html
+index 038119c..e307342 100644
+--- a/index.html
++++ b/index.html
+@@ -508,7 +508,7 @@ when possible to express authorization to modify a DID Document.
+ 
+ <pre class="example nohighlight" title="Minimal self-managed DID Document">
+ {
+-  "@context": "https;//w3id.org/did/v1",
++  "@context": "https://w3id.org/did/v1",
+   "id": "did:example:123456789abcdefghi",
+   "authorizationCapability": [{
+     // this entity may update any field in this DID Document using any
+@@ -545,7 +545,7 @@ private keys.
+ 
+ <pre class="example nohighlight" title="Basic delegate-managed DID Document">
+ {
+-  "@context": "https;//w3id.org/did/v1",
++  "@context": "https://w3id.org/did/v1",
+   "id": "did:example:123456789abcdefghi",
+   "authorizationCapability": [{
+     // this entity is a delegate and may update any field in this
+@@ -1175,7 +1175,7 @@ Example:
+ 
+ <pre class="example nohighlight" title="Basic DID Document">
+ {
+-  "@context": "https;//w3id.org/did/v1",
++  "@context": "https://w3id.org/did/v1",
+   "id": "did:example:123456789abcdefghi",
+   "authorizationCapability": [{
+     // this entity is a delegate and may update any field in this
+@@ -1246,7 +1246,7 @@ Example:
+ <pre class="example nohighlight"
+   title="Authentication credential field containing two credentials">
+ {
+-  "@context": "https;//w3id.org/did/v1",
++  "@context": "https://w3id.org/did/v1",
+   "id": "did:example:123456789abcdefghi",
+   "authenticationCredential": [{
+     // this biometric can be used to authenticate as DID ...fghi
+@@ -1351,7 +1351,7 @@ property array MAY contain multiple JSON objects:
+ <pre class="example nohighlight"
+   title="Authorization capability field containing two capability descriptions">
+ {
+-  "@context": "https;//w3id.org/did/v1",
++  "@context": "https://w3id.org/did/v1",
+   "id": "did:example:215cb1dc-1f44-4695-a07f-97649cad9938",
+   "authorizationCapability": [{
+     // this entity may update any field in this DID Document using any
+@@ -1389,7 +1389,7 @@ property array MAY contain a single JSON object
+ <pre class="example nohighlight"
+   title="Authorization capability to update DID Document that requires three signatures">
+ {
+-  "@context": "https;//w3id.org/did/v1",
++  "@context": "https://w3id.org/did/v1",
+   "id": "did:example:215cb1dc-1f44-4695-a07f-97649cad9938",
+   "authorizationCapability": [{
+     // anyone may update the authenticationCredential and writeAuthorization

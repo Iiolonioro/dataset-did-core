@@ -1,0 +1,375 @@
+{
+  "nouns": {
+    "An entity": [
+      {
+        "end": 136,
+        "start": 134,
+        "type": "NP"
+      },
+      {
+        "end": 163,
+        "start": 161,
+        "type": "NP"
+      }
+    ],
+    "DID Document Changes": [
+      {
+        "end": 6,
+        "start": 3,
+        "type": "NP"
+      }
+    ],
+    "Notifications": [
+      {
+        "end": 113,
+        "start": 112,
+        "type": "NP"
+      }
+    ],
+    "RECOMMENDED": [
+      {
+        "end": 81,
+        "start": 80,
+        "type": "NP"
+      }
+    ],
+    "Self-monitoring": [
+      {
+        "end": 133,
+        "start": 129,
+        "type": "NP"
+      }
+    ],
+    "Subscriptions": [
+      {
+        "end": 84,
+        "start": 82,
+        "type": "NP"
+      }
+    ],
+    "Third-party monitoring": [
+      {
+        "end": 160,
+        "start": 155,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 61,
+        "start": 59,
+        "type": "NP"
+      }
+    ],
+    "a DID Document": [
+      {
+        "end": 16,
+        "start": 13,
+        "type": "NP"
+      },
+      {
+        "end": 154,
+        "start": 151,
+        "type": "NP"
+      }
+    ],
+    "a third party\nmonitoring service": [
+      {
+        "end": 172,
+        "start": 166,
+        "type": "NP"
+      }
+    ],
+    "account provider": [
+      {
+        "end": 71,
+        "start": 69,
+        "type": "NP"
+      }
+    ],
+    "account takeover": [
+      {
+        "end": 36,
+        "start": 34,
+        "type": "NP"
+      }
+    ],
+    "an existing DID": [
+      {
+        "end": 128,
+        "start": 125,
+        "type": "NP"
+      }
+    ],
+    "another vector": [
+      {
+        "end": 178,
+        "start": 176,
+        "type": "NP"
+      }
+    ],
+    "attack": [
+      {
+        "end": 180,
+        "start": 179,
+        "type": "NP"
+      }
+    ],
+    "change notifications": [
+      {
+        "end": 101,
+        "start": 99,
+        "type": "NP"
+      }
+    ],
+    "changes": [
+      {
+        "end": 27,
+        "start": 26,
+        "type": "NP"
+      },
+      {
+        "end": 150,
+        "start": 149,
+        "type": "NP"
+      }
+    ],
+    "conventional username/password accounts": [
+      {
+        "end": 42,
+        "start": 37,
+        "type": "NP"
+      }
+    ],
+    "file": [
+      {
+        "end": 53,
+        "start": 52,
+        "type": "NP"
+      }
+    ],
+    "network": [
+      {
+        "end": 90,
+        "start": 89,
+        "type": "NP"
+      }
+    ],
+    "no intermediary registrar": [
+      {
+        "end": 68,
+        "start": 65,
+        "type": "NP"
+      }
+    ],
+    "online agent": [
+      {
+        "end": 145,
+        "start": 143,
+        "type": "NP"
+      }
+    ],
+    "owners": [
+      {
+        "end": 111,
+        "start": 110,
+        "type": "NP"
+      }
+    ],
+    "password reset notifications": [
+      {
+        "end": 47,
+        "start": 44,
+        "type": "NP"
+      }
+    ],
+    "the\nrelevant service endpoints": [
+      {
+        "end": 123,
+        "start": 118,
+        "type": "NP"
+      }
+    ],
+    "the DID": [
+      {
+        "end": 94,
+        "start": 92,
+        "type": "NP"
+      }
+    ],
+    "the case": [
+      {
+        "end": 58,
+        "start": 56,
+        "type": "NP"
+      }
+    ],
+    "the email addresses": [
+      {
+        "end": 51,
+        "start": 48,
+        "type": "NP"
+      }
+    ],
+    "the entity": [
+      {
+        "end": 23,
+        "start": 21,
+        "type": "NP"
+      }
+    ],
+    "the following approaches": [
+      {
+        "end": 79,
+        "start": 76,
+        "type": "NP"
+      }
+    ],
+    "the ledger": [
+      {
+        "end": 88,
+        "start": 86,
+        "type": "NP"
+      }
+    ],
+    "the notification": [
+      {
+        "end": 75,
+        "start": 73,
+        "type": "NP"
+      }
+    ],
+    "this service": [
+      {
+        "end": 104,
+        "start": 102,
+        "type": "NP"
+      }
+    ],
+    "unauthorized changes": [
+      {
+        "end": 12,
+        "start": 10,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DID": [
+      {
+        "end": 61,
+        "start": 60,
+        "type": "ORG"
+      },
+      {
+        "end": 94,
+        "start": 93,
+        "type": "ORG"
+      },
+      {
+        "end": 110,
+        "start": 109,
+        "type": "ORG"
+      },
+      {
+        "end": 128,
+        "start": 127,
+        "type": "ORG"
+      }
+    ],
+    "DID Document": [
+      {
+        "end": 154,
+        "start": 152,
+        "type": "ORG"
+      }
+    ],
+    "One": [
+      {
+        "end": 8,
+        "start": 7,
+        "type": "CARDINAL"
+      }
+    ],
+    "Third": [
+      {
+        "end": 157,
+        "start": 156,
+        "type": "ORDINAL"
+      }
+    ],
+    "third": [
+      {
+        "end": 168,
+        "start": 167,
+        "type": "ORDINAL"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 8,
+        "label": "One",
+        "start": 7
+      }
+    ],
+    "ORDINAL": [
+      {
+        "end": 157,
+        "label": "Third",
+        "start": 156
+      },
+      {
+        "end": 168,
+        "label": "third",
+        "start": 167
+      }
+    ],
+    "ORG": [
+      {
+        "end": 61,
+        "label": "DID",
+        "start": 60
+      },
+      {
+        "end": 94,
+        "label": "DID",
+        "start": 93
+      },
+      {
+        "end": 110,
+        "label": "DID",
+        "start": 109
+      },
+      {
+        "end": 128,
+        "label": "DID",
+        "start": 127
+      },
+      {
+        "end": 154,
+        "label": "DID Document",
+        "start": 152
+      }
+    ]
+  },
+  "verbs": {
+    "be": 2,
+    "do": 1,
+    "employ": 1,
+    "exist": 1,
+    "follow": 1,
+    "generate": 1,
+    "introduce": 1,
+    "list": 1,
+    "monitor": 2,
+    "notify": 1,
+    "offer": 1,
+    "prevent": 1,
+    "register": 1,
+    "rely": 1,
+    "send": 2,
+    "support": 1
+  }
+}

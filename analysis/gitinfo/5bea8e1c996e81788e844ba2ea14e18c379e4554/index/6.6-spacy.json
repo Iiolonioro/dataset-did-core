@@ -1,0 +1,414 @@
+{
+  "nouns": {
+    "\"currency": [
+      {
+        "end": 213,
+        "start": 210,
+        "type": "NP"
+      }
+    ],
+    "\"description": [
+      {
+        "end": 186,
+        "start": 183,
+        "type": "NP"
+      }
+    ],
+    "\"https://repository.example.com/123": [
+      {
+        "end": 165,
+        "start": 163,
+        "type": "NP"
+      }
+    ],
+    "\"socialWebInboxService": [
+      {
+        "end": 170,
+        "start": 167,
+        "type": "NP"
+      }
+    ],
+    "A service endpoint": [
+      {
+        "end": 38,
+        "start": 35,
+        "type": "NP"
+      }
+    ],
+    "DID Document": [
+      {
+        "end": 81,
+        "start": 79,
+        "type": "NP"
+      }
+    ],
+    "My public social inbox": [
+      {
+        "end": 193,
+        "start": 189,
+        "type": "NP"
+      }
+    ],
+    "RFC": [
+      {
+        "end": 119,
+        "start": 118,
+        "type": "NP"
+      },
+      {
+        "end": 132,
+        "start": 131,
+        "type": "NP"
+      }
+    ],
+    "Service Endpoints": [
+      {
+        "end": 3,
+        "start": 0,
+        "type": "NP"
+      }
+    ],
+    "The rules": [
+      {
+        "end": 72,
+        "start": 70,
+        "type": "NP"
+      }
+    ],
+    "The service endpoint protocol": [
+      {
+        "end": 94,
+        "start": 90,
+        "type": "NP"
+      }
+    ],
+    "The value": [
+      {
+        "end": 107,
+        "start": 105,
+        "type": "NP"
+      }
+    ],
+    "a DID Document": [
+      {
+        "end": 23,
+        "start": 20,
+        "type": "NP"
+      }
+    ],
+    "a JSON-LD\nobject": [
+      {
+        "end": 152,
+        "start": 146,
+        "type": "NP"
+      }
+    ],
+    "addition": [
+      {
+        "end": 6,
+        "start": 5,
+        "type": "NP"
+      }
+    ],
+    "an open standard\nspecification": [
+      {
+        "end": 103,
+        "start": 98,
+        "type": "NP"
+      }
+    ],
+    "any\nnormalization rules": [
+      {
+        "end": 139,
+        "start": 135,
+        "type": "NP"
+      }
+    ],
+    "any type": [
+      {
+        "end": 43,
+        "start": 41,
+        "type": "NP"
+      }
+    ],
+    "authentication": [
+      {
+        "end": 63,
+        "start": 61,
+        "type": "NP"
+      }
+    ],
+    "authentication and authorization mechanisms": [
+      {
+        "end": 13,
+        "start": 9,
+        "type": "NP"
+      }
+    ],
+    "authentication service endpoints": [
+      {
+        "end": 238,
+        "start": 235,
+        "type": "NP"
+      }
+    ],
+    "authorization": [
+      {
+        "end": 65,
+        "start": 64,
+        "type": "NP"
+      }
+    ],
+    "d": [
+      {
+        "end": 177,
+        "start": 176,
+        "type": "NP"
+      }
+    ],
+    "decentralized identity management services": [
+      {
+        "end": 57,
+        "start": 52,
+        "type": "NP"
+      }
+    ],
+    "discovery": [
+      {
+        "end": 27,
+        "start": 26,
+        "type": "NP"
+      }
+    ],
+    "further discovery": [
+      {
+        "end": 60,
+        "start": 58,
+        "type": "NP"
+      }
+    ],
+    "further security considerations": [
+      {
+        "end": 234,
+        "start": 231,
+        "type": "NP"
+      }
+    ],
+    "https://social.example.com/83hfh37dj": [
+      {
+        "end": 181,
+        "start": 180,
+        "type": "NP"
+      }
+    ],
+    "i": [
+      {
+        "end": 176,
+        "start": 175,
+        "type": "NP"
+      }
+    ],
+    "interaction": [
+      {
+        "end": 68,
+        "start": 67,
+        "type": "NP"
+      }
+    ],
+    "its applicable URI scheme specification": [
+      {
+        "end": 145,
+        "start": 140,
+        "type": "NP"
+      }
+    ],
+    "multiple properties": [
+      {
+        "end": 85,
+        "start": 83,
+        "type": "NP"
+      }
+    ],
+    "publication": [
+      {
+        "end": 8,
+        "start": 7,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 129,
+        "start": 128,
+        "type": "NP"
+      }
+    ],
+    "sections": [
+      {
+        "end": 227,
+        "start": 226,
+        "type": "NP"
+      }
+    ],
+    "service": [
+      {
+        "end": 45,
+        "start": 44,
+        "type": "NP"
+      }
+    ],
+    "service endpoints": [
+      {
+        "end": 31,
+        "start": 28,
+        "type": "NP"
+      },
+      {
+        "end": 75,
+        "start": 73,
+        "type": "NP"
+      },
+      {
+        "end": 88,
+        "start": 86,
+        "type": "NP"
+      }
+    ],
+    "the entity": [
+      {
+        "end": 34,
+        "start": 32,
+        "type": "NP"
+      },
+      {
+        "end": 47,
+        "start": 45,
+        "type": "NP"
+      }
+    ],
+    "the other primary purpose": [
+      {
+        "end": 19,
+        "start": 15,
+        "type": "NP"
+      }
+    ],
+    "the rules": [
+      {
+        "end": 127,
+        "start": 125,
+        "type": "NP"
+      }
+    ],
+    "the service endpoint": [
+      {
+        "end": 111,
+        "start": 108,
+        "type": "NP"
+      }
+    ],
+    "{\n      \"amount": [
+      {
+        "end": 204,
+        "start": 200,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "0.50": [
+      {
+        "end": 208,
+        "start": 207,
+        "type": "CARDINAL"
+      }
+    ],
+    "6": [
+      {
+        "end": 130,
+        "start": 129,
+        "type": "CARDINAL"
+      }
+    ],
+    "9.1": [
+      {
+        "end": 228,
+        "start": 227,
+        "type": "CARDINAL"
+      }
+    ],
+    "9.3": [
+      {
+        "end": 230,
+        "start": 229,
+        "type": "CARDINAL"
+      }
+    ],
+    "JSON-LD": [
+      {
+        "end": 150,
+        "start": 147,
+        "type": "ORG"
+      }
+    ],
+    "URI": [
+      {
+        "end": 143,
+        "start": 142,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 130,
+        "label": "6",
+        "start": 129
+      },
+      {
+        "end": 208,
+        "label": "0.50",
+        "start": 207
+      },
+      {
+        "end": 228,
+        "label": "9.1",
+        "start": 227
+      },
+      {
+        "end": 230,
+        "label": "9.3",
+        "start": 229
+      }
+    ],
+    "ORG": [
+      {
+        "end": 143,
+        "label": "URI",
+        "start": 142
+      },
+      {
+        "end": 150,
+        "label": "JSON-LD",
+        "start": 147
+      }
+    ]
+  },
+  "verbs": {
+    "accord": 1,
+    "advertise": 1,
+    "be": 1,
+    "conform": 1,
+    "decentralize": 1,
+    "enable": 1,
+    "have": 1,
+    "include": 1,
+    "normalize": 1,
+    "publish": 1,
+    "regard": 1,
+    "represent": 2,
+    "see": 1,
+    "wish": 1
+  }
+}

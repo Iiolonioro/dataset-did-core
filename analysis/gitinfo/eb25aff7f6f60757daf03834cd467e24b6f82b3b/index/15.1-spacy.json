@@ -1,0 +1,121 @@
+{
+  "nouns": {
+    "\"RsaCryptographicKey": [
+      {
+        "end": 31,
+        "start": 29,
+        "type": "NP"
+      }
+    ],
+    "\"id": [
+      {
+        "end": 9,
+        "start": 6,
+        "type": "NP"
+      }
+    ],
+    "\"publicKeyPem": [
+      {
+        "end": 48,
+        "start": 45,
+        "type": "NP"
+      }
+    ],
+    "\"type": [
+      {
+        "end": 22,
+        "start": 19,
+        "type": "NP"
+      }
+    ],
+    ",\n  \"owner": [
+      {
+        "end": 37,
+        "start": 33,
+        "type": "NP"
+      }
+    ],
+    "END PUBLIC KEY-----\\r\\n": [
+      {
+        "end": 58,
+        "start": 55,
+        "type": "NP"
+      }
+    ],
+    "RSA Keys": [
+      {
+        "end": 3,
+        "start": 0,
+        "type": "NP"
+      }
+    ],
+    "[\"CryptographicKey": [
+      {
+        "end": 27,
+        "start": 24,
+        "type": "NP"
+      }
+    ],
+    "example:123456789abcdefghi": [
+      {
+        "end": 15,
+        "start": 14,
+        "type": "NP"
+      },
+      {
+        "end": 43,
+        "start": 42,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "CryptographicKey": [
+      {
+        "end": 27,
+        "start": 26,
+        "type": "ORG"
+      }
+    ],
+    "RSA Keys": [
+      {
+        "end": 3,
+        "start": 1,
+        "type": "PERSON"
+      }
+    ],
+    "RsaCryptographicKey": [
+      {
+        "end": 31,
+        "start": 30,
+        "type": "WORK_OF_ART"
+      }
+    ]
+  },
+  "types": {
+    "ORG": [
+      {
+        "end": 27,
+        "label": "CryptographicKey",
+        "start": 26
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 3,
+        "label": "RSA Keys",
+        "start": 1
+      }
+    ],
+    "WORK_OF_ART": [
+      {
+        "end": 31,
+        "label": "RsaCryptographicKey",
+        "start": 30
+      }
+    ]
+  },
+  "verbs": {
+    "do": 2
+  }
+}

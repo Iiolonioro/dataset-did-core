@@ -1,0 +1,281 @@
+{
+  "nouns": {
+    "DID Documents": [
+      {
+        "end": 15,
+        "start": 13,
+        "type": "NP"
+      },
+      {
+        "end": 119,
+        "start": 117,
+        "type": "NP"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 22,
+        "start": 21,
+        "type": "NP"
+      }
+    ],
+    "Equivalence": [
+      {
+        "end": 88,
+        "start": 86,
+        "type": "NP"
+      }
+    ],
+    "This capability": [
+      {
+        "end": 39,
+        "start": 37,
+        "type": "NP"
+      }
+    ],
+    "a future version": [
+      {
+        "end": 129,
+        "start": 126,
+        "type": "NP"
+      }
+    ],
+    "an array": [
+      {
+        "end": 20,
+        "start": 18,
+        "type": "NP"
+      }
+    ],
+    "an equivalence property": [
+      {
+        "end": 7,
+        "start": 4,
+        "type": "NP"
+      }
+    ],
+    "compatibility": [
+      {
+        "end": 52,
+        "start": 51,
+        "type": "NP"
+      }
+    ],
+    "different DID methods": [
+      {
+        "end": 109,
+        "start": 106,
+        "type": "NP"
+      }
+    ],
+    "different DLTs": [
+      {
+        "end": 105,
+        "start": 103,
+        "type": "NP"
+      }
+    ],
+    "equivID": [
+      {
+        "end": 11,
+        "start": 10,
+        "type": "NP"
+      }
+    ],
+    "equivalence": [
+      {
+        "end": 122,
+        "start": 121,
+        "type": "NP"
+      }
+    ],
+    "equivalent DIDs": [
+      {
+        "end": 64,
+        "start": 62,
+        "type": "NP"
+      },
+      {
+        "end": 85,
+        "start": 83,
+        "type": "NP"
+      }
+    ],
+    "existing DIDs": [
+      {
+        "end": 55,
+        "start": 53,
+        "type": "NP"
+      }
+    ],
+    "future DLTs": [
+      {
+        "end": 58,
+        "start": 56,
+        "type": "NP"
+      }
+    ],
+    "ledgers": [
+      {
+        "end": 48,
+        "start": 47,
+        "type": "NP"
+      }
+    ],
+    "migration": [
+      {
+        "end": 46,
+        "start": 45,
+        "type": "NP"
+      }
+    ],
+    "numerous uses": [
+      {
+        "end": 42,
+        "start": 40,
+        "type": "NP"
+      }
+    ],
+    "properties": [
+      {
+        "end": 115,
+        "start": 114,
+        "type": "NP"
+      }
+    ],
+    "the complexity": [
+      {
+        "end": 99,
+        "start": 97,
+        "type": "NP"
+      }
+    ],
+    "the current specification": [
+      {
+        "end": 95,
+        "start": 92,
+        "type": "NP"
+      }
+    ],
+    "the same entity": [
+      {
+        "end": 36,
+        "start": 33,
+        "type": "NP"
+      }
+    ],
+    "the same identity rights": [
+      {
+        "end": 70,
+        "start": 66,
+        "type": "NP"
+      }
+    ],
+    "theory": [
+      {
+        "end": 61,
+        "start": 60,
+        "type": "NP"
+      }
+    ],
+    "this specification": [
+      {
+        "end": 132,
+        "start": 130,
+        "type": "NP"
+      }
+    ],
+    "two or more DIDs": [
+      {
+        "end": 31,
+        "start": 27,
+        "type": "NP"
+      }
+    ],
+    "verifying equivalence": [
+      {
+        "end": 102,
+        "start": 100,
+        "type": "NP"
+      }
+    ],
+    "whose value": [
+      {
+        "end": 17,
+        "start": 15,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DID": [
+      {
+        "end": 80,
+        "start": 79,
+        "type": "ORG"
+      }
+    ],
+    "DID Documents": [
+      {
+        "end": 15,
+        "start": 13,
+        "type": "ORG"
+      }
+    ],
+    "one": [
+      {
+        "end": 79,
+        "start": 78,
+        "type": "CARDINAL"
+      }
+    ],
+    "two": [
+      {
+        "end": 28,
+        "start": 27,
+        "type": "CARDINAL"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 28,
+        "label": "two",
+        "start": 27
+      },
+      {
+        "end": 79,
+        "label": "one",
+        "start": 78
+      }
+    ],
+    "ORG": [
+      {
+        "end": 15,
+        "label": "DID Documents",
+        "start": 13
+      },
+      {
+        "end": 80,
+        "label": "DID",
+        "start": 79
+      }
+    ]
+  },
+  "verbs": {
+    "aggregate": 1,
+    "allow": 2,
+    "apply": 1,
+    "assert": 1,
+    "be": 1,
+    "do": 4,
+    "exist": 1,
+    "have": 2,
+    "include": 3,
+    "make": 1,
+    "provide": 1,
+    "represent": 1,
+    "support": 2
+  }
+}

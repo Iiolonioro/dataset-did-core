@@ -1,0 +1,19 @@
+commit 5bea8e1c996e81788e844ba2ea14e18c379e4554
+Author: David I. Lehn <dlehn@digitalbazaar.com>
+Date:   Tue Oct 31 19:33:10 2017 -0400
+
+    Markup JSON-LD keyword.
+
+diff --git a/index.html b/index.html
+index 72ba0b1..c3e2623 100644
+--- a/index.html
++++ b/index.html
+@@ -836,7 +836,7 @@ not strictly necessary under JSON-LD but required for DID Documents.)
+   </li>
+ 
+   <li>
+-The key for this property MUST be @context.
++    The key for this property MUST be <code>@context</code>.
+   </li>
+ 
+   <li>

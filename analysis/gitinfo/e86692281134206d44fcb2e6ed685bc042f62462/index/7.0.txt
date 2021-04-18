@@ -1,0 +1,74 @@
+
+DID Operations
+
+
+
+      To enable the full functionality of DIDs and DID Descriptions on a particular distributed ledger or network (called the target system), a DID method specification MUST specify how each of the following
+        CRUD
+       operations is performed by a client. Each operation MUST be specified to the level of detail necessary to build and test interoperable client implementations with the target system.
+
+
+      Note that, due to the specified contents of DID Descriptions, these operations can effectively be used to perform all the operations required of a CKMS (cryptographic key management system), e.g.:
+
+
+
+
+
+Key registration
+  
+
+Key replacement
+  
+
+Key rotation
+  
+
+Key recovery
+  
+
+Key expiration
+  
+
+
+Create
+
+The DID method specification MUST specify how a client creates a
+DID record—the combination of a DID and its associated DID Description—on the
+target system, including all cryptographic operations necessary
+to establish proof of ownership.
+
+
+
+Read/Verify
+
+
+
+      The DID method specification MUST specify how a client uses a DID to request a DID Description from the target system, including how the client can verify the authenticity of the response.
+
+
+
+
+
+
+Update
+
+
+
+      The DID method specification MUST specify how a client can update a DID record on the target system, including all cryptographic operations necessary to establish proof of control.
+
+
+
+
+
+
+Delete/Revoke
+
+
+
+      Although a core feature of distributed ledgers is immutability, the DID method specification MUST specify how a client can revoke a DID record on the target system, including all cryptographic operations necessary to establish proof of revocation.
+
+
+
+
+
+

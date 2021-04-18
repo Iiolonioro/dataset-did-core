@@ -1,0 +1,756 @@
+{
+  "nouns": {
+    "(subscribe": [
+      {
+        "end": 209,
+        "start": 207,
+        "type": "NP"
+      }
+    ],
+    "Betty Dhamers": [
+      {
+        "end": 322,
+        "start": 320,
+        "type": "NP"
+      }
+    ],
+    "Brian Weller": [
+      {
+        "end": 319,
+        "start": 317,
+        "type": "NP"
+      }
+    ],
+    "C-00019": [
+      {
+        "end": 258,
+        "start": 257,
+        "type": "NP"
+      }
+    ],
+    "Christopher Allen": [
+      {
+        "end": 309,
+        "start": 307,
+        "type": "NP"
+      }
+    ],
+    "Comments": [
+      {
+        "end": 185,
+        "start": 183,
+        "type": "NP"
+      }
+    ],
+    "DID Documents": [
+      {
+        "end": 58,
+        "start": 56,
+        "type": "NP"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 5,
+        "start": 4,
+        "type": "NP"
+      }
+    ],
+    "DIDs\nresolve": [
+      {
+        "end": 55,
+        "start": 52,
+        "type": "NP"
+      }
+    ],
+    "Decentralized Identifiers": [
+      {
+        "end": 3,
+        "start": 1,
+        "type": "NP"
+      }
+    ],
+    "Drummond Reed": [
+      {
+        "end": 332,
+        "start": 330,
+        "type": "NP"
+      }
+    ],
+    "GitHub": [
+      {
+        "end": 198,
+        "start": 197,
+        "type": "NP"
+      }
+    ],
+    "HSHQDC-17": [
+      {
+        "end": 256,
+        "start": 254,
+        "type": "NP"
+      }
+    ],
+    "Homeland Security's Science and Technology\nDirectorate": [
+      {
+        "end": 240,
+        "start": 232,
+        "type": "NP"
+      }
+    ],
+    "Joe Andrieu": [
+      {
+        "end": 336,
+        "start": 334,
+        "type": "NP"
+      }
+    ],
+    "Kaliya Young": [
+      {
+        "end": 325,
+        "start": 323,
+        "type": "NP"
+      }
+    ],
+    "Kiara Robles": [
+      {
+        "end": 316,
+        "start": 314,
+        "type": "NP"
+      }
+    ],
+    "Manu Sporny": [
+      {
+        "end": 328,
+        "start": 326,
+        "type": "NP"
+      }
+    ],
+    "Please file issues": [
+      {
+        "end": 194,
+        "start": 191,
+        "type": "NP"
+      }
+    ],
+    "Portions": [
+      {
+        "end": 216,
+        "start": 214,
+        "type": "NP"
+      }
+    ],
+    "R00012-H": [
+      {
+        "end": 247,
+        "start": 244,
+        "type": "NP"
+      }
+    ],
+    "Shannon Appelcline": [
+      {
+        "end": 312,
+        "start": 310,
+        "type": "NP"
+      }
+    ],
+    "The content": [
+      {
+        "end": 261,
+        "start": 259,
+        "type": "NP"
+      }
+    ],
+    "This document": [
+      {
+        "end": 165,
+        "start": 163,
+        "type": "NP"
+      }
+    ],
+    "Trust community": [
+      {
+        "end": 305,
+        "start": 303,
+        "type": "NP"
+      }
+    ],
+    "Work": [
+      {
+        "end": 289,
+        "start": 288,
+        "type": "NP"
+      }
+    ],
+    "a\ncentralized registry": [
+      {
+        "end": 44,
+        "start": 40,
+        "type": "NP"
+      }
+    ],
+    "a DID Document": [
+      {
+        "end": 79,
+        "start": 76,
+        "type": "NP"
+      }
+    ],
+    "a common data model": [
+      {
+        "end": 170,
+        "start": 166,
+        "type": "NP"
+      }
+    ],
+    "a new type": [
+      {
+        "end": 10,
+        "start": 7,
+        "type": "NP"
+      }
+    ],
+    "a set": [
+      {
+        "end": 92,
+        "start": 90,
+        "type": "NP"
+      },
+      {
+        "end": 126,
+        "start": 124,
+        "type": "NP"
+      },
+      {
+        "end": 145,
+        "start": 143,
+        "type": "NP"
+      }
+    ],
+    "all DIDs support": [
+      {
+        "end": 180,
+        "start": 177,
+        "type": "NP"
+      }
+    ],
+    "all the metadata": [
+      {
+        "end": 66,
+        "start": 63,
+        "type": "NP"
+      }
+    ],
+    "an entity": [
+      {
+        "end": 36,
+        "start": 34,
+        "type": "NP"
+      }
+    ],
+    "archives": [
+      {
+        "end": 212,
+        "start": 210,
+        "type": "NP"
+      }
+    ],
+    "at least three things": [
+      {
+        "end": 86,
+        "start": 82,
+        "type": "NP"
+      }
+    ],
+    "authorization information": [
+      {
+        "end": 129,
+        "start": 127,
+        "type": "NP"
+      }
+    ],
+    "certificate authority": [
+      {
+        "end": 51,
+        "start": 49,
+        "type": "NP"
+      }
+    ],
+    "contracts": [
+      {
+        "end": 242,
+        "start": 241,
+        "type": "NP"
+      }
+    ],
+    "format": [
+      {
+        "end": 172,
+        "start": 171,
+        "type": "NP"
+      }
+    ],
+    "identity provider": [
+      {
+        "end": 47,
+        "start": 45,
+        "type": "NP"
+      }
+    ],
+    "mechanisms": [
+      {
+        "end": 94,
+        "start": 93,
+        "type": "NP"
+      }
+    ],
+    "no official\nendorsement": [
+      {
+        "end": 283,
+        "start": 279,
+        "type": "NP"
+      }
+    ],
+    "operations": [
+      {
+        "end": 175,
+        "start": 174,
+        "type": "NP"
+      }
+    ],
+    "service endpoints": [
+      {
+        "end": 148,
+        "start": 146,
+        "type": "NP"
+      }
+    ],
+    "simple documents": [
+      {
+        "end": 61,
+        "start": 59,
+        "type": "NP"
+      }
+    ],
+    "the\nUnited States Department": [
+      {
+        "end": 231,
+        "start": 226,
+        "type": "NP"
+      }
+    ],
+    "the DID": [
+      {
+        "end": 73,
+        "start": 71,
+        "type": "NP"
+      }
+    ],
+    "the DID Document": [
+      {
+        "end": 139,
+        "start": 136,
+        "type": "NP"
+      }
+    ],
+    "the Rebooting the\nWeb": [
+      {
+        "end": 302,
+        "start": 297,
+        "type": "NP"
+      }
+    ],
+    "the U.S. Government": [
+      {
+        "end": 278,
+        "start": 275,
+        "type": "NP"
+      }
+    ],
+    "the control": [
+      {
+        "end": 33,
+        "start": 31,
+        "type": "NP"
+      }
+    ],
+    "the entity": [
+      {
+        "end": 161,
+        "start": 159,
+        "type": "NP"
+      }
+    ],
+    "the policy": [
+      {
+        "end": 274,
+        "start": 272,
+        "type": "NP"
+      }
+    ],
+    "the position": [
+      {
+        "end": 271,
+        "start": 269,
+        "type": "NP"
+      }
+    ],
+    "the work": [
+      {
+        "end": 219,
+        "start": 217,
+        "type": "NP"
+      }
+    ],
+    "them": [
+      {
+        "end": 203,
+        "start": 202,
+        "type": "NP"
+      }
+    ],
+    "this document": [
+      {
+        "end": 188,
+        "start": 186,
+        "type": "NP"
+      }
+    ],
+    "this specification": [
+      {
+        "end": 222,
+        "start": 220,
+        "type": "NP"
+      },
+      {
+        "end": 264,
+        "start": 262,
+        "type": "NP"
+      },
+      {
+        "end": 292,
+        "start": 290,
+        "type": "NP"
+      }
+    ],
+    "trusted interactions": [
+      {
+        "end": 158,
+        "start": 156,
+        "type": "NP"
+      }
+    ],
+    "verifiable digital identity": [
+      {
+        "end": 18,
+        "start": 15,
+        "type": "NP"
+      }
+    ],
+    "which entities": [
+      {
+        "end": 133,
+        "start": 131,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "Betty Dhamers": [
+      {
+        "end": 322,
+        "start": 320,
+        "type": "PERSON"
+      }
+    ],
+    "Brian Weller": [
+      {
+        "end": 319,
+        "start": 317,
+        "type": "PERSON"
+      }
+    ],
+    "Christopher Allen": [
+      {
+        "end": 309,
+        "start": 307,
+        "type": "PERSON"
+      }
+    ],
+    "DID": [
+      {
+        "end": 73,
+        "start": 72,
+        "type": "ORG"
+      },
+      {
+        "end": 106,
+        "start": 105,
+        "type": "ORG"
+      }
+    ],
+    "DID Documents": [
+      {
+        "end": 58,
+        "start": 56,
+        "type": "ORG"
+      }
+    ],
+    "Drummond Reed": [
+      {
+        "end": 332,
+        "start": 330,
+        "type": "PERSON"
+      }
+    ],
+    "GitHub": [
+      {
+        "end": 198,
+        "start": 197,
+        "type": "ORG"
+      }
+    ],
+    "HSHQDC-16": [
+      {
+        "end": 243,
+        "start": 242,
+        "type": "ORG"
+      }
+    ],
+    "Joe Andrieu": [
+      {
+        "end": 336,
+        "start": 334,
+        "type": "PERSON"
+      }
+    ],
+    "Kaliya Young": [
+      {
+        "end": 325,
+        "start": 323,
+        "type": "PERSON"
+      }
+    ],
+    "Kiara Robles": [
+      {
+        "end": 316,
+        "start": 314,
+        "type": "PERSON"
+      }
+    ],
+    "Manu Sporny": [
+      {
+        "end": 328,
+        "start": 326,
+        "type": "PERSON"
+      }
+    ],
+    "Science and Technology\nDirectorate": [
+      {
+        "end": 240,
+        "start": 235,
+        "type": "ORG"
+      }
+    ],
+    "Shannon Appelcline": [
+      {
+        "end": 312,
+        "start": 310,
+        "type": "PERSON"
+      }
+    ],
+    "at least three": [
+      {
+        "end": 85,
+        "start": 82,
+        "type": "CARDINAL"
+      }
+    ],
+    "first": [
+      {
+        "end": 89,
+        "start": 88,
+        "type": "ORDINAL"
+      }
+    ],
+    "second": [
+      {
+        "end": 123,
+        "start": 122,
+        "type": "ORDINAL"
+      }
+    ],
+    "the\nUnited States Department": [
+      {
+        "end": 231,
+        "start": 226,
+        "type": "GPE"
+      }
+    ],
+    "the DID Document": [
+      {
+        "end": 139,
+        "start": 136,
+        "type": "ORG"
+      }
+    ],
+    "the U.S. Government": [
+      {
+        "end": 278,
+        "start": 275,
+        "type": "ORG"
+      }
+    ],
+    "third": [
+      {
+        "end": 142,
+        "start": 141,
+        "type": "ORDINAL"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 85,
+        "label": "at least three",
+        "start": 82
+      }
+    ],
+    "GPE": [
+      {
+        "end": 231,
+        "label": "the\nUnited States Department",
+        "start": 226
+      }
+    ],
+    "ORDINAL": [
+      {
+        "end": 89,
+        "label": "first",
+        "start": 88
+      },
+      {
+        "end": 123,
+        "label": "second",
+        "start": 122
+      },
+      {
+        "end": 142,
+        "label": "third",
+        "start": 141
+      }
+    ],
+    "ORG": [
+      {
+        "end": 58,
+        "label": "DID Documents",
+        "start": 56
+      },
+      {
+        "end": 73,
+        "label": "DID",
+        "start": 72
+      },
+      {
+        "end": 106,
+        "label": "DID",
+        "start": 105
+      },
+      {
+        "end": 139,
+        "label": "the DID Document",
+        "start": 136
+      },
+      {
+        "end": 198,
+        "label": "GitHub",
+        "start": 197
+      },
+      {
+        "end": 240,
+        "label": "Science and Technology\nDirectorate",
+        "start": 235
+      },
+      {
+        "end": 243,
+        "label": "HSHQDC-16",
+        "start": 242
+      },
+      {
+        "end": 278,
+        "label": "the U.S. Government",
+        "start": 275
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 309,
+        "label": "Christopher Allen",
+        "start": 307
+      },
+      {
+        "end": 312,
+        "label": "Shannon Appelcline",
+        "start": 310
+      },
+      {
+        "end": 316,
+        "label": "Kiara Robles",
+        "start": 314
+      },
+      {
+        "end": 319,
+        "label": "Brian Weller",
+        "start": 317
+      },
+      {
+        "end": 322,
+        "label": "Betty Dhamers",
+        "start": 320
+      },
+      {
+        "end": 325,
+        "label": "Kaliya Young",
+        "start": 323
+      },
+      {
+        "end": 328,
+        "label": "Manu Sporny",
+        "start": 326
+      },
+      {
+        "end": 332,
+        "label": "Drummond Reed",
+        "start": 330
+      },
+      {
+        "end": 336,
+        "label": "Joe Andrieu",
+        "start": 334
+      }
+    ]
+  },
+  "verbs": {
+    "authenticate": 1,
+    "be": 2,
+    "contain": 2,
+    "do": 1,
+    "facilitate": 1,
+    "fund": 1,
+    "infer": 1,
+    "initiate": 1,
+    "intend": 1,
+    "interact": 1,
+    "modify": 1,
+    "need": 1,
+    "outline": 1,
+    "reflect": 1,
+    "regard": 1,
+    "send": 1,
+    "specify": 1,
+    "support": 1,
+    "trust": 1,
+    "use": 2
+  }
+}

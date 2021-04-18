@@ -1,0 +1,78 @@
+
+Binding of Identity
+
+
+
+9.2.1 Proving Ownership of a DID and DID Document
+
+
+By itself, a verified signature on self-signed DID Document does not prove ownership of a DID. It only proves the following:
+
+
+
+The DID Document has not been tampered with since it was registered.
+  
+
+The owner of the DID Document controlled the private key used for the
+signature at the time the signature was generated.
+  
+
+
+Proving ownership of a DID, i.e., the binding between the DID and the DID Document that describes it, requires a two step process:
+
+
+
+Resolving the DID to a DID Document according to its DID method
+specification.
+  
+
+Verifying that the id property of the resulting DID Document matches the DID
+that was resolved.
+  
+
+
+
+
+      It should be noted that this process proves ownership of a DID and DID Document regardless of whether the DID Document is signed.
+
+
+
+
+
+9.2.2 Proving Ownership of a Public Key
+
+
+
+
+      There are two methods for proving ownership of the private key corresponding to a public key description in the DID Document: static and dynamic.
+
+
+      The static method is to sign the DID Document with the private key. This proves ownership of the private key at a time no later than the DID Document was registered.
+
+
+      If the DID Document is not signed, ownership of a public key described in the DID Document may still be proven dynamically as follows:
+
+
+
+Send a challenge message containing a public key description from
+the DID Document and a nonce to an appropriate service endpoint described in the
+DID Document.
+  
+
+Verify the signature of the response message against the public key
+description.
+  
+
+
+
+
+9.2.3 Identity Owner Authentication and Verifiable Claims
+
+
+      A DID and DID Document do not inherently carry any
+        PII
+       (personally-identifiable information). The process of binding a DID to the real-world owner of an identity using claims about the owner is out of scope for this specification. However this topic is the focus of the
+        verifiable claims
+       standardization work at the W3C (where the term "DID" originated).
+
+

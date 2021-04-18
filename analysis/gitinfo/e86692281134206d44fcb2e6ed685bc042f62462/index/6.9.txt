@@ -1,0 +1,65 @@
+
+Signature (Optional)
+
+
+
+      A signature on a DID Description is cryptographic proof of the integrity of the DID Description according to either:
+
+
+
+
+
+The entity as defined in section 6.4, or if not present:
+  
+
+The guardian as defined in section 6.3.
+  
+
+
+
+
+      This signature is NOT proof of the binding between a DID and a DID Description. See section 9.2.
+
+
+      The rules for a signature are:
+
+
+
+
+
+A DID Description MAY have exactly one property representing a signature.
+  
+
+The key for this property MUST be signature.
+  
+
+The value of this key MUST be a valid JSON-LD signature as defined
+by Linked Data
+Signatures .
+  
+
+
+
+
+      Example:
+
+
+
+
+
+      {
+      "signature": {
+            "type": "LinkedDataSignature2015",
+            "created": "2016-02-08T16:02:20Z",
+            "creator": "did:example:8uQhQMGzWxR8vw5P3UWH1ja#keys-1",
+            "signatureValue": "QNB13Y7Q9...1tzjn4w=="
+        }
+
+
+
+
+      }
+
+
+
+

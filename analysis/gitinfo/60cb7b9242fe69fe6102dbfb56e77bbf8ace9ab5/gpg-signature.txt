@@ -1,0 +1,16 @@
+commit 60cb7b9242fe69fe6102dbfb56e77bbf8ace9ab5
+Author: David I. Lehn <dlehn@digitalbazaar.com>
+Date:   Tue Oct 31 19:47:29 2017 -0400
+
+    Add .gitignore.
+
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..02b5702
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1,4 @@
++*.sw[nop]
++*~
++.DS_Store
++TAGS

@@ -1,0 +1,242 @@
+{
+  "nouns": {
+    "(sections": [
+      {
+        "end": 75,
+        "start": 73,
+        "type": "NP"
+      }
+    ],
+    "DID Document updates": [
+      {
+        "end": 14,
+        "start": 11,
+        "type": "NP"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 10,
+        "start": 9,
+        "type": "NP"
+      }
+    ],
+    "Non-Repudiation\n\n\n\n      Non-repudiation": [
+      {
+        "end": 8,
+        "start": 0,
+        "type": "NP"
+      }
+    ],
+    "This capability": [
+      {
+        "end": 66,
+        "start": 64,
+        "type": "NP"
+      }
+    ],
+    "adequate opportunity": [
+      {
+        "end": 46,
+        "start": 44,
+        "type": "NP"
+      }
+    ],
+    "malicious updates": [
+      {
+        "end": 50,
+        "start": 48,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 34,
+        "start": 33,
+        "type": "NP"
+      },
+      {
+        "end": 61,
+        "start": 60,
+        "type": "NP"
+      }
+    ],
+    "the DID method's access control mechanism": [
+      {
+        "end": 59,
+        "start": 52,
+        "type": "NP"
+      }
+    ],
+    "the assumption": [
+      {
+        "end": 19,
+        "start": 17,
+        "type": "NP"
+      }
+    ],
+    "the entity": [
+      {
+        "end": 26,
+        "start": 24,
+        "type": "NP"
+      },
+      {
+        "end": 42,
+        "start": 40,
+        "type": "NP"
+      }
+    ],
+    "the target DLT system": [
+      {
+        "end": 84,
+        "start": 80,
+        "type": "NP"
+      }
+    ],
+    "timestamps": [
+      {
+        "end": 71,
+        "start": 70,
+        "type": "NP"
+      },
+      {
+        "end": 86,
+        "start": 85,
+        "type": "NP"
+      }
+    ],
+    "unauthorized updates": [
+      {
+        "end": 31,
+        "start": 29,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "1": [
+      {
+        "end": 23,
+        "start": 22,
+        "type": "CARDINAL"
+      }
+    ],
+    "2": [
+      {
+        "end": 39,
+        "start": 38,
+        "type": "CARDINAL"
+      }
+    ],
+    "6.5": [
+      {
+        "end": 62,
+        "start": 61,
+        "type": "CARDINAL"
+      }
+    ],
+    "6.7": [
+      {
+        "end": 76,
+        "start": 75,
+        "type": "CARDINAL"
+      }
+    ],
+    "6.8": [
+      {
+        "end": 78,
+        "start": 77,
+        "type": "CARDINAL"
+      }
+    ],
+    "DID": [
+      {
+        "end": 54,
+        "start": 53,
+        "type": "ORG"
+      }
+    ],
+    "DID Document": [
+      {
+        "end": 13,
+        "start": 11,
+        "type": "ORG"
+      }
+    ],
+    "DLT": [
+      {
+        "end": 83,
+        "start": 82,
+        "type": "ORG"
+      }
+    ],
+    "Non-Repudiation\n\n\n\n      Non-repudiation": [
+      {
+        "end": 8,
+        "start": 1,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 23,
+        "label": "1",
+        "start": 22
+      },
+      {
+        "end": 39,
+        "label": "2",
+        "start": 38
+      },
+      {
+        "end": 62,
+        "label": "6.5",
+        "start": 61
+      },
+      {
+        "end": 76,
+        "label": "6.7",
+        "start": 75
+      },
+      {
+        "end": 78,
+        "label": "6.8",
+        "start": 77
+      }
+    ],
+    "ORG": [
+      {
+        "end": 8,
+        "label": "Non-Repudiation\n\n\n\n      Non-repudiation",
+        "start": 1
+      },
+      {
+        "end": 13,
+        "label": "DID Document",
+        "start": 11
+      },
+      {
+        "end": 54,
+        "label": "DID",
+        "start": 53
+      },
+      {
+        "end": 83,
+        "label": "DLT",
+        "start": 82
+      }
+    ]
+  },
+  "verbs": {
+    "accord": 1,
+    "have": 1,
+    "include": 1,
+    "monitor": 1,
+    "revoke": 1,
+    "see": 1,
+    "support": 3
+  }
+}

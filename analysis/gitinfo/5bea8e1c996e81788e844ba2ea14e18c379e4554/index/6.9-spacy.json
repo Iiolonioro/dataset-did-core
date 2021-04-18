@@ -1,0 +1,351 @@
+{
+  "nouns": {
+    "(Optional": [
+      {
+        "end": 4,
+        "start": 2,
+        "type": "NP"
+      }
+    ],
+    "A": [
+      {
+        "end": 80,
+        "start": 78,
+        "type": "NP"
+      }
+    ],
+    "A signature": [
+      {
+        "end": 8,
+        "start": 6,
+        "type": "NP"
+      }
+    ],
+    "Document": [
+      {
+        "end": 82,
+        "start": 81,
+        "type": "NP"
+      }
+    ],
+    "Linked Data\nSignatures": [
+      {
+        "end": 123,
+        "start": 119,
+        "type": "NP"
+      }
+    ],
+    "LinkedDataSignature2015": [
+      {
+        "end": 142,
+        "start": 141,
+        "type": "NP"
+      }
+    ],
+    "QNB13Y7Q9": [
+      {
+        "end": 175,
+        "start": 174,
+        "type": "NP"
+      }
+    ],
+    "The delegate": [
+      {
+        "end": 43,
+        "start": 41,
+        "type": "NP"
+      }
+    ],
+    "The entity": [
+      {
+        "end": 29,
+        "start": 27,
+        "type": "NP"
+      }
+    ],
+    "The key": [
+      {
+        "end": 94,
+        "start": 92,
+        "type": "NP"
+      }
+    ],
+    "The rules": [
+      {
+        "end": 73,
+        "start": 71,
+        "type": "NP"
+      }
+    ],
+    "The value": [
+      {
+        "end": 104,
+        "start": 102,
+        "type": "NP"
+      }
+    ],
+    "This signature": [
+      {
+        "end": 52,
+        "start": 50,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 61,
+        "start": 59,
+        "type": "NP"
+      }
+    ],
+    "a DID Document": [
+      {
+        "end": 12,
+        "start": 9,
+        "type": "NP"
+      },
+      {
+        "end": 65,
+        "start": 62,
+        "type": "NP"
+      }
+    ],
+    "a signature": [
+      {
+        "end": 76,
+        "start": 74,
+        "type": "NP"
+      },
+      {
+        "end": 90,
+        "start": 88,
+        "type": "NP"
+      }
+    ],
+    "a valid JSON-LD signature": [
+      {
+        "end": 115,
+        "start": 109,
+        "type": "NP"
+      }
+    ],
+    "cryptographic proof": [
+      {
+        "end": 15,
+        "start": 13,
+        "type": "NP"
+      }
+    ],
+    "exactly one property": [
+      {
+        "end": 87,
+        "start": 84,
+        "type": "NP"
+      }
+    ],
+    "proof": [
+      {
+        "end": 55,
+        "start": 54,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 33,
+        "start": 32,
+        "type": "NP"
+      },
+      {
+        "end": 47,
+        "start": 46,
+        "type": "NP"
+      },
+      {
+        "end": 68,
+        "start": 67,
+        "type": "NP"
+      }
+    ],
+    "signature": [
+      {
+        "end": 100,
+        "start": 99,
+        "type": "NP"
+      }
+    ],
+    "the DID Document": [
+      {
+        "end": 22,
+        "start": 19,
+        "type": "NP"
+      }
+    ],
+    "the binding": [
+      {
+        "end": 58,
+        "start": 56,
+        "type": "NP"
+      }
+    ],
+    "the integrity": [
+      {
+        "end": 18,
+        "start": 16,
+        "type": "NP"
+      }
+    ],
+    "this key": [
+      {
+        "end": 107,
+        "start": 105,
+        "type": "NP"
+      }
+    ],
+    "this property": [
+      {
+        "end": 97,
+        "start": 95,
+        "type": "NP"
+      }
+    ],
+    "{\n    \"type": [
+      {
+        "end": 138,
+        "start": 134,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "1tzjn4w==": [
+      {
+        "end": 177,
+        "start": 176,
+        "type": "CARDINAL"
+      }
+    ],
+    "2016-02-08T16:02:20Z": [
+      {
+        "end": 155,
+        "start": 150,
+        "type": "DATE"
+      }
+    ],
+    "6.3": [
+      {
+        "end": 48,
+        "start": 47,
+        "type": "CARDINAL"
+      }
+    ],
+    "9.2": [
+      {
+        "end": 69,
+        "start": 68,
+        "type": "CARDINAL"
+      }
+    ],
+    "DID": [
+      {
+        "end": 61,
+        "start": 60,
+        "type": "ORG"
+      }
+    ],
+    "JSON-LD": [
+      {
+        "end": 114,
+        "start": 111,
+        "type": "ORG"
+      }
+    ],
+    "Linked Data\nSignatures": [
+      {
+        "end": 123,
+        "start": 119,
+        "type": "ORG"
+      }
+    ],
+    "section 6.4": [
+      {
+        "end": 34,
+        "start": 32,
+        "type": "LAW"
+      }
+    ],
+    "the DID Document": [
+      {
+        "end": 22,
+        "start": 19,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 48,
+        "label": "6.3",
+        "start": 47
+      },
+      {
+        "end": 69,
+        "label": "9.2",
+        "start": 68
+      },
+      {
+        "end": 177,
+        "label": "1tzjn4w==",
+        "start": 176
+      }
+    ],
+    "DATE": [
+      {
+        "end": 155,
+        "label": "2016-02-08T16:02:20Z",
+        "start": 150
+      }
+    ],
+    "LAW": [
+      {
+        "end": 34,
+        "label": "section 6.4",
+        "start": 32
+      }
+    ],
+    "ORG": [
+      {
+        "end": 22,
+        "label": "the DID Document",
+        "start": 19
+      },
+      {
+        "end": 61,
+        "label": "DID",
+        "start": 60
+      },
+      {
+        "end": 114,
+        "label": "JSON-LD",
+        "start": 111
+      },
+      {
+        "end": 123,
+        "label": "Linked Data\nSignatures",
+        "start": 119
+      }
+    ]
+  },
+  "verbs": {
+    "accord": 1,
+    "be": 2,
+    "create": 1,
+    "define": 3,
+    "do": 1,
+    "example:8uqhqmgzwxr8vw5p3uwh1ja#keys-1": 1,
+    "have": 1,
+    "represent": 1,
+    "see": 1
+  }
+}

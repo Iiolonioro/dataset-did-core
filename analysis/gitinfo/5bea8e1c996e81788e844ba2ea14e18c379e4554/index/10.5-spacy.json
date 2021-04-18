@@ -1,0 +1,219 @@
+{
+  "nouns": {
+    "DIDs": [
+      {
+        "end": 42,
+        "start": 40,
+        "type": "NP"
+      }
+    ],
+    "a minimum": [
+      {
+        "end": 96,
+        "start": 94,
+        "type": "NP"
+      }
+    ],
+    "a recognizable flag": [
+      {
+        "end": 34,
+        "start": 31,
+        "type": "NP"
+      }
+    ],
+    "an entity": [
+      {
+        "end": 7,
+        "start": 5,
+        "type": "NP"
+      }
+    ],
+    "anonymity": [
+      {
+        "end": 71,
+        "start": 70,
+        "type": "NP"
+      }
+    ],
+    "another party": [
+      {
+        "end": 28,
+        "start": 26,
+        "type": "NP"
+      }
+    ],
+    "client implementations": [
+      {
+        "end": 89,
+        "start": 87,
+        "type": "NP"
+      }
+    ],
+    "common settings": [
+      {
+        "end": 86,
+        "start": 84,
+        "type": "NP"
+      }
+    ],
+    "digital fingerprints": [
+      {
+        "end": 81,
+        "start": 78,
+        "type": "NP"
+      }
+    ],
+    "encrypted transport layers": [
+      {
+        "end": 104,
+        "start": 101,
+        "type": "NP"
+      }
+    ],
+    "herd privacy": [
+      {
+        "end": 51,
+        "start": 49,
+        "type": "NP"
+      }
+    ],
+    "human interfaces": [
+      {
+        "end": 66,
+        "start": 64,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 59,
+        "start": 58,
+        "type": "NP"
+      }
+    ],
+    "itself": [
+      {
+        "end": 31,
+        "start": 30,
+        "type": "NP"
+      }
+    ],
+    "messages": [
+      {
+        "end": 108,
+        "start": 107,
+        "type": "NP"
+      }
+    ],
+    "methods": [
+      {
+        "end": 45,
+        "start": 44,
+        "type": "NP"
+      }
+    ],
+    "negotiated options": [
+      {
+        "end": 93,
+        "start": 91,
+        "type": "NP"
+      }
+    ],
+    "order": [
+      {
+        "end": 76,
+        "start": 75,
+        "type": "NP"
+      }
+    ],
+    "others": [
+      {
+        "end": 11,
+        "start": 10,
+        "type": "NP"
+      }
+    ],
+    "privacy": [
+      {
+        "end": 16,
+        "start": 15,
+        "type": "NP"
+      },
+      {
+        "end": 36,
+        "start": 35,
+        "type": "NP"
+      }
+    ],
+    "pseudonymity": [
+      {
+        "end": 73,
+        "start": 72,
+        "type": "NP"
+      }
+    ],
+    "standard lengths": [
+      {
+        "end": 111,
+        "start": 109,
+        "type": "NP"
+      }
+    ],
+    "technologies": [
+      {
+        "end": 63,
+        "start": 62,
+        "type": "NP"
+      }
+    ],
+    "the act": [
+      {
+        "end": 22,
+        "start": 20,
+        "type": "NP"
+      }
+    ],
+    "the herd": [
+      {
+        "end": 14,
+        "start": 12,
+        "type": "NP"
+      }
+    ],
+    "who": [
+      {
+        "end": 56,
+        "start": 55,
+        "type": "NP"
+      }
+    ],
+    "wire protocols": [
+      {
+        "end": 99,
+        "start": 97,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {},
+  "types": {},
+  "verbs": {
+    "be": 2,
+    "choose": 1,
+    "default": 1,
+    "diminish": 1,
+    "do": 1,
+    "encrypt": 1,
+    "engage": 1,
+    "improve": 1,
+    "keep": 1,
+    "need": 1,
+    "negotiate": 1,
+    "pad": 1,
+    "preserve": 1,
+    "reduce": 1,
+    "share": 1,
+    "use": 1,
+    "work": 1
+  }
+}

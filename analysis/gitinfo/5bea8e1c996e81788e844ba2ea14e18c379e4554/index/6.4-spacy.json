@@ -1,0 +1,548 @@
+{
+  "nouns": {
+    "\"PseudonymousBiometricTemplate2017": [
+      {
+        "end": 252,
+        "start": 250,
+        "type": "NP"
+      }
+    ],
+    "\"https://example.com/authenticate\"\n    \"biometricTemplateShard": [
+      {
+        "end": 276,
+        "start": 270,
+        "type": "NP"
+      }
+    ],
+    "\"id": [
+      {
+        "end": 203,
+        "start": 199,
+        "type": "NP"
+      }
+    ],
+    "\"owner": [
+      {
+        "end": 257,
+        "start": 254,
+        "type": "NP"
+      },
+      {
+        "end": 324,
+        "start": 321,
+        "type": "NP"
+      }
+    ],
+    ",\n    \"publicKeyPem": [
+      {
+        "end": 335,
+        "start": 331,
+        "type": "NP"
+      }
+    ],
+    ",\n    \"type": [
+      {
+        "end": 248,
+        "start": 244,
+        "type": "NP"
+      }
+    ],
+    "@context": [
+      {
+        "end": 193,
+        "start": 192,
+        "type": "NP"
+      }
+    ],
+    "A DID Document": [
+      {
+        "end": 100,
+        "start": 96,
+        "type": "NP"
+      }
+    ],
+    "A list": [
+      {
+        "end": 160,
+        "start": 158,
+        "type": "NP"
+      }
+    ],
+    "A new key description": [
+      {
+        "end": 174,
+        "start": 170,
+        "type": "NP"
+      }
+    ],
+    "Appendix C.": [
+      {
+        "end": 170,
+        "start": 167,
+        "type": "NP"
+      }
+    ],
+    "Authentication": [
+      {
+        "end": 34,
+        "start": 33,
+        "type": "NP"
+      },
+      {
+        "end": 94,
+        "start": 93,
+        "type": "NP"
+      }
+    ],
+    "Authentication\n\nAuthentication": [
+      {
+        "end": 4,
+        "start": 0,
+        "type": "NP"
+      }
+    ],
+    "Authorization": [
+      {
+        "end": 39,
+        "start": 37,
+        "type": "NP"
+      }
+    ],
+    "Caching": [
+      {
+        "end": 353,
+        "start": 351,
+        "type": "NP"
+      }
+    ],
+    "DID resolvers": [
+      {
+        "end": 373,
+        "start": 371,
+        "type": "NP"
+      }
+    ],
+    "Description": [
+      {
+        "end": 26,
+        "start": 25,
+        "type": "NP"
+      }
+    ],
+    "END PUBLIC KEY-----\\r\\n": [
+      {
+        "end": 345,
+        "start": 342,
+        "type": "NP"
+      }
+    ],
+    "Each proof mechanism": [
+      {
+        "end": 127,
+        "start": 124,
+        "type": "NP"
+      },
+      {
+        "end": 143,
+        "start": 140,
+        "type": "NP"
+      }
+    ],
+    "Example": [
+      {
+        "end": 187,
+        "start": 185,
+        "type": "NP"
+      }
+    ],
+    "PUBLIC KEY": [
+      {
+        "end": 341,
+        "start": 339,
+        "type": "NP"
+      }
+    ],
+    "Section": [
+      {
+        "end": 379,
+        "start": 378,
+        "type": "NP"
+      }
+    ],
+    "The rules": [
+      {
+        "end": 92,
+        "start": 90,
+        "type": "NP"
+      }
+    ],
+    "The value": [
+      {
+        "end": 110,
+        "start": 108,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 22,
+        "start": 20,
+        "type": "NP"
+      }
+    ],
+    "a DID Document\nauthenticationCredential property": [
+      {
+        "end": 365,
+        "start": 359,
+        "type": "NP"
+      }
+    ],
+    "a DID method\nspecification": [
+      {
+        "end": 184,
+        "start": 179,
+        "type": "NP"
+      }
+    ],
+    "a authenticationCredential\nproperty": [
+      {
+        "end": 106,
+        "start": 102,
+        "type": "NP"
+      }
+    ],
+    "a key description": [
+      {
+        "end": 148,
+        "start": 145,
+        "type": "NP"
+      }
+    ],
+    "a valid public key": [
+      {
+        "end": 153,
+        "start": 149,
+        "type": "NP"
+      }
+    ],
+    "an\narray": [
+      {
+        "end": 119,
+        "start": 116,
+        "type": "NP"
+      }
+    ],
+    "an entity": [
+      {
+        "end": 11,
+        "start": 9,
+        "type": "NP"
+      },
+      {
+        "end": 42,
+        "start": 40,
+        "type": "NP"
+      }
+    ],
+    "example": [
+      {
+        "end": 58,
+        "start": 57,
+        "type": "NP"
+      }
+    ],
+    "example:123456789abcdefghi": [
+      {
+        "end": 330,
+        "start": 329,
+        "type": "NP"
+      }
+    ],
+    "example:123456789abcdefghi#keys-1": [
+      {
+        "end": 310,
+        "start": 309,
+        "type": "NP"
+      }
+    ],
+    "expiration": [
+      {
+        "end": 355,
+        "start": 354,
+        "type": "NP"
+      }
+    ],
+    "id": [
+      {
+        "end": 131,
+        "start": 129,
+        "type": "NP"
+      },
+      {
+        "end": 235,
+        "start": 233,
+        "type": "NP"
+      },
+      {
+        "end": 304,
+        "start": 302,
+        "type": "NP"
+      }
+    ],
+    "key recovery": [
+      {
+        "end": 64,
+        "start": 62,
+        "type": "NP"
+      }
+    ],
+    "other clients": [
+      {
+        "end": 376,
+        "start": 374,
+        "type": "NP"
+      }
+    ],
+    "other entities": [
+      {
+        "end": 48,
+        "start": 46,
+        "type": "NP"
+      }
+    ],
+    "owner properties": [
+      {
+        "end": 138,
+        "start": 136,
+        "type": "NP"
+      }
+    ],
+    "ownership": [
+      {
+        "end": 77,
+        "start": 76,
+        "type": "NP"
+      }
+    ],
+    "proof mechanisms": [
+      {
+        "end": 122,
+        "start": 120,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 29,
+        "start": 28,
+        "type": "NP"
+      },
+      {
+        "end": 68,
+        "start": 67,
+        "type": "NP"
+      }
+    ],
+    "standard key descriptions": [
+      {
+        "end": 164,
+        "start": 161,
+        "type": "NP"
+      }
+    ],
+    "the\nresponsibility": [
+      {
+        "end": 370,
+        "start": 367,
+        "type": "NP"
+      }
+    ],
+    "the authenticationCredential property": [
+      {
+        "end": 114,
+        "start": 111,
+        "type": "NP"
+      }
+    ],
+    "the entity": [
+      {
+        "end": 87,
+        "start": 85,
+        "type": "NP"
+      }
+    ],
+    "the keys": [
+      {
+        "end": 358,
+        "start": 356,
+        "type": "NP"
+      }
+    ],
+    "the mechanism": [
+      {
+        "end": 7,
+        "start": 5,
+        "type": "NP"
+      }
+    ],
+    "them": [
+      {
+        "end": 74,
+        "start": 73,
+        "type": "NP"
+      }
+    ],
+    "they": [
+      {
+        "end": 17,
+        "start": 16,
+        "type": "NP"
+      }
+    ],
+    "this biometric": [
+      {
+        "end": 222,
+        "start": 220,
+        "type": "NP"
+      }
+    ],
+    "this key": [
+      {
+        "end": 291,
+        "start": 289,
+        "type": "NP"
+      }
+    ],
+    "type": [
+      {
+        "end": 134,
+        "start": 132,
+        "type": "NP"
+      }
+    ],
+    "verification key": [
+      {
+        "end": 157,
+        "start": 154,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DID": [
+      {
+        "end": 22,
+        "start": 21,
+        "type": "ORG"
+      },
+      {
+        "end": 181,
+        "start": 180,
+        "type": "ORG"
+      },
+      {
+        "end": 229,
+        "start": 228,
+        "type": "ORG"
+      },
+      {
+        "end": 298,
+        "start": 297,
+        "type": "ORG"
+      },
+      {
+        "end": 372,
+        "start": 371,
+        "type": "ORG"
+      }
+    ],
+    "RsaCryptographicKey": [
+      {
+        "end": 319,
+        "start": 318,
+        "type": "WORK_OF_ART"
+      }
+    ],
+    "section 6.5": [
+      {
+        "end": 69,
+        "start": 67,
+        "type": "LAW"
+      }
+    ],
+    "the DID Document\n": [
+      {
+        "end": 55,
+        "start": 51,
+        "type": "LAW"
+      }
+    ]
+  },
+  "types": {
+    "LAW": [
+      {
+        "end": 55,
+        "label": "the DID Document\n",
+        "start": 51
+      },
+      {
+        "end": 69,
+        "label": "section 6.5",
+        "start": 67
+      }
+    ],
+    "ORG": [
+      {
+        "end": 22,
+        "label": "DID",
+        "start": 21
+      },
+      {
+        "end": 181,
+        "label": "DID",
+        "start": 180
+      },
+      {
+        "end": 229,
+        "label": "DID",
+        "start": 228
+      },
+      {
+        "end": 298,
+        "label": "DID",
+        "start": 297
+      },
+      {
+        "end": 372,
+        "label": "DID",
+        "start": 371
+      }
+    ],
+    "WORK_OF_ART": [
+      {
+        "end": 319,
+        "label": "RsaCryptographicKey",
+        "start": 318
+      }
+    ]
+  },
+  "verbs": {
+    "assist": 1,
+    "associate": 1,
+    "authenticate": 2,
+    "be": 3,
+    "define": 1,
+    "discuss": 1,
+    "do": 8,
+    "enable": 2,
+    "fghi": 2,
+    "impersonate": 1,
+    "include": 3,
+    "note": 1,
+    "prove": 2,
+    "see": 2,
+    "update": 1,
+    "use": 2,
+    "wish": 1
+  }
+}

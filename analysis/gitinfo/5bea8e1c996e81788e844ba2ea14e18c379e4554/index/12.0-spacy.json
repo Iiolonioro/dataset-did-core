@@ -1,0 +1,604 @@
+{
+  "nouns": {
+    "(UUID": [
+      {
+        "end": 210,
+        "start": 208,
+        "type": "NP"
+      }
+    ],
+    "(XSD": [
+      {
+        "end": 261,
+        "start": 259,
+        "type": "NP"
+      }
+    ],
+    "ABNF": [
+      {
+        "end": 13,
+        "start": 12,
+        "type": "NP"
+      }
+    ],
+    "Applicability": [
+      {
+        "end": 144,
+        "start": 143,
+        "type": "NP"
+      }
+    ],
+    "Augmented BNF": [
+      {
+        "end": 8,
+        "start": 6,
+        "type": "NP"
+      }
+    ],
+    "Blockchain Technology": [
+      {
+        "end": 147,
+        "start": 145,
+        "type": "NP"
+      }
+    ],
+    "Datatypes": [
+      {
+        "end": 268,
+        "start": 267,
+        "type": "NP"
+      }
+    ],
+    "Definition Language": [
+      {
+        "end": 259,
+        "start": 257,
+        "type": "NP"
+      }
+    ],
+    "Guidelines": [
+      {
+        "end": 83,
+        "start": 82,
+        "type": "NP"
+      }
+    ],
+    "Internationalized Resource Identifiers": [
+      {
+        "end": 27,
+        "start": 24,
+        "type": "NP"
+      }
+    ],
+    "Internet Protocols": [
+      {
+        "end": 107,
+        "start": 105,
+        "type": "NP"
+      }
+    ],
+    "JSON": [
+      {
+        "end": 44,
+        "start": 43,
+        "type": "NP"
+      }
+    ],
+    "JSON-LD": [
+      {
+        "end": 59,
+        "start": 56,
+        "type": "NP"
+      }
+    ],
+    "OASIS XDI": [
+      {
+        "end": 240,
+        "start": 238,
+        "type": "NP"
+      }
+    ],
+    "Part": [
+      {
+        "end": 265,
+        "start": 264,
+        "type": "NP"
+      }
+    ],
+    "Privacy\n        Respecting Identity Management": [
+      {
+        "end": 153,
+        "start": 148,
+        "type": "NP"
+      }
+    ],
+    "Privacy Considerations": [
+      {
+        "end": 104,
+        "start": 102,
+        "type": "NP"
+      }
+    ],
+    "RFC": [
+      {
+        "end": 16,
+        "start": 15,
+        "type": "NP"
+      },
+      {
+        "end": 30,
+        "start": 29,
+        "type": "NP"
+      },
+      {
+        "end": 93,
+        "start": 92,
+        "type": "NP"
+      },
+      {
+        "end": 110,
+        "start": 109,
+        "type": "NP"
+      },
+      {
+        "end": 133,
+        "start": 132,
+        "type": "NP"
+      },
+      {
+        "end": 178,
+        "start": 177,
+        "type": "NP"
+      },
+      {
+        "end": 196,
+        "start": 195,
+        "type": "NP"
+      },
+      {
+        "end": 216,
+        "start": 215,
+        "type": "NP"
+      }
+    ],
+    "RFC Text": [
+      {
+        "end": 87,
+        "start": 85,
+        "type": "NP"
+      }
+    ],
+    "RFCs": [
+      {
+        "end": 126,
+        "start": 125,
+        "type": "NP"
+      }
+    ],
+    "Requirement Levels": [
+      {
+        "end": 130,
+        "start": 128,
+        "type": "NP"
+      }
+    ],
+    "Security Considerations": [
+      {
+        "end": 90,
+        "start": 88,
+        "type": "NP"
+      }
+    ],
+    "Syntax": [
+      {
+        "end": 193,
+        "start": 192,
+        "type": "NP"
+      }
+    ],
+    "Syntax Specifications": [
+      {
+        "end": 11,
+        "start": 9,
+        "type": "NP"
+      }
+    ],
+    "The JavaScript Object Notation": [
+      {
+        "end": 42,
+        "start": 38,
+        "type": "NP"
+      }
+    ],
+    "U.S Department of Homeland\n        Security Small Business Innovation Research Grant": [
+      {
+        "end": 165,
+        "start": 154,
+        "type": "NP"
+      }
+    ],
+    "Uniform Resource Name": [
+      {
+        "end": 191,
+        "start": 188,
+        "type": "NP"
+      }
+    ],
+    "W3C Recommendation": [
+      {
+        "end": 271,
+        "start": 269,
+        "type": "NP"
+      }
+    ],
+    "W3C Verifiable Claims Working Group": [
+      {
+        "end": 229,
+        "start": 224,
+        "type": "NP"
+      }
+    ],
+    "[ABNF": [
+      {
+        "end": 5,
+        "start": 3,
+        "type": "NP"
+      }
+    ],
+    "[JSON-LD": [
+      {
+        "end": 55,
+        "start": 51,
+        "type": "NP"
+      }
+    ],
+    "[LINKED-DATA-SIGNATURES] Draft Community Group Report\n        https://w3c-dvcg.github.io/ld-signatures/": [
+      {
+        "end": 77,
+        "start": 64,
+        "type": "NP"
+      }
+    ],
+    "[RFC": [
+      {
+        "end": 80,
+        "start": 78,
+        "type": "NP"
+      },
+      {
+        "end": 100,
+        "start": 98,
+        "type": "NP"
+      }
+    ],
+    "[RFC-KEYWORDS] Key words": [
+      {
+        "end": 122,
+        "start": 115,
+        "type": "NP"
+      }
+    ],
+    "[SBIR-TOPIC": [
+      {
+        "end": 142,
+        "start": 138,
+        "type": "NP"
+      }
+    ],
+    "[URI] Uniform Resource Identifiers": [
+      {
+        "end": 175,
+        "start": 169,
+        "type": "NP"
+      }
+    ],
+    "[URN] URN": [
+      {
+        "end": 187,
+        "start": 183,
+        "type": "NP"
+      }
+    ],
+    "[VCWG": [
+      {
+        "end": 223,
+        "start": 221,
+        "type": "NP"
+      }
+    ],
+    "[XDI-CORE": [
+      {
+        "end": 237,
+        "start": 233,
+        "type": "NP"
+      }
+    ],
+    "[XML-DATETIME] W3C XML Schema": [
+      {
+        "end": 257,
+        "start": 249,
+        "type": "NP"
+      }
+    ],
+    "https://tools.ietf.org/html/rfc6973": [
+      {
+        "end": 114,
+        "start": 112,
+        "type": "NP"
+      }
+    ],
+    "https://www.ietf.org/rfc/rfc3986.txt": [
+      {
+        "end": 182,
+        "start": 180,
+        "type": "NP"
+      }
+    ],
+    "use": [
+      {
+        "end": 124,
+        "start": 123,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "1.0": [
+      {
+        "end": 242,
+        "start": 241,
+        "type": "CARDINAL"
+      }
+    ],
+    "1.1": [
+      {
+        "end": 263,
+        "start": 262,
+        "type": "CARDINAL"
+      }
+    ],
+    "2": [
+      {
+        "end": 266,
+        "start": 265,
+        "type": "CARDINAL"
+      }
+    ],
+    "3552": [
+      {
+        "end": 94,
+        "start": 93,
+        "type": "CARDINAL"
+      }
+    ],
+    "4122": [
+      {
+        "end": 217,
+        "start": 216,
+        "type": "CARDINAL"
+      }
+    ],
+    "Datatypes": [
+      {
+        "end": 268,
+        "start": 267,
+        "type": "ORG"
+      }
+    ],
+    "Indicate Requirement Levels": [
+      {
+        "end": 130,
+        "start": 127,
+        "type": "ORG"
+      }
+    ],
+    "Internationalized Resource Identifiers": [
+      {
+        "end": 27,
+        "start": 24,
+        "type": "ORG"
+      }
+    ],
+    "JSON-LD": [
+      {
+        "end": 55,
+        "start": 52,
+        "type": "ORG"
+      }
+    ],
+    "Specification Working Draft": [
+      {
+        "end": 245,
+        "start": 242,
+        "type": "PERSON"
+      }
+    ],
+    "Syntax": [
+      {
+        "end": 193,
+        "start": 192,
+        "type": "ORG"
+      }
+    ],
+    "Syntax Specifications": [
+      {
+        "end": 11,
+        "start": 9,
+        "type": "ORG"
+      }
+    ],
+    "U.S Department": [
+      {
+        "end": 156,
+        "start": 154,
+        "type": "ORG"
+      }
+    ],
+    "URN": [
+      {
+        "end": 187,
+        "start": 186,
+        "type": "GPE"
+      }
+    ],
+    "URN Namespace": [
+      {
+        "end": 213,
+        "start": 211,
+        "type": "PERSON"
+      }
+    ],
+    "UUID": [
+      {
+        "end": 210,
+        "start": 209,
+        "type": "ORG"
+      }
+    ],
+    "Uniform Resource Identifiers": [
+      {
+        "end": 175,
+        "start": 172,
+        "type": "ORG"
+      }
+    ],
+    "Uniform Resource Name": [
+      {
+        "end": 191,
+        "start": 188,
+        "type": "ORG"
+      }
+    ],
+    "Verifiable Claims Working Group": [
+      {
+        "end": 229,
+        "start": 225,
+        "type": "ORG"
+      }
+    ],
+    "https://tools.ietf.org/html/rfc3552": [
+      {
+        "end": 97,
+        "start": 96,
+        "type": "PERSON"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 94,
+        "label": "3552",
+        "start": 93
+      },
+      {
+        "end": 217,
+        "label": "4122",
+        "start": 216
+      },
+      {
+        "end": 242,
+        "label": "1.0",
+        "start": 241
+      },
+      {
+        "end": 263,
+        "label": "1.1",
+        "start": 262
+      },
+      {
+        "end": 266,
+        "label": "2",
+        "start": 265
+      }
+    ],
+    "GPE": [
+      {
+        "end": 187,
+        "label": "URN",
+        "start": 186
+      }
+    ],
+    "ORG": [
+      {
+        "end": 11,
+        "label": "Syntax Specifications",
+        "start": 9
+      },
+      {
+        "end": 27,
+        "label": "Internationalized Resource Identifiers",
+        "start": 24
+      },
+      {
+        "end": 55,
+        "label": "JSON-LD",
+        "start": 52
+      },
+      {
+        "end": 130,
+        "label": "Indicate Requirement Levels",
+        "start": 127
+      },
+      {
+        "end": 156,
+        "label": "U.S Department",
+        "start": 154
+      },
+      {
+        "end": 175,
+        "label": "Uniform Resource Identifiers",
+        "start": 172
+      },
+      {
+        "end": 191,
+        "label": "Uniform Resource Name",
+        "start": 188
+      },
+      {
+        "end": 193,
+        "label": "Syntax",
+        "start": 192
+      },
+      {
+        "end": 210,
+        "label": "UUID",
+        "start": 209
+      },
+      {
+        "end": 229,
+        "label": "Verifiable Claims Working Group",
+        "start": 225
+      },
+      {
+        "end": 268,
+        "label": "Datatypes",
+        "start": 267
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 97,
+        "label": "https://tools.ietf.org/html/rfc3552",
+        "start": 96
+      },
+      {
+        "end": 213,
+        "label": "URN Namespace",
+        "start": 211
+      },
+      {
+        "end": 245,
+        "label": "Specification Working Draft",
+        "start": 242
+      }
+    ]
+  },
+  "verbs": {
+    "IETF": 8,
+    "http://www.w3.org/TR/json-ld/": 1,
+    "https://tools.ietf.org/rfc/rfc2141.txt": 1,
+    "https://www.w3.org/TR/xmlschema11-2/": 1,
+    "write": 1
+  }
+}

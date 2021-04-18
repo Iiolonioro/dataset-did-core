@@ -1,0 +1,34 @@
+commit 2e285d5e5b3500cbfc2fab84b3e1ebfb6b877d00
+tree 8790919c38fb9e5cdc425c05e2e3732f2d7a3ef8
+parent 580ec49307b45e15dde18882e42674545c6d8d57
+author Manu Sporny <msporny@digitalbazaar.com> 1499628197 -0400
+committer Manu Sporny <msporny@digitalbazaar.com> 1499628197 -0400
+
+    Add DHS S&T acknowledgement as requested by @talltree.
+
+diff --git a/index.html b/index.html
+index e9b4c77..82b21dc 100644
+--- a/index.html
++++ b/index.html
+@@ -117,6 +117,21 @@ or send them to
+ (<a href="mailto:public-credentials-request@w3.org?subject=subscribe">subscribe</a>,
+ <a href="https://lists.w3.org/Archives/Public/public-credentials/">archives</a>).
+ </p>
++
++<p>
++Work on this specification has been funded in part by the United States
++Department of Homeland Security's Science and Technology Directorate under
++contract HSHQDC-16-R00012-H-SB2016-1-002. The content of this specification
++does not necessarily reflect the position or the policy of the U.S.
++Government and no official endorsement should be inferred.
++</p>
++
++<p>
++Work on this specification has also been supported by the Rebooting the
++Web of Trust group facilitated by Christopher Allen, Brian Weller,
++Kiara Robles, and Shannon Appelcline.
++</p>
++
+ </section>
+ 
+ <section>

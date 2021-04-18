@@ -1,0 +1,293 @@
+{
+  "nouns": {
+    "-Ledger": [
+      {
+        "end": 12,
+        "start": 10,
+        "type": "NP"
+      }
+    ],
+    "All PII": [
+      {
+        "end": 50,
+        "start": 48,
+        "type": "NP"
+      }
+    ],
+    "DID records": [
+      {
+        "end": 97,
+        "start": 95,
+        "type": "NP"
+      }
+    ],
+    "Documents": [
+      {
+        "end": 32,
+        "start": 31,
+        "type": "NP"
+      },
+      {
+        "end": 44,
+        "start": 43,
+        "type": "NP"
+      }
+    ],
+    "Off": [
+      {
+        "end": 10,
+        "start": 9,
+        "type": "NP"
+      }
+    ],
+    "PII": [
+      {
+        "end": 8,
+        "start": 7,
+        "type": "NP"
+      },
+      {
+        "end": 72,
+        "start": 71,
+        "type": "NP"
+      }
+    ],
+    "Personally-Identifiable Information": [
+      {
+        "end": 6,
+        "start": 2,
+        "type": "NP"
+      }
+    ],
+    "STRONGLY RECOMMENDED": [
+      {
+        "end": 41,
+        "start": 39,
+        "type": "NP"
+      }
+    ],
+    "a DID method specification": [
+      {
+        "end": 18,
+        "start": 14,
+        "type": "NP"
+      }
+    ],
+    "a public ledger": [
+      {
+        "end": 24,
+        "start": 21,
+        "type": "NP"
+      }
+    ],
+    "all DIDs": [
+      {
+        "end": 29,
+        "start": 27,
+        "type": "NP"
+      }
+    ],
+    "an immutable ledger": [
+      {
+        "end": 127,
+        "start": 124,
+        "type": "NP"
+      }
+    ],
+    "communications channels": [
+      {
+        "end": 88,
+        "start": 86,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 38,
+        "start": 37,
+        "type": "NP"
+      }
+    ],
+    "key descriptions": [
+      {
+        "end": 94,
+        "start": 92,
+        "type": "NP"
+      }
+    ],
+    "network": [
+      {
+        "end": 26,
+        "start": 25,
+        "type": "NP"
+      }
+    ],
+    "no PII": [
+      {
+        "end": 47,
+        "start": 45,
+        "type": "NP"
+      },
+      {
+        "end": 120,
+        "start": 118,
+        "type": "NP"
+      }
+    ],
+    "off-ledger": [
+      {
+        "end": 56,
+        "start": 53,
+        "type": "NP"
+      }
+    ],
+    "peer": [
+      {
+        "end": 84,
+        "start": 83,
+        "type": "NP"
+      }
+    ],
+    "relying parties": [
+      {
+        "end": 105,
+        "start": 103,
+        "type": "NP"
+      }
+    ],
+    "service endpoints": [
+      {
+        "end": 59,
+        "start": 57,
+        "type": "NP"
+      }
+    ],
+    "the\n        GDPR\nright": [
+      {
+        "end": 112,
+        "start": 107,
+        "type": "NP"
+      }
+    ],
+    "the control": [
+      {
+        "end": 62,
+        "start": 60,
+        "type": "NP"
+      }
+    ],
+    "the entity": [
+      {
+        "end": 65,
+        "start": 63,
+        "type": "NP"
+      }
+    ],
+    "this privacy architecture": [
+      {
+        "end": 70,
+        "start": 67,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DID": [
+      {
+        "end": 16,
+        "start": 15,
+        "type": "ORG"
+      },
+      {
+        "end": 96,
+        "start": 95,
+        "type": "ORG"
+      }
+    ],
+    "DID Documents": [
+      {
+        "end": 32,
+        "start": 30,
+        "type": "ORG"
+      },
+      {
+        "end": 44,
+        "start": 42,
+        "type": "ORG"
+      }
+    ],
+    "PII": [
+      {
+        "end": 47,
+        "start": 46,
+        "type": "PERSON"
+      },
+      {
+        "end": 72,
+        "start": 71,
+        "type": "ORG"
+      },
+      {
+        "end": 120,
+        "start": 119,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "ORG": [
+      {
+        "end": 16,
+        "label": "DID",
+        "start": 15
+      },
+      {
+        "end": 32,
+        "label": "DID Documents",
+        "start": 30
+      },
+      {
+        "end": 44,
+        "label": "DID Documents",
+        "start": 42
+      },
+      {
+        "end": 72,
+        "label": "PII",
+        "start": 71
+      },
+      {
+        "end": 96,
+        "label": "DID",
+        "start": 95
+      },
+      {
+        "end": 120,
+        "label": "PII",
+        "start": 119
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 47,
+        "label": "PII",
+        "start": 46
+      }
+    ]
+  },
+  "verbs": {
+    "be": 1,
+    "contain": 1,
+    "do": 1,
+    "enable": 1,
+    "exchange": 1,
+    "forget": 1,
+    "identify": 1,
+    "implement": 1,
+    "keep": 2,
+    "rely": 1,
+    "secure": 1,
+    "use": 1,
+    "write": 2
+  }
+}

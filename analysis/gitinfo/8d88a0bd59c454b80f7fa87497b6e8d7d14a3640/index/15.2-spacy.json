@@ -1,0 +1,131 @@
+{
+  "nouns": {
+    "\"curve": [
+      {
+        "end": 48,
+        "start": 45,
+        "type": "NP"
+      }
+    ],
+    "\"id": [
+      {
+        "end": 9,
+        "start": 6,
+        "type": "NP"
+      }
+    ],
+    "\"publicKeyBase64": [
+      {
+        "end": 70,
+        "start": 67,
+        "type": "NP"
+      }
+    ],
+    "\"type": [
+      {
+        "end": 22,
+        "start": 19,
+        "type": "NP"
+      }
+    ],
+    "2017-02-08T16:02:20Z": [
+      {
+        "end": 65,
+        "start": 60,
+        "type": "NP"
+      }
+    ],
+    "CBMq2/gi25s=": [
+      {
+        "end": 78,
+        "start": 75,
+        "type": "NP"
+      }
+    ],
+    "EdDSA Keys": [
+      {
+        "end": 3,
+        "start": 1,
+        "type": "NP"
+      }
+    ],
+    "EdDsaSAKey": [
+      {
+        "end": 31,
+        "start": 30,
+        "type": "NP"
+      }
+    ],
+    "[\"CryptographicKey": [
+      {
+        "end": 27,
+        "start": 24,
+        "type": "NP"
+      }
+    ],
+    "ed25519": [
+      {
+        "end": 52,
+        "start": 51,
+        "type": "NP"
+      }
+    ],
+    "example:123456789abcdefghi": [
+      {
+        "end": 43,
+        "start": 42,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "2017-02-08T16:02:20Z": [
+      {
+        "end": 65,
+        "start": 60,
+        "type": "DATE"
+      }
+    ],
+    "CryptographicKey": [
+      {
+        "end": 27,
+        "start": 26,
+        "type": "ORG"
+      }
+    ],
+    "EdDSA Keys": [
+      {
+        "end": 3,
+        "start": 1,
+        "type": "PERSON"
+      }
+    ]
+  },
+  "types": {
+    "DATE": [
+      {
+        "end": 65,
+        "label": "2017-02-08T16:02:20Z",
+        "start": 60
+      }
+    ],
+    "ORG": [
+      {
+        "end": 27,
+        "label": "CryptographicKey",
+        "start": 26
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 3,
+        "label": "EdDSA Keys",
+        "start": 1
+      }
+    ]
+  },
+  "verbs": {
+    "do": 2,
+    "expire": 1
+  }
+}

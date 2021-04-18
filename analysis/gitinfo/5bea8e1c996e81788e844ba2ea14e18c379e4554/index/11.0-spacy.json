@@ -1,0 +1,1512 @@
+{
+  "nouns": {
+    "\"median time": [
+      {
+        "end": 318,
+        "start": 315,
+        "type": "NP"
+      }
+    ],
+    "A future version": [
+      {
+        "end": 93,
+        "start": 90,
+        "type": "NP"
+      }
+    ],
+    "A generic DID Document timestamping mechanism": [
+      {
+        "end": 339,
+        "start": 333,
+        "type": "NP"
+      }
+    ],
+    "A potential future solution": [
+      {
+        "end": 538,
+        "start": 534,
+        "type": "NP"
+      }
+    ],
+    "Alternate Serializations": [
+      {
+        "end": 636,
+        "start": 633,
+        "type": "NP"
+      }
+    ],
+    "Authorization": [
+      {
+        "end": 431,
+        "start": 430,
+        "type": "NP"
+      }
+    ],
+    "Bitcoin BIP": [
+      {
+        "end": 324,
+        "start": 322,
+        "type": "NP"
+      }
+    ],
+    "Clients": [
+      {
+        "end": 48,
+        "start": 47,
+        "type": "NP"
+      }
+    ],
+    "DID": [
+      {
+        "end": 389,
+        "start": 388,
+        "type": "NP"
+      }
+    ],
+    "DID Document": [
+      {
+        "end": 297,
+        "start": 295,
+        "type": "NP"
+      },
+      {
+        "end": 619,
+        "start": 617,
+        "type": "NP"
+      }
+    ],
+    "DID Documents": [
+      {
+        "end": 123,
+        "start": 121,
+        "type": "NP"
+      },
+      {
+        "end": 227,
+        "start": 225,
+        "type": "NP"
+      }
+    ],
+    "DID character length": [
+      {
+        "end": 104,
+        "start": 101,
+        "type": "NP"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 50,
+        "start": 49,
+        "type": "NP"
+      },
+      {
+        "end": 85,
+        "start": 84,
+        "type": "NP"
+      },
+      {
+        "end": 130,
+        "start": 129,
+        "type": "NP"
+      },
+      {
+        "end": 566,
+        "start": 565,
+        "type": "NP"
+      },
+      {
+        "end": 616,
+        "start": 615,
+        "type": "NP"
+      }
+    ],
+    "DLTs": [
+      {
+        "end": 260,
+        "start": 259,
+        "type": "NP"
+      }
+    ],
+    "Document Recovery\n\n\n\n      Section": [
+      {
+        "end": 393,
+        "start": 389,
+        "type": "NP"
+      }
+    ],
+    "Documents": [
+      {
+        "end": 569,
+        "start": 568,
+        "type": "NP"
+      }
+    ],
+    "Equivalence": [
+      {
+        "end": 196,
+        "start": 194,
+        "type": "NP"
+      }
+    ],
+    "Future Work": [
+      {
+        "end": 3,
+        "start": 0,
+        "type": "NP"
+      }
+    ],
+    "Future versions": [
+      {
+        "end": 606,
+        "start": 604,
+        "type": "NP"
+      },
+      {
+        "end": 663,
+        "start": 661,
+        "type": "NP"
+      }
+    ],
+    "Graph Models": [
+      {
+        "end": 639,
+        "start": 637,
+        "type": "NP"
+      }
+    ],
+    "JSON XDI Data": [
+      {
+        "end": 684,
+        "start": 681,
+        "type": "NP"
+      }
+    ],
+    "JSON-LD": [
+      {
+        "end": 650,
+        "start": 647,
+        "type": "NP"
+      }
+    ],
+    "JXD": [
+      {
+        "end": 680,
+        "start": 679,
+        "type": "NP"
+      }
+    ],
+    "Not all DLTs": [
+      {
+        "end": 505,
+        "start": 502,
+        "type": "NP"
+      }
+    ],
+    "QR codes": [
+      {
+        "end": 40,
+        "start": 38,
+        "type": "NP"
+      }
+    ],
+    "The current specification": [
+      {
+        "end": 14,
+        "start": 11,
+        "type": "NP"
+      }
+    ],
+    "The generic mechanism": [
+      {
+        "end": 362,
+        "start": 359,
+        "type": "NP"
+      }
+    ],
+    "The maximum interoperable URL length": [
+      {
+        "end": 31,
+        "start": 26,
+        "type": "NP"
+      }
+    ],
+    "The rest": [
+      {
+        "end": 589,
+        "start": 587,
+        "type": "NP"
+      }
+    ],
+    "The technique": [
+      {
+        "end": 415,
+        "start": 413,
+        "type": "NP"
+      }
+    ],
+    "This capability": [
+      {
+        "end": 147,
+        "start": 145,
+        "type": "NP"
+      }
+    ],
+    "This protection": [
+      {
+        "end": 449,
+        "start": 447,
+        "type": "NP"
+      }
+    ],
+    "This version": [
+      {
+        "end": 642,
+        "start": 640,
+        "type": "NP"
+      }
+    ],
+    "Time Locks": [
+      {
+        "end": 387,
+        "start": 384,
+        "type": "NP"
+      }
+    ],
+    "Upper Limits": [
+      {
+        "end": 6,
+        "start": 4,
+        "type": "NP"
+      }
+    ],
+    "Verifiable timestamps": [
+      {
+        "end": 246,
+        "start": 244,
+        "type": "NP"
+      }
+    ],
+    "We": [
+      {
+        "end": 483,
+        "start": 482,
+        "type": "NP"
+      }
+    ],
+    "a\n        Smart Signature\n       specification": [
+      {
+        "end": 545,
+        "start": 539,
+        "type": "NP"
+      }
+    ],
+    "a\n        time lock": [
+      {
+        "end": 456,
+        "start": 452,
+        "type": "NP"
+      }
+    ],
+    "a Authorization block": [
+      {
+        "end": 475,
+        "start": 472,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 25,
+        "start": 23,
+        "type": "NP"
+      },
+      {
+        "end": 408,
+        "start": 406,
+        "type": "NP"
+      }
+    ],
+    "a DID Document": [
+      {
+        "end": 429,
+        "start": 426,
+        "type": "NP"
+      },
+      {
+        "end": 660,
+        "start": 657,
+        "type": "NP"
+      },
+      {
+        "end": 676,
+        "start": 673,
+        "type": "NP"
+      }
+    ],
+    "a DLT's immediate timing": [
+      {
+        "end": 307,
+        "start": 302,
+        "type": "NP"
+      }
+    ],
+    "a foundation": [
+      {
+        "end": 572,
+        "start": 570,
+        "type": "NP"
+      }
+    ],
+    "a future version": [
+      {
+        "end": 237,
+        "start": 234,
+        "type": "NP"
+      },
+      {
+        "end": 380,
+        "start": 377,
+        "type": "NP"
+      },
+      {
+        "end": 494,
+        "start": 491,
+        "type": "NP"
+      }
+    ],
+    "a good fit": [
+      {
+        "end": 258,
+        "start": 255,
+        "type": "NP"
+      }
+    ],
+    "a key compromise": [
+      {
+        "end": 412,
+        "start": 409,
+        "type": "NP"
+      }
+    ],
+    "a mechanism": [
+      {
+        "end": 351,
+        "start": 349,
+        "type": "NP"
+      }
+    ],
+    "a position": [
+      {
+        "end": 19,
+        "start": 17,
+        "type": "NP"
+      }
+    ],
+    "a serialization format": [
+      {
+        "end": 689,
+        "start": 686,
+        "type": "NP"
+      }
+    ],
+    "about 2K characters": [
+      {
+        "end": 37,
+        "start": 33,
+        "type": "NP"
+      }
+    ],
+    "about 4K characters": [
+      {
+        "end": 46,
+        "start": 42,
+        "type": "NP"
+      }
+    ],
+    "all Authorization logic": [
+      {
+        "end": 526,
+        "start": 523,
+        "type": "NP"
+      }
+    ],
+    "all DLTs": [
+      {
+        "end": 345,
+        "start": 343,
+        "type": "NP"
+      }
+    ],
+    "an ability": [
+      {
+        "end": 419,
+        "start": 417,
+        "type": "NP"
+      }
+    ],
+    "an array": [
+      {
+        "end": 128,
+        "start": 126,
+        "type": "NP"
+      }
+    ],
+    "an earlier version": [
+      {
+        "end": 436,
+        "start": 433,
+        "type": "NP"
+      }
+    ],
+    "an entity": [
+      {
+        "end": 586,
+        "start": 584,
+        "type": "NP"
+      }
+    ],
+    "an equivalence property": [
+      {
+        "end": 115,
+        "start": 112,
+        "type": "NP"
+      }
+    ],
+    "any conformant DLT": [
+      {
+        "end": 552,
+        "start": 549,
+        "type": "NP"
+      }
+    ],
+    "clients": [
+      {
+        "end": 72,
+        "start": 71,
+        "type": "NP"
+      }
+    ],
+    "compatibility": [
+      {
+        "end": 160,
+        "start": 159,
+        "type": "NP"
+      }
+    ],
+    "control": [
+      {
+        "end": 405,
+        "start": 404,
+        "type": "NP"
+      },
+      {
+        "end": 481,
+        "start": 480,
+        "type": "NP"
+      }
+    ],
+    "decentralized identity": [
+      {
+        "end": 575,
+        "start": 573,
+        "type": "NP"
+      }
+    ],
+    "different DID methods": [
+      {
+        "end": 217,
+        "start": 214,
+        "type": "NP"
+      }
+    ],
+    "different DLTs": [
+      {
+        "end": 213,
+        "start": 211,
+        "type": "NP"
+      }
+    ],
+    "either individual transactions": [
+      {
+        "end": 355,
+        "start": 352,
+        "type": "NP"
+      }
+    ],
+    "equivID": [
+      {
+        "end": 119,
+        "start": 118,
+        "type": "NP"
+      }
+    ],
+    "equivalence": [
+      {
+        "end": 230,
+        "start": 229,
+        "type": "NP"
+      }
+    ],
+    "equivalent DIDs": [
+      {
+        "end": 172,
+        "start": 170,
+        "type": "NP"
+      },
+      {
+        "end": 193,
+        "start": 191,
+        "type": "NP"
+      }
+    ],
+    "existing DIDs": [
+      {
+        "end": 163,
+        "start": 161,
+        "type": "NP"
+      }
+    ],
+    "externalities": [
+      {
+        "end": 107,
+        "start": 106,
+        "type": "NP"
+      }
+    ],
+    "future DLTs": [
+      {
+        "end": 166,
+        "start": 164,
+        "type": "NP"
+      }
+    ],
+    "identity records": [
+      {
+        "end": 252,
+        "start": 250,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 373,
+        "start": 372,
+        "type": "NP"
+      }
+    ],
+    "ledgers": [
+      {
+        "end": 156,
+        "start": 155,
+        "type": "NP"
+      }
+    ],
+    "many DIDs": [
+      {
+        "end": 57,
+        "start": 55,
+        "type": "NP"
+      }
+    ],
+    "maximum length": [
+      {
+        "end": 22,
+        "start": 20,
+        "type": "NP"
+      }
+    ],
+    "migration": [
+      {
+        "end": 154,
+        "start": 153,
+        "type": "NP"
+      }
+    ],
+    "more complicated signature schemes": [
+      {
+        "end": 79,
+        "start": 75,
+        "type": "NP"
+      }
+    ],
+    "more detail": [
+      {
+        "end": 614,
+        "start": 612,
+        "type": "NP"
+      }
+    ],
+    "numerous uses": [
+      {
+        "end": 150,
+        "start": 148,
+        "type": "NP"
+      }
+    ],
+    "one possible clever use": [
+      {
+        "end": 399,
+        "start": 395,
+        "type": "NP"
+      }
+    ],
+    "only the first step": [
+      {
+        "end": 582,
+        "start": 578,
+        "type": "NP"
+      }
+    ],
+    "order": [
+      {
+        "end": 442,
+        "start": 441,
+        "type": "NP"
+      }
+    ],
+    "other semantic graph formats": [
+      {
+        "end": 672,
+        "start": 668,
+        "type": "NP"
+      }
+    ],
+    "part": [
+      {
+        "end": 466,
+        "start": 465,
+        "type": "NP"
+      }
+    ],
+    "properties": [
+      {
+        "end": 223,
+        "start": 222,
+        "type": "NP"
+      }
+    ],
+    "reasonable limits": [
+      {
+        "end": 100,
+        "start": 98,
+        "type": "NP"
+      }
+    ],
+    "scope": [
+      {
+        "end": 367,
+        "start": 366,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 512,
+        "start": 511,
+        "type": "NP"
+      }
+    ],
+    "signature control logic": [
+      {
+        "end": 559,
+        "start": 556,
+        "type": "NP"
+      }
+    ],
+    "significant utility": [
+      {
+        "end": 249,
+        "start": 247,
+        "type": "NP"
+      }
+    ],
+    "some cases": [
+      {
+        "end": 302,
+        "start": 300,
+        "type": "NP"
+      }
+    ],
+    "some methods": [
+      {
+        "end": 61,
+        "start": 59,
+        "type": "NP"
+      }
+    ],
+    "some transactional cost": [
+      {
+        "end": 274,
+        "start": 271,
+        "type": "NP"
+      }
+    ],
+    "some type": [
+      {
+        "end": 266,
+        "start": 264,
+        "type": "NP"
+      }
+    ],
+    "specifications": [
+      {
+        "end": 533,
+        "start": 532,
+        "type": "NP"
+      }
+    ],
+    "state": [
+      {
+        "end": 83,
+        "start": 82,
+        "type": "NP"
+      }
+    ],
+    "support": [
+      {
+        "end": 487,
+        "start": 486,
+        "type": "NP"
+      }
+    ],
+    "systems": [
+      {
+        "end": 285,
+        "start": 284,
+        "type": "NP"
+      }
+    ],
+    "temporary use": [
+      {
+        "end": 89,
+        "start": 87,
+        "type": "NP"
+      }
+    ],
+    "the\n        OASIS XDI Core 1.0 specification": [
+      {
+        "end": 704,
+        "start": 697,
+        "type": "NP"
+      }
+    ],
+    "the Authorization logic": [
+      {
+        "end": 510,
+        "start": 507,
+        "type": "NP"
+      }
+    ],
+    "the DID Document": [
+      {
+        "end": 440,
+        "start": 437,
+        "type": "NP"
+      }
+    ],
+    "the RDF graph model": [
+      {
+        "end": 655,
+        "start": 651,
+        "type": "NP"
+      }
+    ],
+    "the XDI graph model": [
+      {
+        "end": 694,
+        "start": 690,
+        "type": "NP"
+      }
+    ],
+    "the attacker": [
+      {
+        "end": 446,
+        "start": 444,
+        "type": "NP"
+      }
+    ],
+    "the code": [
+      {
+        "end": 549,
+        "start": 547,
+        "type": "NP"
+      }
+    ],
+    "the complexity": [
+      {
+        "end": 207,
+        "start": 205,
+        "type": "NP"
+      }
+    ],
+    "the current specification": [
+      {
+        "end": 203,
+        "start": 200,
+        "type": "NP"
+      }
+    ],
+    "the descriptive power": [
+      {
+        "end": 593,
+        "start": 590,
+        "type": "NP"
+      }
+    ],
+    "the most recent update": [
+      {
+        "end": 425,
+        "start": 421,
+        "type": "NP"
+      }
+    ],
+    "the same entity": [
+      {
+        "end": 144,
+        "start": 141,
+        "type": "NP"
+      }
+    ],
+    "the same identity rights": [
+      {
+        "end": 178,
+        "start": 174,
+        "type": "NP"
+      }
+    ],
+    "the specification": [
+      {
+        "end": 522,
+        "start": 520,
+        "type": "NP"
+      },
+      {
+        "end": 609,
+        "start": 607,
+        "type": "NP"
+      },
+      {
+        "end": 645,
+        "start": 643,
+        "type": "NP"
+      }
+    ],
+    "the transaction chain": [
+      {
+        "end": 470,
+        "start": 467,
+        "type": "NP"
+      }
+    ],
+    "the verifiable claims ecosystem": [
+      {
+        "end": 632,
+        "start": 628,
+        "type": "NP"
+      }
+    ],
+    "the world": [
+      {
+        "end": 288,
+        "start": 286,
+        "type": "NP"
+      }
+    ],
+    "their costs": [
+      {
+        "end": 70,
+        "start": 68,
+        "type": "NP"
+      }
+    ],
+    "their sense": [
+      {
+        "end": 313,
+        "start": 311,
+        "type": "NP"
+      }
+    ],
+    "theory": [
+      {
+        "end": 169,
+        "start": 168,
+        "type": "NP"
+      }
+    ],
+    "they": [
+      {
+        "end": 276,
+        "start": 275,
+        "type": "NP"
+      },
+      {
+        "end": 291,
+        "start": 290,
+        "type": "NP"
+      },
+      {
+        "end": 577,
+        "start": 576,
+        "type": "NP"
+      }
+    ],
+    "this specification": [
+      {
+        "end": 96,
+        "start": 94,
+        "type": "NP"
+      },
+      {
+        "end": 240,
+        "start": 238,
+        "type": "NP"
+      },
+      {
+        "end": 383,
+        "start": 381,
+        "type": "NP"
+      },
+      {
+        "end": 497,
+        "start": 495,
+        "type": "NP"
+      },
+      {
+        "end": 666,
+        "start": 664,
+        "type": "NP"
+      }
+    ],
+    "this version": [
+      {
+        "end": 370,
+        "start": 368,
+        "type": "NP"
+      },
+      {
+        "end": 519,
+        "start": 517,
+        "type": "NP"
+      }
+    ],
+    "time locks": [
+      {
+        "end": 402,
+        "start": 400,
+        "type": "NP"
+      },
+      {
+        "end": 490,
+        "start": 488,
+        "type": "NP"
+      }
+    ],
+    "timestamp mechanism": [
+      {
+        "end": 269,
+        "start": 267,
+        "type": "NP"
+      }
+    ],
+    "transaction": [
+      {
+        "end": 283,
+        "start": 282,
+        "type": "NP"
+      }
+    ],
+    "transaction batches": [
+      {
+        "end": 358,
+        "start": 356,
+        "type": "NP"
+      }
+    ],
+    "two or more DIDs": [
+      {
+        "end": 139,
+        "start": 135,
+        "type": "NP"
+      }
+    ],
+    "verifiable claims": [
+      {
+        "end": 602,
+        "start": 599,
+        "type": "NP"
+      }
+    ],
+    "verifying equivalence": [
+      {
+        "end": 210,
+        "start": 208,
+        "type": "NP"
+      }
+    ],
+    "whose value": [
+      {
+        "end": 125,
+        "start": 123,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "1.0": [
+      {
+        "end": 703,
+        "start": 702,
+        "type": "CARDINAL"
+      }
+    ],
+    "113": [
+      {
+        "end": 325,
+        "start": 324,
+        "type": "CARDINAL"
+      }
+    ],
+    "Alternate Serializations": [
+      {
+        "end": 636,
+        "start": 634,
+        "type": "ORG"
+      }
+    ],
+    "Authorization": [
+      {
+        "end": 431,
+        "start": 430,
+        "type": "ORG"
+      },
+      {
+        "end": 474,
+        "start": 473,
+        "type": "ORG"
+      },
+      {
+        "end": 509,
+        "start": 508,
+        "type": "ORG"
+      }
+    ],
+    "Bitcoin BIP": [
+      {
+        "end": 324,
+        "start": 322,
+        "type": "PERSON"
+      },
+      {
+        "end": 460,
+        "start": 458,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 25,
+        "start": 24,
+        "type": "ORG"
+      },
+      {
+        "end": 102,
+        "start": 101,
+        "type": "ORG"
+      },
+      {
+        "end": 188,
+        "start": 187,
+        "type": "ORG"
+      },
+      {
+        "end": 408,
+        "start": 407,
+        "type": "ORG"
+      },
+      {
+        "end": 531,
+        "start": 530,
+        "type": "ORG"
+      }
+    ],
+    "DID Document": [
+      {
+        "end": 297,
+        "start": 295,
+        "type": "ORG"
+      }
+    ],
+    "DID Documents": [
+      {
+        "end": 123,
+        "start": 121,
+        "type": "ORG"
+      },
+      {
+        "end": 569,
+        "start": 567,
+        "type": "ORG"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 50,
+        "start": 49,
+        "type": "ORG"
+      }
+    ],
+    "DLT": [
+      {
+        "end": 304,
+        "start": 303,
+        "type": "ORG"
+      },
+      {
+        "end": 552,
+        "start": 551,
+        "type": "ORG"
+      }
+    ],
+    "Graph Models": [
+      {
+        "end": 639,
+        "start": 637,
+        "type": "PERSON"
+      }
+    ],
+    "JSON-LD": [
+      {
+        "end": 650,
+        "start": 647,
+        "type": "GPE"
+      }
+    ],
+    "RDF": [
+      {
+        "end": 653,
+        "start": 652,
+        "type": "ORG"
+      }
+    ],
+    "Time Locks": [
+      {
+        "end": 387,
+        "start": 385,
+        "type": "ORG"
+      }
+    ],
+    "Timestamps": [
+      {
+        "end": 243,
+        "start": 242,
+        "type": "PERSON"
+      }
+    ],
+    "Verifiable Claims": [
+      {
+        "end": 563,
+        "start": 561,
+        "type": "PERSON"
+      }
+    ],
+    "a DID Document": [
+      {
+        "end": 676,
+        "start": 673,
+        "type": "ORG"
+      }
+    ],
+    "about 2": [
+      {
+        "end": 35,
+        "start": 33,
+        "type": "CARDINAL"
+      }
+    ],
+    "about 4": [
+      {
+        "end": 44,
+        "start": 42,
+        "type": "CARDINAL"
+      }
+    ],
+    "first": [
+      {
+        "end": 581,
+        "start": 580,
+        "type": "ORDINAL"
+      }
+    ],
+    "one": [
+      {
+        "end": 187,
+        "start": 186,
+        "type": "CARDINAL"
+      },
+      {
+        "end": 396,
+        "start": 395,
+        "type": "CARDINAL"
+      }
+    ],
+    "section 6.5": [
+      {
+        "end": 513,
+        "start": 511,
+        "type": "LAW"
+      }
+    ],
+    "the DID Document": [
+      {
+        "end": 440,
+        "start": 437,
+        "type": "ORG"
+      }
+    ],
+    "two": [
+      {
+        "end": 136,
+        "start": 135,
+        "type": "CARDINAL"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 35,
+        "label": "about 2",
+        "start": 33
+      },
+      {
+        "end": 44,
+        "label": "about 4",
+        "start": 42
+      },
+      {
+        "end": 136,
+        "label": "two",
+        "start": 135
+      },
+      {
+        "end": 187,
+        "label": "one",
+        "start": 186
+      },
+      {
+        "end": 325,
+        "label": "113",
+        "start": 324
+      },
+      {
+        "end": 396,
+        "label": "one",
+        "start": 395
+      },
+      {
+        "end": 703,
+        "label": "1.0",
+        "start": 702
+      }
+    ],
+    "GPE": [
+      {
+        "end": 650,
+        "label": "JSON-LD",
+        "start": 647
+      }
+    ],
+    "LAW": [
+      {
+        "end": 513,
+        "label": "section 6.5",
+        "start": 511
+      }
+    ],
+    "ORDINAL": [
+      {
+        "end": 581,
+        "label": "first",
+        "start": 580
+      }
+    ],
+    "ORG": [
+      {
+        "end": 25,
+        "label": "DID",
+        "start": 24
+      },
+      {
+        "end": 50,
+        "label": "DIDs",
+        "start": 49
+      },
+      {
+        "end": 102,
+        "label": "DID",
+        "start": 101
+      },
+      {
+        "end": 123,
+        "label": "DID Documents",
+        "start": 121
+      },
+      {
+        "end": 188,
+        "label": "DID",
+        "start": 187
+      },
+      {
+        "end": 297,
+        "label": "DID Document",
+        "start": 295
+      },
+      {
+        "end": 304,
+        "label": "DLT",
+        "start": 303
+      },
+      {
+        "end": 387,
+        "label": "Time Locks",
+        "start": 385
+      },
+      {
+        "end": 408,
+        "label": "DID",
+        "start": 407
+      },
+      {
+        "end": 431,
+        "label": "Authorization",
+        "start": 430
+      },
+      {
+        "end": 440,
+        "label": "the DID Document",
+        "start": 437
+      },
+      {
+        "end": 460,
+        "label": "Bitcoin BIP",
+        "start": 458
+      },
+      {
+        "end": 474,
+        "label": "Authorization",
+        "start": 473
+      },
+      {
+        "end": 509,
+        "label": "Authorization",
+        "start": 508
+      },
+      {
+        "end": 531,
+        "label": "DID",
+        "start": 530
+      },
+      {
+        "end": 552,
+        "label": "DLT",
+        "start": 551
+      },
+      {
+        "end": 569,
+        "label": "DID Documents",
+        "start": 567
+      },
+      {
+        "end": 636,
+        "label": "Alternate Serializations",
+        "start": 634
+      },
+      {
+        "end": 653,
+        "label": "RDF",
+        "start": 652
+      },
+      {
+        "end": 676,
+        "label": "a DID Document",
+        "start": 673
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 243,
+        "label": "Timestamps",
+        "start": 242
+      },
+      {
+        "end": 324,
+        "label": "Bitcoin BIP",
+        "start": 322
+      },
+      {
+        "end": 563,
+        "label": "Verifiable Claims",
+        "start": 561
+      },
+      {
+        "end": 639,
+        "label": "Graph Models",
+        "start": 637
+      }
+    ]
+  },
+  "verbs": {
+    "add": 3,
+    "aggregate": 1,
+    "allow": 2,
+    "apply": 2,
+    "assert": 1,
+    "be": 3,
+    "collect": 1,
+    "come": 1,
+    "deem": 1,
+    "defeat": 1,
+    "define": 2,
+    "delegate": 1,
+    "depend": 1,
+    "describe": 2,
+    "do": 6,
+    "enable": 2,
+    "exist": 1,
+    "express": 1,
+    "externalize": 1,
+    "form": 1,
+    "handle": 1,
+    "have": 3,
+    "help": 1,
+    "implement": 1,
+    "include": 5,
+    "integrate": 1,
+    "intend": 1,
+    "make": 1,
+    "mention": 1,
+    "method": 1,
+    "minimize": 1,
+    "offer": 1,
+    "operate": 1,
+    "order": 1,
+    "override": 1,
+    "plan": 1,
+    "process": 1,
+    "protect": 1,
+    "provide": 1,
+    "recover": 2,
+    "rely": 3,
+    "represent": 1,
+    "see": 2,
+    "set": 1,
+    "specify": 2,
+    "store": 1,
+    "support": 3,
+    "take": 1,
+    "timestampe": 1,
+    "use": 3,
+    "work": 1
+  }
+}

@@ -1,7 +1,7 @@
 import sys
 import os
 import json
-
+import yaml
 jekylldir=sys.argv[1]
 print("JEKYLL:"+jekylldir)
 
@@ -38,6 +38,12 @@ for info in os.scandir(jekylldir+"/hashes"):
             integrate(hash,mapping,descriptor)
 
 for title,mapping in by_title.items():
-    m = my_count.get(mapping['count'],{})
+    m = by_count.get(mapping['count'],{})
     m[title] = mapping
-    my_count[mapping['count']]=m
+    by_count[mapping['count']]=m
+
+with open(jekylldir+"/sectiontitles.yml","w") as fp:
+    print(yaml.dump(by_title),file=fp)
+
+with open(jekylldir+"/mappingcounts.yml","w") as fp:
+    print(yaml.dump(by_count),file=fp)

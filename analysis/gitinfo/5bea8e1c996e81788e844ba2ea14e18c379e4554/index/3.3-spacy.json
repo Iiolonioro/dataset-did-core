@@ -1,0 +1,286 @@
+{
+  "nouns": {
+    "A URL": [
+      {
+        "end": 118,
+        "start": 116,
+        "type": "NP"
+      }
+    ],
+    "Authentication": [
+      {
+        "end": 135,
+        "start": 134,
+        "type": "NP"
+      }
+    ],
+    "DID Documents": [
+      {
+        "end": 141,
+        "start": 139,
+        "type": "NP"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 4,
+        "start": 3,
+        "type": "NP"
+      },
+      {
+        "end": 104,
+        "start": 103,
+        "type": "NP"
+      },
+      {
+        "end": 137,
+        "start": 136,
+        "type": "NP"
+      }
+    ],
+    "DNS names": [
+      {
+        "end": 88,
+        "start": 86,
+        "type": "NP"
+      }
+    ],
+    "HTTP-based URLs": [
+      {
+        "end": 45,
+        "start": 41,
+        "type": "NP"
+      }
+    ],
+    "IP addresses": [
+      {
+        "end": 91,
+        "start": 89,
+        "type": "NP"
+      }
+    ],
+    "Motivations": [
+      {
+        "end": 2,
+        "start": 0,
+        "type": "NP"
+      }
+    ],
+    "The growing need": [
+      {
+        "end": 8,
+        "start": 5,
+        "type": "NP"
+      }
+    ],
+    "The new type": [
+      {
+        "end": 55,
+        "start": 52,
+        "type": "NP"
+      }
+    ],
+    "The overwhelming majority": [
+      {
+        "end": 79,
+        "start": 76,
+        "type": "NP"
+      }
+    ],
+    "URIs": [
+      {
+        "end": 82,
+        "start": 81,
+        "type": "NP"
+      }
+    ],
+    "URL": [
+      {
+        "end": 23,
+        "start": 22,
+        "type": "NP"
+      },
+      {
+        "end": 57,
+        "start": 56,
+        "type": "NP"
+      }
+    ],
+    "Web Architecture": [
+      {
+        "end": 28,
+        "start": 26,
+        "type": "NP"
+      }
+    ],
+    "a centralized authority": [
+      {
+        "end": 63,
+        "start": 60,
+        "type": "NP"
+      }
+    ],
+    "a few additional requirements": [
+      {
+        "end": 35,
+        "start": 31,
+        "type": "NP"
+      }
+    ],
+    "a new type": [
+      {
+        "end": 21,
+        "start": 18,
+        "type": "NP"
+      }
+    ],
+    "any such authority": [
+      {
+        "end": 114,
+        "start": 111,
+        "type": "NP"
+      }
+    ],
+    "centralized\nauthorities": [
+      {
+        "end": 97,
+        "start": 94,
+        "type": "NP"
+      }
+    ],
+    "decentralized identity": [
+      {
+        "end": 11,
+        "start": 9,
+        "type": "NP"
+      }
+    ],
+    "distributed ledgers": [
+      {
+        "end": 153,
+        "start": 150,
+        "type": "NP"
+      }
+    ],
+    "more traditional URLs": [
+      {
+        "end": 39,
+        "start": 36,
+        "type": "NP"
+      }
+    ],
+    "public\nkeys": [
+      {
+        "end": 128,
+        "start": 125,
+        "type": "NP"
+      }
+    ],
+    "registration": [
+      {
+        "end": 99,
+        "start": 98,
+        "type": "NP"
+      }
+    ],
+    "the same public/private key cryptography": [
+      {
+        "end": 149,
+        "start": 142,
+        "type": "NP"
+      }
+    ],
+    "two specific\nrequirements": [
+      {
+        "end": 17,
+        "start": 13,
+        "type": "NP"
+      }
+    ],
+    "ultimate control": [
+      {
+        "end": 102,
+        "start": 100,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DNS": [
+      {
+        "end": 87,
+        "start": 86,
+        "type": "ORG"
+      }
+    ],
+    "IP": [
+      {
+        "end": 90,
+        "start": 89,
+        "type": "ORG"
+      }
+    ],
+    "today": [
+      {
+        "end": 83,
+        "start": 82,
+        "type": "DATE"
+      }
+    ],
+    "two": [
+      {
+        "end": 14,
+        "start": 13,
+        "type": "CARDINAL"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 14,
+        "label": "two",
+        "start": 13
+      }
+    ],
+    "DATE": [
+      {
+        "end": 83,
+        "label": "today",
+        "start": 82
+      }
+    ],
+    "ORG": [
+      {
+        "end": 87,
+        "label": "DNS",
+        "start": 86
+      },
+      {
+        "end": 90,
+        "label": "IP",
+        "start": 89
+      }
+    ]
+  },
+  "verbs": {
+    "associate": 1,
+    "base": 2,
+    "create": 1,
+    "depend": 1,
+    "distribute": 1,
+    "do": 1,
+    "fit": 1,
+    "grow": 1,
+    "have": 2,
+    "include": 1,
+    "leverage": 1,
+    "manage": 1,
+    "produce": 1,
+    "register": 1,
+    "require": 1,
+    "resolve": 1,
+    "revoke": 1,
+    "verify": 1
+  }
+}
