@@ -1,0 +1,127 @@
+{
+  "nouns": {
+    "a DID Document": [
+      {
+        "end": 9,
+        "start": 6,
+        "type": "NP"
+      }
+    ],
+    "a service endpoint": [
+      {
+        "end": 13,
+        "start": 10,
+        "type": "NP"
+      }
+    ],
+    "an entity": [
+      {
+        "end": 21,
+        "start": 19,
+        "type": "NP"
+      }
+    ],
+    "authentication": [
+      {
+        "end": 16,
+        "start": 15,
+        "type": "NP"
+      }
+    ],
+    "authorization": [
+      {
+        "end": 18,
+        "start": 17,
+        "type": "NP"
+      }
+    ],
+    "entity": [
+      {
+        "end": 37,
+        "start": 36,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 27,
+        "start": 26,
+        "type": "NP"
+      }
+    ],
+    "party": [
+      {
+        "end": 41,
+        "start": 40,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 23,
+        "start": 22,
+        "type": "NP"
+      }
+    ],
+    "that service endpoint": [
+      {
+        "end": 56,
+        "start": 53,
+        "type": "NP"
+      }
+    ],
+    "the authentication protocol(s": [
+      {
+        "end": 50,
+        "start": 47,
+        "type": "NP"
+      }
+    ],
+    "the requirements": [
+      {
+        "end": 46,
+        "start": 44,
+        "type": "NP"
+      }
+    ],
+    "the responsibility": [
+      {
+        "end": 30,
+        "start": 28,
+        "type": "NP"
+      }
+    ],
+    "the service endpoint provider": [
+      {
+        "end": 35,
+        "start": 31,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "6.6": [
+      {
+        "end": 24,
+        "start": 23,
+        "type": "CARDINAL"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 24,
+        "label": "6.6",
+        "start": 23
+      }
+    ]
+  },
+  "verbs": {
+    "comply": 1,
+    "intend": 1,
+    "publish": 1,
+    "rely": 1,
+    "support": 1
+  }
+}

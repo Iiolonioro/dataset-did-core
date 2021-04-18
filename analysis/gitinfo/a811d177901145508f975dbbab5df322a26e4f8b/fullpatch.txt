@@ -1,0 +1,20 @@
+commit a811d177901145508f975dbbab5df322a26e4f8b
+tree cb89f71a27c160f15e3799b9a8cb1cbdde117925
+parent 5e27f3a1f1d9434a4f66c2b849b80c3125a26ce4
+author Manu Sporny <msporny@digitalbazaar.com> 1509729496 -0400
+committer Manu Sporny <msporny@digitalbazaar.com> 1509881234 -0500
+
+    Add RSA Signature 2017 to signature types.
+
+diff --git a/did-v1.jsonld b/did-v1.jsonld
+index 9ac3ca4..92604ea 100644
+--- a/did-v1.jsonld
++++ b/did-v1.jsonld
+@@ -19,6 +19,7 @@
+     "LinkedDataSignature2016": "sec:LinkedDataSignature2016",
+     "RsaCryptographicKey": "sec:RsaCryptographicKey",
+     "RsaSignature2015": "sec:RsaSignature2015",
++    "RsaSignature2017": "sec:RsaSignature2017",
+     "UpdateDidDescription": "didv:UpdateDidDescription",
+ 
+     "authenticationCredential": "sec:authenticationCredential",

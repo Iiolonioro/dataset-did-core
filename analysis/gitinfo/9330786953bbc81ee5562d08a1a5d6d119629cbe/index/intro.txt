@@ -1,0 +1,43 @@
+
+
+Decentralized Identifiers (DIDs) are a new type of identifier intended
+for verifiable digital identity that is "self-sovereign", i.e., fully
+under the control of an entity and not dependent on a
+centralized registry, identity provider, or certificate authority. DIDs
+resolve to DID Documents — simple documents that contain all the metadata
+needed to interact with the DID. Specifically, a DID Document typically
+contains at least three things. The first is a set of mechanisms that may be
+used to authenticate as as a particular DID (e.g. public keys,
+pseudonymous biometric templates, etc.).
+The second is a set of authorization information that outlines which entities
+may modify the DID Document. The third is a set of service endpoints, which
+may be used to initiate trusted interactions with the entity.
+This document specifies a common data model, format, and operations that
+all DIDs support.
+      
+
+\n
+
+
+Comments regarding this document are welcome. Please file issues
+directly on GitHub,
+or send them to
+public-credentials@w3.org
+(subscribe,
+archives).
+
+
+Portions of the work on this specification have been funded by the
+United States Department of Homeland Security's Science and Technology
+Directorate under contracts HSHQDC-16-R00012-H-SB2016-1-002 and
+HSHQDC-17-C-00019. The content of this specification does not necessarily
+reflect the position or the policy of the U.S. Government and no official
+endorsement should be inferred.
+
+
+Work on this specification has also been supported by the Rebooting the
+Web of Trust group facilitated by Christopher Allen, Shannon Appelcline,
+Kiara Robles, Brian Weller, Betty Dhamers, Kaliya Young, Manu Sporny,
+Drummond Reed, and Joe Andrieu.
+
+

@@ -1,0 +1,492 @@
+{
+  "nouns": {
+    "Access control": [
+      {
+        "end": 152,
+        "start": 149,
+        "type": "NP"
+      }
+    ],
+    "Authorization": [
+      {
+        "end": 115,
+        "start": 114,
+        "type": "NP"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 128,
+        "start": 127,
+        "type": "NP"
+      },
+      {
+        "end": 143,
+        "start": 142,
+        "type": "NP"
+      }
+    ],
+    "DLT-based methods": [
+      {
+        "end": 49,
+        "start": 45,
+        "type": "NP"
+      }
+    ],
+    "Further specification": [
+      {
+        "end": 184,
+        "start": 182,
+        "type": "NP"
+      }
+    ],
+    "Key Revocation and Recovery\n\n\n\n      Section": [
+      {
+        "end": 7,
+        "start": 1,
+        "type": "NP"
+      }
+    ],
+    "a DID Document": [
+      {
+        "end": 28,
+        "start": 25,
+        "type": "NP"
+      }
+    ],
+    "a DID method specification": [
+      {
+        "end": 21,
+        "start": 17,
+        "type": "NP"
+      },
+      {
+        "end": 160,
+        "start": 156,
+        "type": "NP"
+      }
+    ],
+    "a cryptocurrency account": [
+      {
+        "end": 66,
+        "start": 63,
+        "type": "NP"
+      }
+    ],
+    "a distributed ledger": [
+      {
+        "end": 70,
+        "start": 67,
+        "type": "NP"
+      }
+    ],
+    "a manner": [
+      {
+        "end": 57,
+        "start": 55,
+        "type": "NP"
+      }
+    ],
+    "a matter": [
+      {
+        "end": 192,
+        "start": 190,
+        "type": "NP"
+      }
+    ],
+    "a quorum": [
+      {
+        "end": 93,
+        "start": 91,
+        "type": "NP"
+      }
+    ],
+    "a second track": [
+      {
+        "end": 177,
+        "start": 174,
+        "type": "NP"
+      }
+    ],
+    "a time lock feature": [
+      {
+        "end": 167,
+        "start": 163,
+        "type": "NP"
+      }
+    ],
+    "an updated DID Document": [
+      {
+        "end": 36,
+        "start": 32,
+        "type": "NP"
+      }
+    ],
+    "control": [
+      {
+        "end": 126,
+        "start": 125,
+        "type": "NP"
+      },
+      {
+        "end": 179,
+        "start": 178,
+        "type": "NP"
+      },
+      {
+        "end": 189,
+        "start": 188,
+        "type": "NP"
+      }
+    ],
+    "future work": [
+      {
+        "end": 195,
+        "start": 193,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 31,
+        "start": 30,
+        "type": "NP"
+      }
+    ],
+    "key compromise": [
+      {
+        "end": 172,
+        "start": 170,
+        "type": "NP"
+      }
+    ],
+    "key recovery": [
+      {
+        "end": 100,
+        "start": 98,
+        "type": "NP"
+      },
+      {
+        "end": 155,
+        "start": 153,
+        "type": "NP"
+      }
+    ],
+    "key revocation": [
+      {
+        "end": 44,
+        "start": 42,
+        "type": "NP"
+      }
+    ],
+    "not all DID method specifications": [
+      {
+        "end": 123,
+        "start": 118,
+        "type": "NP"
+      }
+    ],
+    "other DID methods": [
+      {
+        "end": 133,
+        "start": 130,
+        "type": "NP"
+      }
+    ],
+    "recovery": [
+      {
+        "end": 181,
+        "start": 180,
+        "type": "NP"
+      }
+    ],
+    "revocation": [
+      {
+        "end": 24,
+        "start": 23,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 112,
+        "start": 111,
+        "type": "NP"
+      },
+      {
+        "end": 198,
+        "start": 197,
+        "type": "NP"
+      }
+    ],
+    "specifications": [
+      {
+        "end": 87,
+        "start": 86,
+        "type": "NP"
+      }
+    ],
+    "support": [
+      {
+        "end": 90,
+        "start": 89,
+        "type": "NP"
+      }
+    ],
+    "the DID operations": [
+      {
+        "end": 12,
+        "start": 9,
+        "type": "NP"
+      }
+    ],
+    "the balance": [
+      {
+        "end": 62,
+        "start": 60,
+        "type": "NP"
+      },
+      {
+        "end": 74,
+        "start": 72,
+        "type": "NP"
+      }
+    ],
+    "the entire DID": [
+      {
+        "end": 80,
+        "start": 77,
+        "type": "NP"
+      }
+    ],
+    "the facilities": [
+      {
+        "end": 105,
+        "start": 103,
+        "type": "NP"
+      }
+    ],
+    "the same method": [
+      {
+        "end": 148,
+        "start": 145,
+        "type": "NP"
+      }
+    ],
+    "they": [
+      {
+        "end": 135,
+        "start": 134,
+        "type": "NP"
+      }
+    ],
+    "third-party control": [
+      {
+        "end": 141,
+        "start": 137,
+        "type": "NP"
+      }
+    ],
+    "this type": [
+      {
+        "end": 187,
+        "start": 185,
+        "type": "NP"
+      }
+    ],
+    "trusted parties": [
+      {
+        "end": 96,
+        "start": 94,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "6.5": [
+      {
+        "end": 113,
+        "start": 112,
+        "type": "CARDINAL"
+      }
+    ],
+    "Access": [
+      {
+        "end": 151,
+        "start": 150,
+        "type": "PRODUCT"
+      }
+    ],
+    "Authorization": [
+      {
+        "end": 115,
+        "start": 114,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 11,
+        "start": 10,
+        "type": "ORG"
+      },
+      {
+        "end": 19,
+        "start": 18,
+        "type": "ORG"
+      },
+      {
+        "end": 80,
+        "start": 79,
+        "type": "ORG"
+      },
+      {
+        "end": 85,
+        "start": 84,
+        "type": "ORG"
+      },
+      {
+        "end": 121,
+        "start": 120,
+        "type": "ORG"
+      },
+      {
+        "end": 158,
+        "start": 157,
+        "type": "ORG"
+      }
+    ],
+    "DLT": [
+      {
+        "end": 46,
+        "start": 45,
+        "type": "ORG"
+      }
+    ],
+    "second": [
+      {
+        "end": 176,
+        "start": 175,
+        "type": "ORDINAL"
+      }
+    ],
+    "section 11.4": [
+      {
+        "end": 199,
+        "start": 197,
+        "type": "LAW"
+      }
+    ],
+    "third": [
+      {
+        "end": 138,
+        "start": 137,
+        "type": "ORDINAL"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 113,
+        "label": "6.5",
+        "start": 112
+      }
+    ],
+    "LAW": [
+      {
+        "end": 199,
+        "label": "section 11.4",
+        "start": 197
+      }
+    ],
+    "ORDINAL": [
+      {
+        "end": 138,
+        "label": "third",
+        "start": 137
+      },
+      {
+        "end": 176,
+        "label": "second",
+        "start": 175
+      }
+    ],
+    "ORG": [
+      {
+        "end": 11,
+        "label": "DID",
+        "start": 10
+      },
+      {
+        "end": 19,
+        "label": "DID",
+        "start": 18
+      },
+      {
+        "end": 46,
+        "label": "DLT",
+        "start": 45
+      },
+      {
+        "end": 80,
+        "label": "DID",
+        "start": 79
+      },
+      {
+        "end": 85,
+        "label": "DID",
+        "start": 84
+      },
+      {
+        "end": 115,
+        "label": "Authorization",
+        "start": 114
+      },
+      {
+        "end": 121,
+        "label": "DID",
+        "start": 120
+      },
+      {
+        "end": 158,
+        "label": "DID",
+        "start": 157
+      }
+    ],
+    "PRODUCT": [
+      {
+        "end": 151,
+        "label": "Access",
+        "start": 150
+      }
+    ]
+  },
+  "verbs": {
+    "base": 1,
+    "be": 1,
+    "check": 2,
+    "distribute": 1,
+    "do": 1,
+    "enable": 2,
+    "expect": 1,
+    "handle": 1,
+    "include": 2,
+    "maintain": 1,
+    "method": 1,
+    "note": 1,
+    "protect": 1,
+    "recognize": 1,
+    "register": 1,
+    "replace": 1,
+    "restrict": 1,
+    "revoke": 1,
+    "see": 1,
+    "specify": 1,
+    "suggest": 1,
+    "support": 1,
+    "trust": 1,
+    "update": 1,
+    "use": 2
+  }
+}

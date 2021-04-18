@@ -1,0 +1,21 @@
+commit 2d3ee3040175bdb10c8c8600a4f79b3e5fdc04e4
+tree 9a81ed70dc6b32769c470b4bea1fac965fe266f7
+parent 9f4b0794cfc7b96581850f1cdb8de5af7e2f97ea
+author David I. Lehn <dil@lehn.org> 1499375138 -0400
+committer GitHub <noreply@github.com> 1499375138 -0400
+
+    Fix https usage.
+
+diff --git a/index.html b/index.html
+index 036e786..36dda78 100644
+--- a/index.html
++++ b/index.html
+@@ -58,7 +58,7 @@
+           { name: "Drummond Reed", url: "https://www.linkedin.com/in/drummondreed/",
+             company: "Evernym", companyURL: "https://evernym.com/"},
+           { name: "Manu Sporny", url: "http://manu.sporny.org/",
+-            company: "Digital Bazaar", companyURL: "http://digitalbazaar.com/" },
++            company: "Digital Bazaar", companyURL: "https://digitalbazaar.com/" },
+           { name: "Dave Longley", url: "",
+             company: "Digital Bazaar", companyURL: "https://digitalbazaar.com/"},
+           { name: "Christopher Allen", url: "https://www.linkedin.com/in/christophera",

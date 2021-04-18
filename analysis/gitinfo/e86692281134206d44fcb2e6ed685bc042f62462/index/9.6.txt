@@ -1,0 +1,11 @@
+
+Key and Signature Expiration
+
+
+
+      In a decentralized identity architecture, there are no centralized authorities to enforce key or signature expiration policies. Therefore DID resolvers and other client applications SHOULD validate that keys have not expired. Since some use cases may have legitimate reasons why already-expired keys can be extended, a key expiration SHOULD NOT prevent any further use of the key, and implementations SHOULD attempt to update its status upon encountering it in a signature.
+
+
+
+
+

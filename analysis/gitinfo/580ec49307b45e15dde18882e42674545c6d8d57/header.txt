@@ -1,0 +1,6 @@
+commit 580ec49307b45e15dde18882e42674545c6d8d57
+tree 006e10e418216b212e4f48befe45c8445440e75f
+parent 889e08b35c63d6be96da571d2f6452e42f8c2ef4
+author Manu Sporny <msporny@digitalbazaar.com> 1499627421 -0400
+committer Manu Sporny <msporny@digitalbazaar.com> 1499627421 -0400
+

@@ -1,0 +1,786 @@
+{
+  "nouns": {
+    "(personally-identifiable information": [
+      {
+        "end": 336,
+        "start": 331,
+        "type": "NP"
+      }
+    ],
+    "9.2.2 Proving Ownership": [
+      {
+        "end": 172,
+        "start": 168,
+        "type": "NP"
+      }
+    ],
+    "9.2.3 Identity Owner Authentication": [
+      {
+        "end": 314,
+        "start": 309,
+        "type": "NP"
+      }
+    ],
+    "A": [
+      {
+        "end": 319,
+        "start": 317,
+        "type": "NP"
+      }
+    ],
+    "Binding of Identity\n\n\n\n9.2.1 Proving Ownership": [
+      {
+        "end": 8,
+        "start": 0,
+        "type": "NP"
+      }
+    ],
+    "DID Document": [
+      {
+        "end": 14,
+        "start": 12,
+        "type": "NP"
+      },
+      {
+        "end": 293,
+        "start": 291,
+        "type": "NP"
+      }
+    ],
+    "Document": [
+      {
+        "end": 159,
+        "start": 158,
+        "type": "NP"
+      },
+      {
+        "end": 323,
+        "start": 322,
+        "type": "NP"
+      }
+    ],
+    "It": [
+      {
+        "end": 36,
+        "start": 35,
+        "type": "NP"
+      },
+      {
+        "end": 145,
+        "start": 144,
+        "type": "NP"
+      }
+    ],
+    "The DID Document": [
+      {
+        "end": 45,
+        "start": 42,
+        "type": "NP"
+      }
+    ],
+    "The owner": [
+      {
+        "end": 58,
+        "start": 56,
+        "type": "NP"
+      }
+    ],
+    "The process": [
+      {
+        "end": 340,
+        "start": 338,
+        "type": "NP"
+      }
+    ],
+    "The static method": [
+      {
+        "end": 207,
+        "start": 204,
+        "type": "NP"
+      }
+    ],
+    "Verifiable Claims": [
+      {
+        "end": 317,
+        "start": 315,
+        "type": "NP"
+      }
+    ],
+    "Verifying": [
+      {
+        "end": 125,
+        "start": 123,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 11,
+        "start": 9,
+        "type": "NP"
+      },
+      {
+        "end": 34,
+        "start": 32,
+        "type": "NP"
+      },
+      {
+        "end": 85,
+        "start": 83,
+        "type": "NP"
+      },
+      {
+        "end": 156,
+        "start": 154,
+        "type": "NP"
+      },
+      {
+        "end": 344,
+        "start": 342,
+        "type": "NP"
+      }
+    ],
+    "a DID Document": [
+      {
+        "end": 115,
+        "start": 112,
+        "type": "NP"
+      }
+    ],
+    "a Public Key": [
+      {
+        "end": 176,
+        "start": 173,
+        "type": "NP"
+      }
+    ],
+    "a challenge message": [
+      {
+        "end": 269,
+        "start": 266,
+        "type": "NP"
+      }
+    ],
+    "a nonce": [
+      {
+        "end": 282,
+        "start": 280,
+        "type": "NP"
+      }
+    ],
+    "a public key": [
+      {
+        "end": 251,
+        "start": 248,
+        "type": "NP"
+      }
+    ],
+    "a public key description": [
+      {
+        "end": 194,
+        "start": 190,
+        "type": "NP"
+      },
+      {
+        "end": 274,
+        "start": 270,
+        "type": "NP"
+      }
+    ],
+    "a time": [
+      {
+        "end": 228,
+        "start": 226,
+        "type": "NP"
+      }
+    ],
+    "a two step process": [
+      {
+        "end": 106,
+        "start": 102,
+        "type": "NP"
+      }
+    ],
+    "a verified signature": [
+      {
+        "end": 21,
+        "start": 18,
+        "type": "NP"
+      }
+    ],
+    "an appropriate service endpoint": [
+      {
+        "end": 287,
+        "start": 283,
+        "type": "NP"
+      }
+    ],
+    "an identity": [
+      {
+        "end": 353,
+        "start": 351,
+        "type": "NP"
+      }
+    ],
+    "claims": [
+      {
+        "end": 355,
+        "start": 354,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 52,
+        "start": 51,
+        "type": "NP"
+      },
+      {
+        "end": 100,
+        "start": 99,
+        "type": "NP"
+      }
+    ],
+    "its DID method\nspecification": [
+      {
+        "end": 122,
+        "start": 117,
+        "type": "NP"
+      }
+    ],
+    "itself": [
+      {
+        "end": 17,
+        "start": 16,
+        "type": "NP"
+      }
+    ],
+    "ownership": [
+      {
+        "end": 31,
+        "start": 30,
+        "type": "NP"
+      },
+      {
+        "end": 82,
+        "start": 81,
+        "type": "NP"
+      },
+      {
+        "end": 153,
+        "start": 152,
+        "type": "NP"
+      },
+      {
+        "end": 184,
+        "start": 183,
+        "type": "NP"
+      },
+      {
+        "end": 221,
+        "start": 220,
+        "type": "NP"
+      },
+      {
+        "end": 247,
+        "start": 246,
+        "type": "NP"
+      }
+    ],
+    "scope": [
+      {
+        "end": 362,
+        "start": 361,
+        "type": "NP"
+      }
+    ],
+    "self-signed DID Document": [
+      {
+        "end": 27,
+        "start": 22,
+        "type": "NP"
+      }
+    ],
+    "the\n        verifiable claims\n       standardization work": [
+      {
+        "end": 380,
+        "start": 373,
+        "type": "NP"
+      }
+    ],
+    "the\nsignature": [
+      {
+        "end": 71,
+        "start": 68,
+        "type": "NP"
+      }
+    ],
+    "the DID": [
+      {
+        "end": 93,
+        "start": 91,
+        "type": "NP"
+      },
+      {
+        "end": 111,
+        "start": 109,
+        "type": "NP"
+      }
+    ],
+    "the DID Document": [
+      {
+        "end": 62,
+        "start": 59,
+        "type": "NP"
+      },
+      {
+        "end": 97,
+        "start": 94,
+        "type": "NP"
+      },
+      {
+        "end": 165,
+        "start": 162,
+        "type": "NP"
+      },
+      {
+        "end": 198,
+        "start": 195,
+        "type": "NP"
+      },
+      {
+        "end": 213,
+        "start": 210,
+        "type": "NP"
+      },
+      {
+        "end": 234,
+        "start": 231,
+        "type": "NP"
+      },
+      {
+        "end": 242,
+        "start": 239,
+        "type": "NP"
+      },
+      {
+        "end": 256,
+        "start": 253,
+        "type": "NP"
+      },
+      {
+        "end": 279,
+        "start": 276,
+        "type": "NP"
+      }
+    ],
+    "the W3C": [
+      {
+        "end": 383,
+        "start": 381,
+        "type": "NP"
+      }
+    ],
+    "the binding": [
+      {
+        "end": 90,
+        "start": 88,
+        "type": "NP"
+      }
+    ],
+    "the focus": [
+      {
+        "end": 372,
+        "start": 370,
+        "type": "NP"
+      }
+    ],
+    "the id property": [
+      {
+        "end": 130,
+        "start": 126,
+        "type": "NP"
+      }
+    ],
+    "the owner": [
+      {
+        "end": 358,
+        "start": 356,
+        "type": "NP"
+      }
+    ],
+    "the private key": [
+      {
+        "end": 66,
+        "start": 63,
+        "type": "NP"
+      },
+      {
+        "end": 188,
+        "start": 185,
+        "type": "NP"
+      },
+      {
+        "end": 217,
+        "start": 214,
+        "type": "NP"
+      },
+      {
+        "end": 225,
+        "start": 222,
+        "type": "NP"
+      }
+    ],
+    "the public key\ndescription": [
+      {
+        "end": 308,
+        "start": 303,
+        "type": "NP"
+      }
+    ],
+    "the real-world owner": [
+      {
+        "end": 350,
+        "start": 345,
+        "type": "NP"
+      }
+    ],
+    "the response message": [
+      {
+        "end": 302,
+        "start": 299,
+        "type": "NP"
+      }
+    ],
+    "the resulting DID Document": [
+      {
+        "end": 135,
+        "start": 131,
+        "type": "NP"
+      }
+    ],
+    "the signature": [
+      {
+        "end": 76,
+        "start": 74,
+        "type": "NP"
+      },
+      {
+        "end": 298,
+        "start": 296,
+        "type": "NP"
+      }
+    ],
+    "the term": [
+      {
+        "end": 387,
+        "start": 385,
+        "type": "NP"
+      }
+    ],
+    "the time": [
+      {
+        "end": 74,
+        "start": 72,
+        "type": "NP"
+      }
+    ],
+    "this process": [
+      {
+        "end": 151,
+        "start": 149,
+        "type": "NP"
+      }
+    ],
+    "this specification": [
+      {
+        "end": 365,
+        "start": 363,
+        "type": "NP"
+      }
+    ],
+    "this topic": [
+      {
+        "end": 369,
+        "start": 367,
+        "type": "NP"
+      }
+    ],
+    "two methods": [
+      {
+        "end": 181,
+        "start": 179,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "9.2.2 Proving Ownership of a Public Key\n\n\n\n\n      ": [
+      {
+        "end": 177,
+        "start": 169,
+        "type": "ORG"
+      }
+    ],
+    "9.2.3": [
+      {
+        "end": 311,
+        "start": 310,
+        "type": "CARDINAL"
+      }
+    ],
+    "DID": [
+      {
+        "end": 11,
+        "start": 10,
+        "type": "ORG"
+      },
+      {
+        "end": 34,
+        "start": 33,
+        "type": "ORG"
+      },
+      {
+        "end": 85,
+        "start": 84,
+        "type": "ORG"
+      },
+      {
+        "end": 93,
+        "start": 92,
+        "type": "ORG"
+      },
+      {
+        "end": 111,
+        "start": 110,
+        "type": "ORG"
+      },
+      {
+        "end": 119,
+        "start": 118,
+        "type": "ORG"
+      },
+      {
+        "end": 156,
+        "start": 155,
+        "type": "ORG"
+      },
+      {
+        "end": 344,
+        "start": 343,
+        "type": "ORG"
+      },
+      {
+        "end": 389,
+        "start": 388,
+        "type": "ORG"
+      }
+    ],
+    "DID Document": [
+      {
+        "end": 159,
+        "start": 157,
+        "type": "ORG"
+      }
+    ],
+    "Identity Owner Authentication and Verifiable Claims": [
+      {
+        "end": 317,
+        "start": 311,
+        "type": "ORG"
+      }
+    ],
+    "the\nDID Document": [
+      {
+        "end": 293,
+        "start": 289,
+        "type": "ORG"
+      }
+    ],
+    "the DID Document": [
+      {
+        "end": 62,
+        "start": 59,
+        "type": "ORG"
+      },
+      {
+        "end": 97,
+        "start": 94,
+        "type": "ORG"
+      },
+      {
+        "end": 165,
+        "start": 162,
+        "type": "ORG"
+      },
+      {
+        "end": 242,
+        "start": 239,
+        "type": "ORG"
+      },
+      {
+        "end": 256,
+        "start": 253,
+        "type": "ORG"
+      },
+      {
+        "end": 279,
+        "start": 276,
+        "type": "ORG"
+      }
+    ],
+    "two": [
+      {
+        "end": 104,
+        "start": 103,
+        "type": "CARDINAL"
+      },
+      {
+        "end": 180,
+        "start": 179,
+        "type": "CARDINAL"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 104,
+        "label": "two",
+        "start": 103
+      },
+      {
+        "end": 180,
+        "label": "two",
+        "start": 179
+      },
+      {
+        "end": 311,
+        "label": "9.2.3",
+        "start": 310
+      }
+    ],
+    "ORG": [
+      {
+        "end": 11,
+        "label": "DID",
+        "start": 10
+      },
+      {
+        "end": 34,
+        "label": "DID",
+        "start": 33
+      },
+      {
+        "end": 62,
+        "label": "the DID Document",
+        "start": 59
+      },
+      {
+        "end": 85,
+        "label": "DID",
+        "start": 84
+      },
+      {
+        "end": 93,
+        "label": "DID",
+        "start": 92
+      },
+      {
+        "end": 97,
+        "label": "the DID Document",
+        "start": 94
+      },
+      {
+        "end": 111,
+        "label": "DID",
+        "start": 110
+      },
+      {
+        "end": 119,
+        "label": "DID",
+        "start": 118
+      },
+      {
+        "end": 156,
+        "label": "DID",
+        "start": 155
+      },
+      {
+        "end": 159,
+        "label": "DID Document",
+        "start": 157
+      },
+      {
+        "end": 165,
+        "label": "the DID Document",
+        "start": 162
+      },
+      {
+        "end": 177,
+        "label": "9.2.2 Proving Ownership of a Public Key\n\n\n\n\n      ",
+        "start": 169
+      },
+      {
+        "end": 242,
+        "label": "the DID Document",
+        "start": 239
+      },
+      {
+        "end": 256,
+        "label": "the DID Document",
+        "start": 253
+      },
+      {
+        "end": 279,
+        "label": "the DID Document",
+        "start": 276
+      },
+      {
+        "end": 293,
+        "label": "the\nDID Document",
+        "start": 289
+      },
+      {
+        "end": 317,
+        "label": "Identity Owner Authentication and Verifiable Claims",
+        "start": 311
+      },
+      {
+        "end": 344,
+        "label": "DID",
+        "start": 343
+      },
+      {
+        "end": 389,
+        "label": "DID",
+        "start": 388
+      }
+    ]
+  },
+  "verbs": {
+    "accord": 1,
+    "bind": 2,
+    "carry": 1,
+    "contain": 1,
+    "control": 1,
+    "correspond": 1,
+    "describe": 3,
+    "do": 2,
+    "follow": 2,
+    "generate": 1,
+    "match": 1,
+    "note": 1,
+    "originate": 1,
+    "prove": 7,
+    "register": 2,
+    "require": 1,
+    "resolve": 2,
+    "result": 1,
+    "send": 1,
+    "sign": 4,
+    "tamper": 1,
+    "use": 2,
+    "verify": 2
+  }
+}

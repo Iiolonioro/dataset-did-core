@@ -1,0 +1,260 @@
+{
+  "nouns": {
+    "\"id": [
+      {
+        "end": 104,
+        "start": 101,
+        "type": "NP"
+      }
+    ],
+    "A DID Document": [
+      {
+        "end": 40,
+        "start": 36,
+        "type": "NP"
+      }
+    ],
+    "DID Document": [
+      {
+        "end": 27,
+        "start": 25,
+        "type": "NP"
+      }
+    ],
+    "Document": [
+      {
+        "end": 74,
+        "start": 73,
+        "type": "NP"
+      }
+    ],
+    "Example": [
+      {
+        "end": 97,
+        "start": 95,
+        "type": "NP"
+      }
+    ],
+    "Primary": [
+      {
+        "end": 2,
+        "start": 1,
+        "type": "NP"
+      }
+    ],
+    "The key": [
+      {
+        "end": 50,
+        "start": 48,
+        "type": "NP"
+      }
+    ],
+    "The rules": [
+      {
+        "end": 30,
+        "start": 28,
+        "type": "NP"
+      }
+    ],
+    "The value": [
+      {
+        "end": 60,
+        "start": 58,
+        "type": "NP"
+      }
+    ],
+    "a valid DID": [
+      {
+        "end": 68,
+        "start": 65,
+        "type": "NP"
+      }
+    ],
+    "i": [
+      {
+        "end": 56,
+        "start": 55,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 20,
+        "start": 19,
+        "type": "NP"
+      }
+    ],
+    "network": [
+      {
+        "end": 84,
+        "start": 82,
+        "type": "NP"
+      }
+    ],
+    "the DID Document": [
+      {
+        "end": 16,
+        "start": 13,
+        "type": "NP"
+      }
+    ],
+    "the primary index key": [
+      {
+        "end": 12,
+        "start": 8,
+        "type": "NP"
+      }
+    ],
+    "the target": [
+      {
+        "end": 79,
+        "start": 77,
+        "type": "NP"
+      }
+    ],
+    "this DID": [
+      {
+        "end": 73,
+        "start": 71,
+        "type": "NP"
+      }
+    ],
+    "this key": [
+      {
+        "end": 63,
+        "start": 61,
+        "type": "NP"
+      }
+    ],
+    "this primary DID value": [
+      {
+        "end": 94,
+        "start": 90,
+        "type": "NP"
+      }
+    ],
+    "this property": [
+      {
+        "end": 53,
+        "start": 51,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DID": [
+      {
+        "end": 7,
+        "start": 6,
+        "type": "ORG"
+      },
+      {
+        "end": 34,
+        "start": 33,
+        "type": "ORG"
+      },
+      {
+        "end": 46,
+        "start": 45,
+        "type": "ORG"
+      },
+      {
+        "end": 68,
+        "start": 67,
+        "type": "ORG"
+      },
+      {
+        "end": 88,
+        "start": 87,
+        "type": "ORG"
+      },
+      {
+        "end": 93,
+        "start": 92,
+        "type": "ORG"
+      }
+    ],
+    "DID Document": [
+      {
+        "end": 27,
+        "start": 25,
+        "type": "ORG"
+      }
+    ],
+    "one": [
+      {
+        "end": 44,
+        "start": 43,
+        "type": "CARDINAL"
+      }
+    ],
+    "the DID Document": [
+      {
+        "end": 16,
+        "start": 13,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 44,
+        "label": "one",
+        "start": 43
+      }
+    ],
+    "ORG": [
+      {
+        "end": 7,
+        "label": "DID",
+        "start": 6
+      },
+      {
+        "end": 16,
+        "label": "the DID Document",
+        "start": 13
+      },
+      {
+        "end": 27,
+        "label": "DID Document",
+        "start": 25
+      },
+      {
+        "end": 34,
+        "label": "DID",
+        "start": 33
+      },
+      {
+        "end": 46,
+        "label": "DID",
+        "start": 45
+      },
+      {
+        "end": 68,
+        "label": "DID",
+        "start": 67
+      },
+      {
+        "end": 88,
+        "label": "DID",
+        "start": 87
+      },
+      {
+        "end": 93,
+        "label": "DID",
+        "start": 92
+      }
+    ]
+  },
+  "verbs": {
+    "be": 2,
+    "describe": 1,
+    "distribute": 1,
+    "do": 7,
+    "example:21tdakcerh95uggkbjnhyp": 1,
+    "have": 1,
+    "match": 1,
+    "register": 1
+  }
+}

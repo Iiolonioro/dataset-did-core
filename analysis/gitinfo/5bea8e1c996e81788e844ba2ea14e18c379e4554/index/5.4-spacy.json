@@ -1,0 +1,291 @@
+{
+  "nouns": {
+    "(the did-fragment rule": [
+      {
+        "end": 14,
+        "start": 8,
+        "type": "NP"
+      }
+    ],
+    "A DID fragment": [
+      {
+        "end": 45,
+        "start": 42,
+        "type": "NP"
+      }
+    ],
+    "A generic DID fragment": [
+      {
+        "end": 8,
+        "start": 4,
+        "type": "NP"
+      }
+    ],
+    "A specific DID scheme": [
+      {
+        "end": 110,
+        "start": 106,
+        "type": "NP"
+      }
+    ],
+    "ABNF rule": [
+      {
+        "end": 37,
+        "start": 34,
+        "type": "NP"
+      }
+    ],
+    "ABNF rules": [
+      {
+        "end": 114,
+        "start": 112,
+        "type": "NP"
+      }
+    ],
+    "DID Fragments": [
+      {
+        "end": 3,
+        "start": 0,
+        "type": "NP"
+      }
+    ],
+    "DID fragments": [
+      {
+        "end": 117,
+        "start": 115,
+        "type": "NP"
+      }
+    ],
+    "RFC": [
+      {
+        "end": 39,
+        "start": 38,
+        "type": "NP"
+      }
+    ],
+    "a URI fragment": [
+      {
+        "end": 25,
+        "start": 22,
+        "type": "NP"
+      }
+    ],
+    "a method-independent pointer": [
+      {
+        "end": 55,
+        "start": 50,
+        "type": "NP"
+      }
+    ],
+    "a unique key description": [
+      {
+        "end": 66,
+        "start": 62,
+        "type": "NP"
+      }
+    ],
+    "other DID Document component": [
+      {
+        "end": 71,
+        "start": 67,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 16,
+        "start": 15,
+        "type": "NP"
+      }
+    ],
+    "the ABNF": [
+      {
+        "end": 31,
+        "start": 29,
+        "type": "NP"
+      }
+    ],
+    "the DID\nfragment": [
+      {
+        "end": 87,
+        "start": 83,
+        "type": "NP"
+      }
+    ],
+    "the DID Document": [
+      {
+        "end": 60,
+        "start": 57,
+        "type": "NP"
+      }
+    ],
+    "the generic rules": [
+      {
+        "end": 126,
+        "start": 123,
+        "type": "NP"
+      }
+    ],
+    "the id key": [
+      {
+        "end": 98,
+        "start": 94,
+        "type": "NP"
+      }
+    ],
+    "the target JSON\nobject": [
+      {
+        "end": 104,
+        "start": 99,
+        "type": "NP"
+      }
+    ],
+    "the value": [
+      {
+        "end": 93,
+        "start": 91,
+        "type": "NP"
+      }
+    ],
+    "this pointer": [
+      {
+        "end": 77,
+        "start": 75,
+        "type": "NP"
+      }
+    ],
+    "this section": [
+      {
+        "end": 129,
+        "start": 127,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DID": [
+      {
+        "end": 44,
+        "start": 43,
+        "type": "ORG"
+      },
+      {
+        "end": 109,
+        "start": 108,
+        "type": "ORG"
+      },
+      {
+        "end": 116,
+        "start": 115,
+        "type": "ORG"
+      }
+    ],
+    "DID Document": [
+      {
+        "end": 70,
+        "start": 68,
+        "type": "ORG"
+      }
+    ],
+    "MAY": [
+      {
+        "end": 111,
+        "start": 110,
+        "type": "CARDINAL"
+      }
+    ],
+    "MUST": [
+      {
+        "end": 27,
+        "start": 26,
+        "type": "ORG"
+      }
+    ],
+    "RFC 3986": [
+      {
+        "end": 40,
+        "start": 38,
+        "type": "DATE"
+      }
+    ],
+    "URI": [
+      {
+        "end": 24,
+        "start": 23,
+        "type": "ORG"
+      }
+    ],
+    "section 5.1": [
+      {
+        "end": 17,
+        "start": 15,
+        "type": "LAW"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 111,
+        "label": "MAY",
+        "start": 110
+      }
+    ],
+    "DATE": [
+      {
+        "end": 40,
+        "label": "RFC 3986",
+        "start": 38
+      }
+    ],
+    "LAW": [
+      {
+        "end": 17,
+        "label": "section 5.1",
+        "start": 15
+      }
+    ],
+    "ORG": [
+      {
+        "end": 24,
+        "label": "URI",
+        "start": 23
+      },
+      {
+        "end": 27,
+        "label": "MUST",
+        "start": 26
+      },
+      {
+        "end": 44,
+        "label": "DID",
+        "start": 43
+      },
+      {
+        "end": 70,
+        "label": "DID Document",
+        "start": 68
+      },
+      {
+        "end": 109,
+        "label": "DID",
+        "start": 108
+      },
+      {
+        "end": 116,
+        "label": "DID",
+        "start": 115
+      }
+    ]
+  },
+  "verbs": {
+    "be": 1,
+    "conform": 1,
+    "do": 2,
+    "identify": 1,
+    "include": 1,
+    "resolve": 1,
+    "specify": 1,
+    "use": 2
+  }
+}

@@ -9,13 +9,13 @@ title: Empirical Community Journalism about Decentralized Identifiers
 ---
 
 Welcome to the DID-Core Dataset, or DCD.  The DCD is a community artifact
-providing an historical accounting of the evolution of DIDs
-and their relation to descendant and related technologies.
+providing an historical account of the origina and evolution of DIDs
+and their descendant and related technologies.
 
 DID Methods are analyzed separately in the DID Method Dataset or DMD.
 
 The DCD is an analysis of the W3C DID-Core specification as it has evolved
-since inception in 2016.  This document tracks the
+since inception in 2016.  This document primarily tracks the
 [W3C DID-Core Git Hub Repository](https://github.com/w3c/did-core),
 which is the root of authority.  All statements which do not provenance back to
 this specification are nonjudgementally recognized as opinionated to some

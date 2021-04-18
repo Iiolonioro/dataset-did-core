@@ -1,0 +1,11 @@
+
+Authentication Service Endpoints
+
+
+
+      If a DDO publishes a service endpoint intended for authentication or authorization of an identity owner (section 6.6), it is the responsibility of the service endpoint provider, identity owner, and/or relying party to comply with the requirements of the authentication protocol(s) supported at that service endpoint.
+
+
+
+
+

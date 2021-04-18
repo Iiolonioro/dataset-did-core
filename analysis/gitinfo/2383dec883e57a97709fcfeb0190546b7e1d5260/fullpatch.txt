@@ -1,0 +1,116 @@
+commit 2383dec883e57a97709fcfeb0190546b7e1d5260
+tree 4861fd5bcbc26669b5f7322fa5593394258ed68a
+parent 602acfefae92b39e0d3a60f86df17f56eeaedb47
+author David I. Lehn <dlehn@digitalbazaar.com> 1509493119 -0400
+committer Manu Sporny <msporny@digitalbazaar.com> 1509881234 -0500
+
+    Fix sections.
+
+diff --git a/index.html b/index.html
+index b637d82..ba30b34 100644
+--- a/index.html
++++ b/index.html
+@@ -1119,9 +1119,8 @@ the proof mechanism.
+   </li>
+ </ol>
+ 
+-<h4>
+-6.5.1 Enabling Multiple Entities to Update the DID Document
+-</h4>
++<section>
++<h3>Enabling Multiple Entities to Update the DID Document</h3>
+ 
+ <p>
+ To assert that any single member of a group of other DID owners has
+@@ -1156,10 +1155,10 @@ property array MAY contain multiple JSON objects:
+ If at least one update signature from a DID in this array is verified, it
+ MUST be considered valid for Authorization.
+ </p>
++</section>
+ 
+-<h4>
+-6.5.2 Requiring Multiple Proofs
+-</h4>
++<section>
++<h3>Requiring Multiple Proofs</h3>
+ 
+ <p>
+ To assert that a set of members of a group of other DID owners must act
+@@ -1200,6 +1199,7 @@ property array MAY contain a single JSON object:
+   }]
+ }
+ </pre>
++</section>
+ 
+ </section>
+ 
+@@ -1642,14 +1642,8 @@ authentication protocol.
+ <section>
+ <h2>Binding of Identity</h2>
+ 
+-<p>
+-
+-
+-
+-</p>
+-<h4>
+-9.2.1 Proving Ownership of a DID and DID Document
+-</h4>
++<section>
++<h3>Proving Ownership of a DID and DID Document</h3>
+ 
+ <p>
+ By itself, a verified signature on self-signed DID Document does not prove ownership of a DID. It only proves the following:
+@@ -1683,20 +1677,15 @@ that was resolved.
+ </ol>
+ 
+ <p>
+-
+-
+-      It should be noted that this process proves ownership of a DID and DID Document regardless of whether the DID Document is signed.
+-
+-
+-
++It should be noted that this process proves ownership of a DID and DID Document regardless of whether the DID Document is signed.
+ </p>
+-<h4>
+-9.2.2 Proving Ownership of a Public Key
+-</h4>
+ 
+-<p>
++</section>
+ 
++<section>
++<h3>Proving Ownership of a Public Key</h3>
+ 
++<p>
+       There are two methods for proving ownership of the private key corresponding to a public key description in the DID Document: static and dynamic.
+ 
+ 
+@@ -1719,14 +1708,10 @@ description.
+   </li>
+ </ol>
+ 
+-<p>
+-
+-
++</section>
+ 
+-</p>
+-<h4>
+-9.2.3 Identity Owner Authentication and Verifiable Claims
+-</h4>
++<section>
++<h3>Identity Owner Authentication and Verifiable Claims</h3>
+ 
+ <p>
+       A DID and DID Document do not inherently carry any
+@@ -1738,6 +1723,8 @@ description.
+ </p>
+ </section>
+ 
++</section>
++
+ <section>
+ <h2>Authentication Service Endpoints</h2>
+ 

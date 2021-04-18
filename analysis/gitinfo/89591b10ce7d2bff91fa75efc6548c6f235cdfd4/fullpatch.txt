@@ -1,0 +1,57 @@
+commit 89591b10ce7d2bff91fa75efc6548c6f235cdfd4
+tree 94206d3e745798976d49eec76442474ac15675dc
+parent 2383dec883e57a97709fcfeb0190546b7e1d5260
+author David I. Lehn <dlehn@digitalbazaar.com> 1509493216 -0400
+committer Manu Sporny <msporny@digitalbazaar.com> 1509881234 -0500
+
+    Fix DID method table.
+
+diff --git a/index.html b/index.html
+index ba30b34..c7ca8b2 100644
+--- a/index.html
++++ b/index.html
+@@ -2138,35 +2138,20 @@ Future versions of the specification will describe in more detail how DIDs and D
+ <h1>Appendix A: Proposed DID Method Specifications</h1>
+ 
+ <p>
+-
+-
+       This table summarizes the DID method specifications currently in development. The links will be updated as subsequent Implementer’s Drafts are produced.
+ </p>
+-<table>
+-  <tbody>
++
++<table class="simple">
++  <thead>
+     <tr>
+-      <td>
+-        <p>
+-          Method Name
+-        </p>
+-      </td>
+-      <td>
+-        <p>
+-          DLT or Network
+-        </p>
+-      </td>
+-      <td>
+-        <p>
+-          Authors
+-        </p>
+-      </td>
+-      <td>
+-        <p>
+-          Link
+-        </p>
+-      </td>
++      <th>Method Name</th>
++      <th>DLT or Network</th>
++      <th>Authors</th>
++      <th>Link</th>
+     </tr>
++  </thead>
+ 
++  <tbody>
+     <tr>
+       <td>
+           did:sov:

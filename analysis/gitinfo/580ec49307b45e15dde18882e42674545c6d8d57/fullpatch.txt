@@ -1,0 +1,30 @@
+commit 580ec49307b45e15dde18882e42674545c6d8d57
+tree 006e10e418216b212e4f48befe45c8445440e75f
+parent 889e08b35c63d6be96da571d2f6452e42f8c2ef4
+author Manu Sporny <msporny@digitalbazaar.com> 1499627421 -0400
+committer Manu Sporny <msporny@digitalbazaar.com> 1499627421 -0400
+
+    Change title of document based on feedback from @talltree.
+
+diff --git a/index.html b/index.html
+index 8da3abc..e9b4c77 100644
+--- a/index.html
++++ b/index.html
+@@ -1,7 +1,7 @@
+ <!DOCTYPE html>
+ <html>
+   <head>
+-    <title>Decentralized Identifiers 1.0</title>
++    <title>Decentralized Identifiers (DIDs) 1.0</title>
+     <meta http-equiv='Content-Type' content='text/html;charset=utf-8'/>
+     <!--
+       === NOTA BENE ===
+@@ -19,7 +19,7 @@
+         shortName: "did",
+ 
+         // subtitle
+-        subtitle: "Data Model and Syntaxes",
++        subtitle: "Data Model and Syntaxes for Decentralized Identifiers (DIDs)",
+ 
+         // if you wish the publication date to be other than today, set this
+         // publishDate:  "2009-08-06",

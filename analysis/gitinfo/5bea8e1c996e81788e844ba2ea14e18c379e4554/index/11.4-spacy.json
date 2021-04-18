@@ -1,0 +1,282 @@
+{
+  "nouns": {
+    "Authorization": [
+      {
+        "end": 47,
+        "start": 46,
+        "type": "NP"
+      }
+    ],
+    "DID Document Recovery\n\n\n\n      Section": [
+      {
+        "end": 9,
+        "start": 4,
+        "type": "NP"
+      }
+    ],
+    "The technique": [
+      {
+        "end": 31,
+        "start": 29,
+        "type": "NP"
+      }
+    ],
+    "This protection": [
+      {
+        "end": 65,
+        "start": 63,
+        "type": "NP"
+      }
+    ],
+    "Time Locks": [
+      {
+        "end": 3,
+        "start": 0,
+        "type": "NP"
+      }
+    ],
+    "We": [
+      {
+        "end": 99,
+        "start": 98,
+        "type": "NP"
+      }
+    ],
+    "a\n        time lock": [
+      {
+        "end": 72,
+        "start": 68,
+        "type": "NP"
+      }
+    ],
+    "a Authorization block": [
+      {
+        "end": 91,
+        "start": 88,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 24,
+        "start": 22,
+        "type": "NP"
+      }
+    ],
+    "a DID Document": [
+      {
+        "end": 45,
+        "start": 42,
+        "type": "NP"
+      }
+    ],
+    "a future version": [
+      {
+        "end": 110,
+        "start": 107,
+        "type": "NP"
+      }
+    ],
+    "a key compromise": [
+      {
+        "end": 28,
+        "start": 25,
+        "type": "NP"
+      }
+    ],
+    "an ability": [
+      {
+        "end": 35,
+        "start": 33,
+        "type": "NP"
+      }
+    ],
+    "an earlier version": [
+      {
+        "end": 52,
+        "start": 49,
+        "type": "NP"
+      }
+    ],
+    "control": [
+      {
+        "end": 21,
+        "start": 20,
+        "type": "NP"
+      },
+      {
+        "end": 97,
+        "start": 96,
+        "type": "NP"
+      }
+    ],
+    "one possible clever use": [
+      {
+        "end": 15,
+        "start": 11,
+        "type": "NP"
+      }
+    ],
+    "order": [
+      {
+        "end": 58,
+        "start": 57,
+        "type": "NP"
+      }
+    ],
+    "part": [
+      {
+        "end": 82,
+        "start": 81,
+        "type": "NP"
+      }
+    ],
+    "support": [
+      {
+        "end": 103,
+        "start": 102,
+        "type": "NP"
+      }
+    ],
+    "the DID Document": [
+      {
+        "end": 56,
+        "start": 53,
+        "type": "NP"
+      }
+    ],
+    "the attacker": [
+      {
+        "end": 62,
+        "start": 60,
+        "type": "NP"
+      }
+    ],
+    "the most recent update": [
+      {
+        "end": 41,
+        "start": 37,
+        "type": "NP"
+      }
+    ],
+    "the transaction chain": [
+      {
+        "end": 86,
+        "start": 83,
+        "type": "NP"
+      }
+    ],
+    "this specification": [
+      {
+        "end": 113,
+        "start": 111,
+        "type": "NP"
+      }
+    ],
+    "time locks": [
+      {
+        "end": 18,
+        "start": 16,
+        "type": "NP"
+      },
+      {
+        "end": 106,
+        "start": 104,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "Authorization": [
+      {
+        "end": 47,
+        "start": 46,
+        "type": "ORG"
+      },
+      {
+        "end": 90,
+        "start": 89,
+        "type": "ORG"
+      }
+    ],
+    "Bitcoin BIP": [
+      {
+        "end": 76,
+        "start": 74,
+        "type": "ORG"
+      }
+    ],
+    "DID": [
+      {
+        "end": 24,
+        "start": 23,
+        "type": "ORG"
+      }
+    ],
+    "one": [
+      {
+        "end": 12,
+        "start": 11,
+        "type": "CARDINAL"
+      }
+    ],
+    "the DID Document": [
+      {
+        "end": 56,
+        "start": 53,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 12,
+        "label": "one",
+        "start": 11
+      }
+    ],
+    "ORG": [
+      {
+        "end": 24,
+        "label": "DID",
+        "start": 23
+      },
+      {
+        "end": 47,
+        "label": "Authorization",
+        "start": 46
+      },
+      {
+        "end": 56,
+        "label": "the DID Document",
+        "start": 53
+      },
+      {
+        "end": 76,
+        "label": "Bitcoin BIP",
+        "start": 74
+      },
+      {
+        "end": 90,
+        "label": "Authorization",
+        "start": 89
+      }
+    ]
+  },
+  "verbs": {
+    "add": 2,
+    "apply": 1,
+    "defeat": 1,
+    "depend": 1,
+    "enable": 1,
+    "mention": 1,
+    "override": 1,
+    "plan": 1,
+    "protect": 1,
+    "recover": 2,
+    "rely": 1,
+    "see": 1,
+    "use": 1
+  }
+}

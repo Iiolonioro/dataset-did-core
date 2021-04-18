@@ -1,0 +1,582 @@
+{
+  "nouns": {
+    "(cryptographic key management system": [
+      {
+        "end": 105,
+        "start": 100,
+        "type": "NP"
+      }
+    ],
+    "DID Documents": [
+      {
+        "end": 84,
+        "start": 82,
+        "type": "NP"
+      }
+    ],
+    "DID Operations": [
+      {
+        "end": 3,
+        "start": 0,
+        "type": "NP"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 11,
+        "start": 10,
+        "type": "NP"
+      }
+    ],
+    "Documents": [
+      {
+        "end": 14,
+        "start": 13,
+        "type": "NP"
+      }
+    ],
+    "Each operation": [
+      {
+        "end": 51,
+        "start": 49,
+        "type": "NP"
+      }
+    ],
+    "Key expiration\n  \n\n\nCreate": [
+      {
+        "end": 126,
+        "start": 121,
+        "type": "NP"
+      }
+    ],
+    "Key recovery": [
+      {
+        "end": 121,
+        "start": 118,
+        "type": "NP"
+      }
+    ],
+    "Key replacement": [
+      {
+        "end": 115,
+        "start": 112,
+        "type": "NP"
+      }
+    ],
+    "Key rotation": [
+      {
+        "end": 118,
+        "start": 115,
+        "type": "NP"
+      }
+    ],
+    "Read/Verify": [
+      {
+        "end": 175,
+        "start": 171,
+        "type": "NP"
+      }
+    ],
+    "The DID method specification": [
+      {
+        "end": 131,
+        "start": 127,
+        "type": "NP"
+      },
+      {
+        "end": 180,
+        "start": 176,
+        "type": "NP"
+      }
+    ],
+    "Update\n\n\n\n      The DID method specification": [
+      {
+        "end": 217,
+        "start": 210,
+        "type": "NP"
+      }
+    ],
+    "a\nDID record": [
+      {
+        "end": 141,
+        "start": 137,
+        "type": "NP"
+      }
+    ],
+    "a CKMS": [
+      {
+        "end": 100,
+        "start": 98,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 147,
+        "start": 145,
+        "type": "NP"
+      },
+      {
+        "end": 188,
+        "start": 186,
+        "type": "NP"
+      }
+    ],
+    "a DID Document": [
+      {
+        "end": 193,
+        "start": 190,
+        "type": "NP"
+      }
+    ],
+    "a DID method specification": [
+      {
+        "end": 32,
+        "start": 28,
+        "type": "NP"
+      }
+    ],
+    "a DID record": [
+      {
+        "end": 227,
+        "start": 224,
+        "type": "NP"
+      },
+      {
+        "end": 272,
+        "start": 269,
+        "type": "NP"
+      }
+    ],
+    "a client": [
+      {
+        "end": 48,
+        "start": 46,
+        "type": "NP"
+      },
+      {
+        "end": 136,
+        "start": 134,
+        "type": "NP"
+      },
+      {
+        "end": 185,
+        "start": 183,
+        "type": "NP"
+      },
+      {
+        "end": 222,
+        "start": 220,
+        "type": "NP"
+      },
+      {
+        "end": 267,
+        "start": 265,
+        "type": "NP"
+      }
+    ],
+    "a core feature": [
+      {
+        "end": 252,
+        "start": 249,
+        "type": "NP"
+      }
+    ],
+    "a particular distributed ledger": [
+      {
+        "end": 19,
+        "start": 15,
+        "type": "NP"
+      }
+    ],
+    "all cryptographic operations": [
+      {
+        "end": 163,
+        "start": 160,
+        "type": "NP"
+      },
+      {
+        "end": 236,
+        "start": 233,
+        "type": "NP"
+      },
+      {
+        "end": 281,
+        "start": 278,
+        "type": "NP"
+      }
+    ],
+    "all the operations": [
+      {
+        "end": 96,
+        "start": 93,
+        "type": "NP"
+      }
+    ],
+    "control": [
+      {
+        "end": 242,
+        "start": 241,
+        "type": "NP"
+      }
+    ],
+    "detail": [
+      {
+        "end": 59,
+        "start": 58,
+        "type": "NP"
+      }
+    ],
+    "distributed ledgers": [
+      {
+        "end": 255,
+        "start": 253,
+        "type": "NP"
+      }
+    ],
+    "e.g.:\n\n\n\n\n\nKey registration": [
+      {
+        "end": 112,
+        "start": 107,
+        "type": "NP"
+      }
+    ],
+    "interoperable client implementations": [
+      {
+        "end": 67,
+        "start": 64,
+        "type": "NP"
+      }
+    ],
+    "its associated DID Document": [
+      {
+        "end": 152,
+        "start": 148,
+        "type": "NP"
+      }
+    ],
+    "network": [
+      {
+        "end": 21,
+        "start": 20,
+        "type": "NP"
+      }
+    ],
+    "ownership": [
+      {
+        "end": 170,
+        "start": 169,
+        "type": "NP"
+      }
+    ],
+    "proof": [
+      {
+        "end": 168,
+        "start": 167,
+        "type": "NP"
+      },
+      {
+        "end": 240,
+        "start": 239,
+        "type": "NP"
+      },
+      {
+        "end": 285,
+        "start": 284,
+        "type": "NP"
+      }
+    ],
+    "revocation": [
+      {
+        "end": 287,
+        "start": 286,
+        "type": "NP"
+      }
+    ],
+    "the\ntarget system": [
+      {
+        "end": 158,
+        "start": 154,
+        "type": "NP"
+      }
+    ],
+    "the DID method specification": [
+      {
+        "end": 262,
+        "start": 258,
+        "type": "NP"
+      }
+    ],
+    "the authenticity": [
+      {
+        "end": 206,
+        "start": 204,
+        "type": "NP"
+      }
+    ],
+    "the client": [
+      {
+        "end": 202,
+        "start": 200,
+        "type": "NP"
+      }
+    ],
+    "the combination": [
+      {
+        "end": 144,
+        "start": 142,
+        "type": "NP"
+      }
+    ],
+    "the following\n        CRUD\n       operations": [
+      {
+        "end": 43,
+        "start": 37,
+        "type": "NP"
+      }
+    ],
+    "the full functionality": [
+      {
+        "end": 9,
+        "start": 6,
+        "type": "NP"
+      }
+    ],
+    "the level": [
+      {
+        "end": 57,
+        "start": 55,
+        "type": "NP"
+      }
+    ],
+    "the response": [
+      {
+        "end": 209,
+        "start": 207,
+        "type": "NP"
+      }
+    ],
+    "the specified contents": [
+      {
+        "end": 81,
+        "start": 78,
+        "type": "NP"
+      }
+    ],
+    "the target system": [
+      {
+        "end": 26,
+        "start": 23,
+        "type": "NP"
+      },
+      {
+        "end": 71,
+        "start": 68,
+        "type": "NP"
+      },
+      {
+        "end": 197,
+        "start": 194,
+        "type": "NP"
+      },
+      {
+        "end": 231,
+        "start": 228,
+        "type": "NP"
+      },
+      {
+        "end": 276,
+        "start": 273,
+        "type": "NP"
+      }
+    ],
+    "these operations": [
+      {
+        "end": 87,
+        "start": 85,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "Create\n\n": [
+      {
+        "end": 127,
+        "start": 125,
+        "type": "PERSON"
+      }
+    ],
+    "DID": [
+      {
+        "end": 30,
+        "start": 29,
+        "type": "ORG"
+      },
+      {
+        "end": 129,
+        "start": 128,
+        "type": "ORG"
+      },
+      {
+        "end": 147,
+        "start": 146,
+        "type": "ORG"
+      },
+      {
+        "end": 178,
+        "start": 177,
+        "type": "ORG"
+      },
+      {
+        "end": 188,
+        "start": 187,
+        "type": "ORG"
+      },
+      {
+        "end": 215,
+        "start": 214,
+        "type": "ORG"
+      },
+      {
+        "end": 226,
+        "start": 225,
+        "type": "ORG"
+      },
+      {
+        "end": 260,
+        "start": 259,
+        "type": "ORG"
+      },
+      {
+        "end": 271,
+        "start": 270,
+        "type": "ORG"
+      }
+    ],
+    "DID Document": [
+      {
+        "end": 193,
+        "start": 191,
+        "type": "ORG"
+      }
+    ],
+    "DID Documents": [
+      {
+        "end": 14,
+        "start": 12,
+        "type": "ORG"
+      },
+      {
+        "end": 84,
+        "start": 82,
+        "type": "ORG"
+      }
+    ],
+    "Delete/Revoke\n\n\n\n      ": [
+      {
+        "end": 248,
+        "start": 244,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "ORG": [
+      {
+        "end": 14,
+        "label": "DID Documents",
+        "start": 12
+      },
+      {
+        "end": 30,
+        "label": "DID",
+        "start": 29
+      },
+      {
+        "end": 84,
+        "label": "DID Documents",
+        "start": 82
+      },
+      {
+        "end": 129,
+        "label": "DID",
+        "start": 128
+      },
+      {
+        "end": 147,
+        "label": "DID",
+        "start": 146
+      },
+      {
+        "end": 178,
+        "label": "DID",
+        "start": 177
+      },
+      {
+        "end": 188,
+        "label": "DID",
+        "start": 187
+      },
+      {
+        "end": 193,
+        "label": "DID Document",
+        "start": 191
+      },
+      {
+        "end": 215,
+        "label": "DID",
+        "start": 214
+      },
+      {
+        "end": 226,
+        "label": "DID",
+        "start": 225
+      },
+      {
+        "end": 248,
+        "label": "Delete/Revoke\n\n\n\n      ",
+        "start": 244
+      },
+      {
+        "end": 260,
+        "label": "DID",
+        "start": 259
+      },
+      {
+        "end": 271,
+        "label": "DID",
+        "start": 270
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 127,
+        "label": "Create\n\n",
+        "start": 125
+      }
+    ]
+  },
+  "verbs": {
+    "associate": 1,
+    "be": 1,
+    "build": 1,
+    "call": 1,
+    "create": 1,
+    "distribute": 2,
+    "do": 2,
+    "enable": 1,
+    "establish": 3,
+    "follow": 1,
+    "include": 4,
+    "note": 1,
+    "perform": 2,
+    "request": 1,
+    "require": 1,
+    "revoke": 1,
+    "specify": 7,
+    "test": 1,
+    "update": 1,
+    "use": 2,
+    "verify": 1
+  }
+}

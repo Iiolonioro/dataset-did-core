@@ -1,0 +1,19 @@
+commit af41622af9db5f34a7f9168b0fdf6498492e9d96
+Author: Manu Sporny <msporny@digitalbazaar.com>
+Date:   Sun Oct 15 15:23:41 2017 -0400
+
+    Change group to community.
+
+diff --git a/index.html b/index.html
+index 6f6f401..418f883 100644
+--- a/index.html
++++ b/index.html
+@@ -130,7 +130,7 @@ endorsement should be inferred.
+ 
+ <p>
+ Work on this specification has also been supported by the Rebooting the
+-Web of Trust group facilitated by Christopher Allen, Shannon Appelcline,
++Web of Trust community facilitated by Christopher Allen, Shannon Appelcline,
+ Kiara Robles, Brian Weller, Betty Dhamers, Kaliya Young, Manu Sporny,
+ Drummond Reed, and Joe Andrieu.
+ </p>

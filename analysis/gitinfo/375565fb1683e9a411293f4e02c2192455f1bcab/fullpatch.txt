@@ -1,0 +1,21 @@
+commit 375565fb1683e9a411293f4e02c2192455f1bcab
+tree 0bb87f0ba8614ed80cf94c5415836cfc161cee4b
+parent 01acba2479bd7d10d853bcddec2b78e62287bb05
+author Manu Sporny <msporny@digitalbazaar.com> 1508244627 -0400
+committer Manu Sporny <msporny@digitalbazaar.com> 1509881234 -0500
+
+    Set spec version to 0.7.
+
+diff --git a/index.html b/index.html
+index 602d747..8678eb5 100644
+--- a/index.html
++++ b/index.html
+@@ -1,7 +1,7 @@
+ <!DOCTYPE html>
+ <html>
+   <head>
+-    <title>Decentralized Identifiers (DIDs) 1.0</title>
++    <title>Decentralized Identifiers (DIDs) v0.7</title>
+     <meta http-equiv='Content-Type' content='text/html;charset=utf-8'/>
+     <!--
+       === NOTA BENE ===

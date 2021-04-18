@@ -1,0 +1,629 @@
+commit dd18cabecfda544eab5dc865d8a22257d2bc9ff1
+tree d1077bc3aa03a72cb3f7580cdb88ae6bc1c1ec4c
+parent 04b5d19447d90f0d67957343ba5417744444cfa9
+author Manu Sporny <msporny@digitalbazaar.com> 1508206023 -0400
+committer Manu Sporny <msporny@digitalbazaar.com> 1509881234 -0500
+
+    ReSpec-ify terminology section.
+
+diff --git a/index.html b/index.html
+index 43cbe24..713bbeb 100644
+--- a/index.html
++++ b/index.html
+@@ -83,7 +83,7 @@
+         // This is important for Rec-track documents, do not copy a patent URI from a random
+         // document unless you know what you're doing. If in doubt ask your friendly neighbourhood
+         // Team Contact.
+-        wgPatentURI:  "",
++        wgPatentURI:  "https://www.w3.org/community/about/agreements/cla/",
+         maxTocLevel: 4,
+         inlineCSS: true
+       };
+@@ -165,7 +165,7 @@ management</a> .
+ <p>
+ The emergence of distributed ledger technology (DLT), sometimes referred
+ to as blockchain technology, provides the opportunity to implement fully
+-decentralized identity management. In this ecosystem, all entities
++<a>decentralized identity management</a>. In this ecosystem, all entities
+ share a common root of trust in the form of a globally distributed ledger
+ (or a decentralized P2P network that provides similar capabilities).
+ </p>
+@@ -535,10 +535,10 @@ when possible to express authorization to modify a DID Document.
+ <p>
+ The following example expresses a DID Document that describes the DID above
+ where control of the document is delegated to another entity. In
+-this case the DID Document describes a dependent—an entity who is not currently
++this case the DID Document describes a <a>dependent</a>—an entity who is not currently
+ in a position to control the authentication information for this identity.
+ This DID Document
+-was created by a delegate—a separate entity with its own DID
++was created by a <a>delegate</a>—a separate entity with its own DID
+ that serves as a trustee for the dependent. Note that while this DID Document
+ asserts a set of service endpoints, it does not yet contain a set of key
+ descriptions because the dependent does not yet have its own set of
+@@ -583,234 +583,8 @@ technology.
+ <section>
+ <h1>Terminology</h1>
+ 
+-<p>
+-This specification defines the requirements of a conformant DID method
+-specification. The key words "MUST", "MUST NOT", "REQUIRED", "SHALL",
+-  "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and
+-  "OPTIONAL" in this document are to be interpreted as described in
+-  <a href="https://www.ietf.org/rfc/rfc2119.txt">RFC 2119</a> .
+-</p>
+-
+-<p>
+-All other terms used in this specification are defined in this glossary.
+-</p>
+-
+-<p>
+-Blockchain. A specific type of distributed ledger technology (DLT) that
+-stores ledger entries in blocks of transactions that are grouped
+-together and hashed into a cryptographic chain. Because this type of DLT
+-was introduced by <a href=
+-  "https://en.wikipedia.org/wiki/Bitcoin">Bitcoin</a> , the term
+-  "blockchain" is sometimes used to refer specifically to the Bitcoin
+-ledger.
+-</p>
+-
+-<p>
+-Decentralized identifier (DID). A globally unique identifier that does
+-not require a centralized registration authority because it is
+-registered with distributed ledger technology or other form of
+-decentralized network. The generic format of a DID is defined in this
+-specification. A specific DID scheme is defined in a DID method
+-specification.
+-</p>
+-
+-<p>
+-Decentralized identity management (DIDM). <a href=
+-  "https://en.wikipedia.org/wiki/Identity_management">Identity
+-management</a> based on decentralized identifiers. DIDM extends
+-identifier creation authority beyond the traditional roots of trust
+-required by <a href="https://en.wikipedia.org/wiki/X.500">X.500
+-directory services</a> , the <a href=
+-  "https://en.wikipedia.org/wiki/Domain_Name_System">Domain Name
+-System</a> , national ID systems, etc.
+-</p>
+-
+-<p>
+-Decentralized PKI (DPKI). Public key infrastructure based on
+-decentralized identifiers and identity records (e.g., DID Documents) containing
+-verifiable public key descriptions.
+-</p>
+-
+-<p>
+-Dependent. A person, organization, or thing whose DID record is
+-registered and maintained by a delegate because the dependent is not in
+-a position to control the private keys. A dependent becomes an identity
+-owner when the dependent takes control of the private keys.
+-</p>
+-
+-<p>
+-DID. Acronym for decentralized identifier.
+-</p>
+-
+-<p>
+-DID Document. A JSON data structure containing metadata
+-describing a DID, including mechanisms, such as public keys and
+-pseudonymous biometrics, that an entity can use to authenticate itself as the
+-DID. A DID Document may also contain other <a href=
+-  "https://en.wikipedia.org/wiki/Attribute_(computing)">attributes</a> or
+-  <a href="https://en.wikipedia.org/wiki/Claims-based_identity">claims</a>
+-  describing the entity.
+-</p>
+-
+-<p>
+-DID fragment. The portion of a DID reference that follows the first hash
+-sign character ("#"). A DID fragment uses the same syntax as a URI
+-fragment. See section 5.5. Note that a DID fragment MUST immediately
+-follow a DID. If a DID reference includes a DID path followed by a
+-fragment, that fragment is NOT a DID fragment.
+-</p>
+-
+-<p>
+-DID method. A definition of how a specific DID scheme can be implemented
+-on a specific distributed ledger or network, including the precise
+-method(s) by which DIDs and DID Documents can be read, written, and revoked.
+-</p>
+-
+-<p>
+-DID method conformance profile. A specification (or section of a
+-specification) that defines the rules an implementer must follow in
+-order to conform with another DID method specification. A conformance
+-profile narrows the set of options that may be used in order to meet a
+-specific implementation goal.
+-</p>
+-
+-<p>
+-DID method specification. The specification for a specific DID scheme
+-and DID method that is conformant with the requirements of this
+-specification.
+-</p>
+-
+-<p>
+-DID path. The portion of a DID reference that follows the first forward
+-slash character. A DID path uses the identical syntax as a URI path. See
+-section 5.4. Note that if a DID path is followed by a fragment, that
+-fragment is NOT a DID fragment.
+-</p>
+-
+-<p>
+-DID reference. A DID plus an optional DID path or DID fragment.
+-</p>
+-
+-<p>
+-DID scheme. The formal syntax of a DID identifier. The generic DID
+-scheme is defined in this specification. A DID method specification
+-defines a specific DID scheme that works with a specific DID method.
+-</p>
+-
+-<p>
+-DIDM. Acronym for decentralized identity management.
+-</p>
+-
+-<p>
+-Distributed ledger technology (DLT). A <a href=
+-  "https://en.wikipedia.org/wiki/Distributed_database">distributed
+-database</a> in which the various nodes use a <a href=
+-  "https://en.wikipedia.org/wiki/Consensus_(computer_science)">consensus
+-protocol</a> to maintain a shared ledger in which each transaction is
+-cryptographically signed and chained to the previous transaction. See
+-also blockchain.
+-</p>
+-
+-<p>
+-DLT. Acronym for distributed ledger technology.
+-</p>
+-
+-<p>
+-DPKI. Acronym for decentralized PKI.
+-</p>
+-
+-<p>
+-Delegate. An entity who creates a DID record for a dependent who
+-does not yet have the capacity to control the private keys. The
+-dependent must rely on the delegate to safeguard the private keys until
+-the dependent can assume control and become an entity.
+-</p>
+-
+-<p>
+-Identity owner. The natural person, party, organization, or thing whose
+-identity is represented by a DID record and who directly controls the
+-private keys to control that record. (Note: this specification avoids
+-the term "user" since an entity is not always an individual
+-person.)
+-</p>
+-
+-<p>
+-Identity record. Another name for a DID record.
+-</p>
+-
+-<p>
+-JSON-LD (JSON Linked Data). A method of encoding <a href=
+-  "https://en.wikipedia.org/wiki/Linked_data">Linked Data</a> using JSON.
+-The <a href="https://www.w3.org/TR/json-ld/">W3C JSON-LD 1.0
+-specification</a> enables object properties in a JSON document to be
+-linked to concepts in an RDF <a href=
+-  "https://en.wikipedia.org/wiki/Ontology_(information_science)">ontology</a>
+-  .
+-</p>
+-
+-<p>
+-Key description. A JSON object contained inside a DID Document that contains all
+-the metadata necessary to use a public key or verification key. A list
+-of standard key descriptions is included in Appendix C.
+-</p>
+-
+-<p>
+-Ledger. In the context of this specification, a shared database of
+-transactions maintained via distributed ledger technology.
+-</p>
+-
+-<p>
+-PKI. Acronym for <a href=
+-  "https://en.wikipedia.org/wiki/Public_key_infrastructure">public key
+-infrastructure</a> .
+-</p>
+-
+-<p>
+-RDF (Resource Description Framework). A semantic graph model defined by
+-the <a href="https://www.w3.org/2011/rdf-wg/">W3C RDF Working Group</a>
+-  .
+-</p>
+-
+-<p>
+-Service endpoint. A network address at which a service operates on
+-behalf of an entity. Examples of specific DIDM services include
+-discovery services, authentication services, authorization services,
+-interaction services, etc. A DIDM service endpoint may also be provided
+-by a generalized data interchange protocol such as XDI.
+-</p>
+-
+-<p>
+-UUID. Universally Unique Identifier as specified by <a href=
+-  "https://www.ietf.org/rfc/rfc4122.txt">RFC 4122</a> .
+-</p>
+-
+-<p>
+-URI (Uniform Resource Identifier). The official name for all Web
+-identifiers as defined by IETF <a href=
+-  "https://www.ietf.org/rfc/rfc3986.txt">RFC 3986</a> . See section 1.2.
+-</p>
+-
+-<p>
+-URL (Uniform Resource Locator). Any URI that can be resolved or
+-de-referenced to locate a specific resource on the Web. See section 1.2.
+-</p>
+-
+-<p>
+-URN (Uniform Resource Name). A URI intended to serve as a persistent,
+-location-independent identifier of a resource, i.e., an identifier that
+-will always represent the same resource and never change (ideally
+-forever). URN syntax is defined by IETF <a href=
+-  "https://www.ietf.org/rfc/rfc2141.txt">RFC 2141</a> . In general URNs
+-cannot directly be resolved or de-referenced to locate the resource they
+-identify. See section 1.2.
+-</p>
+-
+-<p>
+-XDI (Extensible Data Interchange) (also XRI Data Interchange)—a semantic
+-graph format and semantic data interchange protocol defined by the
+-  <a href="https://www.oasis-open.org/committees/xdi/">OASIS XDI Technical
+-Committee</a> .
+-</p>
++<div data-include="terms.html"
++  data-oninclude="restrictReferences"></div>
+ 
+ </section>
+ 
+@@ -818,7 +592,7 @@ Committee</a> .
+ <h1>Decentralized Identifiers (DIDs)</h1>
+ 
+ <p>
+-The foundation of DID architecture is the concept of the decentralized
++The foundation of <a>DID</a> architecture is the concept of the decentralized
+ identifier. This concept is not new; <a href=
+   "https://en.wikipedia.org/wiki/Universally_unique_identifier">UUIDs</a>
+   (Universally Unique IDentifiers) were first developed in the 1980s and
+@@ -843,7 +617,7 @@ that enable cryptographic verification of DID ownership.
+ <h2>The Generic DID Scheme</h2>
+ 
+ <p>
+-The generic DID scheme is a URI scheme conformant with <a href=
++The generic <a>DID scheme</a> is a URI scheme conformant with <a href=
+   "https://www.ietf.org/rfc/rfc3986.txt">RFC 3986</a> . It consists of a
+ DID followed by an optional path and/or fragment. The term DID refers
+ only to the identifier conforming to the did rule in the ABNF below;
+@@ -919,7 +693,7 @@ define as few specific-idstring formats as possible.
+ <h2>DID Paths</h2>
+ 
+ <p>
+-A generic DID path (the did-path rule in section 5.1) is identical to a
++A generic <a>DID path</a> (the did-path rule in section 5.1) is identical to a
+ URI path and MUST conform to the ABNF of the path-rootless ABNF rule in
+   <a href="https://www.ietf.org/rfc/rfc3986.txt">RFC 3986</a> . A DID path
+ SHOULD be used to address resources available via a DID service
+@@ -937,7 +711,7 @@ restrictive than the generic rules in this section.
+ <h2>DID Fragments</h2>
+ 
+ <p>
+-A generic DID fragment (the did-fragment rule in section 5.1) is
++A generic <a>DID fragment</a> (the did-fragment rule in section 5.1) is
+ identical to a URI fragment and MUST conform to the ABNF of the fragment
+ ABNF rule in <a href="https://www.ietf.org/rfc/rfc3986.txt">RFC 3986</a>
+   . A DID fragment MUST be used only as a method-independent pointer into
+@@ -1436,7 +1210,7 @@ property array MAY contain a single JSON object
+ <p>
+ In addition to publication of authentication and authorization mechanisms,
+ the other primary purpose of a DID Document is to enable discovery of
+-service endpoints for the entity. A service endpoint may represent
++<a>service endpoints</a> for the entity. A service endpoint may represent
+ any type of service the entity wishes to advertise, including
+ decentralized identity management services for further discovery,
+ authentication, authorization, or interaction.
+diff --git a/terms.html b/terms.html
+index 5c599ec..e9c93f1 100644
+--- a/terms.html
++++ b/terms.html
+@@ -1,131 +1,209 @@
+ <p>
+-  This document attempts to communicate the concepts outlined in the
+-  Verifiable Claims space by using specific terms to discuss particular
+-  concepts. This terminology is included below and linked to throughout the
+-  document to aid the reader:
++This document attempts to communicate the concepts outlined in the
++Decentralized Identifier space by using specialized terms to discuss specific
++concepts. This terminology is included below and linked to throughout the
++document to aid the reader:
+ </p>
+ 
+ <dl class="termlist">
+-  <dt><dfn data-lt="verifiable claim|verifiable claims|claims">claim</dfn></dt>
+-  <dd>
+-A statement made by an <a>entity</a> about a <a>subject</a>. A
+-<strong>verifiable claim</strong> is a claim that is effectively tamper-proof and whose
+-authorship can be cryptographically verified.
+-  </dd>
+-  <dt><dfn>credential curator</dfn></dt>
+-  <dd>
+-A program, such as a storage vault or personal verifiable
+-claim wallet, that stores and protects access to a <a>holder's</a>
+-credentials and verifiable claims.</dd>
+-  <dt><dfn data-lt="credential services">credential service</dfn></dt>
+-  <dd>
+-A program, such as a <a>credential</a> storage vault or personal
+-credential wallet, that stores and protects access to a
+-<a>holder's</a> credentials.
+-  </dd>
+-  <dt><dfn data-lt="CTP">credential transport protocol</dfn></dt>
+-  <dd>
+-A set of messages and protocols for issuing, storing, requesting, and
+-transmitting <a>credentials</a>.
+-  </dd>
+-  <dt><dfn>credential validation</dfn></dt>
++
++  <dt><dfn data-lt="">Blockchain</dfn></dt>
++
+   <dd>
+-The process that demonstrates the information in a <a>credential</a> is well-formed.
++A specific type of <a>distributed ledger</a> technology (DLT) that
++stores ledger entries in blocks of transactions that are grouped
++together and hashed into a cryptographic chain. Because this type of DLT
++was introduced by
++<a href="https://en.wikipedia.org/wiki/Bitcoin">Bitcoin</a>,
++the term "blockchain" is sometimes used to refer specifically to the Bitcoin
++ledger.
+   </dd>
+-  <dt><dfn>credential verification</dfn></dt>
++
++  <dt><dfn data-lt="DID|DIDs|decentralized identifiers">Decentralized Identifier</dfn> (DID)</dt>
++
+   <dd>
+-The process that cryptographically demonstrates the authenticity of a <a>credential</a>.
++A globally unique identifier that does
++not require a centralized registration authority because it is
++registered with <a>distributed ledger</a> technology or other form of
++decentralized network. The generic format of a DID is defined in this
++specification. A specific <a>DID scheme</a> is defined in a
++<a>DID method</a> specification.
+   </dd>
+-  <dt><dfn data-lt="decentralized identifiers|DID|DIDs">decentralized identifier</dfn></dt>
++
++  <dt><dfn data-lt="">Decentralized Identity Management</dfn></dt>
++
+   <dd>
+-A portable URI-based identifier, also known as a DID, that is associated with
+-an <a>entity</a>. These
+-identifiers are most often used in a <a>credential</a> and are associated
+-with <a>holders</a> such that the <a>credential</a> itself can be easily
+-ported from one <a>identity provider</a> to another without the need to
+-reissue the <a>credential</a>. An example of a DID is:
+-<code>did:b6922d8e-20df-4939-95cd-f79375979178</code>
++<a href="https://en.wikipedia.org/wiki/Identity_management">Identity
++Management</a> based on <a>decentralized identifiers</a>.
++Decentralized Identity Management extends the identifier creation authority
++beyond the traditional roots of trust
++required by <a href="https://en.wikipedia.org/wiki/X.500">X.500
++directory services</a>, the <a href=
++  "https://en.wikipedia.org/wiki/Domain_Name_System">Domain Name
++System</a>, and most national ID systems.
+   </dd>
+-  <dt><dfn data-lt="decentralized identifier documents|DID document|DID documents">decentralized identifier document</dfn></dt>
++
++  <dt><dfn data-lt="">Decentralized Public Key Infrastructure</dfn> (DPKI)</dt>
++
+   <dd>
+-A document that is accessible via an identifier registry and contains information
+-related to a particular <a>decentralized identifier</a> such as the
+-associated <a>identity provider</a> and public key information.
++Public key infrastructure based on
++decentralized identifiers and identity records (e.g., DID Documents) containing
++verifiable public key descriptions.
+   </dd>
+-  <dt><dfn>digital signature</dfn></dt>
++
++
++
++  <dt><dfn data-lt="">Dependent</dfn></dt>
++
+   <dd>
+-A mathematical scheme for demonstrating the authenticity of a digital message.
++A person, organization, or thing whose <a>DID</a> is
++registered and maintained by a delegate because the dependent is not in
++a position to control the private keys. A dependent becomes an
++<a>identity owner</a> when the dependent takes control of the private keys.
+   </dd>
+-  <dt><dfn data-lt="entities|entity's">entity</dfn></dt>
++
++
++  <dt><dfn data-lt="">DID Document</dfn></dt>
++
+   <dd>
+-A thing with distinct and independent existence such as a person, organization,
+-concept, or device.
++A set of data that describes a
++<a>DID</a>, including mechanisms, such as public keys and
++pseudonymous biometrics, that an entity can use to authenticate itself as the
++DID. A DID Document may also contain other
++<a href="https://en.wikipedia.org/wiki/Attribute_(computing)">attributes</a> or
++<a href="https://en.wikipedia.org/wiki/Claims-based_identity">claims</a>
++describing the entity. These documents are graph-based data structures that
++are typically expressed using [[!JSON-LD]], but may be expressed using other
++compatible graph-based data formats.
+   </dd>
+-  <dt><dfn data-lt="credential|credentials|entity credentials">entity credential</dfn></dt>
++
++  <dt><dfn data-lt="">DID Fragment</dfn></dt>
++
+   <dd>
+-A set of one or more claims made by the same <a>entity</a> about a
+-<a>subject</a>.
++The portion of a <a>DID reference</a> that follows the first hash
++sign character ("#"). A DID fragment uses the same syntax as a URI
++fragment. See section 5.5. Note that a DID fragment MUST immediately
++follow a DID. If a DID reference includes a DID path followed by a
++fragment, that fragment is NOT a DID fragment.
+   </dd>
+-  <dt><dfn data-lt="holders|holder's">holder</dfn></dt>
++
++
++
++  <dt><dfn data-lt="">DID Method</dfn></dt>
++
+   <dd>
+-An <a>entity</a> that is in control of one or more <a>verifiable claims</a>.
+-Typically a holder is also the primary <a>subject</a> of the
+-<a>verifiable claims</a> that they are holding.
++A definition of how a specific DID scheme can be implemented
++on a specific distributed ledger or network, including the precise
++method(s) by which DIDs and DID Documents can be read, written, and revoked.
+   </dd>
+-  <dt><dfn data-lt="identities|identity's">identity</dfn></dt>
++
++
++
++  <dt><dfn data-lt="">DID Path</dfn></dt>
++
+   <dd>
+-The means for keeping track of <a>entities</a> across contexts. Digital
+-identities enable tracking and customization of entity interactions across
+-digital contexts, typically using identifiers and attributes. Unintended
+-distribution or use of identity information can compromise privacy. Collection
+-and use of such information should follow the principles of minimal disclosure.
++The portion of a <a>DID reference</a> that follows the first forward
++slash character. A DID path uses the identical syntax as a URI path. See
++section 5.4. Note that if a DID path is followed by a fragment, that
++fragment is NOT a <a>DID fragment</a>.
+   </dd>
+-  <dt><dfn data-lt="inspector|inspectors|inspector's|credential inspectors|credential inspector's">inspector</dfn></dt>
++
++
++
++  <dt><dfn data-lt="">DID Reference</dfn></dt>
++
+   <dd>
+-An <a>entity</a> that receives one or more <a>verifiable claims</a> for processing.
++A DID plus an optional <a>DID path</a> or <a>DID fragment</a>.
+   </dd>
+-  <dt><dfn data-lt="entity documents">entity document</dfn></dt>
++
++
++
++  <dt><dfn data-lt="">DID Scheme</dfn></dt>
++
+   <dd>
+-A Web-based document that contains statements about a
+-particular <a>entity</a>. Entity documents MUST be accessible in
+-JSON-LD [[!JSON-LD]] format and MAY be accessible in other RDF-compatible formats.
++The formal syntax of a <a>Decentralized Identifier</a>. The generic DID
++scheme is defined in this specification. A
++<a>DID method</a> specification
++defines a specific <a>DID scheme</a> that works with a specific DID method.
+   </dd>
+-  <dt><dfn data-lt="entity owner's">entity owner</dfn></dt>
++
++
++
++  <dt><dfn data-lt="DLT">Distributed Ledger</dfn> (aka DLT, <a>blockchain</a>)</dt>
++
+   <dd>
+-An <a>entity</a> that is in control of a particular <a>entity document</a>.
++A <a href=
++  "https://en.wikipedia.org/wiki/Distributed_database">distributed
++database</a> in which the various nodes use a <a href=
++  "https://en.wikipedia.org/wiki/Consensus_(computer_science)">consensus
++protocol</a> to maintain a shared ledger in which each transaction is
++cryptographically signed and chained to the previous transaction
+   </dd>
+-  <dt><dfn data-lt="identity provider's|IdP|IdP's">identity provider</dfn></dt>
++
++
++
++  <dt><dfn data-lt="">Delegate</dfn></dt>
++
+   <dd>
+-A software service that manages one or more <a>identities</a> and their
+-associated <a>credentials</a> on behalf of an <a>entity</a>. It typically
+-handles requests to store <a>credentials</a> issued by an
+-<a>issuer</a> and to retrieve <a>credentials</a> when requested by a
+-<a>inspector</a>.
++An entity who creates a DID for a <a>dependent</a> who
++does not yet have the capacity to control the private keys. The
++dependent must rely on the delegate to safeguard the private keys until
++the dependent can assume control and become an entity.
+   </dd>
+-  <dt><dfn data-lt="entity profile|entity profiles">entity profile</dfn></dt>
++
++
++
++  <dt><dfn data-lt="">Identity Owner</dfn></dt>
++
+   <dd>
+-A set of <a>entity credentials</a> related to the same <a>subject</a>.
+-An <a>entity</a> may have multiple entity profiles and each entity profile
+-may contain <a>claims</a> issued by multiple <a>entities</a>.
++The natural person, party, organization, or thing whose
++identity is represented by a <a>DID</a> and who directly controls the
++private keys to control the <a>DID Document</a>.
++(Note: this specification avoids the term "user" since an entity is not
++always an individual person.)
+   </dd>
+-  <dt><dfn data-lt="identifier registries">identifier registry</dfn></dt>
++
++
++
++  <dt><dfn data-lt="">Key Description</dfn></dt>
++
+   <dd>
+-Mediates the creation and verification of <a>subject</a> identifiers.
++A JSON object contained inside a DID Document that contains all
++the metadata necessary to use a public key or verification key. A list
++of standard key descriptions is included in Appendix C.
+   </dd>
+-  <dt><dfn data-lt="issuers|issuer's">issuer</dfn></dt>
++
++
++
++  <dt><dfn data-lt="service endpoints">Service Endpoint</dfn></dt>
++
+   <dd>
+-An <a>entity</a> that creates a <a>verifiable claim</a>, associates it
+-with a particular <a>subject</a>, and transmits it to a <a>holder</a>.
++A network address at which a service operates on
++behalf of an entity. Examples of specific services include
++discovery services, social networks, file storage services, and
++verifiable claim repository services. Service endpoints may also be provided
++by a generalized data interchange protocol such as
++<a>Extensible Data Interchange</a>.
+   </dd>
+-  <dt><dfn data-lt="subjects|subject's">subject</dfn></dt>
++
++
++
++  <dt><dfn data-lt="">UUID</dfn></dt>
++
+   <dd>
+-An <a>entity</a> which may have multiple <a>entity profiles</a> and
+-about which <a>claims</a> may be made.
++Universally Unique Identifier as specified by <a href=
++  "https://www.ietf.org/rfc/rfc4122.txt">RFC 4122</a> .
+   </dd>
+-  <dt><dfn>user agent</dfn></dt>
++
++
++  <dt><dfn data-lt="XDI">Extensible Data Interchange</dfn> (aka XDI)</dt>
++
+   <dd>
+-A program, such as a browser or other Web client, that mediates the
+-communication between <a>holders</a>, <a>issuers</a> and
+-<a>inspectors</a>.
++A semantic
++graph format and semantic data interchange protocol defined by the
++  <a href="https://www.oasis-open.org/committees/xdi/">OASIS XDI Technical
++Committee</a>.
+   </dd>
++
++
+ </dl>

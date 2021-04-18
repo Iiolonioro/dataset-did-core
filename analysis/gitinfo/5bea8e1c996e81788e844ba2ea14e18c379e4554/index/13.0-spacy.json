@@ -1,0 +1,239 @@
+{
+  "nouns": {
+    "Appendix A": [
+      {
+        "end": 3,
+        "start": 0,
+        "type": "NP"
+      }
+    ],
+    "Authors\n        \n\n\n\n          Link\n        \n\n\n\n\n\n          did:sov": [
+      {
+        "end": 48,
+        "start": 41,
+        "type": "NP"
+      }
+    ],
+    "Bitcoin": [
+      {
+        "end": 65,
+        "start": 64,
+        "type": "NP"
+      }
+    ],
+    "Christopher Allen": [
+      {
+        "end": 68,
+        "start": 66,
+        "type": "NP"
+      }
+    ],
+    "Consent": [
+      {
+        "end": 86,
+        "start": 85,
+        "type": "NP"
+      }
+    ],
+    "DLT": [
+      {
+        "end": 38,
+        "start": 36,
+        "type": "NP"
+      }
+    ],
+    "Digital Bazaar\n        \n\n\nVeres": [
+      {
+        "end": 99,
+        "start": 95,
+        "type": "NP"
+      }
+    ],
+    "Ethereum\n        \n\n\n\n          uPort": [
+      {
+        "end": 77,
+        "start": 73,
+        "type": "NP"
+      }
+    ],
+    "Method": [
+      {
+        "end": 58,
+        "start": 57,
+        "type": "NP"
+      },
+      {
+        "end": 102,
+        "start": 101,
+        "type": "NP"
+      }
+    ],
+    "Method Name": [
+      {
+        "end": 36,
+        "start": 33,
+        "type": "NP"
+      }
+    ],
+    "Method Specifications": [
+      {
+        "end": 8,
+        "start": 6,
+        "type": "NP"
+      }
+    ],
+    "Network": [
+      {
+        "end": 40,
+        "start": 39,
+        "type": "NP"
+      }
+    ],
+    "Sovrin\n        \n\n\n\n          Sovrin Foundation\n        \n\n\nSovrin": [
+      {
+        "end": 56,
+        "start": 50,
+        "type": "NP"
+      }
+    ],
+    "The links": [
+      {
+        "end": 22,
+        "start": 20,
+        "type": "NP"
+      }
+    ],
+    "This table": [
+      {
+        "end": 11,
+        "start": 9,
+        "type": "NP"
+      }
+    ],
+    "btcr": [
+      {
+        "end": 62,
+        "start": 61,
+        "type": "NP"
+      }
+    ],
+    "development": [
+      {
+        "end": 19,
+        "start": 18,
+        "type": "NP"
+      }
+    ],
+    "specifications": [
+      {
+        "end": 16,
+        "start": 15,
+        "type": "NP"
+      }
+    ],
+    "subsequent Implementer\u2019s Drafts": [
+      {
+        "end": 30,
+        "start": 26,
+        "type": "NP"
+      }
+    ],
+    "the DID": [
+      {
+        "end": 14,
+        "start": 12,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DID": [
+      {
+        "end": 14,
+        "start": 13,
+        "type": "ORG"
+      }
+    ],
+    "DLT": [
+      {
+        "end": 38,
+        "start": 37,
+        "type": "ORG"
+      }
+    ],
+    "Digital Bazaar\n        \n\n\nVeres One": [
+      {
+        "end": 100,
+        "start": 95,
+        "type": "ORG"
+      }
+    ],
+    "Implementer\u2019s Drafts": [
+      {
+        "end": 30,
+        "start": 27,
+        "type": "ORG"
+      }
+    ],
+    "Sovrin": [
+      {
+        "end": 51,
+        "start": 50,
+        "type": "ORG"
+      }
+    ],
+    "Sovrin Foundation": [
+      {
+        "end": 54,
+        "start": 52,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "ORG": [
+      {
+        "end": 14,
+        "label": "DID",
+        "start": 13
+      },
+      {
+        "end": 30,
+        "label": "Implementer\u2019s Drafts",
+        "start": 27
+      },
+      {
+        "end": 38,
+        "label": "DLT",
+        "start": 37
+      },
+      {
+        "end": 51,
+        "label": "Sovrin",
+        "start": 50
+      },
+      {
+        "end": 54,
+        "label": "Sovrin Foundation",
+        "start": 52
+      },
+      {
+        "end": 100,
+        "label": "Digital Bazaar\n        \n\n\nVeres One",
+        "start": 95
+      }
+    ]
+  },
+  "verbs": {
+    "cnsnt": 1,
+    "do": 7,
+    "method": 1,
+    "produce": 1,
+    "propose": 1,
+    "summarize": 1,
+    "update": 1,
+    "uport": 1,
+    "v1": 1,
+    "vere": 1
+  }
+}

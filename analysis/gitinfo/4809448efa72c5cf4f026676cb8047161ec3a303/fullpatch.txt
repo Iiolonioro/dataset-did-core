@@ -1,0 +1,23 @@
+commit 4809448efa72c5cf4f026676cb8047161ec3a303
+tree fca2e801472def81d86d7f1ede0653620be83847
+parent 9478f6f200fc9867f4278015c2e1645d27a56912
+author Markus Sabadello <markus@danubetech.com> 1499668749 +0200
+committer Manu Sporny <msporny@digitalbazaar.com> 1500054933 -0400
+
+    add Markus Sabadello as author
+
+diff --git a/index.html b/index.html
+index 3b5c55c..da2f783 100644
+--- a/index.html
++++ b/index.html
+@@ -66,7 +66,9 @@
+           { name: "Ryan Grant", url: "",
+             company: "", companyURL: "" },
+           { name: "Les Chasen", url: "",
+-            company: "", companyURL: "" }
++            company: "", companyURL: "" },
++          { name: "Markus Sabadello", url: "https://www.linkedin.com/in/markus-sabadello-353a0821",
++            company: "Danube Tech", companyURL: "https://danubetech.com/" }
+         ],
+ 
+         // name of the WG

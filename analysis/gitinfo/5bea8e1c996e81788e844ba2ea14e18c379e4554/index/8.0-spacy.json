@@ -1,0 +1,281 @@
+{
+  "nouns": {
+    "DID Resolvers\n\n\n\n      A DID resolver": [
+      {
+        "end": 7,
+        "start": 0,
+        "type": "NP"
+      }
+    ],
+    "DID lookups": [
+      {
+        "end": 21,
+        "start": 19,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 51,
+        "start": 49,
+        "type": "NP"
+      }
+    ],
+    "a software component": [
+      {
+        "end": 11,
+        "start": 8,
+        "type": "NP"
+      }
+    ],
+    "an API": [
+      {
+        "end": 14,
+        "start": 12,
+        "type": "NP"
+      }
+    ],
+    "an error": [
+      {
+        "end": 67,
+        "start": 65,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 63,
+        "start": 62,
+        "type": "NP"
+      },
+      {
+        "end": 102,
+        "start": 101,
+        "type": "NP"
+      }
+    ],
+    "its DID method\nspecification": [
+      {
+        "end": 60,
+        "start": 55,
+        "type": "NP"
+      }
+    ],
+    "requested properties": [
+      {
+        "end": 115,
+        "start": 113,
+        "type": "NP"
+      }
+    ],
+    "requests": [
+      {
+        "end": 18,
+        "start": 17,
+        "type": "NP"
+      }
+    ],
+    "resolution operations": [
+      {
+        "end": 86,
+        "start": 84,
+        "type": "NP"
+      }
+    ],
+    "specification": [
+      {
+        "end": 81,
+        "start": 80,
+        "type": "NP"
+      }
+    ],
+    "the DID Document": [
+      {
+        "end": 100,
+        "start": 97,
+        "type": "NP"
+      },
+      {
+        "end": 119,
+        "start": 116,
+        "type": "NP"
+      }
+    ],
+    "the authoritative DID Document": [
+      {
+        "end": 33,
+        "start": 29,
+        "type": "NP"
+      }
+    ],
+    "the corresponding DID method": [
+      {
+        "end": 27,
+        "start": 23,
+        "type": "NP"
+      }
+    ],
+    "the integrity": [
+      {
+        "end": 96,
+        "start": 94,
+        "type": "NP"
+      }
+    ],
+    "the requirements": [
+      {
+        "end": 74,
+        "start": 72,
+        "type": "NP"
+      }
+    ],
+    "the service": [
+      {
+        "end": 92,
+        "start": 90,
+        "type": "NP"
+      },
+      {
+        "end": 111,
+        "start": 109,
+        "type": "NP"
+      }
+    ],
+    "this specification": [
+      {
+        "end": 40,
+        "start": 38,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DID": [
+      {
+        "end": 6,
+        "start": 5,
+        "type": "ORG"
+      },
+      {
+        "end": 20,
+        "start": 19,
+        "type": "ORG"
+      },
+      {
+        "end": 26,
+        "start": 25,
+        "type": "ORG"
+      },
+      {
+        "end": 43,
+        "start": 42,
+        "type": "ORG"
+      },
+      {
+        "end": 51,
+        "start": 50,
+        "type": "ORG"
+      },
+      {
+        "end": 57,
+        "start": 56,
+        "type": "ORG"
+      },
+      {
+        "end": 78,
+        "start": 77,
+        "type": "ORG"
+      },
+      {
+        "end": 84,
+        "start": 83,
+        "type": "ORG"
+      }
+    ],
+    "the DID Document": [
+      {
+        "end": 100,
+        "start": 97,
+        "type": "ORG"
+      },
+      {
+        "end": 119,
+        "start": 116,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "ORG": [
+      {
+        "end": 6,
+        "label": "DID",
+        "start": 5
+      },
+      {
+        "end": 20,
+        "label": "DID",
+        "start": 19
+      },
+      {
+        "end": 26,
+        "label": "DID",
+        "start": 25
+      },
+      {
+        "end": 43,
+        "label": "DID",
+        "start": 42
+      },
+      {
+        "end": 51,
+        "label": "DID",
+        "start": 50
+      },
+      {
+        "end": 57,
+        "label": "DID",
+        "start": 56
+      },
+      {
+        "end": 78,
+        "label": "DID",
+        "start": 77
+      },
+      {
+        "end": 84,
+        "label": "DID",
+        "start": 83
+      },
+      {
+        "end": 100,
+        "label": "the DID Document",
+        "start": 97
+      },
+      {
+        "end": 119,
+        "label": "the DID Document",
+        "start": 116
+      }
+    ]
+  },
+  "verbs": {
+    "accept": 1,
+    "accord": 1,
+    "be": 1,
+    "conform": 1,
+    "design": 1,
+    "do": 2,
+    "execute": 1,
+    "method": 1,
+    "offer": 2,
+    "perform": 1,
+    "produce": 1,
+    "request": 1,
+    "retrieve": 1,
+    "return": 1,
+    "sign": 1,
+    "validate": 1,
+    "verify": 1
+  }
+}

@@ -1,0 +1,467 @@
+
+Introduction
+
+Overview
+
+Conventional identity
+management systems are based on centralized authorities such as
+corporate directory services
+  , certificate
+authorities , or domain name
+registries . From the standpoint of cryptographic trust
+verification, each of these centralized authorities serves as its own
+  root of trust .
+To make identity management work across these systems requires
+implementing federated identity
+management .
+
+
+The emergence of distributed ledger technology (DLT), sometimes referred
+to as blockchain technology, provides the opportunity to implement fully
+decentralized identity management. In this ecosystem, all entities
+share a common root of trust in the form of a globally distributed ledger
+(or a decentralized P2P network that provides similar capabilities).
+
+
+The entities are identified by decentralized identifiers (DIDs). They may
+authenticate via proofs (e.g. digital signatures, privacy-preserving
+biometrics, etc.). DIDs point to DID Documents.
+A DID Document contains a set of service endpoints for
+interacting with the entity. Following the dictums of Privacy by Design
+  , each entity may have as many DIDs as necessary, to
+respect the entity’s desired separation of identities, personas,
+and contexts.
+
+
+To use a DID with a particular distributed ledger or network requires
+defining a DID method in a separate DID method specification. A DID
+method specifies the set of rules for how a DID is registered, resolved,
+updated, and revoked on that specific ledger or network.
+
+
+This design eliminates dependence on centralized registries for
+identifiers as well as centralized certificate authorities for key
+management—the standard pattern in hierarchical PKI (public
+key infrastructure ). Because DID records are on a distributed
+ledger, each entity may serve as its own root authority—an
+architecture referred to as 
+DPKI (decentralized PKI) .
+
+
+Note that DID methods may also be developed for identities registered in
+federated identity management systems. For their part, federated
+identity systems may add support for DIDs. This creates an
+interoperability bridge between the worlds of centralized, federated,
+and decentralized identity.
+
+
+URIs, URLs, and URNs
+
+DIDs have a foundation in URIs, so it's important to understand how the
+W3C clarified
+  the terms URI (Uniform Resource Identifier), URL (Uniform Resource
+Locator), and URN (Uniform Resource Name) in September 2001. The key
+difference between these three categories of identifiers are:
+
+
+
+URI is the term for any type of identifier used to identify a
+resource on the Web.
+  
+
+URL is the term for any type of URI that can be resolved or
+de-referenced to locate a representation of a resource on the Web (e.g.,
+Web page, file, image, etc.)
+  
+
+URN is the term for a specific type of URI intended to persistently
+identify a resource, i.e., an identifier that will never change no
+matter how often the resource moves, changes names, changes owners, etc.
+URNs are intended to last forever.
+  
+
+
+
+Motivations for DIDs
+
+The growing need for decentralized identity has produced three specific
+requirements for a new type of URI that still fits within URI/URL/URN
+architecture but in a less than traditional way:
+
+
+
+A URI that is persistent like a URN yet can be resolved or
+de-referenced to locate a resource like a URL. In essence, a DID is a
+URI that serves both functions.
+  
+
+A URI that does not require a centralized authority to register,
+resolve, update, or revoke. The overwhelming majority of URIs today are
+based on DNS names or IP addresses that depend on centralized
+authorities for registration and ultimate control. DIDs can be created
+and managed without any such authority.
+  
+
+A URI whose ownership and associated metadata, including public
+keys, can be cryptographically verified. Control of DIDs and DID Documents
+leverages the same public/private key cryptography as distributed
+ledgers.
+  
+
+
+
+The Role of Human-Friendly Identifiers
+
+DIDs achieve global uniqueness without the need for a central
+registration authority. This comes, however, at the cost of human
+memorability. The algorithms capable of generating globally unique
+identifiers automatically produce random strings of characters that have
+no human meaning. This demonstrates the axiom about identifiers known as
+  Zooko’s
+Triangle : "human-meaningful, decentralized, secure—pick any two".
+
+
+There are of course many use cases where it is desirable to discover a
+DID when starting from a human-friendly identifier—a natural language
+name, a domain name, or a conventional address for a DID owner such as a
+mobile telephone number, email address, Twitter handle, or blog URL.
+However, the problem of mapping human-friendly identifiers to DIDs (and
+doing so in a way that can be verified and trusted) is out-of-scope for
+this specification.
+
+
+Solutions to this problem (and there are many) should be defined in
+separate specifications that reference this specification. It is
+strongly recommended that such specifications carefully consider: (a)
+the numerous security attacks based on deceiving users about the true
+human-friendly identifier for a target entity, and (b) the privacy
+consequences of using human-friendly identifiers that are inherently
+correlatable, especially if they are globally unique.
+
+
+
+Purpose of This Specification
+
+The first purpose of this specification is to define the generic DID
+scheme and a generic set of operations on DID records that can be
+implemented for any distributed ledger or network capable of accepting
+DID records. The second purpose of this specification to define the
+conformance requirements for a DID method specification—a separate
+specification that defines a specific DID scheme and specific set of DID
+record operations for a specific distributed ledger or network.
+
+
+Conceptually, the relationship of this specification and a DID method
+specification is similar to the relationship of the IETF generic URI
+specification ( RFC
+3986 ) and a specific URI
+scheme (such as the http: and https: schemes specified in RFC 7230 ). It is also similar to
+the relationship of the IETF generic URN specification ( RFC 2141 ) and a specific URN
+namespace definition (such as the UUID URN namespace defined in RFC 4122 ). The difference is
+that a DID method specification, in addition to defining a specific DID
+scheme, must also specify the methods for reading, writing, and revoking
+DID records on the network for which it is written.
+
+
+For a list of DID method specifications, see Appendix A.
+
+
+
+
+Design Goals
+
+This section summarizes the design goals and principles of DID
+architecture.
+
+
+
+
+
+
+          #
+        
+
+
+
+          Goal
+        
+
+
+
+          Description
+        
+
+
+
+
+
+          1
+        
+
+
+
+          Decentralization
+        
+
+
+
+          DID architecture should eliminate the requirement for
+          centralized authorities or single points of failure in identity
+          management, including the registration of globally unique
+          identifiers, public verification keys, service endpoints, and
+          other metadata.
+        
+
+
+
+
+
+          2
+        
+
+
+
+          Self-Sovereignty
+        
+
+
+
+          DID architecture should give entitys the power to
+          directly own and control their own digital identities without
+          the need to rely on external authorities.
+        
+
+
+
+
+
+          3
+        
+
+
+
+          Privacy
+        
+
+
+
+          DID architecture should enable entitys to control the
+          privacy of their digital identities, including selective
+          disclosure of attributes or other identity data.
+        
+
+
+
+
+
+          4
+        
+
+
+
+          Security
+        
+
+
+
+          DID architecture should enable sufficient security for relying
+          parties to rely on DID records to their required level of
+          assurance.
+        
+
+
+
+
+
+          5
+        
+
+
+
+          Proof-based
+        
+
+
+
+          DID architecture should enable an entity to provide
+          cryptographic proof of ownership and proof of access control
+          rights.
+        
+
+
+
+
+
+          6
+        
+
+
+
+          Discoverability
+        
+
+
+
+          DID architecture should make it possible for entities to
+          discover DID records for other entities to learn more about or
+          interact with those entities.
+        
+
+
+
+
+
+          7
+        
+
+
+
+          Interoperability
+        
+
+
+
+          DID architecture should use interoperable standards so DIDs and
+          DID record infrastructure can make use of existing tools and
+          software libraries designed for interoperability.
+        
+
+
+
+
+
+          8
+        
+
+
+
+          Portability
+        
+
+
+
+          DID architecture should be system-independent and enable
+          entitys to use their digital identities with any system
+          that supports DIDs and DIDM.
+        
+
+
+
+
+
+          9
+        
+
+
+
+          Simplicity
+        
+
+
+
+          To meet these design goals, DID architecture should be (to
+          paraphrase Albert Einstein) "as simple as possible but no
+          simpler".
+        
+
+
+
+
+
+          10
+        
+
+
+
+          Extensibility
+        
+
+
+
+          When possible, DID architecture should enable extensibility
+          provided it does not hinder interoperability, portability or
+          simplicity.
+        
+
+
+
+
+
+
+Simple Examples
+
+This is an example of a DID:
+
+
+did:example:123456789abcdefghi
+
+
+Self-Managed DID Document
+
+Following is an example of a DID Document that describes the DID above. This
+example assumes that the entity—the entity that controls the
+private keys for this identity—is authoritative for the DID Document. See section
+1.3.2 for an example of a DID Document created by a delegate. For the authoritative
+JSON-LD context definition, see Appendix B (the URL for the @context
+property below is just for illustration).
+
+
+{
+  "@context": "https://example.com/did/v1",
+  "id": "did:example:123456789abcdefghi",
+  "authorizationCapability": [{
+    // this entity may update any field in this DID Document using any
+    // authentication mechanism understood by the ledger
+    "permission": "UpdateDidDocument",
+    "entity": "did:example:123456789abcdefghi"
+  }],
+  "credentialRepositoryService": "https://vc.example.com/abcdef",
+  "authenticationCredential": [{
+    // this key can be used to authenticate as DID ...9938
+    "id": "did:example:123456789abcdefghi/keys/1",
+    "type": "RsaCryptographicKey",
+    "owner": "did:example:123456789abcdefghi",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
+  }]
+}
+
+
+
+Example Delegate-Managed DID Document
+
+Following is a second example of a DID Document that describes the DID above. In
+this case the DID Document describes a dependent—an entity who is not currently
+in a position to control the private keys for this identity. This DID Document
+was created by a delegate—a separate entity with its own DID
+that serves as a trustee for the dependent. Note that while this DID Document
+asserts a set of service endpoints, it does not yet contain a set of key
+descriptions because the dependent does not yet have its own set of
+private keys.
+
+
+{
+  "@context": "https://example.com/did/v1",
+  "id": "did:example:123456789abcdefghi",
+  "authorizationCapability": [{
+    // this entity is a delegate and may update any field in this
+    // DID Document using any authentication mechanism understood
+    // by the ledger
+    "permission": "UpdateDidDocument",
+    "entity": "did:example:zxyvwtrkpn987654321"
+  }],
+  "credentialRepositoryService": "https://vc.example.com/abcdef",
+  "authenticationCredential": [{
+    // this biometric can be used to authenticate as DID ...fghi
+    "id": "did:example:123456789abcdefghi/biometric/1",
+    "type": "PseudonymousBiometricTemplate2017",
+    "owner": "did:example:123456789abcdefghi",
+    "biometricService": "https://example.com/authenticate"
+    "biometricTemplateShard": "Mjk4MzQyO...5Mzg0MDI5Mwo="
+  }]
+}
+
+
+
+
+
+

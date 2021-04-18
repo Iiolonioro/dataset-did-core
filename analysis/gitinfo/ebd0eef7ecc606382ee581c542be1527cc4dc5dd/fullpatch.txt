@@ -1,0 +1,76 @@
+commit ebd0eef7ecc606382ee581c542be1527cc4dc5dd
+tree 1d31e7731da6081e8989cfb1818d53a298be5dac
+parent 99fe97e17791eb183436066a8bdd7490436a3664
+author David I. Lehn <dlehn@digitalbazaar.com> 1509493560 -0400
+committer Manu Sporny <msporny@digitalbazaar.com> 1509881234 -0500
+
+    Use appendix references.
+
+diff --git a/index.html b/index.html
+index af48d81..508431e 100644
+--- a/index.html
++++ b/index.html
+@@ -338,7 +338,7 @@ DID records on the network for which it is written.
+ 
+ <p>
+ For a list of DID Methods and their corresponding specifications,
+-see <a href="#appendix-a-proposed-did-method-specifications">Appendix A</a>.
++see Appendix <a href="#proposed-did-method-specifications"></a>.
+ </p>
+ 
+ </section>
+@@ -661,7 +661,8 @@ at the time of publication.
+ </p>
+ 
+ <p>
+-A list of known DID method names is included in Appendix A.
++A list of known DID method names is included in
++Appendix <a href="#proposed-did-method-specifications"></a>.
+ </p>
+ 
+ <p>
+@@ -841,7 +842,7 @@ not strictly necessary under JSON-LD but required for DID Documents.)
+ 
+   <li>
+ The value of this key MUST be the URL for the generic DID context as
+-specified in Appendix B.
++specified in Appendix <a href="#the-generic-did-context-for-json-ld"></a>.
+   </li>
+ </ol>
+ 
+@@ -859,8 +860,8 @@ Example (using an example URL):
+ DID method specifications MAY define their own JSON-LD contexts. However
+ it is NOT RECOMMENDED to define a new context unless necessary to
+ properly implement the method. Method-specific contexts MUST NOT
+-override the terms defined in the generic DID context listed in Appendix
+-B.
++override the terms defined in the generic DID context listed in
++Appendix <a href="#the-generic-did-context-for-json-ld"></a>
+ </p>
+ 
+ </section>
+@@ -1014,8 +1015,8 @@ Each proof mechanism must include <code>id</code>,
+   <li>
+ Each proof mechanism MAY be a key description of a valid public key or
+ verification key. A list of standard key descriptions is included in
+-Appendix C. A new key description MAY also be defined by a DID method
+-specification.
++Appendix <a href="#standard-key-descriptions"></a>.
++A new key description MAY also be defined by a DID method specification.
+   </li>
+ </ol>
+ 
+diff --git a/terms.html b/terms.html
+index e9c93f1..d9c7809 100644
+--- a/terms.html
++++ b/terms.html
+@@ -170,7 +170,8 @@ always an individual person.)
+   <dd>
+ A JSON object contained inside a DID Document that contains all
+ the metadata necessary to use a public key or verification key. A list
+-of standard key descriptions is included in Appendix C.
++of standard key descriptions is included in
++Appendix <a href="#standard-key-descriptions"></a>.
+   </dd>
+ 
+ 

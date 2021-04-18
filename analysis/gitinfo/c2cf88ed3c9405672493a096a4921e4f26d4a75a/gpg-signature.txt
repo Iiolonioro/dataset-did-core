@@ -1,0 +1,19 @@
+commit c2cf88ed3c9405672493a096a4921e4f26d4a75a
+Author: Reto Gmür <reto@factsmission.com>
+Date:   Sat Oct 28 18:31:52 2017 +0200
+
+    Adapted method in the sovrin scheme to match the linked specifiction
+
+diff --git a/index.html b/index.html
+index fc6ef0a..ceeba12 100644
+--- a/index.html
++++ b/index.html
+@@ -2656,7 +2656,7 @@ exclusion.
+     <tr>
+       <td colspan="1" rowspan="1">
+         <p>
+-          did:example:
++          did:sov:
+         </p>
+       </td>
+       <td colspan="1" rowspan="1">

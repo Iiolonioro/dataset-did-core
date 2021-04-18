@@ -1,0 +1,325 @@
+{
+  "nouns": {
+    "\"RsaCryptographicKey": [
+      {
+        "end": 79,
+        "start": 77,
+        "type": "NP"
+      }
+    ],
+    "\"curve": [
+      {
+        "end": 157,
+        "start": 154,
+        "type": "NP"
+      }
+    ],
+    "\"id": [
+      {
+        "end": 59,
+        "start": 56,
+        "type": "NP"
+      }
+    ],
+    "\"owner": [
+      {
+        "end": 85,
+        "start": 82,
+        "type": "NP"
+      },
+      {
+        "end": 146,
+        "start": 143,
+        "type": "NP"
+      }
+    ],
+    "\"publicKeyBase64": [
+      {
+        "end": 179,
+        "start": 176,
+        "type": "NP"
+      }
+    ],
+    "\"publicKeyPem": [
+      {
+        "end": 96,
+        "start": 93,
+        "type": "NP"
+      }
+    ],
+    "\"type": [
+      {
+        "end": 70,
+        "start": 67,
+        "type": "NP"
+      },
+      {
+        "end": 131,
+        "start": 128,
+        "type": "NP"
+      }
+    ],
+    "2017-02-08T16:02:20Z": [
+      {
+        "end": 174,
+        "start": 169,
+        "type": "NP"
+      }
+    ],
+    "Appendix C": [
+      {
+        "end": 3,
+        "start": 0,
+        "type": "NP"
+      }
+    ],
+    "DID Documents": [
+      {
+        "end": 49,
+        "start": 47,
+        "type": "NP"
+      }
+    ],
+    "EdDSA Keys": [
+      {
+        "end": 112,
+        "start": 110,
+        "type": "NP"
+      }
+    ],
+    "EdDsaSAKey": [
+      {
+        "end": 140,
+        "start": 139,
+        "type": "NP"
+      }
+    ],
+    "JSON-LD": [
+      {
+        "end": 33,
+        "start": 30,
+        "type": "NP"
+      }
+    ],
+    "RSA Keys": [
+      {
+        "end": 53,
+        "start": 50,
+        "type": "NP"
+      }
+    ],
+    "This appendix": [
+      {
+        "end": 36,
+        "start": 34,
+        "type": "NP"
+      }
+    ],
+    "[\"CryptographicKey": [
+      {
+        "end": 75,
+        "start": 72,
+        "type": "NP"
+      }
+    ],
+    "a\nlist": [
+      {
+        "end": 40,
+        "start": 37,
+        "type": "NP"
+      }
+    ],
+    "a public key": [
+      {
+        "end": 26,
+        "start": 23,
+        "type": "NP"
+      }
+    ],
+    "a standard way": [
+      {
+        "end": 20,
+        "start": 17,
+        "type": "NP"
+      }
+    ],
+    "ed25519": [
+      {
+        "end": 161,
+        "start": 160,
+        "type": "NP"
+      }
+    ],
+    "example:123456789abcdefghi": [
+      {
+        "end": 91,
+        "start": 90,
+        "type": "NP"
+      }
+    ],
+    "example:123456789abcdefghi#keys-1": [
+      {
+        "end": 65,
+        "start": 64,
+        "type": "NP"
+      }
+    ],
+    "id": [
+      {
+        "end": 118,
+        "start": 116,
+        "type": "NP"
+      }
+    ],
+    "key description": [
+      {
+        "end": 16,
+        "start": 14,
+        "type": "NP"
+      }
+    ],
+    "key descriptions": [
+      {
+        "end": 43,
+        "start": 41,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 12,
+        "start": 11,
+        "type": "NP"
+      }
+    ],
+    "use": [
+      {
+        "end": 46,
+        "start": 45,
+        "type": "NP"
+      }
+    ],
+    "verification key": [
+      {
+        "end": 29,
+        "start": 27,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "2017-02-08T16:02:20Z": [
+      {
+        "end": 174,
+        "start": 169,
+        "type": "DATE"
+      }
+    ],
+    "CryptographicKey": [
+      {
+        "end": 75,
+        "start": 74,
+        "type": "ORG"
+      },
+      {
+        "end": 136,
+        "start": 135,
+        "type": "ORG"
+      }
+    ],
+    "DID Documents": [
+      {
+        "end": 49,
+        "start": 47,
+        "type": "ORG"
+      }
+    ],
+    "EdDSA Keys": [
+      {
+        "end": 112,
+        "start": 110,
+        "type": "PERSON"
+      }
+    ],
+    "JSON-LD": [
+      {
+        "end": 33,
+        "start": 30,
+        "type": "GPE"
+      }
+    ],
+    "RSA Keys": [
+      {
+        "end": 53,
+        "start": 51,
+        "type": "PERSON"
+      }
+    ],
+    "RsaCryptographicKey": [
+      {
+        "end": 79,
+        "start": 78,
+        "type": "WORK_OF_ART"
+      }
+    ]
+  },
+  "types": {
+    "DATE": [
+      {
+        "end": 174,
+        "label": "2017-02-08T16:02:20Z",
+        "start": 169
+      }
+    ],
+    "GPE": [
+      {
+        "end": 33,
+        "label": "JSON-LD",
+        "start": 30
+      }
+    ],
+    "ORG": [
+      {
+        "end": 49,
+        "label": "DID Documents",
+        "start": 47
+      },
+      {
+        "end": 75,
+        "label": "CryptographicKey",
+        "start": 74
+      },
+      {
+        "end": 136,
+        "label": "CryptographicKey",
+        "start": 135
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 53,
+        "label": "RSA Keys",
+        "start": 51
+      },
+      {
+        "end": 112,
+        "label": "EdDSA Keys",
+        "start": 110
+      }
+    ],
+    "WORK_OF_ART": [
+      {
+        "end": 79,
+        "label": "RsaCryptographicKey",
+        "start": 78
+      }
+    ]
+  },
+  "verbs": {
+    "contain": 1,
+    "describe": 2,
+    "do": 4,
+    "expire": 1,
+    "recommend": 1
+  }
+}

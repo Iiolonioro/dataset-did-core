@@ -1,0 +1,218 @@
+{
+  "nouns": {
+    "A DID Document": [
+      {
+        "end": 33,
+        "start": 29,
+        "type": "NP"
+      }
+    ],
+    "It": [
+      {
+        "end": 46,
+        "start": 45,
+        "type": "NP"
+      }
+    ],
+    "Optional": [
+      {
+        "end": 4,
+        "start": 3,
+        "type": "NP"
+      }
+    ],
+    "RECOMMENDED": [
+      {
+        "end": 48,
+        "start": 47,
+        "type": "NP"
+      }
+    ],
+    "The key": [
+      {
+        "end": 56,
+        "start": 54,
+        "type": "NP"
+      }
+    ],
+    "The rules": [
+      {
+        "end": 22,
+        "start": 20,
+        "type": "NP"
+      }
+    ],
+    "The value": [
+      {
+        "end": 66,
+        "start": 64,
+        "type": "NP"
+      }
+    ],
+    "a timestamp": [
+      {
+        "end": 14,
+        "start": 12,
+        "type": "NP"
+      }
+    ],
+    "a updated timestamp": [
+      {
+        "end": 27,
+        "start": 24,
+        "type": "NP"
+      }
+    ],
+    "an updated\ntimestamp": [
+      {
+        "end": 44,
+        "start": 40,
+        "type": "NP"
+      }
+    ],
+    "identity records": [
+      {
+        "end": 11,
+        "start": 9,
+        "type": "NP"
+      }
+    ],
+    "section": [
+      {
+        "end": 84,
+        "start": 83,
+        "type": "NP"
+      }
+    ],
+    "the formatting rules": [
+      {
+        "end": 74,
+        "start": 71,
+        "type": "NP"
+      }
+    ],
+    "the most recent change": [
+      {
+        "end": 19,
+        "start": 15,
+        "type": "NP"
+      }
+    ],
+    "this key": [
+      {
+        "end": 69,
+        "start": 67,
+        "type": "NP"
+      }
+    ],
+    "this property": [
+      {
+        "end": 52,
+        "start": 50,
+        "type": "NP"
+      },
+      {
+        "end": 59,
+        "start": 57,
+        "type": "NP"
+      }
+    ],
+    "zero or one property": [
+      {
+        "end": 39,
+        "start": 35,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "2016-10-17T02:41:00Z": [
+      {
+        "end": 102,
+        "start": 97,
+        "type": "DATE"
+      }
+    ],
+    "3, 4": [
+      {
+        "end": 78,
+        "start": 75,
+        "type": "DATE"
+      }
+    ],
+    "Optional": [
+      {
+        "end": 4,
+        "start": 3,
+        "type": "ORG"
+      }
+    ],
+    "RECOMMENDED": [
+      {
+        "end": 48,
+        "start": 47,
+        "type": "ORG"
+      }
+    ],
+    "one": [
+      {
+        "end": 38,
+        "start": 37,
+        "type": "CARDINAL"
+      }
+    ],
+    "zero": [
+      {
+        "end": 36,
+        "start": 35,
+        "type": "CARDINAL"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 36,
+        "label": "zero",
+        "start": 35
+      },
+      {
+        "end": 38,
+        "label": "one",
+        "start": 37
+      }
+    ],
+    "DATE": [
+      {
+        "end": 78,
+        "label": "3, 4",
+        "start": 75
+      },
+      {
+        "end": 102,
+        "label": "2016-10-17T02:41:00Z",
+        "start": 97
+      }
+    ],
+    "ORG": [
+      {
+        "end": 4,
+        "label": "Optional",
+        "start": 3
+      },
+      {
+        "end": 48,
+        "label": "RECOMMENDED",
+        "start": 47
+      }
+    ]
+  },
+  "verbs": {
+    "follow": 1,
+    "format": 1,
+    "have": 1,
+    "include": 3,
+    "represent": 1,
+    "update": 5
+  }
+}

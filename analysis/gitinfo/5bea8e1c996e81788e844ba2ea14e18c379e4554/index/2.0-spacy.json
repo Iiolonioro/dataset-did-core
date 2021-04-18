@@ -1,0 +1,432 @@
+{
+  "nouns": {
+    "(subscribe": [
+      {
+        "end": 26,
+        "start": 24,
+        "type": "NP"
+      }
+    ],
+    "Betty Dhamers": [
+      {
+        "end": 139,
+        "start": 137,
+        "type": "NP"
+      }
+    ],
+    "Brian Weller": [
+      {
+        "end": 136,
+        "start": 134,
+        "type": "NP"
+      }
+    ],
+    "C-00019": [
+      {
+        "end": 75,
+        "start": 74,
+        "type": "NP"
+      }
+    ],
+    "Christopher Allen": [
+      {
+        "end": 126,
+        "start": 124,
+        "type": "NP"
+      }
+    ],
+    "Comments": [
+      {
+        "end": 2,
+        "start": 1,
+        "type": "NP"
+      }
+    ],
+    "Drummond Reed": [
+      {
+        "end": 149,
+        "start": 147,
+        "type": "NP"
+      }
+    ],
+    "GitHub": [
+      {
+        "end": 15,
+        "start": 14,
+        "type": "NP"
+      }
+    ],
+    "HSHQDC-17": [
+      {
+        "end": 73,
+        "start": 71,
+        "type": "NP"
+      }
+    ],
+    "Homeland Security's Science and Technology\nDirectorate": [
+      {
+        "end": 57,
+        "start": 49,
+        "type": "NP"
+      }
+    ],
+    "Joe Andrieu": [
+      {
+        "end": 153,
+        "start": 151,
+        "type": "NP"
+      }
+    ],
+    "Kaliya Young": [
+      {
+        "end": 142,
+        "start": 140,
+        "type": "NP"
+      }
+    ],
+    "Kiara Robles": [
+      {
+        "end": 133,
+        "start": 131,
+        "type": "NP"
+      }
+    ],
+    "Manu Sporny": [
+      {
+        "end": 145,
+        "start": 143,
+        "type": "NP"
+      }
+    ],
+    "Please file issues": [
+      {
+        "end": 11,
+        "start": 8,
+        "type": "NP"
+      }
+    ],
+    "Portions": [
+      {
+        "end": 33,
+        "start": 31,
+        "type": "NP"
+      }
+    ],
+    "R00012-H": [
+      {
+        "end": 64,
+        "start": 61,
+        "type": "NP"
+      }
+    ],
+    "Shannon Appelcline": [
+      {
+        "end": 129,
+        "start": 127,
+        "type": "NP"
+      }
+    ],
+    "The content": [
+      {
+        "end": 78,
+        "start": 76,
+        "type": "NP"
+      }
+    ],
+    "Trust community": [
+      {
+        "end": 122,
+        "start": 120,
+        "type": "NP"
+      }
+    ],
+    "Work": [
+      {
+        "end": 106,
+        "start": 105,
+        "type": "NP"
+      }
+    ],
+    "archives": [
+      {
+        "end": 29,
+        "start": 27,
+        "type": "NP"
+      }
+    ],
+    "contracts": [
+      {
+        "end": 59,
+        "start": 58,
+        "type": "NP"
+      }
+    ],
+    "no official\nendorsement": [
+      {
+        "end": 100,
+        "start": 96,
+        "type": "NP"
+      }
+    ],
+    "the\nUnited States Department": [
+      {
+        "end": 48,
+        "start": 43,
+        "type": "NP"
+      }
+    ],
+    "the Rebooting the\nWeb": [
+      {
+        "end": 119,
+        "start": 114,
+        "type": "NP"
+      }
+    ],
+    "the U.S. Government": [
+      {
+        "end": 95,
+        "start": 92,
+        "type": "NP"
+      }
+    ],
+    "the policy": [
+      {
+        "end": 91,
+        "start": 89,
+        "type": "NP"
+      }
+    ],
+    "the position": [
+      {
+        "end": 88,
+        "start": 86,
+        "type": "NP"
+      }
+    ],
+    "the work": [
+      {
+        "end": 36,
+        "start": 34,
+        "type": "NP"
+      }
+    ],
+    "them": [
+      {
+        "end": 20,
+        "start": 19,
+        "type": "NP"
+      }
+    ],
+    "this document": [
+      {
+        "end": 5,
+        "start": 3,
+        "type": "NP"
+      }
+    ],
+    "this specification": [
+      {
+        "end": 39,
+        "start": 37,
+        "type": "NP"
+      },
+      {
+        "end": 81,
+        "start": 79,
+        "type": "NP"
+      },
+      {
+        "end": 109,
+        "start": 107,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "Betty Dhamers": [
+      {
+        "end": 139,
+        "start": 137,
+        "type": "PERSON"
+      }
+    ],
+    "Brian Weller": [
+      {
+        "end": 136,
+        "start": 134,
+        "type": "PERSON"
+      }
+    ],
+    "Christopher Allen": [
+      {
+        "end": 126,
+        "start": 124,
+        "type": "PERSON"
+      }
+    ],
+    "Drummond Reed": [
+      {
+        "end": 149,
+        "start": 147,
+        "type": "PERSON"
+      }
+    ],
+    "GitHub": [
+      {
+        "end": 15,
+        "start": 14,
+        "type": "ORG"
+      }
+    ],
+    "HSHQDC-16": [
+      {
+        "end": 60,
+        "start": 59,
+        "type": "ORG"
+      }
+    ],
+    "Joe Andrieu": [
+      {
+        "end": 153,
+        "start": 151,
+        "type": "PERSON"
+      }
+    ],
+    "Kaliya Young": [
+      {
+        "end": 142,
+        "start": 140,
+        "type": "PERSON"
+      }
+    ],
+    "Kiara Robles": [
+      {
+        "end": 133,
+        "start": 131,
+        "type": "PERSON"
+      }
+    ],
+    "Manu Sporny": [
+      {
+        "end": 145,
+        "start": 143,
+        "type": "PERSON"
+      }
+    ],
+    "Science and Technology\nDirectorate": [
+      {
+        "end": 57,
+        "start": 52,
+        "type": "ORG"
+      }
+    ],
+    "Shannon Appelcline": [
+      {
+        "end": 129,
+        "start": 127,
+        "type": "PERSON"
+      }
+    ],
+    "the\nUnited States Department": [
+      {
+        "end": 48,
+        "start": 43,
+        "type": "GPE"
+      }
+    ],
+    "the U.S. Government": [
+      {
+        "end": 95,
+        "start": 92,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "GPE": [
+      {
+        "end": 48,
+        "label": "the\nUnited States Department",
+        "start": 43
+      }
+    ],
+    "ORG": [
+      {
+        "end": 15,
+        "label": "GitHub",
+        "start": 14
+      },
+      {
+        "end": 57,
+        "label": "Science and Technology\nDirectorate",
+        "start": 52
+      },
+      {
+        "end": 60,
+        "label": "HSHQDC-16",
+        "start": 59
+      },
+      {
+        "end": 95,
+        "label": "the U.S. Government",
+        "start": 92
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 126,
+        "label": "Christopher Allen",
+        "start": 124
+      },
+      {
+        "end": 129,
+        "label": "Shannon Appelcline",
+        "start": 127
+      },
+      {
+        "end": 133,
+        "label": "Kiara Robles",
+        "start": 131
+      },
+      {
+        "end": 136,
+        "label": "Brian Weller",
+        "start": 134
+      },
+      {
+        "end": 139,
+        "label": "Betty Dhamers",
+        "start": 137
+      },
+      {
+        "end": 142,
+        "label": "Kaliya Young",
+        "start": 140
+      },
+      {
+        "end": 145,
+        "label": "Manu Sporny",
+        "start": 143
+      },
+      {
+        "end": 149,
+        "label": "Drummond Reed",
+        "start": 147
+      },
+      {
+        "end": 153,
+        "label": "Joe Andrieu",
+        "start": 151
+      }
+    ]
+  },
+  "verbs": {
+    "facilitate": 1,
+    "fund": 1,
+    "infer": 1,
+    "reflect": 1,
+    "regard": 1,
+    "send": 1,
+    "support": 1
+  }
+}

@@ -1,0 +1,27 @@
+
+DID Resolvers
+
+
+
+      A DID resolver is a software component with an API designed to accept requests for DID lookups and execute the corresponding DID method to retrieve the authoritative DID Document. To be conformant with this specification, a DID resolver:
+
+
+
+
+
+SHOULD validate that a DID is valid according to its DID method
+specification, otherwise it should produce an error.
+  
+
+MUST conform to the requirements of the applicable DID method
+specification when performing DID resolution operations.
+  
+
+SHOULD offer the service of verifying the integrity of the DID Document if it
+is signed.
+  
+
+MAY offer the service of returning requested properties of the DID Document.
+  
+
+

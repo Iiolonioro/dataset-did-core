@@ -1,0 +1,50 @@
+commit 01acba2479bd7d10d853bcddec2b78e62287bb05
+tree 6b951c10effd2981aa1889be2bfee2adc95f3f7e
+parent dd18cabecfda544eab5dc865d8a22257d2bc9ff1
+author Manu Sporny <msporny@digitalbazaar.com> 1508206992 -0400
+committer Manu Sporny <msporny@digitalbazaar.com> 1509881234 -0500
+
+    Update DID introduction section.
+
+diff --git a/index.html b/index.html
+index 713bbeb..602d747 100644
+--- a/index.html
++++ b/index.html
+@@ -592,25 +592,24 @@ technology.
+ <h1>Decentralized Identifiers (DIDs)</h1>
+ 
+ <p>
+-The foundation of <a>DID</a> architecture is the concept of the decentralized
+-identifier. This concept is not new; <a href=
+-  "https://en.wikipedia.org/wiki/Universally_unique_identifier">UUIDs</a>
+-  (Universally Unique IDentifiers) were first developed in the 1980s and
+-later became a standard feature of the Open Software Foundation’s
+-  <a href=
+-  "https://en.wikipedia.org/wiki/Distributed_Computing_Environment">Distributed
+-Computing Environment</a> . UUIDs achieve global uniqueness without a
++The concept of a globally unique <a>decentralized identifier</a> is not new;
++<a href="https://en.wikipedia.org/wiki/Universally_unique_identifier">Universally Unique Identifiers</a>
++(UUIDs) were first developed in the 1980s and later became a standard feature
++of the Open Software Foundation’s
++<a href="https://en.wikipedia.org/wiki/Distributed_Computing_Environment">Distributed Computing Environment</a>.
++UUIDs achieve global uniqueness without a
+ centralized registry service by using an algorithm that generates
+ 128-bit values with sufficient entropy that the chance of collision are
+-infinitesimally small. UUIDs are formally a URN namespace specified in
+-  <a href="https://tools.ietf.org/html/rfc4122">IETF RFC 4122</a> .
++infinitesimally small. UUIDs are formally specified in [[RFC4122]] as a
++specific type of Unified Resource Name (URN).
+ </p>
+ 
+ <p>
+-A DID is similar to a UUID except: (a) it can be resolved or
++A DID is similar to a UUID except: (a) like a URL, it can be resolved or
+ dereferenced to a standard resource describing the entity (a
+-DID Document—see section 6), and (b) the DID Document may contain public key descriptions
+-that enable cryptographic verification of DID ownership.
++<a>DID Document</a>—see Section <a href="#did-documents"></a>),
++and (b) unlike a URL, the DID Document typically contains cryptographic
++material that enables authentication of an entity associated with the DID.
+ </p>
+ 
+ <section>

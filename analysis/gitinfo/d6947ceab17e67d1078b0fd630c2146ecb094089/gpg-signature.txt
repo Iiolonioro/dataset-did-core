@@ -1,0 +1,26 @@
+commit d6947ceab17e67d1078b0fd630c2146ecb094089
+Author: David I. Lehn <dil@lehn.org>
+Date:   Tue Jul 11 11:25:08 2017 -0400
+
+    Fix ABNF formatting.
+
+diff --git a/index.html b/index.html
+index 82b21dc..50ed1c9 100644
+--- a/index.html
++++ b/index.html
+@@ -981,13 +981,13 @@ Following is the ABNF definition using the syntax in <a href=
+ as upper or lowercase A-Z).
+ </p>
+ 
+-<p>
++<pre>
+   did-reference      = did [ "/" did-path ] [ "#" did-fragment ]
+   did                = "did:" method ":" specific-idstring
+   method             = 1*methodcharmethodchar         = %x61-7A / DIGIT
+   specific-idstring  = idstring *( ":" idstring )
+   idstring           = 1*idcharidchar             = ALPHA / DIGIT / "." / "-"
+-</p>
++</pre>
+ <p>
+ See sections 5.3 and 5.4 for the ABNF rules defining DID paths and
+ fragments.

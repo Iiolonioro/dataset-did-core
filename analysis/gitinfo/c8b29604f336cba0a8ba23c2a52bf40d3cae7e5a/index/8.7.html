@@ -1,0 +1,50 @@
+
+Created (Optional)
+
+
+
+      Standard metadata for identity records includes a timestamp of the original creation. The rules for including a creation timestamp are:
+
+
+
+
+
+A DDO MUST have zero or one property representing a creation
+timestamp. It is RECOMMENDED to include this property.
+  
+
+The key for this property MUST be created.
+  
+
+The value of this key MUST be a valid XML datetime value as defined
+in section 3.3.7 of W3C
+XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes .
+  
+
+This datetime value MUST be normalized to UTC 00:00 as indicated by
+the trailing "Z".
+  
+
+Method specifications that rely on DLTs SHOULD require time values
+that are after the known "median
+time past" (defined in Bitcoin BIP 113) , when the DLT supports such
+a notion.
+  
+
+
+
+
+      Example:
+
+
+
+
+
+      {
+      "created": "2002-10-10T17:00:00Z"
+      }
+
+
+
+
+

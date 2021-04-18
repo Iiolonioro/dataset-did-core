@@ -1,0 +1,114 @@
+{
+  "nouns": {
+    "Read/Verify": [
+      {
+        "end": 4,
+        "start": 0,
+        "type": "NP"
+      }
+    ],
+    "The DID method specification": [
+      {
+        "end": 9,
+        "start": 5,
+        "type": "NP"
+      }
+    ],
+    "a DID": [
+      {
+        "end": 17,
+        "start": 15,
+        "type": "NP"
+      }
+    ],
+    "a DID Document": [
+      {
+        "end": 22,
+        "start": 19,
+        "type": "NP"
+      }
+    ],
+    "a client": [
+      {
+        "end": 14,
+        "start": 12,
+        "type": "NP"
+      }
+    ],
+    "the authenticity": [
+      {
+        "end": 35,
+        "start": 33,
+        "type": "NP"
+      }
+    ],
+    "the client": [
+      {
+        "end": 31,
+        "start": 29,
+        "type": "NP"
+      }
+    ],
+    "the response": [
+      {
+        "end": 38,
+        "start": 36,
+        "type": "NP"
+      }
+    ],
+    "the target system": [
+      {
+        "end": 26,
+        "start": 23,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DID": [
+      {
+        "end": 7,
+        "start": 6,
+        "type": "ORG"
+      },
+      {
+        "end": 17,
+        "start": 16,
+        "type": "ORG"
+      }
+    ],
+    "DID Document": [
+      {
+        "end": 22,
+        "start": 20,
+        "type": "ORG"
+      }
+    ]
+  },
+  "types": {
+    "ORG": [
+      {
+        "end": 7,
+        "label": "DID",
+        "start": 6
+      },
+      {
+        "end": 17,
+        "label": "DID",
+        "start": 16
+      },
+      {
+        "end": 22,
+        "label": "DID Document",
+        "start": 20
+      }
+    ]
+  },
+  "verbs": {
+    "include": 1,
+    "request": 1,
+    "specify": 1,
+    "use": 1,
+    "verify": 1
+  }
+}

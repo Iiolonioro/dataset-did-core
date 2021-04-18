@@ -1,0 +1,13 @@
+
+Alternate Serializations and Graph Models
+
+
+
+      This version of the specification relies on JSON-LD and the RDF graph model for expressing a DDO. Future versions of this specification MAY specify other semantic graph formats for a DDO, such as JXD (JSON XDI Data), a serialization format for the XDI graph model as defined by the
+        OASIS XDI Core 1.0 specification
+      .
+
+
+
+
+

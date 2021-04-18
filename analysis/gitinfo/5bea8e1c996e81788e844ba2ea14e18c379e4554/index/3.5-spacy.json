@@ -1,0 +1,533 @@
+{
+  "nouns": {
+    "Appendix A.": [
+      {
+        "end": 240,
+        "start": 238,
+        "type": "NP"
+      }
+    ],
+    "DID\nrecord operations": [
+      {
+        "end": 81,
+        "start": 77,
+        "type": "NP"
+      }
+    ],
+    "DID Methods": [
+      {
+        "end": 231,
+        "start": 229,
+        "type": "NP"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 28,
+        "start": 27,
+        "type": "NP"
+      },
+      {
+        "end": 44,
+        "start": 42,
+        "type": "NP"
+      }
+    ],
+    "It": [
+      {
+        "end": 143,
+        "start": 142,
+        "type": "NP"
+      }
+    ],
+    "Purpose": [
+      {
+        "end": 2,
+        "start": 0,
+        "type": "NP"
+      }
+    ],
+    "RFC": [
+      {
+        "end": 117,
+        "start": 116,
+        "type": "NP"
+      },
+      {
+        "end": 139,
+        "start": 138,
+        "type": "NP"
+      },
+      {
+        "end": 158,
+        "start": 157,
+        "type": "NP"
+      },
+      {
+        "end": 177,
+        "start": 176,
+        "type": "NP"
+      }
+    ],
+    "The difference": [
+      {
+        "end": 182,
+        "start": 180,
+        "type": "NP"
+      }
+    ],
+    "The first purpose": [
+      {
+        "end": 9,
+        "start": 6,
+        "type": "NP"
+      }
+    ],
+    "The second purpose": [
+      {
+        "end": 48,
+        "start": 45,
+        "type": "NP"
+      }
+    ],
+    "This Specification": [
+      {
+        "end": 5,
+        "start": 3,
+        "type": "NP"
+      }
+    ],
+    "a DID method\nspecification": [
+      {
+        "end": 103,
+        "start": 98,
+        "type": "NP"
+      }
+    ],
+    "a DID method specification": [
+      {
+        "end": 62,
+        "start": 58,
+        "type": "NP"
+      },
+      {
+        "end": 189,
+        "start": 185,
+        "type": "NP"
+      }
+    ],
+    "a generic set": [
+      {
+        "end": 24,
+        "start": 21,
+        "type": "NP"
+      }
+    ],
+    "a list": [
+      {
+        "end": 228,
+        "start": 226,
+        "type": "NP"
+      }
+    ],
+    "a separate\nspecification": [
+      {
+        "end": 67,
+        "start": 63,
+        "type": "NP"
+      }
+    ],
+    "a specific DID\nscheme": [
+      {
+        "end": 199,
+        "start": 194,
+        "type": "NP"
+      }
+    ],
+    "a specific DID scheme": [
+      {
+        "end": 73,
+        "start": 69,
+        "type": "NP"
+      }
+    ],
+    "a specific URI\nscheme": [
+      {
+        "end": 126,
+        "start": 121,
+        "type": "NP"
+      }
+    ],
+    "a specific URN\nnamespace definition": [
+      {
+        "end": 167,
+        "start": 161,
+        "type": "NP"
+      }
+    ],
+    "a specific distributed ledger": [
+      {
+        "end": 86,
+        "start": 82,
+        "type": "NP"
+      }
+    ],
+    "addition": [
+      {
+        "end": 192,
+        "start": 191,
+        "type": "NP"
+      }
+    ],
+    "any distributed ledger": [
+      {
+        "end": 37,
+        "start": 34,
+        "type": "NP"
+      }
+    ],
+    "https": [
+      {
+        "end": 134,
+        "start": 133,
+        "type": "NP"
+      }
+    ],
+    "it": [
+      {
+        "end": 221,
+        "start": 220,
+        "type": "NP"
+      }
+    ],
+    "network": [
+      {
+        "end": 39,
+        "start": 38,
+        "type": "NP"
+      },
+      {
+        "end": 88,
+        "start": 87,
+        "type": "NP"
+      }
+    ],
+    "operations": [
+      {
+        "end": 26,
+        "start": 25,
+        "type": "NP"
+      }
+    ],
+    "reading": [
+      {
+        "end": 207,
+        "start": 206,
+        "type": "NP"
+      }
+    ],
+    "records": [
+      {
+        "end": 215,
+        "start": 214,
+        "type": "NP"
+      }
+    ],
+    "schemes": [
+      {
+        "end": 136,
+        "start": 135,
+        "type": "NP"
+      }
+    ],
+    "specific set": [
+      {
+        "end": 76,
+        "start": 74,
+        "type": "NP"
+      }
+    ],
+    "the\nconformance requirements": [
+      {
+        "end": 57,
+        "start": 53,
+        "type": "NP"
+      }
+    ],
+    "the IETF generic URI\nspecification": [
+      {
+        "end": 115,
+        "start": 109,
+        "type": "NP"
+      }
+    ],
+    "the IETF generic URN specification": [
+      {
+        "end": 156,
+        "start": 151,
+        "type": "NP"
+      }
+    ],
+    "the UUID URN namespace": [
+      {
+        "end": 174,
+        "start": 170,
+        "type": "NP"
+      }
+    ],
+    "the generic DID\nscheme": [
+      {
+        "end": 20,
+        "start": 15,
+        "type": "NP"
+      }
+    ],
+    "the http": [
+      {
+        "end": 131,
+        "start": 129,
+        "type": "NP"
+      }
+    ],
+    "the methods": [
+      {
+        "end": 205,
+        "start": 203,
+        "type": "NP"
+      }
+    ],
+    "the network": [
+      {
+        "end": 218,
+        "start": 216,
+        "type": "NP"
+      }
+    ],
+    "the relationship": [
+      {
+        "end": 94,
+        "start": 92,
+        "type": "NP"
+      },
+      {
+        "end": 108,
+        "start": 106,
+        "type": "NP"
+      },
+      {
+        "end": 150,
+        "start": 148,
+        "type": "NP"
+      }
+    ],
+    "their corresponding specifications": [
+      {
+        "end": 235,
+        "start": 232,
+        "type": "NP"
+      }
+    ],
+    "this specification": [
+      {
+        "end": 12,
+        "start": 10,
+        "type": "NP"
+      },
+      {
+        "end": 51,
+        "start": 49,
+        "type": "NP"
+      },
+      {
+        "end": 97,
+        "start": 95,
+        "type": "NP"
+      }
+    ],
+    "writing": [
+      {
+        "end": 209,
+        "start": 208,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "4122": [
+      {
+        "end": 178,
+        "start": 177,
+        "type": "CARDINAL"
+      }
+    ],
+    "7230": [
+      {
+        "end": 140,
+        "start": 139,
+        "type": "DATE"
+      }
+    ],
+    "Appendix A.": [
+      {
+        "end": 240,
+        "start": 238,
+        "type": "PERSON"
+      }
+    ],
+    "DID": [
+      {
+        "end": 60,
+        "start": 59,
+        "type": "ORG"
+      },
+      {
+        "end": 72,
+        "start": 71,
+        "type": "ORG"
+      },
+      {
+        "end": 100,
+        "start": 99,
+        "type": "ORG"
+      },
+      {
+        "end": 187,
+        "start": 186,
+        "type": "ORG"
+      }
+    ],
+    "DID\n": [
+      {
+        "end": 79,
+        "start": 77,
+        "type": "ORG"
+      }
+    ],
+    "DID Methods": [
+      {
+        "end": 231,
+        "start": 229,
+        "type": "ORG"
+      }
+    ],
+    "URN": [
+      {
+        "end": 164,
+        "start": 163,
+        "type": "GPE"
+      }
+    ],
+    "UUID URN": [
+      {
+        "end": 173,
+        "start": 171,
+        "type": "ORG"
+      }
+    ],
+    "first": [
+      {
+        "end": 8,
+        "start": 7,
+        "type": "ORDINAL"
+      }
+    ],
+    "second": [
+      {
+        "end": 47,
+        "start": 46,
+        "type": "ORDINAL"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 178,
+        "label": "4122",
+        "start": 177
+      }
+    ],
+    "DATE": [
+      {
+        "end": 140,
+        "label": "7230",
+        "start": 139
+      }
+    ],
+    "GPE": [
+      {
+        "end": 164,
+        "label": "URN",
+        "start": 163
+      }
+    ],
+    "ORDINAL": [
+      {
+        "end": 8,
+        "label": "first",
+        "start": 7
+      },
+      {
+        "end": 47,
+        "label": "second",
+        "start": 46
+      }
+    ],
+    "ORG": [
+      {
+        "end": 60,
+        "label": "DID",
+        "start": 59
+      },
+      {
+        "end": 72,
+        "label": "DID",
+        "start": 71
+      },
+      {
+        "end": 79,
+        "label": "DID\n",
+        "start": 77
+      },
+      {
+        "end": 100,
+        "label": "DID",
+        "start": 99
+      },
+      {
+        "end": 173,
+        "label": "UUID URN",
+        "start": 171
+      },
+      {
+        "end": 187,
+        "label": "DID",
+        "start": 186
+      },
+      {
+        "end": 231,
+        "label": "DID Methods",
+        "start": 229
+      }
+    ],
+    "PERSON": [
+      {
+        "end": 240,
+        "label": "Appendix A.",
+        "start": 238
+      }
+    ]
+  },
+  "verbs": {
+    "correspond": 1,
+    "define": 5,
+    "distribute": 2,
+    "do": 1,
+    "implement": 1,
+    "revoke": 1,
+    "see": 1,
+    "specify": 2,
+    "support": 1,
+    "write": 1
+  }
+}

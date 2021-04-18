@@ -1,0 +1,57 @@
+commit aecb8693a14764c9a0508c334ef26184b273d388
+tree cfebd62a339d56369276138bfd3c57a8ab186878
+parent c70c0131ca73fbaf948ea43d774b7f6f18098d69
+author Manu Sporny <msporny@digitalbazaar.com> 1507227493 -0400
+committer Manu Sporny <msporny@digitalbazaar.com> 1509881234 -0500
+
+    Add issue markers from RWoT5.
+
+diff --git a/index.html b/index.html
+index 9d2d5dd..3a81329 100644
+--- a/index.html
++++ b/index.html
+@@ -604,6 +604,14 @@ JSON-LD context definition, see Appendix B (the URL for the @context
+ property below is just for illustration).
+ </p>
+ 
++<p class="issue">
++Discussions at Rebooting the Web of Trust 5 resulted in consensus to
++remove the <code>authorizationCapability</code> field as it is unclear whether
++all ledgers will find the field useful. The field will most likely be moved
++into a DID Method specification or a separate DID Ledger Capabilities
++document.
++</p>
++
+ <pre class="example nohighlight" title="Minimal self-managed DID Document">
+ {
+   "@context": "https;//w3id.org/did/v1",
+@@ -1373,6 +1381,15 @@ responsibility of DID resolvers and other clients. See section 9.6.
+ <section>
+ <h2>Authorization</h2>
+ 
++<p class="issue">
++Discussions at Rebooting the Web of Trust 5 resulted in consensus to
++remove the <code>authorizationCapability</code> field as it is unclear whether
++all ledgers will find the field useful. The field will most likely be moved
++into a DID Method specification or a separate DID Ledger Capabilities
++document. Authorization will most likely be a DID Method-specific
++definition.
++</p>
++
+ <p>
+ Authorization is the mechanism by which an entity may give itself
+ or other entities permission to update the DID Document—for example to assist with
+@@ -1930,6 +1947,13 @@ This section MUST consider all the requirements mentioned in section
+   </li>
+ </ol>
+ 
++<p class="issue">
++Discussions at Rebooting the Web of Trust 5 resulted in consensus to move
++Authorization to DID Method specifications. It is currently expected that
++there will be an attempt to create a generarlized authorization mechanism
++that is build on object capabilities.
++</p>
++
+ <p>
+ 
+ 

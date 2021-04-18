@@ -1,0 +1,336 @@
+{
+  "nouns": {
+    "DID Documents": [
+      {
+        "end": 58,
+        "start": 56,
+        "type": "NP"
+      }
+    ],
+    "DIDs": [
+      {
+        "end": 5,
+        "start": 4,
+        "type": "NP"
+      }
+    ],
+    "DIDs\nresolve": [
+      {
+        "end": 55,
+        "start": 52,
+        "type": "NP"
+      }
+    ],
+    "Decentralized Identifiers": [
+      {
+        "end": 3,
+        "start": 1,
+        "type": "NP"
+      }
+    ],
+    "This document": [
+      {
+        "end": 165,
+        "start": 163,
+        "type": "NP"
+      }
+    ],
+    "a\ncentralized registry": [
+      {
+        "end": 44,
+        "start": 40,
+        "type": "NP"
+      }
+    ],
+    "a DID Document": [
+      {
+        "end": 79,
+        "start": 76,
+        "type": "NP"
+      }
+    ],
+    "a common data model": [
+      {
+        "end": 170,
+        "start": 166,
+        "type": "NP"
+      }
+    ],
+    "a new type": [
+      {
+        "end": 10,
+        "start": 7,
+        "type": "NP"
+      }
+    ],
+    "a set": [
+      {
+        "end": 92,
+        "start": 90,
+        "type": "NP"
+      },
+      {
+        "end": 126,
+        "start": 124,
+        "type": "NP"
+      },
+      {
+        "end": 145,
+        "start": 143,
+        "type": "NP"
+      }
+    ],
+    "all DIDs support": [
+      {
+        "end": 180,
+        "start": 177,
+        "type": "NP"
+      }
+    ],
+    "all the metadata": [
+      {
+        "end": 66,
+        "start": 63,
+        "type": "NP"
+      }
+    ],
+    "an entity": [
+      {
+        "end": 36,
+        "start": 34,
+        "type": "NP"
+      }
+    ],
+    "at least three things": [
+      {
+        "end": 86,
+        "start": 82,
+        "type": "NP"
+      }
+    ],
+    "authorization information": [
+      {
+        "end": 129,
+        "start": 127,
+        "type": "NP"
+      }
+    ],
+    "certificate authority": [
+      {
+        "end": 51,
+        "start": 49,
+        "type": "NP"
+      }
+    ],
+    "format": [
+      {
+        "end": 172,
+        "start": 171,
+        "type": "NP"
+      }
+    ],
+    "identity provider": [
+      {
+        "end": 47,
+        "start": 45,
+        "type": "NP"
+      }
+    ],
+    "mechanisms": [
+      {
+        "end": 94,
+        "start": 93,
+        "type": "NP"
+      }
+    ],
+    "operations": [
+      {
+        "end": 175,
+        "start": 174,
+        "type": "NP"
+      }
+    ],
+    "service endpoints": [
+      {
+        "end": 148,
+        "start": 146,
+        "type": "NP"
+      }
+    ],
+    "simple documents": [
+      {
+        "end": 61,
+        "start": 59,
+        "type": "NP"
+      }
+    ],
+    "the DID": [
+      {
+        "end": 73,
+        "start": 71,
+        "type": "NP"
+      }
+    ],
+    "the DID Document": [
+      {
+        "end": 139,
+        "start": 136,
+        "type": "NP"
+      }
+    ],
+    "the control": [
+      {
+        "end": 33,
+        "start": 31,
+        "type": "NP"
+      }
+    ],
+    "the entity": [
+      {
+        "end": 161,
+        "start": 159,
+        "type": "NP"
+      }
+    ],
+    "trusted interactions": [
+      {
+        "end": 158,
+        "start": 156,
+        "type": "NP"
+      }
+    ],
+    "verifiable digital identity": [
+      {
+        "end": 18,
+        "start": 15,
+        "type": "NP"
+      }
+    ],
+    "which entities": [
+      {
+        "end": 133,
+        "start": 131,
+        "type": "NP"
+      }
+    ]
+  },
+  "terms": {
+    "DID": [
+      {
+        "end": 73,
+        "start": 72,
+        "type": "ORG"
+      },
+      {
+        "end": 106,
+        "start": 105,
+        "type": "ORG"
+      }
+    ],
+    "DID Documents": [
+      {
+        "end": 58,
+        "start": 56,
+        "type": "ORG"
+      }
+    ],
+    "at least three": [
+      {
+        "end": 85,
+        "start": 82,
+        "type": "CARDINAL"
+      }
+    ],
+    "first": [
+      {
+        "end": 89,
+        "start": 88,
+        "type": "ORDINAL"
+      }
+    ],
+    "second": [
+      {
+        "end": 123,
+        "start": 122,
+        "type": "ORDINAL"
+      }
+    ],
+    "the DID Document": [
+      {
+        "end": 139,
+        "start": 136,
+        "type": "ORG"
+      }
+    ],
+    "third": [
+      {
+        "end": 142,
+        "start": 141,
+        "type": "ORDINAL"
+      }
+    ]
+  },
+  "types": {
+    "CARDINAL": [
+      {
+        "end": 85,
+        "label": "at least three",
+        "start": 82
+      }
+    ],
+    "ORDINAL": [
+      {
+        "end": 89,
+        "label": "first",
+        "start": 88
+      },
+      {
+        "end": 123,
+        "label": "second",
+        "start": 122
+      },
+      {
+        "end": 142,
+        "label": "third",
+        "start": 141
+      }
+    ],
+    "ORG": [
+      {
+        "end": 58,
+        "label": "DID Documents",
+        "start": 56
+      },
+      {
+        "end": 73,
+        "label": "DID",
+        "start": 72
+      },
+      {
+        "end": 106,
+        "label": "DID",
+        "start": 105
+      },
+      {
+        "end": 139,
+        "label": "the DID Document",
+        "start": 136
+      }
+    ]
+  },
+  "verbs": {
+    "authenticate": 1,
+    "be": 2,
+    "contain": 2,
+    "do": 1,
+    "initiate": 1,
+    "intend": 1,
+    "interact": 1,
+    "modify": 1,
+    "need": 1,
+    "outline": 1,
+    "specify": 1,
+    "trust": 1,
+    "use": 2
+  }
+}

@@ -1,0 +1,167 @@
+
+Decentralized Identifiers (DIDs)
+
+The concept of a globally unique decentralized identifier is not new;
+Universally Unique Identifiers
+(UUIDs) were first developed in the 1980s and later became a standard feature
+of the Open Software Foundation’s
+Distributed Computing Environment.
+UUIDs achieve global uniqueness without a
+centralized registry service by using an algorithm that generates
+128-bit values with sufficient entropy that the chance of collision are
+infinitesimally small. UUIDs are formally specified in [[RFC4122]] as a
+specific type of Unified Resource Name (URN).
+
+
+A DID is similar to a UUID except: (a) like a URL, it can be resolved or
+dereferenced to a standard resource describing the entity (a
+DID Document—see Section ),
+and (b) unlike a URL, the DID Document typically contains cryptographic
+material that enables authentication of an entity associated with the DID.
+
+
+The Generic DID Scheme
+
+The generic DID scheme is a URI scheme conformant with [[RFC3986]].
+It consists of a
+DID followed by an optional path and/or fragment. The term DID refers
+only to the identifier conforming to the did rule in the ABNF below;
+when used alone, it does not include a path or fragment. A DID that may
+optionally include a path and/or fragment is called a DID reference.
+
+
+Following is the ABNF definition using the syntax in [[RFC5234]]
+(which defines ALPHA as upper or lowercase A-Z).
+
+
+  did-reference      = did [ "/" did-path ] [ "#" did-fragment ]
+  did                = "did:" method ":" specific-idstring
+  method             = 1*methodchar
+  methodchar         = %x61-7A / DIGIT
+  specific-idstring  = idstring *( ":" idstring )
+  idstring           = 1*idchar
+  idchar             = ALPHA / DIGIT / "." / "-"
+
+
+See Ssections  and 
+for the ABNF rules defining DID paths and fragments.
+
+
+
+Specific DID Method Schemes
+
+A DID method specification MUST define exactly one specific DID scheme
+identified by exactly one method name (the method rule in Section
+).
+Since DIDs are intended for decentralized identity infrastructure, it is
+NOT RECOMMENDED to establish a registry of unique DID method names.
+Rather the uniqueness of DID method names should be established via
+human consensus, i.e., a specific DID scheme MUST use a method name that
+is unique among all DID method names known to the specification authors
+at the time of publication.
+
+
+A list of known DID method names is included in
+Appendix .
+
+
+Since the method name is part of the DID, it SHOULD be as short as
+practical. A method name of five characters or less is RECOMMENDED. The
+method name MAY reflect the name of the distributed ledger or network to
+which the DID method specification applies.
+
+
+The DID method specification for the specific DID scheme MUST specify
+how to generate the specific-idstring component of a DID. The
+specific-idstring value MUST be able to be generated without the use of
+a centralized registry service. The specific-idstring value SHOULD be
+globally unique by itself. The fully qualified DID as defined by the did
+rule in Section  MUST be globally unique.
+
+
+If needed, a specific DID scheme MAY define multiple specific
+specific-idstring formats. It is RECOMMENDED that a specific DID scheme
+define as few specific-idstring formats as possible.
+
+
+
+DID Paths
+
+A generic DID path (the did-path rule in Section
+) is identical to a
+URI path and MUST conform to the ABNF of the path-rootless ABNF rule in
+[[RFC3986]]. A DID path
+SHOULD be used to address resources available via a DID service
+endpoint. See Section .
+
+
+A specific DID scheme MAY specify ABNF rules for DID paths that are more
+restrictive than the generic rules in this section.
+
+
+
+DID Fragments
+
+A generic DID fragment (the did-fragment rule in Section
+) is
+identical to a URI fragment and MUST conform to the ABNF of the fragment
+ABNF rule in [[RFC3986]].
+A DID fragment MUST be used only as a method-independent pointer into
+the DID Document to identify a unique key description or other DID Document component. To
+resolve this pointer, the complete DID reference including the DID
+fragment MUST be used as the value of the id key for the target JSON object.
+
+
+A specific DID scheme MAY specify ABNF rules for DID fragments that are
+more restrictive than the generic rules in this section.
+
+
+
+DID Normalization
+
+For the broadest interoperability, DID normalization should be as simple
+and universal as possible. Therefore:
+
+
+
+The did: scheme name MUST be lowercase.
+  
+
+The method name MUST be lowercase.
+  
+
+Case sensitivity and normalization of the value of the
+specific-idstring rule in Section 
+MUST be defined by the governing DID method specification.
+  
+
+
+
+DID Persistence
+
+A DID MUST be persistent and immutable, i.e., bound to an entity
+once and never changed (forever). Ideally a DID would be a completely
+abstract decentralized identifier (like a UUID) that could be bound to
+multiple underlying distributed ledgers or networks over time, thus
+maintaining its persistence independent of any particular ledger or
+network. However registering the same identifier on multiple ledgers or
+networks introduces extremely hard entityship and start-of-authority
+  (SOA) problems. It also greatly increases implementation complexity for
+developers.
+
+
+To avoid these issues, it is RECOMMENDED that DID method specifications
+only produce DIDs and DID methods bound to strong, stable ledgers or
+networks capable of making the highest level of commitment to
+persistence of the DID and DID method over time.
+
+
+NOTE: Although not included in this version, future versions of this
+specification may support a DID Document equivID property to establish verifiable
+equivalence relations between DID records representing the same identity
+owner on multiple ledgers or networks. Such equivalence relations can
+produce the practical equivalent of a single persistent abstract DID.
+See Future Work (Section ).
+
+
+

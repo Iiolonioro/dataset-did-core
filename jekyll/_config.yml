@@ -19,9 +19,9 @@ locale                   : "en-US"
 title                    : "DID Core Dataset"
 title_separator          : "-"
 name                     : "Eric Welton"
-description              : "Analysis of the DID Specification Suite"
-url                      : https://github.io/ewelton/did-core-specification
-baseurl                  : /did-core-dataset
+description              : "Analysis of the DID Core Specification Suite"
+url                      : https://did-core-dataset.bougouriba.com
+baseurl                  : /
 repository               : korsimoro/did-core-dataset
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"

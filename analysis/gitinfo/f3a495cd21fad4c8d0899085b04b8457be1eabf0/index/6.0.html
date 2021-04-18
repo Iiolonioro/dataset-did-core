@@ -1,0 +1,553 @@
+
+DID Documents
+
+If a DID is the index key in a key-value pair, then the DID Document is the
+value to which the index key points. The combination of a DID and its
+associated DID Document forms the root identity record for a decentralized
+identity.
+
+
+A DID Document MUST be a single JSON object conforming to RFC 7159 . For purposes of
+this version of the DID specification, the format of this JSON object is
+specified in JSON-LD , a format for
+mapping JSON data into the RDF semantic graph model as defined by the
+  W3C JSON-LD 1.0
+specification . Future versions of this specification MAY specify
+other semantic graph formats for a DID Document such as JXD (JSON XDI Data), a
+serialization format for the 
+XDI graph model .
+
+
+The following sections define the properties of this JSON object,
+including whether these properties are required or optional.
+
+
+Context
+
+JSON objects in JSON-LD format must include a JSON-LD context statement.
+The rules for this statement are:
+
+
+
+A DID Document MUST have exactly one top-level context statement.
+  
+
+This statement MUST be the first line in the JSON object. (This is
+not strictly necessary under JSON-LD but required for DID Documents.)
+  
+
+The key for this property MUST be @context.
+  
+
+The value of this key MUST be the URL for the generic DID context as
+specified in Appendix B.
+  
+
+
+Example (using an example URL):
+
+
+{
+  "@context": "https://example.org/did/v1"
+}
+
+
+DID method specifications MAY define their own JSON-LD contexts. However
+it is NOT RECOMMENDED to define a new context unless necessary to
+properly implement the method. Method-specific contexts MUST NOT
+override the terms defined in the generic DID context listed in Appendix
+B.
+
+
+
+Primary DID
+
+The primary DID is the primary index key for the DID Document, i.e., it is DID
+described by DID Document. The rules for a primary DID are:
+
+
+
+A DID Document MUST have exactly one primary DID.
+  
+
+The key for this property MUST be id.
+  
+
+The value of this key MUST be a valid DID.
+  
+
+When this DID Document is registered with the target distributed ledger or
+network, the registered DID MUST match this primary DID value.
+  
+
+
+Example:
+
+
+{
+  "id": "did:example:21tDAKCERh95uGgKbJNHYp"
+}
+
+
+
+Guardians
+
+The way that Guardians are handled is changing. The feature is still supported,
+but via the `authorization` field rather than the more specialized `delegate`
+field.
+
+
+A delegate is an entity, such as a parent or aid organization, that creates and
+maintains a DID Document for a dependent who is not in a position to hold
+or control authentication credentials (e.g., cryptographic keys).
+
+
+The rules for a delegate are:
+
+
+
+A DID Document that includes an
+authenticationCredential field (section 6.4) MAY list one or
+more delegates via the authorization field.
+  
+
+A DID Document that does not include an
+authenticationCredential MUST have a delegate.
+  
+
+The authorization field must contain a capability for the
+delegate that includes UpdateDidDescription as the capability,
+the DID of the delegate as the entity, and MAY include a
+more specific set of authenticationCredentials that the
+delegate MAY use to authenticate when updating the DID Document.
+  
+
+The delegate DID MUST resolve to a DID Document that has a
+authenticationCredential property containing at least one value
+i.e., the delegate relationships must not be nested.
+  
+
+
+Example:
+
+
+{
+  "@context": "https://example.com/did/v1",
+  "id": "did:example:123456789abcdefghi",
+  "authorizationCapability": [{
+    // this entity is a delegate and may update any field in this
+    // DID Document using any authentication mechanism understood
+    // by the ledger
+    "permission": "UpdateDidDocument",
+    "entity": "did:example:zxyvwtrkpn987654321"
+  }],
+  "credentialRepositoryService": "https://vc.example.com/abcdef",
+  "authenticationCredential": [{
+    // this biometric can be used to authenticate as DID ...fghi
+    "id": "did:example:123456789abcdefghi/biometric/1",
+    "type": "PseudonymousBiometricTemplate2017",
+    "owner": "did:example:123456789abcdefghi",
+    "biometricService": "https://example.com/authenticate"
+    "biometricTemplateShard": "Mjk4MzQyO...5Mzg0MDI5Mwo="
+  }]
+}
+
+
+
+Authentication
+
+Authentication is the mechanism by which an entity can
+cryptographically prove that they are associated with a DID and DID
+Description. See section 9.2. Note that Authentication is separate from
+Authorization because an entity may wish to enable other entities
+to update the DID Document
+(for example, to assist with key recovery as discussed in section 6.5)
+without enabling them to prove ownership (and thus be able to impersonate
+the entity).
+
+
+The rules for Authentication are:
+
+
+
+A DID Document MAY include a authenticationCredential
+property.
+  
+
+The value of the authenticationCredential property should be an
+array of proof mechanisms.
+  
+
+Each proof mechanism must include id,
+type, and owner properties.
+  
+
+Each proof mechanism MAY be a key description of a valid public key or
+verification key. A list of standard key descriptions is included in
+Appendix C. A new key description MAY also be defined by a DID method
+specification.
+  
+
+
+Example:
+
+
+{
+  "@context": "https://example.com/did/v1",
+  "id": "did:example:123456789abcdefghi",
+  "authenticationCredential": [{
+    // this biometric can be used to authenticate as DID ...fghi
+    "id": "did:example:123456789abcdefghi/biometric/1",
+    "type": "PseudonymousBiometricTemplate2017",
+    "owner": "did:example:123456789abcdefghi",
+    "biometricService": "https://example.com/authenticate"
+    "biometricTemplateShard": "Mjk4MzQyO...5Mzg0MDI5Mwo="
+  }, {
+    // this key can be used to authenticate as DID ...fghi
+    "id": "did:example:123456789abcdefghi/keys/1",
+    "type": "RsaCryptographicKey",
+    "owner": "did:example:123456789abcdefghi",
+    "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
+  }]
+}
+
+
+Note that caching and expiration of the keys in DID Document
+authenticationCredential property is entirely the
+responsibility of DID resolvers and other clients. See section 9.6.
+
+
+
+Authorization
+
+Authorization is the mechanism by which an entity may give itself
+or other entities permission to update the DID Document—for example to assist with
+key recovery. Note that Authorization is separate from Authentication
+as explained in section 6.4. This is particularly important for key recovery
+in the case of key loss, when the entity no longer has access to their
+keys, or key compromise, where the owner’s trusted third parties need to
+override malicious activity by an attacker. See section 9.
+
+
+Because the access control logic in the Authorization block must be
+implemented by the target distributed ledger or network, a DID method
+specification MUST include its own Authorization rules and processing
+logic. It is RECOMMENDED that all DID method specifications support the
+generic Authorization rules specified in this section. A DID method
+specification MAY add its own method-specific Authorization rules.
+
+
+  The generic Authorization rules are:
+
+
+
+A DID Document MAY have exactly one property named
+authorization representing authorization information associated
+with the DID Document.
+  
+
+The value of this property SHOULD be an array.
+  
+
+The values of this array MUST be defined in a DID method
+specification and SHOULD follow a capabilities-based security model.
+  
+
+Updating the DID Document requires that the proof mechanism includes
+the capability property and the
+UpdateDidDescription value.
+  
+
+If an authorization rule does not specify a specific proof mechanism
+(such as a public key ID), then an update proof verified with any
+credential in the authenticationCredential property of the
+DID Document dereferenced from that DID MUST be considered valid for
+the proof mechanism.
+  
+
+
+6.5.1 Enabling Multiple Entities to Update the DID Document
+
+
+To assert that any single member of a group of other DID owners has
+permission to update the DID Document, the authorization
+property array MAY contain multiple JSON objects:
+
+
+{
+  "@context": "https://example.com/did/v1",
+  "id": "did:example:215cb1dc-1f44-4695-a07f-97649cad9938",
+  "authorizationCapability": [{
+    // this entity may update any field in this DID Document using any
+    // authentication mechanism understood by the ledger
+    "permission": "UpdateDidDocument",
+    "entity": "did:example:z9f823hdf783h78fh2378"
+  }, {
+    // this entity may update the authenticationCredential field in this
+    // DID Document as long as they authenticate with RsaSignature2017
+    "permission": "UpdateDidDocument",
+    "entity": "did:example:abvd73h285jf73hd73",
+    "field": ["authenticationCredential"],
+    "permittedProofType": [{
+      "proofType": "RsaSignature2017"
+    }]
+  }]
+}
+
+
+If at least one update signature from a DID in this array is verified, it
+MUST be considered valid for Authorization.
+
+
+6.5.2 Requiring Multiple Proofs
+
+
+To assert that a set of members of a group of other DID owners must act
+together to update the DID Document, the authorization
+property array MAY contain a single JSON object
+
+
+{
+  "@context": "https://example.com/did/v1",
+  "id": "did:example:215cb1dc-1f44-4695-a07f-97649cad9938",
+  "authorizationCapability": [{
+    // anyone may update the authenticationCredential and writeAuthorization
+    // fields as long as they provide a specific multi-signature proof
+    "permission": "UpdateDidDocument",
+    "field": ["authenticationCredential", "writeAuthorization"],
+    "permittedProofType": [{
+      "proofType": "RsaSignature2017",
+      "minimumSignatures": 3,
+      "authenticationCredential": [{
+        "id": "did:example:304ebc3e-7997-4bf4-a915-dd87e8455941/keys/123",
+        "type": "RsaCryptographicKey",
+        "owner": "did:example:304ebc3e-7997-4bf4-a915-dd87e8455941",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
+      }, {
+        "id": "did:example:0f22346a-a360-4f3e-9b42-3366e348e941/keys/foo",
+        "type": "RsaCryptographicKey",
+        "owner": "did:example:0f22346a-a360-4f3e-9b42-3366e348e941",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
+      }, {
+        "id": "did:example:a8d00377-e9f1-44df-a1b9-55072e13262a/keys/abc",
+        "type": "RsaCryptographicKey",
+        "owner": "did:example:a8d00377-e9f1-44df-a1b9-55072e13262a",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY...END PUBLIC KEY-----\r\n"
+      }]
+    }]
+  }]
+}
+
+
+
+Service Endpoints
+
+In addition to publication of authentication and authorization mechanisms,
+the other primary purpose of a DID Document is to enable discovery of
+service endpoints for the entity. A service endpoint may represent
+any type of service the entity wishes to advertise, including
+decentralized identity management services for further discovery,
+authentication, authorization, or interaction.
+
+      The rules for service endpoints are:
+
+
+
+
+A DID Document MAY have multiple properties representing service endpoints.
+  
+
+The service endpoint protocol SHOULD be published in an open standard
+specification.
+  
+
+The value of the service endpoint MUST be a valid URI conforming to RFC 3986 and normalized
+according to the rules in section 6 of RFC 3986 and to any
+normalization rules in its applicable URI scheme specification or a JSON-LD
+object.
+  
+
+
+
+
+      Example:
+
+
+
+
+{
+  "credentialRepositoryService": "https://repository.example.com/123",
+  "socialWebInboxService": {
+    "id": "https://social.example.com/83hfh37dj",
+    "description": "My public social inbox",
+    "spamCost": {
+      "amount": "0.50",
+      "currency": "USD"
+    }
+  }
+}
+
+
+
+
+      See sections 9.1 and 9.3 for further security considerations regarding authentication service endpoints.
+
+
+
+
+
+
+Created (Optional)
+
+
+
+      Standard metadata for identity records includes a timestamp of the original creation. The rules for including a creation timestamp are:
+
+
+
+
+
+A DID Document MUST have zero or one property representing a creation
+timestamp. It is RECOMMENDED to include this property.
+  
+
+The key for this property MUST be created.
+  
+
+The value of this key MUST be a valid XML datetime value as defined
+in section 3.3.7 of W3C
+XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes .
+  
+
+This datetime value MUST be normalized to UTC 00:00 as indicated by
+the trailing "Z".
+  
+
+Method specifications that rely on DLTs SHOULD require time values
+that are after the known "median
+time past" (defined in Bitcoin BIP 113) , when the DLT supports such
+a notion.
+  
+
+
+
+
+      Example:
+
+
+
+
+
+      {
+      "created": "2002-10-10T17:00:00Z"
+      }
+
+
+
+
+
+
+Updated (Optional)
+
+
+
+      Standard metadata for identity records includes a timestamp of the most recent change. The rules for including a updated timestamp are:
+
+
+
+
+
+A DID Document MUST have zero or one property representing an updated
+timestamp. It is RECOMMENDED to include this property.
+  
+
+The key for this property MUST be updated.
+  
+
+The value of this key MUST follow the formatting rules (3, 4, 5)
+from section 6.7.
+  
+
+
+
+
+      Example:
+
+
+
+
+
+      {
+      "updated": "2016-10-17T02:41:00Z"
+      }
+
+
+
+
+
+
+Signature (Optional)
+
+
+
+      A signature on a DID Document is cryptographic proof of the integrity of the DID Document according to either:
+
+
+
+
+
+The entity as defined in section 6.4, or if not present:
+  
+
+The delegate as defined in section 6.3.
+  
+
+
+
+
+      This signature is NOT proof of the binding between a DID and a DID Document. See section 9.2.
+
+
+      The rules for a signature are:
+
+
+
+
+
+A DID Document MAY have exactly one property representing a signature.
+  
+
+The key for this property MUST be signature.
+  
+
+The value of this key MUST be a valid JSON-LD signature as defined
+by Linked Data
+Signatures .
+  
+
+
+
+
+      Example:
+
+
+
+
+
+      {
+      "signature": {
+            "type": "LinkedDataSignature2015",
+            "created": "2016-02-08T16:02:20Z",
+            "creator": "did:example:8uQhQMGzWxR8vw5P3UWH1ja#keys-1",
+            "signatureValue": "QNB13Y7Q9...1tzjn4w=="
+        }
+
+
+
+
+      }
+
+
+
+
+
