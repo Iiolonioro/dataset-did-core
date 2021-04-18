@@ -1,0 +1,86 @@
+---
+layout: single
+---
+
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">Issue Subject</th>
+<th title="Field #2">Issue Creation Date</th>
+<th title="Field #3">Number of Comments</th>
+<th title="Field #4">Issue Status</th>
+<th title="Field #5">Issue Participants</th>
+<th title="Field #6">Issue Related Commits</th>
+<th title="Field #7">Issue Summary</th>
+</tr></thead>
+<tbody><tr>
+<td>Figure out three fundamental roles of DIDs (controller, subject, XXX) #4</td>
+<td>September 17, 2019</td>
+<td align="right">41</td>
+<td>Closed</td>
+<td align="right">13</td>
+<td> </td>
+<td>One instance of biometrics in terms of matching government docs. Is not in context of biometrics being removed.</td>
+</tr>
+<tr>
+<td>Include discussion of eIDAS levels-of-assurance #151</td>
+<td>January 21, 2020</td>
+<td align="right">56</td>
+<td>Closed</td>
+<td align="right">16</td>
+<td> </td>
+<td>Two instances of biometrics. The first instance mentions how biometrics is not sufficient for MFA. <br/>The second instance is about how FIDO allows for local biometrics. Not in context of removing biometrics from DID: Core.</td>
+</tr>
+<tr>
+<td>Service Endpoints in the DID Doc might be an anti-pattern #382</td>
+<td>August 28, 2020</td>
+<td align="right">149</td>
+<td>Closed</td>
+<td align="right">17</td>
+<td> </td>
+<td>Three instances of biometrics, all within the same comment. It describes in terms that it is not possible to rotate the identifier with biometrics. Not in context of removing biometrics for DID: Core.</td>
+</tr>
+<tr>
+<td>appendix text added #460</td>
+<td>November 16, 2020</td>
+<td align="right">121</td>
+<td>Merged</td>
+<td align="right">12</td>
+<td>b95cb85<br/>934779c<br/>96eed45<br/>694c7ec<br/>94dfbcf</td>
+<td>One instance of biometrics. It refers to biometrics being a verifier for in person transactions. Not in context of removing biometrics.</td>
+</tr>
+<tr>
+<td>Amplify/broaden def of &#39;verification method&#39; #284</td>
+<td>May 17, 2020</td>
+<td align="right">10</td>
+<td>Merged</td>
+<td align="right">5</td>
+<td>cd14e2d<br/>5333464<br/>46a8f22</td>
+<td>One instance of biometrics. It is one  remark about signatures and biometrics. It does not clarify anything else in terms of biometrics. Not in context of removing biometrics.</td>
+</tr>
+<tr>
+<td>Add diagram &quot;resolve() and resolveRepresentation()&quot;. #597</td>
+<td>February 3, 2021</td>
+<td align="right">28</td>
+<td>Merged</td>
+<td align="right">7</td>
+<td>700b0a5<br/>be50c3a<br/>790e9b5<br/>2ee68b1</td>
+<td>One instance of biometrics. First time that &quot;pseudonymous biometrics&quot; is used. It is used in context of &quot;DID Document&quot;. Not in context of removing biometrics.</td>
+</tr>
+<tr>
+<td>editorial: remove biometrics examples #459</td>
+<td>November 16,2020</td>
+<td align="right">14</td>
+<td>Merged</td>
+<td align="right">5</td>
+<td>73de94f<br/>5870811<br/>9631fd3</td>
+<td>Nine instances of biometrics in the conversation. The conversation is centered around whether biometrics should be removed. rhiaro says, &quot;Personal preference to remove biometrics examples from the spec. This is too dystopian, and I don&#39;t think we should be encouraging it even if it&#39;s technically possible. It&#39;s also dancing close to the PII and bound-forever problems (even though the example refers to an endpoint, rather than biometric data in the DID doc). I&#39;ve replaced the example with something less specific about credentials, but also happy to see a better more specific example suggested instead.&quot; Peacekeeper responds, :&quot;Hmm I agree in general with not encouraging (or actively discouraging) things that can be dangerous and misused. But I also believe it&#39;s important to not lose the idea that verification methods can be very flexible and not limited to cryptographic keys.<br/>I think there will be non-dystophian use cases where for some reason you are unable to use cryptographic keys, but you still want a decentralized identifier and a way to prove control over it (including by using biometrics).<br/>So I&#39;d be fine with removing the example, as long as it&#39;s still possible to do it.&quot; In the end msporny comments, &quot;Editorial, changes requested and made, multiple positive reviews, no objections, merging.&quot;</td>
+</tr>
+<tr>
+<td>Fix editorial issues with Terminology section. #619</td>
+<td>February 11, 2021</td>
+<td align="right">24</td>
+<td>Merged</td>
+<td align="right">6</td>
+<td>f88f005<br/>0a24710<br/>a1c3018<br/>d342964</td>
+<td>Three instances of biometrics all used within the same comment. It refers to removing &quot;pseudonymous biometrics&quot; from terminology section. Peacekeeper saying, &quot;Agree with removing &quot;pseudonymous biometrics&quot; here. If we wanted to say anything about biometrics, we should have done that elsewhere, not in the terminology section.&quot;</td>
+</tr>
+</tbody></table>
